@@ -1,0 +1,1252 @@
+{
+  "value": 94,
+  "tiers": [
+    "DevOps",
+    "Back End",
+    "Front End",
+    "Software Engineer",
+    "User Experience",
+    "User Interface",
+    "Business",
+    "Consulting",
+    "Team Lead"
+  ],
+  "intros": {
+    "DevOps": "Skilled DevOps Engineer with 3+ years of hands-on experience supporting, automating, and optimizing mission critical deployments in AWS, leveraging configuration management, CI/CD, and DevOps processes.",
+    "Back End": "I have over 10 years of experience creating software using HTML, JavaScript, PHP and other languages, CSS, and databases. I’m passionate about performance, robustness, and maintainability in code, as well as  integrity and collaboration in teams.",
+    "Front End": "This is the text of my Front End intro heading. Ain't it pretty?  Fix it.",
+    "User Experience": "This is the text of my User Experience intro heading. Ain't it pretty?  Fix it.",
+    "User Interface": "This is the text of my User Interface intro heading. Ain't it pretty?  Fix it.",
+    "Software Engineer": "Skilled and results-oriented Software Engineer with more than 15 years of experience working in a variety of environments with a breadth of programs and technologies.",
+    "Business": "This is the text of my Business intro heading. Ain't it pretty?  Fix it.",
+    "Consulting": "I have over 1 0years of experience creating software using HTML, JavaScript, PHP and other languages, CSS, and databases. I’m passionate about performance, robustness, and maintainability in code, as well as  integrity and collaboration in teams.",
+    "Team Lead": "This is the text of my Team Lead intro heading. Ain't it pretty?  Fix it."
+  },
+  "skillCategories": [
+    "Operating Systems",
+    "System Tools",
+    "Data",
+    "Servers",
+    "Programming Languages",
+    "Design Patterns",
+    "Libraries",
+    "Frameworks",
+    "Development Tools",
+    "Performance Tools"
+  ],
+  "skills": [
+    {
+      "_id": "955dfd5b-82eb-5813-b732-665d795d584e",
+      "title": "Windows XP",
+      "description": "an operating system from Microsoft",
+      "category": 0,
+      "tiers": [0, 1, 2, 5],
+      "priority": 4,
+      "expertise": 4,
+      "url": "http://microsoft.com"
+    },
+    {
+      "_id": "5e0577cb-e020-5a11-a0cc-00d6e27016ce",
+      "title": "Windows 10",
+      "description": "an operating system from Microsoft",
+      "category": 0,
+      "tiers": [0, 1, 2, 5],
+      "priority": 1,
+      "expertise": 4,
+      "url": "http://microsoft.com"
+    },
+    {
+      "_id": "b91d4a93-8695-5265-b048-90f8e5387ba5",
+      "title": "GNU/Linux",
+      "description": "The Operating System of the Internet",
+      "category": 0,
+      "tiers": [0, 1, 6],
+      "priority": 1,
+      "expertise": 8,
+      "url": "https://linux.com"
+    },
+    {
+      "_id": "7941b5fd-b03d-50ac-afd2-c68c6c765c1c",
+      "title": "Mac OS",
+      "description": "the operating system of choice for Web Nerds",
+      "category": 0,
+      "tiers": [0, 1, 6],
+      "priority": 0,
+      "expertise": 8,
+      "url": "https://macos.com"
+    },
+    {
+      "_id": "016fc80f-d9cc-5e7b-bbf4-8c800cc08ad4",
+      "title": "Docker",
+      "description": "a container tool",
+      "category": 1,
+      "tiers": [0, 1, 6],
+      "priority": 0,
+      "expertise": 5,
+      "url": "https://www.docker.com/"
+    },
+    {
+      "_id": "59fe171b-5874-5f01-b0f1-0dbf127adc32",
+      "title": "Vagrant",
+      "description": "a virtualization tool fixme",
+      "category": 1,
+      "tiers": [0, 1, 6],
+      "priority": 0,
+      "expertise": 7,
+      "url": "https://www.vagrantup.com"
+    },
+    {
+      "_id": "d79e648c-cf99-58f4-982a-5cd89d3c3146",
+      "title": "VirtualBox",
+      "description": "VirtualBox is a powerful virtualization product for enterprise",
+      "category": 1,
+      "tiers": [0, 1, 6],
+      "priority": 0,
+      "expertise": 6,
+      "url": "https://www.virtualbox.org/"
+    },
+    {
+      "_id": "df36213d-cf75-58c4-8be9-58da601613e8",
+      "title": "Grunt",
+      "description": "The JavaScript Task Runner",
+      "category": 1,
+      "tiers": [1, 2, 3, 6],
+      "priority": 0,
+      "expertise": 6,
+      "url": "https://gruntjs.com/"
+    },
+    {
+      "_id": "923e0737-5f80-5c36-afba-461d3bfe789a",
+      "title": "MySQL",
+      "description": "MySQL is the world's most popular open source database",
+      "category": 2,
+      "tiers": [0, 1, 2, 3],
+      "priority": 0,
+      "expertise": 8,
+      "url": "https://www.mysql.com"
+    },
+    {
+      "_id": "84041be5-d566-5e13-a7f0-a1467497392a",
+      "title": "PostgreSQL",
+      "description": "PostgreSQL is a powerful, open source object-relational database system with a strong reputation for reliability, feature robustness, and performance",
+      "category": 2,
+      "tiers": [0, 1, 2, 3],
+      "priority": 2,
+      "expertise": 6,
+      "url": "https://www.postgresql.org"
+    },
+    {
+      "_id": "edbcb890-0a54-520f-bc12-8eb1b71532b0",
+      "title": "Microsoft SQL Server",
+      "description": "Microsoft SQL Server",
+      "category": 2,
+      "tiers": [0, 1, 2, 3],
+      "priority": 1,
+      "expertise": 7,
+      "url": "https://www.microsoft.com/en-us/sql-server/default.aspx"
+    },
+    {
+      "_id": "837bd55f-3fa0-5697-8c13-6ce7d599ca07",
+      "title": "node",
+      "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine",
+      "category": 3,
+      "tiers": [0, 1, 2, 3, 4],
+      "priority": 0,
+      "expertise": 5,
+      "url": "https://nodejs.org"
+    },
+    {
+      "_id": "apa97e881ff-9c87-5e21-82af-4422752195d8che",
+      "title": "Apache HTTPD",
+      "description": "The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems",
+      "category": 3,
+      "tiers": [0, 1, 2, 3, 6, 7],
+      "priority": 0,
+      "expertise": 7,
+      "url": "http://httpd.apache.org"
+    },
+    {
+      "_id": "6a20d86d-70cf-5a08-8881-80f803e42a23",
+      "title": "nginx",
+      "description": "NGINX is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache",
+      "category": 3,
+      "tiers": [0, 1, 2, 3, 4],
+      "priority": 0,
+      "expertise": 6,
+      "url": "https://www.nginx.com/"
+    },
+    {
+      "_id": "a223d32d-e294-5bda-8987-bb8ed113a109",
+      "title": "S3",
+      "description": "Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance",
+      "category": 3,
+      "tiers": [1, 2, 3],
+      "priority": 0,
+      "expertise": 3,
+      "url": "https://aws.amazon.com/s3"
+    },
+    {
+      "_id": "e253ed1e-b7fe-5838-aae1-f75896d46135",
+      "title": "CloudFront",
+      "description": "Amazon CloudFront is a fast content delivery network service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment",
+      "category": 3,
+      "tiers": [1, 2, 3],
+      "priority": 0,
+      "expertise": 3,
+      "url": "https://aws.amazon.com/cloudfront"
+    },
+    {
+      "_id": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+      "title": "PHP",
+      "description": "PHP is a popular general-purpose scripting language that is especially suited to web development",
+      "category": 4,
+      "tiers": [0, 1, 2, 3, 4],
+      "priority": 0,
+      "expertise": 9,
+      "url": "http://php.net"
+    },
+    {
+      "_id": "c0fdad84-a41f-5b64-a676-0d38d6e33295",
+      "title": "jQuery",
+      "description": "jQuery is a fast, small, and feature-rich JavaScript library",
+      "category": 6,
+      "tiers": [2, 3, 4],
+      "priority": 0,
+      "expertise": 7,
+      "url": "https://jquery.com"
+    },
+    {
+      "_id": "208881cb-2150-581d-8397-33d66bceaa62",
+      "title": "Jira",
+      "description": "Jira Software is the project management tool for agile teams",
+      "tiers": [5],
+      "priority": 0,
+      "expertise": 6,
+      "url": "https://www.atlassian.com/software/jira"
+    },
+    {
+      "_id": "ae24c4a5-d42b-529e-9fbc-9e8098c1608d",
+      "title": "JavaScript",
+      "description": "JavaScript is a lightweight interpreted or JIT-compiled programming language with first-class functions",
+      "category": 4,
+      "tiers": [0, 1, 2, 3, 4],
+      "priority": 0,
+      "expertise": 8,
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      "_id": "bee0ea7b-2ddf-5c31-be2a-44d2bd7d400c",
+      "title": "HTML",
+      "description": "HTML is the World Wide Web’s core markup language",
+      "category": 4,
+      "tiers": [1, 2, 3, 4],
+      "priority": 1,
+      "expertise": 9,
+      "url": "https://www.w3.org/html"
+    },
+    {
+      "_id": "f4f5c2b2-0635-5acb-ad5c-3dfadd5c4e19",
+      "title": "CSS",
+      "category": 4,
+      "description": "CSS is a language for describing the rendering of structured documents on screen, on paper, etc",
+      "tiers": [2, 3, 4],
+      "priority": 0,
+      "expertise": 7,
+      "url": "https://www.w3.org/TR/CSS"
+    },
+    {
+      "_id": "e2655102-645a-534a-ae57-600564b164ce",
+      "title": "bash",
+      "description": "Bash is an sh-compatible shell that offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification",
+      "category": 4,
+      "tiers": [1, 2, 3],
+      "priority": 2,
+      "expertise": 8,
+      "url": "https://www.gnu.org/software/bash/"
+    },
+    {
+      "_id": "befeeed6-5357-58e8-b8f1-e111706163ac",
+      "title": "Vue.js",
+      "description": "Vue is a progressive framework for building user interfaces; Vue is designed from the ground up to be incrementally adoptable. ",
+      "category": 6,
+      "tiers": [1, 2, 3, 4],
+      "priority": 0,
+      "expertise": 3,
+      "url": "https://vuejs.org/"
+    },
+    {
+      "_id": "520be22b-bac1-538c-a7f9-5ab08bceb16f",
+      "title": "React",
+      "description": "A JavaScript library for building user interfaces",
+      "category": 6,
+      "tiers": [1, 2, 3],
+      "priority": 0,
+      "expertise": 4,
+      "url": "https://reactjs.org/"
+    },
+    {
+      "_id": "9ef68e50-6b1a-5382-b34c-7e22e65dcbc6",
+      "title": "MVC",
+      "description": "Model–View–Controller is an architectural pattern commonly used for developing user interfaces that divides an application into three interconnected parts",
+      "category": 5,
+      "tiers": [1, 2, 3],
+      "priority": 1,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+    },
+    {
+      "_id": "74f114a9-101d-50ca-8be9-3ffba1159464",
+      "title": "async/await",
+      "description": "The async function declaration defines an asynchronous function, which returns an AsyncFunction object. An asynchronous function is a function which operates asynchronously via the event loop, using an implicit Promise to return its result. But the syntax and structure of your code using async functions is much more like using standard synchronous functions.",
+      "category": 5,
+      "tiers": [1, 2, 3],
+      "priority": 1,
+      "expertise": 3,
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+    },
+    {
+      "_id": "cfcec601-d8a0-5837-bf56-fda98f794782",
+      "title": "Zend Framework 2",
+      "description": "Zend Framework is a collection of professional PHP packages; It can be used to develop web applications and services using PHP 5.6+, and provides object-oriented code using a broad spectrum of language features",
+      "category": 7,
+      "tiers": [0, 1, 2, 3],
+      "priority": 1,
+      "expertise": 8,
+      "url": "https://framework.zend.com"
+    },
+    {
+      "_id": "69ed9f2f-0b60-5209-b69b-4dbe37118a0c",
+      "title": "Yii 2",
+      "description": "Yii is a fast, secure, and efficient PHP framework",
+      "category": 7,
+      "tiers": [0, 1, 2, 3],
+      "priority": 1,
+      "expertise": 6,
+      "url": "https://www.yiiframework.com"
+    },
+    {
+      "_id": "822917a9-a02b-527a-99fe-60acd59ca73c",
+      "title": "CodeIgniter",
+      "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
+      "category": 7,
+      "tiers": [0, 1, 2, 3],
+      "priority": 2,
+      "expertise": 7,
+      "url": "https://www.codeigniter.com"
+    },
+    {
+      "_id": "efe2b1a2-0b2b-5682-b238-515e86e5e499",
+      "title": "PHPStorm",
+      "description": "A PHP IDE of some importance",
+      "category": 8,
+      "tiers": [0, 1, 2, 3, 4, 5, 6],
+      "priority": 0,
+      "expertise": 8,
+      "url": "https://www.jetbrains.com/phpstorm"
+    },
+    {
+      "_id": "5af08704-7818-5820-b941-4dce13bb323b",
+      "title": "Visual Studio Code",
+      "description": "An IDE of some note.",
+      "category": 8,
+      "tiers": [0, 1, 2, 3, 4, 5, 6],
+      "priority": 0,
+      "expertise": 8,
+      "url": "https://code.visualstudio.com"
+    },
+    {
+      "_id": "3bc42606-8836-5f7b-a991-6b3adb650414",
+      "title": "Eclipse IDE",
+      "description": "An IDE of some note.",
+      "category": 8,
+      "tiers": [0, 1, 3, 4, 5, 2, 6],
+      "priority": 0,
+      "expertise": 8,
+      "url": "https://www.eclipse.org"
+    },
+    {
+      "_id": "b3060c33-a420-507d-95df-42a56cae778d",
+      "title": "Xdebug",
+      "description": "we're getting somewhere",
+      "category": 8,
+      "tiers": [0, 1, 2, 3, 4, 5, 6, 7],
+      "priority": 0,
+      "expertise": 7,
+      "url": "https://xdebug.org"
+    },
+    {
+      "_id": "0a511720-16b7-551f-bc36-ec4d4f1d43b4",
+      "title": "Chrome Developer Tools",
+      "description": "we're getting somewhere",
+      "category": 8,
+      "tiers": [0, 1, 2, 3, 4, 5, 6, 7],
+      "priority": 0,
+      "expertise": 7,
+      "url": "https://developers.google.com/web/tools/chrome-devtools"
+    },
+    {
+      "_id": "9b9078be-caaf-59aa-ad7d-46fae5775713",
+      "title": "Firefox Developer Edition",
+      "description": "we're getting somewhere",
+      "category": 8,
+      "tiers": [0, 1, 2, 3, 4, 5, 6, 7],
+      "priority": 0,
+      "expertise": 5,
+      "url": "https://www.mozilla.org/en-US/firefox/developer"
+    },
+    {
+      "_id": "6c007cc5-24b1-5708-8047-20dff0c56406",
+      "title": "YSlow",
+      "description": "we're getting somewhere",
+      "category": 9,
+      "tiers": [1, 2, 3, 6],
+      "priority": 2,
+      "expertise": 5,
+      "url": "http://yslow.org"
+    },
+    {
+      "_id": "322889df-5326-5518-9db4-5431fd2f9b45",
+      "title": "JMeter",
+      "description": "The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.",
+      "category": 9,
+      "tiers": [1, 2, 3, 6],
+      "priority": 0,
+      "expertise": 4,
+      "url": "http://jmeter.apache.org"
+    },
+    {
+      "_id": "8f3e4570-011c-57c3-b9fb-e506060e6ab9",
+      "title": "Siege",
+      "description": "Siege is an open source regression test and benchmark utility. It can stress test a single URL with a user defined number of simulated users, or it can read many URLs into memory and stress them simultaneously.",
+      "category": 9,
+      "tiers": [1, 2, 3, 6],
+      "priority": 1,
+      "expertise": 4,
+      "url": "https://github.com/JoeDog/siege"
+    },
+    {
+      "_id": "1fe1986c-f6dd-5664-81a1-fcc57cc1c517",
+      "title": "Sentry",
+      "description": "Sentry is an open-source error tracking tool that helps you monitor and fix crashes in real time",
+      "category": 10,
+      "tiers": [0, 1, 5, 6],
+      "priority": 0,
+      "expertise": 3,
+      "url": "https://sentry.io"
+    },
+    {
+      "_id": "10d2476a-8be9-5be3-90f8-a30b731d2b4c",
+      "title": "New Relic",
+      "description": "Monitoring tool",
+      "category": 10,
+      "tiers": [0, 1, 5, 6],
+      "priority": 0,
+      "expertise": 4,
+      "url": "https://newrelic.com"
+    },
+    {
+      "_id": "565c84ac-b08a-53dd-a581-4a51890ad7f2",
+      "title": "Bamboo",
+      "description": "Bamboo is a tool for continuous integration, deployment, and delivery",
+      "category": 11,
+      "tiers": [0, 1, 6],
+      "priority": 0,
+      "expertise": 3,
+      "url": "https://www.atlassian.com/software/bamboo"
+    },
+    {
+      "_id": "564a1e90-0f23-5c11-a51d-f4172bff43cb",
+      "title": "CodeShip",
+      "description": "Deployment tool",
+      "category": 11,
+      "tiers": [0, 1, 6],
+      "priority": 0,
+      "expertise": 5,
+      "url": "https://codeship.com"
+    },
+    {
+      "_id": "407056b2-bf73-53d4-9a93-3a7fb029085b",
+      "title": "composer",
+      "description": "Composer is a tool for dependency management in PHP",
+      "category": 12,
+      "tiers": [0, 1, 6],
+      "priority": 0,
+      "expertise": 7,
+      "url": "https://getcomposer.org"
+    },
+    {
+      "_id": "182abecf-f6d0-58ca-83b1-ed4048eede34",
+      "title": "npm",
+      "description": "Deployment tool",
+      "category": 12,
+      "tiers": [0, 1, 6],
+      "priority": 0,
+      "expertise": 3,
+      "url": "https://www.atlassian.com/software/bamboo"
+    },
+    {
+      "_id": "a92db3c5-38a6-5f93-b2a6-d0ac8b07743a",
+      "title": "Compass",
+      "description": "CSS Transpiler",
+      "category": 13,
+      "tiers": [0, 1, 6],
+      "priority": 0,
+      "expertise": 4,
+      "url": "http://compass-style.org"
+    },
+    {
+      "_id": "a5bca635-3cc1-57e3-9baa-ef9fe3311b77",
+      "title": "TypeScript",
+      "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript",
+      "category": 13,
+      "tiers": [0, 1, 6],
+      "priority": 1,
+      "expertise": 1,
+      "url": "https://www.typescriptlang.org"
+    },
+    {
+      "_id": "fa8d7934-3afd-5f79-8860-b4d2c786fc5d",
+      "title": "CoffeeScript",
+      "description": "CoffeeScript is a little language that compiles into JavaScript",
+      "category": 13,
+      "tiers": [0, 1, 6],
+      "priority": 0,
+      "expertise": 1,
+      "url": "https://coffeescript.org"
+    },
+    {
+      "_id": "3b8358fd-43b2-5742-ba56-047df3c33d56",
+      "title": "Babel",
+      "description": "JavaScript Transpiler",
+      "category": 13,
+      "tiers": [0, 1, 6],
+      "priority": 0,
+      "expertise": 1,
+      "url": "https://babeljs.io"
+    }
+  ],
+  "companies": [
+    {
+      "_id": "6f219570-cbb1-53fc-b563-357f37b414da",
+      "name": "Daniel J. Post Consulting, Inc",
+      "url": "http://danieljpost.consulting",
+      "see": "https://schema.org/Organization"
+    },
+    {
+      "_id": "5d017a2f-c584-5547-b73d-b572c779bf53",
+      "name": "Vivial Media, LLC",
+      "url": "http://vivial.net"
+    },
+    {
+      "_id": "88abb4d1-694d-5384-bce2-21c0bc59b160",
+      "name": "Resorts and Lodges",
+      "url": "http://resortsandlodges.com"
+    },
+    {
+      "_id": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
+      "name": "Go Buy Local",
+      "url": "http://gobuylocal.com"
+    },
+    {
+      "_id": "3300eb6c-4406-5988-9adc-cb4c7a969fe2",
+      "name": "The Lacek Group",
+      "url": "http://lacek.com"
+    },
+    {
+      "_id": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
+      "name": "Target",
+      "url": "http://target.com"
+    },
+    {
+      "_id": "72e07a43-44d2-5850-98eb-33159db9eccd",
+      "name": "RAZR Marketing",
+      "url": "https://razrmarketinginc.com"
+    },
+    {
+      "_id": "44eba145-fbd7-54f3-8311-b413c3eaa021",
+      "name": "U.S. Bank",
+      "url": "http://usbank.com"
+    },
+    {
+      "_id": "c306459f-05ee-538e-8839-17355d27b43b",
+      "name": "Life Time Fitness",
+      "url": "http://lifetimefitness.com"
+    },
+    {
+      "_id": "1dfb2ad1-29db-552c-8060-5cd81ec68729",
+      "name": "Mayo Clinic",
+      "url": "http://mayo.edu"
+    },
+    {
+      "_id": "fa87f1e3-3d32-5b56-9e37-ac38b8f257e4",
+      "name": "BlueStem Brands",
+      "url": "http://bluestem.com"
+    },
+    {
+      "_id": "4a94adbf-edb9-51e2-80db-a35777a79e31",
+      "name": "Visible Customer",
+      "url": "http://visiblecustomer.com"
+    }
+  ],
+  "gigs": [
+    {
+      "_id": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
+      "title": "Proprietor",
+      "gigType": "fulltime",
+      "companyId": "6f219570-cbb1-53fc-b563-357f37b414da",
+      "recruiterId": null,
+      "startDate": "2009-01-01",
+      "endDate": null,
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Yet another accomplishment I'd like to brag about",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
+      "_id": "vivial",
+      "title": "Software Developer",
+      "gigType": "fulltime",
+      "companyId": "5d017a2f-c584-5547-b73d-b572c779bf53",
+      "recruiterId": null,
+      "startDate": "2016-10-26",
+      "endDate": "2018-08-24",
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Yet another accomplishment I'd like to brag about",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
+      "_id": "resortsandlodges",
+      "title": "Proprietor",
+      "gigType": "fulltime",
+      "companyId": "88abb4d1-694d-5384-bce2-21c0bc59b160",
+      "recruiterId": null,
+      "startDate": "2007-01-01",
+      "endDate": null,
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Tu scriber summario computator via, uso altere membros language se.",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
+      "_id": "resortsandlodges",
+      "title": "Proprietor",
+      "gigType": "fulltime",
+      "companyId": "88abb4d1-694d-5384-bce2-21c0bc59b160",
+      "recruiterId": null,
+      "startDate": "2015-10-01",
+      "endDate": "2016-06-01",
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Yet another accomplishment I'd like to brag about",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
+      "_id": "target",
+      "title": "Contractor",
+      "gigType": "contract",
+      "companyId": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
+      "recruiterId": null,
+      "startDate": "2013-12-01",
+      "endDate": "2014-04-15",
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Yet another accomplishment I'd like to brag about",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
+      "_id": "usbank",
+      "title": "UI Prototype Developer",
+      "gigType": "contract",
+      "companyId": "44eba145-fbd7-54f3-8311-b413c3eaa021",
+      "recruiterId": null,
+      "startDate": "2011-06-01",
+      "endDate": "2012-01-01",
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Design and protoype user interface elements for banking application from specs and/or wireframes",
+        "Provide feedback & support to business analysts"
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
+      "_id": "lifetimefitness",
+      "title": "UI Prototyper",
+      "gigType": "contractor",
+      "companyId": "c306459f-05ee-538e-8839-17355d27b43b",
+      "recruiterId": null,
+      "startDate": "2011-09-01",
+      "endDate": "2012-02-01",
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Yet another accomplishment I'd like to brag about",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
+      "_id": "bluestem",
+      "title": "UI Developer",
+      "gigType": "contract",
+      "companyId": "fa87f1e3-3d32-5b56-9e37-ac38b8f257e4",
+      "recruiterId": null,
+      "startDate": "2012-02-01",
+      "endDate": "2012-09-01",
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Yet another accomplishment I'd like to brag about",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
+      "_id": "razr",
+      "title": "Contractor Fixme",
+      "gigType": "contract",
+      "companyId": "72e07a43-44d2-5850-98eb-33159db9eccd",
+      "recruiterId": null,
+      "startDate": "2015-01-01",
+      "endDate": "2015-04-30",
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Yet another accomplishment I'd like to brag about",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "AngularJS",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "APIs",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
+      "_id": "gbl",
+      "title": "PHP Developer",
+      "gigType": "contractor",
+      "companyId": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
+      "recruiterId": null,
+      "startDate": "2016-06-01",
+      "endDate": "2016-09-15",
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Yet another accomplishment I'd like to brag about",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
+      "_id": "mayo",
+      "title": "UI Developer",
+      "gigType": "contract",
+      "companyId": "1dfb2ad1-29db-552c-8060-5cd81ec68729",
+      "recruiterId": null,
+      "startDate": "2013-01-01",
+      "endDate": "2013-04-01",
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Yet another accomplishment I'd like to brag about",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "c0fdad84-a41f-5b64-a676-0d38d6e33295",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
+      "_id": "resortsandlodges",
+      "title": "Proprietor",
+      "gigType": "fulltime",
+      "companyId": "88abb4d1-694d-5384-bce2-21c0bc59b160",
+      "recruiterId": null,
+      "startDate": "2007-01-01",
+      "endDate": null,
+      "shortDesc": "fixme",
+      "longDesc": "fixme",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Yet another accomplishment I'd like to brag about",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillId": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "_id": "8fca923f-1110-592c-8fd1-fe399ee65066",
+      "name": "Philipp Tkachev",
+      "linkedIn": "https://www.linkedin.com/in/zoonman",
+      "title": "Software Engineer",
+      "when": "August 25, 2018",
+      "recommendation": "I used to work with Daniel for last couple years and he has proven himself as diligent and responsible colleague. Daniel did a great job making software fast and reliable. He is smart and knowledgeable. He strives to use modern technologies. Daniel was able to pickup all our internal complexity quickly and seamlessly. He discovered a tech debt and helped to eliminate it. It was a pleasure to work with Daniel and I would like to do it again."
+    },
+    {
+      "_id": "4095adf9-d17f-51b0-b3e7-2020ae652382",
+      "name": "Michael Leo",
+      "linkedIn": "https://www.linkedin.com/in/michaelaleo",
+      "title": "Owner, Kettle River Consulting Inc",
+      "when": "April 25, 2015",
+      "recommendation": "Daniel's knowledge of robust application development is practical, solid, and broad. Daniel and I worked on an \"emergency implementation\" that had to be done in about 1/4 the time it should have taken. We worked closely together and relied on each other strengths to deliver on time and make the customer extremely happy. Daniel was great to work with. He is an expert on the front-end and has solid knowledge of the back-end. I would love to work with him again."
+    },
+    {
+      "_id": "0489c2c2-8ad1-5f26-b0c3-88a6fcc04f26",
+      "name": "Christopher Smithson",
+      "linkedIn": "https://www.linkedin.com/in/christopher-s-62a2726",
+      "title": "Software Innovation",
+      "when": "March 25, 2015",
+      "recommendation": "Daniel was brought to the team at a critical time in development and asked to take on substantial amounts of work with minimal orientation or guidance. I needed someone who was fluent in the more advanced aspects of PHP development and could tackle tough design and implementation decisions. He delivered on that demand at one of the highest proficiencies and accuracies that I have had the pleasure of working with. His ability to positively impact the short term needs of a project while also offering critical insights into the long term vision of the product is of great asset to anyone. He has an in depth understanding of product life cycles, software application design patterns, and system performance, among many other parallels. Ultimately his contract resulted in a successful mission. This is my highest level of recommendation."
+    },
+    {
+      "_id": "a66f3f3e-2da3-551d-ac81-c70144690599",
+      "name": "Natasha Gaffer",
+      "linkedIn": "https://www.linkedin.com/in/natashagaffer",
+      "title": "Web App Developer",
+      "when": "June 7, 2014",
+      "company": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
+      "recommendation": "Daniel jumped right in developing a custom php interface to communicate with a brand-new CMS for Target.com. He worked solo with very demanding hours to bring my vision to life. He is confident about his work and dedicated to the project at hand. The tool has been incredibly successful so far and is scaling well as the project grows at an enterprise level."
+    },
+    {
+      "_id": "0d27ae76-c0b2-5bac-a11c-c24978eb1513",
+      "name": "Joseph Piché",
+      "linkedIn": "https://www.linkedin.com/in/josephpiche",
+      "title": "Android and iOS Developer",
+      "when": "August 12, 2013",
+      "recommendation": "I worked alongside Daniel on an extremely difficult PHP project at Irish Titan, and am impressed with his ability to find security issues and bad programming practices that other programmers missed. Daniel is very detailed and thorough in all of his work, as well as very understanding of budget and time constraints."
+    },
+    {
+      "_id": "14443301-00ae-5d9c-9a43-939c8305c207",
+      "name": "Darin Lynch",
+      "linkedIn": "https://www.linkedin.com/in/darinlynch",
+      "title": "Irish Titan ",
+      "when": "August 6, 2013",
+      "recommendation": "We hired Daniel to provide some very specific programming skills that are outside of our core competency here at Irish Titan. Daniel provided them in spades...he's very knowledgeable, and clearly an expert in his field. He was very good at explaining technical concepts to non-technical resources, and worked diligently and with alot of respect. We'd hire him again."
+    },
+    {
+      "_id": "173c3a2e-f6fe-5984-a4b4-3d303a616c64",
+      "name": "Cevat Kerim Incedayi",
+      "linkedIn": "https://www.linkedin.com/in/cevatkerim",
+      "title": "Software Developer",
+      "when": "February 6, 2012",
+      "recommendation": "Daniel is a very detailed individual. His ability to think beyond what is needed helps him produce robust solutions that can later be extended upon. I recommend him to any company seeking true programmers."
+    },
+    {
+      "_id": "8435df6d-b6fd-51a7-b986-638ea2bc6d79",
+      "name": "Brian LaBounty",
+      "linkedIn": "https://www.linkedin.com/in/brianlabounty",
+      "title": "Principal (Lead) Web Application Developer at Stratasys",
+      "when": "August 16, 2009",
+      "recommendation": "When it comes to working with new people and being patient and effective in giving the vital information necessary to get a new guy up to speed in a rapidly changing, intense environment, Daniel was the man who got me going fast, and got me ready to start contributing to the project faster than I thought possible. He's a good guy and would be an asset to any team, especially as a mentor."
+    },
+    {
+      "_id": "cb1e88b7-cfd4-5775-92e5-e3c714fb254c",
+      "name": "TQ White II",
+      "linkedIn": "https://www.linkedin.com/in/tqwhite",
+      "title": "Writing Software to Help Teachers Help Students",
+      "when": "August 15, 2009",
+      "recommendation": "Daniel is a very smart, capable developer. I continue to be impressed by his thoughtful approach to software, strong sense of clean architecture and awareness of maintainability. His code is clean and clever. He was always happy to help me with technical issues based on his thorough understanding of software and insightful knowledge of the technologies we used together. He's also an entertaining guy to have around. He's culturally aware and witty. I'd be very happy to work with him again."
+    }
+  ]
+}
