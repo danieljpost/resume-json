@@ -1,5 +1,5 @@
 {
-  "value": 20191113,
+  "version": 20210122,
   "tiers": [
     "DevOps",
     "Back End",
@@ -13,14 +13,14 @@
   ],
   "intros": {
     "DevOps": "Skilled DevOps Engineer with 3+ years of hands-on experience supporting, automating, and optimizing mission critical deployments in AWS, leveraging configuration management, CI/CD, and DevOps processes.",
-    "Back End": "I have over 10 years of experience creating software using HTML, JavaScript, PHP and other languages, CSS, and databases. I’m passionate about performance, robustness, and maintainability in code, as well as  integrity and collaboration in teams.",
-    "Front End": "This is the text of my Front End intro heading. Ain't it pretty?  Fix it.",
-    "User Experience": "This is the text of my User Experience intro heading. Ain't it pretty?  Fix it.",
-    "User Interface": "This is the text of my User Interface intro heading. Ain't it pretty?  Fix it.",
+    "Back End": "I have over 10 years of experience creating software using HTML, JavaScript, PHP and other languages, CSS, and databases. I’m passionate about performance, robustness, and maintainability in code, as well as integrity and collaboration in teams.",
+    "Front End": "This is the text of my Front End intro heading.",
+    "User Experience": "This is the text of my User Experience intro heading.",
+    "User Interface": "This is the text of my User Interface intro heading.",
     "Software Engineer": "Skilled and results-oriented Software Engineer with more than 15 years of experience working in a variety of environments with a breadth of programs and technologies.",
-    "Business": "This is the text of my Business intro heading. Ain't it pretty?  Fix it.",
-    "Consulting": "I have over 1 0years of experience creating software using HTML, JavaScript, PHP and other languages, CSS, and databases. I’m passionate about performance, robustness, and maintainability in code, as well as  integrity and collaboration in teams.",
-    "Team Lead": "This is the text of my Team Lead intro heading. Ain't it pretty?  Fix it."
+    "Business": "This is the text of my Business intro heading.",
+    "Consulting": "I have over 10 years of experience creating software using HTML, JavaScript, PHP and other languages, CSS, and databases. I’m passionate about performance, robustness, and maintainability in code, as well as  integrity and collaboration in teams.",
+    "Team Lead": "This is the text of my Team Lead intro heading."
   },
   "skillCategories": [
     "Operating Systems",
@@ -40,7 +40,12 @@
       "title": "Windows XP",
       "description": "an operating system from Microsoft",
       "category": 0,
-      "tiers": [0, 1, 2, 5],
+      "tiers": [
+        0,
+        1,
+        2,
+        5
+      ],
       "priority": 4,
       "expertise": 4,
       "url": "http://microsoft.com"
@@ -50,7 +55,12 @@
       "title": "Windows 10",
       "description": "an operating system from Microsoft",
       "category": 0,
-      "tiers": [0, 1, 2, 5],
+      "tiers": [
+        0,
+        1,
+        2,
+        5
+      ],
       "priority": 1,
       "expertise": 4,
       "url": "http://microsoft.com"
@@ -60,7 +70,11 @@
       "title": "GNU/Linux",
       "description": "The Operating System of the Internet",
       "category": 0,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 1,
       "expertise": 8,
       "url": "https://linux.com"
@@ -70,7 +84,11 @@
       "title": "Mac OS",
       "description": "the operating system of choice for Web Nerds",
       "category": 0,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 0,
       "expertise": 8,
       "url": "https://macos.com"
@@ -80,7 +98,11 @@
       "title": "Docker",
       "description": "a container tool",
       "category": 1,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 0,
       "expertise": 5,
       "url": "https://www.docker.com/"
@@ -90,7 +112,11 @@
       "title": "Vagrant",
       "description": "a virtualization tool fixme",
       "category": 1,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 0,
       "expertise": 7,
       "url": "https://www.vagrantup.com"
@@ -100,7 +126,11 @@
       "title": "VirtualBox",
       "description": "VirtualBox is a powerful virtualization product for enterprise",
       "category": 1,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 0,
       "expertise": 6,
       "url": "https://www.virtualbox.org/"
@@ -110,7 +140,12 @@
       "title": "Grunt",
       "description": "The JavaScript Task Runner",
       "category": 1,
-      "tiers": [1, 2, 3, 6],
+      "tiers": [
+        1,
+        2,
+        3,
+        6
+      ],
       "priority": 0,
       "expertise": 6,
       "url": "https://gruntjs.com/"
@@ -120,7 +155,12 @@
       "title": "MySQL",
       "description": "MySQL is the world's most popular open source database",
       "category": 2,
-      "tiers": [0, 1, 2, 3],
+      "tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
       "priority": 0,
       "expertise": 8,
       "url": "https://www.mysql.com"
@@ -130,7 +170,12 @@
       "title": "PostgreSQL",
       "description": "PostgreSQL is a powerful, open source object-relational database system with a strong reputation for reliability, feature robustness, and performance",
       "category": 2,
-      "tiers": [0, 1, 2, 3],
+      "tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
       "priority": 2,
       "expertise": 6,
       "url": "https://www.postgresql.org"
@@ -140,7 +185,12 @@
       "title": "Microsoft SQL Server",
       "description": "Microsoft SQL Server",
       "category": 2,
-      "tiers": [0, 1, 2, 3],
+      "tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
       "priority": 1,
       "expertise": 7,
       "url": "https://www.microsoft.com/en-us/sql-server/default.aspx"
@@ -150,7 +200,13 @@
       "title": "node",
       "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine",
       "category": 3,
-      "tiers": [0, 1, 2, 3, 4],
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
       "priority": 0,
       "expertise": 5,
       "url": "https://nodejs.org"
@@ -160,7 +216,14 @@
       "title": "Apache HTTPD",
       "description": "The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems",
       "category": 3,
-      "tiers": [0, 1, 2, 3, 6, 7],
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        7
+      ],
       "priority": 0,
       "expertise": 7,
       "url": "http://httpd.apache.org"
@@ -170,7 +233,13 @@
       "title": "nginx",
       "description": "NGINX is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache",
       "category": 3,
-      "tiers": [0, 1, 2, 3, 4],
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
       "priority": 0,
       "expertise": 6,
       "url": "https://www.nginx.com/"
@@ -180,7 +249,11 @@
       "title": "S3",
       "description": "Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance",
       "category": 3,
-      "tiers": [1, 2, 3],
+      "tiers": [
+        1,
+        2,
+        3
+      ],
       "priority": 0,
       "expertise": 3,
       "url": "https://aws.amazon.com/s3"
@@ -190,7 +263,11 @@
       "title": "CloudFront",
       "description": "Amazon CloudFront is a fast content delivery network service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment",
       "category": 3,
-      "tiers": [1, 2, 3],
+      "tiers": [
+        1,
+        2,
+        3
+      ],
       "priority": 0,
       "expertise": 3,
       "url": "https://aws.amazon.com/cloudfront"
@@ -200,7 +277,13 @@
       "title": "PHP",
       "description": "PHP is a popular general-purpose scripting language that is especially suited to web development",
       "category": 4,
-      "tiers": [0, 1, 2, 3, 4],
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
       "priority": 0,
       "expertise": 9,
       "url": "http://php.net"
@@ -210,7 +293,11 @@
       "title": "jQuery",
       "description": "jQuery is a fast, small, and feature-rich JavaScript library",
       "category": 6,
-      "tiers": [2, 3, 4],
+      "tiers": [
+        2,
+        3,
+        4
+      ],
       "priority": 0,
       "expertise": 7,
       "url": "https://jquery.com"
@@ -219,7 +306,9 @@
       "_id": "208881cb-2150-581d-8397-33d66bceaa62",
       "title": "Jira",
       "description": "Jira Software is the project management tool for agile teams",
-      "tiers": [5],
+      "tiers": [
+        5
+      ],
       "priority": 0,
       "expertise": 6,
       "url": "https://www.atlassian.com/software/jira"
@@ -229,7 +318,13 @@
       "title": "JavaScript",
       "description": "JavaScript is a lightweight interpreted or JIT-compiled programming language with first-class functions",
       "category": 4,
-      "tiers": [0, 1, 2, 3, 4],
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
       "priority": 0,
       "expertise": 8,
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
@@ -239,7 +334,12 @@
       "title": "HTML",
       "description": "HTML is the World Wide Web’s core markup language",
       "category": 4,
-      "tiers": [1, 2, 3, 4],
+      "tiers": [
+        1,
+        2,
+        3,
+        4
+      ],
       "priority": 1,
       "expertise": 9,
       "url": "https://www.w3.org/html"
@@ -249,7 +349,11 @@
       "title": "CSS",
       "category": 4,
       "description": "CSS is a language for describing the rendering of structured documents on screen, on paper, etc",
-      "tiers": [2, 3, 4],
+      "tiers": [
+        2,
+        3,
+        4
+      ],
       "priority": 0,
       "expertise": 7,
       "url": "https://www.w3.org/TR/CSS"
@@ -259,7 +363,11 @@
       "title": "bash",
       "description": "Bash is an sh-compatible shell that offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification",
       "category": 4,
-      "tiers": [1, 2, 3],
+      "tiers": [
+        1,
+        2,
+        3
+      ],
       "priority": 2,
       "expertise": 8,
       "url": "https://www.gnu.org/software/bash/"
@@ -269,7 +377,12 @@
       "title": "Vue.js",
       "description": "Vue is a progressive framework for building user interfaces; Vue is designed from the ground up to be incrementally adoptable. ",
       "category": 6,
-      "tiers": [1, 2, 3, 4],
+      "tiers": [
+        1,
+        2,
+        3,
+        4
+      ],
       "priority": 0,
       "expertise": 3,
       "url": "https://vuejs.org/"
@@ -279,7 +392,11 @@
       "title": "React",
       "description": "A JavaScript library for building user interfaces",
       "category": 6,
-      "tiers": [1, 2, 3],
+      "tiers": [
+        1,
+        2,
+        3
+      ],
       "priority": 0,
       "expertise": 4,
       "url": "https://reactjs.org/"
@@ -289,7 +406,11 @@
       "title": "MVC",
       "description": "Model–View–Controller is an architectural pattern commonly used for developing user interfaces that divides an application into three interconnected parts",
       "category": 5,
-      "tiers": [1, 2, 3],
+      "tiers": [
+        1,
+        2,
+        3
+      ],
       "priority": 1,
       "expertise": 7,
       "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
@@ -299,7 +420,11 @@
       "title": "async/await",
       "description": "The async function declaration defines an asynchronous function, which returns an AsyncFunction object. An asynchronous function is a function which operates asynchronously via the event loop, using an implicit Promise to return its result. But the syntax and structure of your code using async functions is much more like using standard synchronous functions.",
       "category": 5,
-      "tiers": [1, 2, 3],
+      "tiers": [
+        1,
+        2,
+        3
+      ],
       "priority": 1,
       "expertise": 3,
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
@@ -309,7 +434,12 @@
       "title": "Zend Framework 2",
       "description": "Zend Framework is a collection of professional PHP packages; It can be used to develop web applications and services using PHP 5.6+, and provides object-oriented code using a broad spectrum of language features",
       "category": 7,
-      "tiers": [0, 1, 2, 3],
+      "tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
       "priority": 1,
       "expertise": 8,
       "url": "https://framework.zend.com"
@@ -319,7 +449,12 @@
       "title": "Yii 2",
       "description": "Yii is a fast, secure, and efficient PHP framework",
       "category": 7,
-      "tiers": [0, 1, 2, 3],
+      "tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
       "priority": 1,
       "expertise": 6,
       "url": "https://www.yiiframework.com"
@@ -329,7 +464,12 @@
       "title": "CodeIgniter",
       "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
       "category": 7,
-      "tiers": [0, 1, 2, 3],
+      "tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
       "priority": 2,
       "expertise": 7,
       "url": "https://www.codeigniter.com"
@@ -339,7 +479,15 @@
       "title": "PHPStorm",
       "description": "A PHP IDE of some importance",
       "category": 8,
-      "tiers": [0, 1, 2, 3, 4, 5, 6],
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "priority": 0,
       "expertise": 8,
       "url": "https://www.jetbrains.com/phpstorm"
@@ -349,7 +497,15 @@
       "title": "Visual Studio Code",
       "description": "An IDE of some note.",
       "category": 8,
-      "tiers": [0, 1, 2, 3, 4, 5, 6],
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
       "priority": 0,
       "expertise": 8,
       "url": "https://code.visualstudio.com"
@@ -359,7 +515,15 @@
       "title": "Eclipse IDE",
       "description": "An IDE of some note.",
       "category": 8,
-      "tiers": [0, 1, 3, 4, 5, 2, 6],
+      "tiers": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        2,
+        6
+      ],
       "priority": 0,
       "expertise": 8,
       "url": "https://www.eclipse.org"
@@ -369,7 +533,16 @@
       "title": "Xdebug",
       "description": "we're getting somewhere",
       "category": 8,
-      "tiers": [0, 1, 2, 3, 4, 5, 6, 7],
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
       "priority": 0,
       "expertise": 7,
       "url": "https://xdebug.org"
@@ -379,7 +552,16 @@
       "title": "Chrome Developer Tools",
       "description": "we're getting somewhere",
       "category": 8,
-      "tiers": [0, 1, 2, 3, 4, 5, 6, 7],
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
       "priority": 0,
       "expertise": 7,
       "url": "https://developers.google.com/web/tools/chrome-devtools"
@@ -389,7 +571,16 @@
       "title": "Firefox Developer Edition",
       "description": "we're getting somewhere",
       "category": 8,
-      "tiers": [0, 1, 2, 3, 4, 5, 6, 7],
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
       "priority": 0,
       "expertise": 5,
       "url": "https://www.mozilla.org/en-US/firefox/developer"
@@ -399,7 +590,12 @@
       "title": "YSlow",
       "description": "we're getting somewhere",
       "category": 9,
-      "tiers": [1, 2, 3, 6],
+      "tiers": [
+        1,
+        2,
+        3,
+        6
+      ],
       "priority": 2,
       "expertise": 5,
       "url": "http://yslow.org"
@@ -409,7 +605,12 @@
       "title": "JMeter",
       "description": "The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.",
       "category": 9,
-      "tiers": [1, 2, 3, 6],
+      "tiers": [
+        1,
+        2,
+        3,
+        6
+      ],
       "priority": 0,
       "expertise": 4,
       "url": "http://jmeter.apache.org"
@@ -419,7 +620,12 @@
       "title": "Siege",
       "description": "Siege is an open source regression test and benchmark utility. It can stress test a single URL with a user defined number of simulated users, or it can read many URLs into memory and stress them simultaneously.",
       "category": 9,
-      "tiers": [1, 2, 3, 6],
+      "tiers": [
+        1,
+        2,
+        3,
+        6
+      ],
       "priority": 1,
       "expertise": 4,
       "url": "https://github.com/JoeDog/siege"
@@ -429,7 +635,12 @@
       "title": "Sentry",
       "description": "Sentry is an open-source error tracking tool that helps you monitor and fix crashes in real time",
       "category": 10,
-      "tiers": [0, 1, 5, 6],
+      "tiers": [
+        0,
+        1,
+        5,
+        6
+      ],
       "priority": 0,
       "expertise": 3,
       "url": "https://sentry.io"
@@ -439,7 +650,12 @@
       "title": "New Relic",
       "description": "Monitoring tool",
       "category": 10,
-      "tiers": [0, 1, 5, 6],
+      "tiers": [
+        0,
+        1,
+        5,
+        6
+      ],
       "priority": 0,
       "expertise": 4,
       "url": "https://newrelic.com"
@@ -449,7 +665,11 @@
       "title": "Bamboo",
       "description": "Bamboo is a tool for continuous integration, deployment, and delivery",
       "category": 11,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 0,
       "expertise": 3,
       "url": "https://www.atlassian.com/software/bamboo"
@@ -459,7 +679,11 @@
       "title": "CodeShip",
       "description": "Deployment tool",
       "category": 11,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 0,
       "expertise": 5,
       "url": "https://codeship.com"
@@ -469,7 +693,11 @@
       "title": "composer",
       "description": "Composer is a tool for dependency management in PHP",
       "category": 12,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 0,
       "expertise": 7,
       "url": "https://getcomposer.org"
@@ -479,7 +707,11 @@
       "title": "npm",
       "description": "Deployment tool",
       "category": 12,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 0,
       "expertise": 3,
       "url": "https://www.atlassian.com/software/bamboo"
@@ -489,7 +721,11 @@
       "title": "Compass",
       "description": "CSS Transpiler",
       "category": 13,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 0,
       "expertise": 4,
       "url": "http://compass-style.org"
@@ -499,7 +735,11 @@
       "title": "TypeScript",
       "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript",
       "category": 13,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 1,
       "expertise": 1,
       "url": "https://www.typescriptlang.org"
@@ -509,7 +749,11 @@
       "title": "CoffeeScript",
       "description": "CoffeeScript is a little language that compiles into JavaScript",
       "category": 13,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 0,
       "expertise": 1,
       "url": "https://coffeescript.org"
@@ -519,7 +763,11 @@
       "title": "Babel",
       "description": "JavaScript Transpiler",
       "category": 13,
-      "tiers": [0, 1, 6],
+      "tiers": [
+        0,
+        1,
+        6
+      ],
       "priority": 0,
       "expertise": 1,
       "url": "https://babeljs.io"
@@ -536,6 +784,11 @@
       "_id": "5d017a2f-c584-5547-b73d-b572c779bf53",
       "name": "Vivial Media, LLC",
       "url": "http://vivial.net"
+    },
+    {
+      "_id": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
+      "name": "Build Technology Group",
+      "url": "https://buildtechnologygroup.com"
     },
     {
       "_id": "88abb4d1-694d-5384-bce2-21c0bc59b160",
@@ -639,6 +892,40 @@
       ]
     },
     {
+      "_id": "028c81be-60ac-5b9d-8076-10b7fc652dae",
+      "title": "PHP Developer",
+      "gigType": "contract",
+      "companyId": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
+      "recruiterId": null,
+      "startDate": "2019-11-19",
+      "endDate": null,
+      "shortDesc": "Build Technology Group",
+      "longDesc": "Build Technology Group",
+      "responsibilities:": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+      ],
+      "accomplishments": [
+        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
+        "Yet another accomplishment I'd like to brag about",
+        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
+        "Qui deler rapide germano o."
+      ],
+      "technologies": [
+        {
+          "skillId": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillId": "923e0737-5f80-5c36-afba-461d3bfe789a",
+          "percentage": 30,
+          "expertise": 5
+        }
+      ]
+    },
+    {
       "_id": "vivial",
       "title": "Software Developer",
       "gigType": "fulltime",
@@ -649,7 +936,7 @@
       "shortDesc": "fixme",
       "longDesc": "fixme",
       "responsibilities:": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+        "Responsible for providing support and enhancements in a full stack PHP / Drupal / MySQL / MongoDB environment with full life cycle engineering responsibilities"
       ],
       "accomplishments": [
         "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
