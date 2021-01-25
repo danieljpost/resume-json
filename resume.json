@@ -1,5 +1,10 @@
 {
   "version": 20210122,
+  "gigTypes": [
+    "fulltime",
+    "contract",
+    "instructing"
+  ],
   "tiers": [
     "DevOps",
     "Back End",
@@ -19,8 +24,9 @@
     "User Interface": "This is the text of my User Interface intro heading.",
     "Software Engineer": "Skilled and results-oriented Software Engineer with more than 15 years of experience working in a variety of environments with a breadth of programs and technologies.",
     "Business": "This is the text of my Business intro heading.",
-    "Consulting": "I have over 10 years of experience creating software using HTML, JavaScript, PHP and other languages, CSS, and databases. I’m passionate about performance, robustness, and maintainability in code, as well as  integrity and collaboration in teams.",
-    "Team Lead": "This is the text of my Team Lead intro heading."
+    "Consulting": "I have decades of experience creating software for and on the Internet. I believe in clear, forthright, and unambiguous communication and am passionate about performance, robustness, and maintainability in code, as well as integrity and collaboration in teams.",
+    "Instructor": "I have over 10 years of experience using Web technology. The best parts of that experience have always been when I could share or explain something complex to a junior developer, or when I could help solve a particularly puzzling problem. ",
+    "Team Lead": "I am eager to use my broad experience and knowledge to help me lead your product development team to success."
   },
   "skillCategories": [
     "Operating Systems",
@@ -39,7 +45,7 @@
       "_id": "955dfd5b-82eb-5813-b732-665d795d584e",
       "title": "Windows XP",
       "description": "an operating system from Microsoft",
-      "category": 0,
+      "category": "Operating Systems",
       "tiers": [
         0,
         1,
@@ -54,7 +60,7 @@
       "_id": "5e0577cb-e020-5a11-a0cc-00d6e27016ce",
       "title": "Windows 10",
       "description": "an operating system from Microsoft",
-      "category": 0,
+      "category": "Operating Systems",
       "tiers": [
         0,
         1,
@@ -69,7 +75,7 @@
       "_id": "b91d4a93-8695-5265-b048-90f8e5387ba5",
       "title": "GNU/Linux",
       "description": "The Operating System of the Internet",
-      "category": 0,
+      "category": "Operating Systems",
       "tiers": [
         0,
         1,
@@ -83,7 +89,7 @@
       "_id": "7941b5fd-b03d-50ac-afd2-c68c6c765c1c",
       "title": "Mac OS",
       "description": "the operating system of choice for Web Nerds",
-      "category": 0,
+      "category": "Operating Systems",
       "tiers": [
         0,
         1,
@@ -96,8 +102,8 @@
     {
       "_id": "016fc80f-d9cc-5e7b-bbf4-8c800cc08ad4",
       "title": "Docker",
-      "description": "a container tool",
-      "category": 1,
+      "description": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. ",
+      "category": "System Tools",
       "tiers": [
         0,
         1,
@@ -110,8 +116,8 @@
     {
       "_id": "59fe171b-5874-5f01-b0f1-0dbf127adc32",
       "title": "Vagrant",
-      "description": "a virtualization tool fixme",
-      "category": 1,
+      "description": "Vagrant is a tool for building and managing virtual machine environments in a single workflow.",
+      "category": "System Tools",
       "tiers": [
         0,
         1,
@@ -125,7 +131,7 @@
       "_id": "d79e648c-cf99-58f4-982a-5cd89d3c3146",
       "title": "VirtualBox",
       "description": "VirtualBox is a powerful virtualization product for enterprise",
-      "category": 1,
+      "category": "System Tools",
       "tiers": [
         0,
         1,
@@ -139,7 +145,7 @@
       "_id": "df36213d-cf75-58c4-8be9-58da601613e8",
       "title": "Grunt",
       "description": "The JavaScript Task Runner",
-      "category": 1,
+      "category": "System Tools",
       "tiers": [
         1,
         2,
@@ -154,7 +160,7 @@
       "_id": "923e0737-5f80-5c36-afba-461d3bfe789a",
       "title": "MySQL",
       "description": "MySQL is the world's most popular open source database",
-      "category": 2,
+      "category": "Data",
       "tiers": [
         0,
         1,
@@ -169,7 +175,7 @@
       "_id": "84041be5-d566-5e13-a7f0-a1467497392a",
       "title": "PostgreSQL",
       "description": "PostgreSQL is a powerful, open source object-relational database system with a strong reputation for reliability, feature robustness, and performance",
-      "category": 2,
+      "category": "Data",
       "tiers": [
         0,
         1,
@@ -184,7 +190,7 @@
       "_id": "edbcb890-0a54-520f-bc12-8eb1b71532b0",
       "title": "Microsoft SQL Server",
       "description": "Microsoft SQL Server",
-      "category": 2,
+      "category": "Data",
       "tiers": [
         0,
         1,
@@ -199,7 +205,7 @@
       "_id": "837bd55f-3fa0-5697-8c13-6ce7d599ca07",
       "title": "node",
       "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine",
-      "category": 3,
+      "category": "Servers",
       "tiers": [
         0,
         1,
@@ -215,7 +221,7 @@
       "_id": "apa97e881ff-9c87-5e21-82af-4422752195d8che",
       "title": "Apache HTTPD",
       "description": "The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems",
-      "category": 3,
+      "category": "Servers",
       "tiers": [
         0,
         1,
@@ -232,7 +238,7 @@
       "_id": "6a20d86d-70cf-5a08-8881-80f803e42a23",
       "title": "nginx",
       "description": "NGINX is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache",
-      "category": 3,
+      "category": "Servers",
       "tiers": [
         0,
         1,
@@ -248,7 +254,7 @@
       "_id": "a223d32d-e294-5bda-8987-bb8ed113a109",
       "title": "S3",
       "description": "Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance",
-      "category": 3,
+      "category": "Cloud Technologies",
       "tiers": [
         1,
         2,
@@ -262,7 +268,7 @@
       "_id": "e253ed1e-b7fe-5838-aae1-f75896d46135",
       "title": "CloudFront",
       "description": "Amazon CloudFront is a fast content delivery network service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment",
-      "category": 3,
+      "category": "Cloud Technologies",
       "tiers": [
         1,
         2,
@@ -276,7 +282,7 @@
       "_id": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
       "title": "PHP",
       "description": "PHP is a popular general-purpose scripting language that is especially suited to web development",
-      "category": 4,
+      "category": "Programming Languages",
       "tiers": [
         0,
         1,
@@ -292,7 +298,7 @@
       "_id": "c0fdad84-a41f-5b64-a676-0d38d6e33295",
       "title": "jQuery",
       "description": "jQuery is a fast, small, and feature-rich JavaScript library",
-      "category": 6,
+      "category": "Libraries",
       "tiers": [
         2,
         3,
@@ -317,7 +323,7 @@
       "_id": "ae24c4a5-d42b-529e-9fbc-9e8098c1608d",
       "title": "JavaScript",
       "description": "JavaScript is a lightweight interpreted or JIT-compiled programming language with first-class functions",
-      "category": 4,
+      "category": "Programming Languages",
       "tiers": [
         0,
         1,
@@ -333,7 +339,7 @@
       "_id": "bee0ea7b-2ddf-5c31-be2a-44d2bd7d400c",
       "title": "HTML",
       "description": "HTML is the World Wide Web’s core markup language",
-      "category": 4,
+      "category": "Programming Languages",
       "tiers": [
         1,
         2,
@@ -347,7 +353,7 @@
     {
       "_id": "f4f5c2b2-0635-5acb-ad5c-3dfadd5c4e19",
       "title": "CSS",
-      "category": 4,
+      "category": "Programming Languages",
       "description": "CSS is a language for describing the rendering of structured documents on screen, on paper, etc",
       "tiers": [
         2,
@@ -362,7 +368,7 @@
       "_id": "e2655102-645a-534a-ae57-600564b164ce",
       "title": "bash",
       "description": "Bash is an sh-compatible shell that offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification",
-      "category": 4,
+      "category": "Programming Languages",
       "tiers": [
         1,
         2,
@@ -376,7 +382,7 @@
       "_id": "befeeed6-5357-58e8-b8f1-e111706163ac",
       "title": "Vue.js",
       "description": "Vue is a progressive framework for building user interfaces; Vue is designed from the ground up to be incrementally adoptable. ",
-      "category": 6,
+      "category": "Libraries",
       "tiers": [
         1,
         2,
@@ -391,7 +397,7 @@
       "_id": "520be22b-bac1-538c-a7f9-5ab08bceb16f",
       "title": "React",
       "description": "A JavaScript library for building user interfaces",
-      "category": 6,
+      "category": "Libraries",
       "tiers": [
         1,
         2,
@@ -405,7 +411,7 @@
       "_id": "9ef68e50-6b1a-5382-b34c-7e22e65dcbc6",
       "title": "MVC",
       "description": "Model–View–Controller is an architectural pattern commonly used for developing user interfaces that divides an application into three interconnected parts",
-      "category": 5,
+      "category": "Design Patterns",
       "tiers": [
         1,
         2,
@@ -419,7 +425,7 @@
       "_id": "74f114a9-101d-50ca-8be9-3ffba1159464",
       "title": "async/await",
       "description": "The async function declaration defines an asynchronous function, which returns an AsyncFunction object. An asynchronous function is a function which operates asynchronously via the event loop, using an implicit Promise to return its result. But the syntax and structure of your code using async functions is much more like using standard synchronous functions.",
-      "category": 5,
+      "category": "Design Patterns",
       "tiers": [
         1,
         2,
@@ -433,7 +439,7 @@
       "_id": "cfcec601-d8a0-5837-bf56-fda98f794782",
       "title": "Zend Framework 2",
       "description": "Zend Framework is a collection of professional PHP packages; It can be used to develop web applications and services using PHP 5.6+, and provides object-oriented code using a broad spectrum of language features",
-      "category": 7,
+      "category": "Frameworks",
       "tiers": [
         0,
         1,
@@ -448,7 +454,7 @@
       "_id": "69ed9f2f-0b60-5209-b69b-4dbe37118a0c",
       "title": "Yii 2",
       "description": "Yii is a fast, secure, and efficient PHP framework",
-      "category": 7,
+      "category": "Frameworks",
       "tiers": [
         0,
         1,
@@ -463,7 +469,7 @@
       "_id": "822917a9-a02b-527a-99fe-60acd59ca73c",
       "title": "CodeIgniter",
       "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
-      "category": 7,
+      "category": "Frameworks",
       "tiers": [
         0,
         1,
@@ -478,7 +484,7 @@
       "_id": "efe2b1a2-0b2b-5682-b238-515e86e5e499",
       "title": "PHPStorm",
       "description": "A PHP IDE of some importance",
-      "category": 8,
+      "category": "Development Tools",
       "tiers": [
         0,
         1,
@@ -496,7 +502,7 @@
       "_id": "5af08704-7818-5820-b941-4dce13bb323b",
       "title": "Visual Studio Code",
       "description": "An IDE of some note.",
-      "category": 8,
+      "category": "Development Tools",
       "tiers": [
         0,
         1,
@@ -514,7 +520,7 @@
       "_id": "3bc42606-8836-5f7b-a991-6b3adb650414",
       "title": "Eclipse IDE",
       "description": "An IDE of some note.",
-      "category": 8,
+      "category": "Development Tools",
       "tiers": [
         0,
         1,
@@ -532,7 +538,7 @@
       "_id": "b3060c33-a420-507d-95df-42a56cae778d",
       "title": "Xdebug",
       "description": "we're getting somewhere",
-      "category": 8,
+      "category": "Development Tools",
       "tiers": [
         0,
         1,
@@ -551,7 +557,7 @@
       "_id": "0a511720-16b7-551f-bc36-ec4d4f1d43b4",
       "title": "Chrome Developer Tools",
       "description": "we're getting somewhere",
-      "category": 8,
+      "category": "Development Tools",
       "tiers": [
         0,
         1,
@@ -570,7 +576,7 @@
       "_id": "9b9078be-caaf-59aa-ad7d-46fae5775713",
       "title": "Firefox Developer Edition",
       "description": "we're getting somewhere",
-      "category": 8,
+      "category": "Development Tools",
       "tiers": [
         0,
         1,
@@ -589,7 +595,7 @@
       "_id": "6c007cc5-24b1-5708-8047-20dff0c56406",
       "title": "YSlow",
       "description": "we're getting somewhere",
-      "category": 9,
+      "category": "Performance Tools",
       "tiers": [
         1,
         2,
@@ -604,7 +610,7 @@
       "_id": "322889df-5326-5518-9db4-5431fd2f9b45",
       "title": "JMeter",
       "description": "The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.",
-      "category": 9,
+      "category": "Performance Tools",
       "tiers": [
         1,
         2,
@@ -619,7 +625,7 @@
       "_id": "8f3e4570-011c-57c3-b9fb-e506060e6ab9",
       "title": "Siege",
       "description": "Siege is an open source regression test and benchmark utility. It can stress test a single URL with a user defined number of simulated users, or it can read many URLs into memory and stress them simultaneously.",
-      "category": 9,
+      "category": "Performance Tools",
       "tiers": [
         1,
         2,
@@ -634,7 +640,7 @@
       "_id": "1fe1986c-f6dd-5664-81a1-fcc57cc1c517",
       "title": "Sentry",
       "description": "Sentry is an open-source error tracking tool that helps you monitor and fix crashes in real time",
-      "category": 10,
+      "category": "Performance Tools",
       "tiers": [
         0,
         1,
@@ -649,7 +655,7 @@
       "_id": "10d2476a-8be9-5be3-90f8-a30b731d2b4c",
       "title": "New Relic",
       "description": "Monitoring tool",
-      "category": 10,
+      "category": "Performance Tools",
       "tiers": [
         0,
         1,
@@ -664,7 +670,7 @@
       "_id": "565c84ac-b08a-53dd-a581-4a51890ad7f2",
       "title": "Bamboo",
       "description": "Bamboo is a tool for continuous integration, deployment, and delivery",
-      "category": 11,
+      "category": "System Tools",
       "tiers": [
         0,
         1,
@@ -678,7 +684,7 @@
       "_id": "564a1e90-0f23-5c11-a51d-f4172bff43cb",
       "title": "CodeShip",
       "description": "Deployment tool",
-      "category": 11,
+      "category": "System Tools",
       "tiers": [
         0,
         1,
@@ -692,7 +698,7 @@
       "_id": "407056b2-bf73-53d4-9a93-3a7fb029085b",
       "title": "composer",
       "description": "Composer is a tool for dependency management in PHP",
-      "category": 12,
+      "category": "Delvelopment Tools",
       "tiers": [
         0,
         1,
@@ -706,7 +712,7 @@
       "_id": "182abecf-f6d0-58ca-83b1-ed4048eede34",
       "title": "npm",
       "description": "Deployment tool",
-      "category": 12,
+      "category": "System Tools",
       "tiers": [
         0,
         1,
@@ -720,7 +726,7 @@
       "_id": "a92db3c5-38a6-5f93-b2a6-d0ac8b07743a",
       "title": "Compass",
       "description": "CSS Transpiler",
-      "category": 13,
+      "category": "Development Tools",
       "tiers": [
         0,
         1,
@@ -734,7 +740,7 @@
       "_id": "a5bca635-3cc1-57e3-9baa-ef9fe3311b77",
       "title": "TypeScript",
       "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript",
-      "category": 13,
+      "category": "Development Tools",
       "tiers": [
         0,
         1,
@@ -748,7 +754,7 @@
       "_id": "fa8d7934-3afd-5f79-8860-b4d2c786fc5d",
       "title": "CoffeeScript",
       "description": "CoffeeScript is a little language that compiles into JavaScript",
-      "category": 13,
+      "category": "Development Tools",
       "tiers": [
         0,
         1,
@@ -762,7 +768,7 @@
       "_id": "3b8358fd-43b2-5742-ba56-047df3c33d56",
       "title": "Babel",
       "description": "JavaScript Transpiler",
-      "category": 13,
+      "category": "Development Tools",
       "tiers": [
         0,
         1,
@@ -1321,13 +1327,14 @@
       "recruiterId": null,
       "startDate": "2016-06-01",
       "endDate": "2016-09-15",
-      "shortDesc": "fixme",
-      "longDesc": "fixme",
+      "shortDesc": "Develop integration solutions to/from internal and externally provided APIs",
+      "longDesc": "Create backend API to enable clients to create offers, discounts, and donations\n Establish deployment processes, backend code design patterns",
       "responsibilities:": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+        "Create backend API to enable clients to create offers, discounts, and donations",
+        "Establish deployment processes, backend code design patterns"
       ],
       "accomplishments": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
+        "wrote grunt and gulp scripts to accelerate rapid development in AngularJS",
         "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
         "Yet another accomplishment I'd like to brag about",
         "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
