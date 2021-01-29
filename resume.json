@@ -1,5 +1,5 @@
 {
-  "version": 20210126,
+  "version": 20210128,
   "canonical": {
     "production": "https://danieljpost.pro/resume.json",
     "development": "http://local.danieljpost.dev:5001/resume.json"
@@ -50,7 +50,7 @@
   ],
   "skills": [
     {
-      "_id": "955dfd5b-82eb-5813-b732-665d795d584e",
+      "_id": "1c7bffe0-e9e7-5e8f-b050-455fa72c6113",
       "sname": "winXP",
       "name": "Windows XP",
       "description": "an operating system from Microsoft",
@@ -66,7 +66,7 @@
       "url": "http://microsoft.com"
     },
     {
-      "_id": "5e0577cb-e020-5a11-a0cc-00d6e27016ce",
+      "_id": "17167ebc-b36f-5038-b432-21997a92f139",
       "sname": "win10",
       "name": "Windows 10",
       "description": "an operating system from Microsoft",
@@ -82,7 +82,7 @@
       "url": "http://microsoft.com"
     },
     {
-      "_id": "b91d4a93-8695-5265-b048-90f8e5387ba5",
+      "_id": "2bba2c14-0922-5db0-915d-742e0642b1a9",
       "sname": "linux",
       "name": "GNU/Linux",
       "description": "The Operating System of the Internet",
@@ -97,7 +97,7 @@
       "url": "https://linux.com"
     },
     {
-      "_id": "7941b5fd-b03d-50ac-afd2-c68c6c765c1c",
+      "_id": "dda3719c-f090-58f6-baf1-a90c7aeaba22",
       "sname": "macos",
       "name": "Mac OS",
       "description": "the operating system of choice for Web Nerds",
@@ -112,7 +112,7 @@
       "url": "https://macos.com"
     },
     {
-      "_id": "016fc80f-d9cc-5e7b-bbf4-8c800cc08ad4",
+      "_id": "3141ab22-6d10-5373-8aee-0e90cbec5eef",
       "description": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. ",
       "sname": "docker",
       "name": "Docker",
@@ -142,7 +142,7 @@
       "url": "https://www.docker.com/"
     },
     {
-      "_id": "59fe171b-5874-5f01-b0f1-0dbf127adc32",
+      "_id": "1489ee24-6ff3-5430-a407-ac1a74185239",
       "description": "Vagrant is a tool for building and managing virtual machine environments in a single workflow.",
       "category": "System Tools",
       "sname": "vagrant",
@@ -172,7 +172,7 @@
       "url": "https://ngrok.com/product"
     },
     {
-      "_id": "fdd12ca2-c397-5599-9211-9b56dbbcf93a",
+      "_id": "61e000f3-f54c-5fb0-bf8f-1e3b084f2650",
       "sname": "grunt",
       "name": "Grunt",
       "description": "The JavaScript Task Runner",
@@ -187,7 +187,7 @@
       "url": "https://ngrok.com/product"
     },
     {
-      "_id": "d79e648c-cf99-58f4-982a-5cd89d3c3146",
+      "_id": "63f077f3-63a8-5758-89fa-90b021f36cb8",
       "sname": "virtualbox",
       "name": "VirtualBox",
       "description": "VirtualBox is a powerful virtualization product for enterprise",
@@ -219,7 +219,7 @@
       "blurb": "I've built dozens of applications using MySQL ranging from hand-written  SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
     },
     {
-      "_id": "84041be5-d566-5e13-a7f0-a1467497392a",
+      "_id": "a174c5f5-336d-55b9-8694-232a60bc24d5",
       "sname": "postgres",
       "name": "PostgreSQL",
       "description": "PostgreSQL is a powerful, open source object-relational database system with a strong reputation for reliability, feature robustness, and performance",
@@ -235,7 +235,7 @@
       "url": "https://www.postgresql.org"
     },
     {
-      "_id": "edbcb890-0a54-520f-bc12-8eb1b71532b0",
+      "_id": "8e167600-b448-5d98-ac3e-537eb3fd678f",
       "sname": "mssql",
       "name": "Microsoft SQL Server",
       "description": "Microsoft SQL Server",
@@ -251,7 +251,7 @@
       "url": "https://www.microsoft.com/en-us/sql-server/default.aspx"
     },
     {
-      "_id": "837bd55f-3fa0-5697-8c13-6ce7d599ca07",
+      "_id": "55ba7ffb-d11c-5215-86e0-1610fd4f8fd8",
       "sname": "node",
       "name": "node",
       "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine",
@@ -268,7 +268,7 @@
       "url": "https://nodejs.org"
     },
     {
-      "_id": "apa97e881ff-9c87-5e21-82af-4422752195d8che",
+      "_id": "10aad1fa-5fb3-5a3b-8fd9-c50a7477325a",
       "sname": "httpd",
       "name": "Apache HTTPD",
       "description": "The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems",
@@ -286,7 +286,7 @@
       "url": "http://httpd.apache.org"
     },
     {
-      "_id": "6a20d86d-70cf-5a08-8881-80f803e42a23",
+      "_id": "a694109a-77f9-58c1-b296-ba7cf3fdf512",
       "sname": "nginx",
       "name": "nginx",
       "description": "NGINX is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache",
@@ -303,7 +303,7 @@
       "url": "https://www.nginx.com/"
     },
     {
-      "_id": "a223d32d-e294-5bda-8987-bb8ed113a109",
+      "_id": "d47bc1d3-5278-5f70-81b5-55773b69a3c5",
       "sname": "s3",
       "name": "S3",
       "description": "Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance",
@@ -318,7 +318,7 @@
       "url": "https://aws.amazon.com/s3"
     },
     {
-      "_id": "e253ed1e-b7fe-5838-aae1-f75896d46135",
+      "_id": "800d5c14-5255-533e-b180-4eebe52d7661",
       "sname": "cloudfront",
       "name": "CloudFront",
       "description": "Amazon CloudFront is a fast content delivery network service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment",
@@ -333,7 +333,7 @@
       "url": "https://aws.amazon.com/cloudfront"
     },
     {
-      "_id": "5d6e8053-e0dc-5556-834b-9c577d3d0e8f",
+      "_id": "214f984a-0d6a-5f6a-83b5-f99cca703c89",
       "sname": "php",
       "name": "PHP",
       "description": "PHP is a popular general-purpose scripting language that is especially suited to web development",
@@ -350,7 +350,7 @@
       "url": "http://php.net"
     },
     {
-      "_id": "c0fdad84-a41f-5b64-a676-0d38d6e33295",
+      "_id": "d4f4cc55-cefc-5812-bbb3-29f38d950bd7",
       "sname": "jquery",
       "name": "jQuery",
       "description": "jQuery is a fast, small, and feature-rich JavaScript library",
@@ -365,7 +365,7 @@
       "url": "https://jquery.com"
     },
     {
-      "_id": "208881cb-2150-581d-8397-33d66bceaa62",
+      "_id": "a367ff2f-a22a-5686-b6e8-668946b9741c",
       "sname": "jira",
       "name": "Jira",
       "description": "Jira Software is the project management tool for agile teams",
@@ -377,7 +377,7 @@
       "url": "https://www.atlassian.com/software/jira"
     },
     {
-      "_id": "ae24c4a5-d42b-529e-9fbc-9e8098c1608d",
+      "_id": "5576be02-6a79-50a8-9700-7d933a0f536b",
       "sname": "javascript",
       "name": "JavaScript",
       "description": "JavaScript is a lightweight interpreted or JIT-compiled programming language with first-class functions",
@@ -394,7 +394,7 @@
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
-      "_id": "bee0ea7b-2ddf-5c31-be2a-44d2bd7d400c",
+      "_id": "c208bcdf-43b3-5c36-8e24-3d4eeada3d19",
       "sname": "html",
       "name": "HTML",
       "description": "HTML is the World Wide Web’s core markup language",
@@ -420,12 +420,12 @@
         3,
         4
       ],
-      "priority": 0,
+      "priority": 2,
       "expertise": 7,
       "url": "https://www.w3.org/TR/CSS"
     },
     {
-      "_id": "e2655102-645a-534a-ae57-600564b164ce",
+      "_id": "8f2f5582-611e-5d93-a21c-78651b99425b",
       "sname": "bash",
       "name": "Bourne Again SHell",
       "description": "Bash is an sh-compatible shell that offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification",
@@ -440,7 +440,7 @@
       "url": "https://www.gnu.org/software/bash/"
     },
     {
-      "_id": "befeeed6-5357-58e8-b8f1-e111706163ac",
+      "_id": "bd07c9a6-5c46-5775-b97f-4a2ed46751d3",
       "sname": "vue",
       "name": "Vue.js",
       "description": "Vue is a progressive framework for building user interfaces; Vue is designed from the ground up to be incrementally adoptable. ",
@@ -456,7 +456,7 @@
       "url": "https://vuejs.org/"
     },
     {
-      "_id": "520be22b-bac1-538c-a7f9-5ab08bceb16f",
+      "_id": "0d5904d6-d5e5-51f9-ab1e-7a452cc688fc",
       "sname": "react",
       "name": "React",
       "description": "A JavaScript library for building user interfaces",
@@ -466,12 +466,12 @@
         2,
         3
       ],
-      "priority": 0,
+      "priority": 1,
       "expertise": 4,
       "url": "https://reactjs.org/"
     },
     {
-      "_id": "9ef68e50-6b1a-5382-b34c-7e22e65dcbc6",
+      "_id": "9c7fb28b-3678-5edd-a6ae-67058aacabe8",
       "sname": "mvc",
       "name": "MVC",
       "description": "Model–View–Controller is an architectural pattern commonly used for developing user interfaces that divides an application into three interconnected parts",
@@ -486,7 +486,7 @@
       "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
     },
     {
-      "_id": "74f114a9-101d-50ca-8be9-3ffba1159464",
+      "_id": "95744d4e-e276-54e9-a4c7-129754a35513",
       "sname": "asyncawait",
       "name": "async/await",
       "description": "The async function declaration defines an asynchronous function, which returns an AsyncFunction object. An asynchronous function is a function which operates asynchronously via the event loop, using an implicit Promise to return its result. But the syntax and structure of your code using async functions is much more like using standard synchronous functions.",
@@ -501,7 +501,7 @@
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
     },
     {
-      "_id": "cfcec601-d8a0-5837-bf56-fda98f794782",
+      "_id": "b41c55cd-8841-53f4-b82f-1748dde43620",
       "sname": "zf2",
       "name": "Zend Framework 2",
       "description": "Zend Framework is a collection of professional PHP packages; It can be used to develop web applications and services using PHP 5.6+, and provides object-oriented code using a broad spectrum of language features",
@@ -517,7 +517,7 @@
       "url": "https://framework.zend.com"
     },
     {
-      "_id": "69ed9f2f-0b60-5209-b69b-4dbe37118a0c",
+      "_id": "c78816b5-a7e6-5e97-9dbe-d15a7ae6c51f",
       "sname": "yii2",
       "name": "Yii 2",
       "description": "Yii is a fast, secure, and efficient PHP framework",
@@ -533,7 +533,7 @@
       "url": "https://www.yiiframework.com"
     },
     {
-      "_id": "822917a9-a02b-527a-99fe-60acd59ca73c",
+      "_id": "ceda4f74-7535-5780-a219-72b776f1060b",
       "sname": "codeigniter",
       "name": "CodeIgniter",
       "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
@@ -549,7 +549,7 @@
       "url": "https://www.codeigniter.com"
     },
     {
-      "_id": "efe2b1a2-0b2b-5682-b238-515e86e5e499",
+      "_id": "c82fb3ac-6b5f-5c3a-8400-29c0d961dd71",
       "sname": "phpstorm",
       "name": "PHPStorm",
       "description": "A PHP IDE of some importance",
@@ -568,7 +568,7 @@
       "url": "https://www.jetbrains.com/phpstorm"
     },
     {
-      "_id": "5af08704-7818-5820-b941-4dce13bb323b",
+      "_id": "8de1abe1-eebb-57ee-a718-146630a2904e",
       "sname": "vscode",
       "name": "Visual Studio Code",
       "description": "An IDE of some note.",
@@ -587,7 +587,7 @@
       "url": "https://code.visualstudio.com"
     },
     {
-      "_id": "3bc42606-8836-5f7b-a991-6b3adb650414",
+      "_id": "5c8b020d-c50a-5db0-82a2-82a58ebfb406",
       "sname": "eclipse",
       "name": "Eclipse IDE",
       "description": "An IDE of some note.",
@@ -606,7 +606,7 @@
       "url": "https://www.eclipse.org"
     },
     {
-      "_id": "b3060c33-a420-507d-95df-42a56cae778d",
+      "_id": "ebf53d06-23bf-5c60-82d7-1972cdff3333",
       "sname": "xdebug",
       "name": "Xdebug",
       "description": "we're getting somewhere",
@@ -626,7 +626,7 @@
       "url": "https://xdebug.org"
     },
     {
-      "_id": "0a511720-16b7-551f-bc36-ec4d4f1d43b4",
+      "_id": "dbbdd36f-3732-5520-b7fc-94a2604b486a",
       "sname": "cdt",
       "name": "Chrome Developer Tools",
       "description": "we're getting somewhere",
@@ -646,7 +646,7 @@
       "url": "https://developers.google.com/web/tools/chrome-devtools"
     },
     {
-      "_id": "9b9078be-caaf-59aa-ad7d-46fae5775713",
+      "_id": "d5258419-76ee-537b-9766-aa1eab5812a3",
       "sname": "fde",
       "name": "Firefox Developer Edition",
       "description": "we're getting somewhere",
@@ -666,7 +666,7 @@
       "url": "https://www.mozilla.org/en-US/firefox/developer"
     },
     {
-      "_id": "6c007cc5-24b1-5708-8047-20dff0c56406",
+      "_id": "892025a8-57ba-5c60-92ae-6e4487d72c22",
       "sname": "yslow",
       "name": "YSlow",
       "description": "we're getting somewhere",
@@ -682,7 +682,7 @@
       "url": "http://yslow.org"
     },
     {
-      "_id": "322889df-5326-5518-9db4-5431fd2f9b45",
+      "_id": "1452badb-91d9-5764-b534-eeffcd915a52",
       "sname": "jmeter",
       "name": "JMeter",
       "description": "The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.",
@@ -698,7 +698,7 @@
       "url": "http://jmeter.apache.org"
     },
     {
-      "_id": "8f3e4570-011c-57c3-b9fb-e506060e6ab9",
+      "_id": "18745072-2b39-56c9-8a6f-3180566e6efe",
       "sname": "siege",
       "name": "Siege",
       "description": "Siege is an open source regression test and benchmark utility. It can stress test a single URL with a user defined number of simulated users, or it can read many URLs into memory and stress them simultaneously.",
@@ -714,7 +714,7 @@
       "url": "https://github.com/JoeDog/siege"
     },
     {
-      "_id": "1fe1986c-f6dd-5664-81a1-fcc57cc1c517",
+      "_id": "469024a6-90b8-5d29-afbe-861f78f14d82",
       "sname": "sentry",
       "name": "Sentry.io",
       "description": "Sentry is an open-source error tracking tool that helps you monitor and fix crashes in real time",
@@ -730,7 +730,7 @@
       "url": "https://sentry.io"
     },
     {
-      "_id": "10d2476a-8be9-5be3-90f8-a30b731d2b4c",
+      "_id": "a39e81ab-e75b-500d-9ed2-d1fe8b7af520",
       "sname": "newrelic",
       "name": "New Relic",
       "description": "Monitoring tool",
@@ -746,7 +746,7 @@
       "url": "https://newrelic.com"
     },
     {
-      "_id": "565c84ac-b08a-53dd-a581-4a51890ad7f2",
+      "_id": "d787c8ee-821a-5984-b36b-5bec314545a7",
       "sname": "bamboo",
       "name": "Bamboo",
       "description": "Bamboo is a tool for continuous integration, deployment, and delivery",
@@ -761,7 +761,7 @@
       "url": "https://www.atlassian.com/software/bamboo"
     },
     {
-      "_id": "564a1e90-0f23-5c11-a51d-f4172bff43cb",
+      "_id": "085d19e8-f370-59ee-a294-fb2c58ac5878",
       "sname": "codeship",
       "name": "CodeShip",
       "description": "Deployment tool",
@@ -776,7 +776,7 @@
       "url": "https://codeship.com"
     },
     {
-      "_id": "407056b2-bf73-53d4-9a93-3a7fb029085b",
+      "_id": "63f077f3-63a8-5758-89fa-90b021f36cb8",
       "sname": "composer",
       "name": "Composer",
       "description": "Composer is a tool for dependency management in PHP",
@@ -791,7 +791,7 @@
       "url": "https://getcomposer.org"
     },
     {
-      "_id": "182abecf-f6d0-58ca-83b1-ed4048eede34",
+      "_id": "c66c57f0-d7ba-5be5-b3e1-d9ccb6338033",
       "sname": "npm",
       "name": "npm",
       "description": "Deployment tool",
@@ -806,7 +806,7 @@
       "url": "fixme"
     },
     {
-      "_id": "fixme",
+      "_id": "ccf6afd4-e93e-5ea3-af5a-f98bdcc6ec32",
       "sname": "nvm",
       "name": "nvm",
       "description": "node versioning tool",
@@ -897,7 +897,8 @@
     },
     {
       "_id": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
-      "name": "Build Technology Group",
+      "name": "btg",
+      "fullname": "Build Technology Group",
       "url": "https://buildtechnologygroup.com"
     },
     {
@@ -966,6 +967,7 @@
       "_id": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
       "title": "Proprietor",
       "gigType": "owner",
+      "location": "Greater Twin Cities Area",
       "companyId": "6f219570-cbb1-53fc-b563-357f37b414da",
       "recruiterId": null,
       "startDate": "2009-01-01",
@@ -992,7 +994,46 @@
       ]
     },
     {
-      "_id": "vivial",
+      "_id": "028c81be-60ac-5b9d-8076-10b7fc652dae",
+      "title": "PHP Developer",
+      "gigType": "contract",
+      "location": "Remote",
+      "companyId": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
+      "recruiterId": null,
+      "startDate": "2019-11-19",
+      "endDate": null,
+      "shortDesc": "Remote contract through Build Technology Group",
+      "longDesc": "Build Technology Group",
+      "responsibilities:": [
+        "Facilitate data synchronization between legacy application and new service provider",
+        "Design and implement data migration tool",
+        "Build and manage internal tools (Data and UI)",
+        "Add features to legacy AngularJS app",
+        "Design and build client data API (Data and Security)"
+      ],
+      "accomplishments": [
+        "Facilitate data synchronization between legacy application and new service provider",
+        "Design and implement data migration tool",
+        "Build and manage internal tools (Data and UI)",
+        "Add features to legacy AngularJS app",
+        "Design and build client data API (Data and Security)"
+      ],
+      "technologies": [
+        {
+          "skillName": "remotework",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "php",
+          "percentage": 80,
+          "expertise": 9
+        }
+      ]
+    },
+    {
+      "_id": "b838ee3b-41fa-5be8-b28d-f3de1053c623",
       "title": "Software Developer",
       "gigType": "employee",
       "companyId": "5d017a2f-c584-5547-b73d-b572c779bf53",
@@ -1090,9 +1131,10 @@
       ]
     },
     {
-      "_id": "target",
+      "_id": "feb43610-fd18-5c9d-b1a2-af2d3d436c79",
       "title": "Contractor",
       "gigType": "contract",
+      "location": "Minneapolis",
       "companyId": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
       "recruiterId": null,
       "startDate": "2013-12-01",
@@ -1142,6 +1184,7 @@
       "_id": "usbank",
       "title": "UI Prototype Developer",
       "gigType": "contract",
+      "location": "Minneapolis",
       "companyId": "44eba145-fbd7-54f3-8311-b413c3eaa021",
       "recruiterId": null,
       "startDate": "2011-06-01",
@@ -1188,6 +1231,7 @@
       "_id": "lifetimefitness",
       "title": "UI Prototyper",
       "gigType": "contract",
+      "location": "Greater Twin Cities Area",
       "companyId": "c306459f-05ee-538e-8839-17355d27b43b",
       "recruiterId": null,
       "startDate": "2011-09-01",
@@ -1237,6 +1281,7 @@
       "_id": "bluestem",
       "title": "UI Developer",
       "gigType": "contract",
+      "location": "Greater Twin Cities Area",
       "companyId": "fa87f1e3-3d32-5b56-9e37-ac38b8f257e4",
       "recruiterId": null,
       "startDate": "2012-02-01",
@@ -1283,9 +1328,10 @@
       ]
     },
     {
-      "_id": "razr",
+      "_id": "f5125144-36e1-5f91-98ae-0dc7465a0212",
       "title": "Software Engineer",
       "gigType": "contract",
+      "location": "Greater Twin Cities Area",
       "companyId": "72e07a43-44d2-5850-98eb-33159db9eccd",
       "recruiterId": null,
       "startDate": "2015-01-01",
@@ -1336,6 +1382,7 @@
       "_id": "gbl",
       "title": "PHP Developer",
       "gigType": "contract",
+      "location": "Minneapolis",
       "companyId": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
       "recruiterId": null,
       "startDate": "2016-06-27",
@@ -1386,6 +1433,7 @@
       "_id": "mayo",
       "title": "UI Developer",
       "gigType": "contract",
+      "location": "Remote",
       "companyId": "1dfb2ad1-29db-552c-8060-5cd81ec68729",
       "recruiterId": null,
       "startDate": "2013-01-01",
@@ -1430,11 +1478,45 @@
           "expertise": 4
         }
       ]
+    },
+    {
+      "_id": "32045bde-1e52-597e-875f-5f3eeefd6dc7",
+      "title": "PHP Developer",
+      "gigType": "contract",
+      "location": "Greater Twin Cities Area",
+      "companyId": "4a94adbf-edb9-51e2-80db-a35777a79e31",
+      "recruiterId": null,
+      "startDate": "2009-01-01",
+      "endDate": "2009-06-15",
+      "shortDesc": "Visible Customer",
+      "longDesc": "Visibile Customer",
+      "responsibilities:": [
+        "Primary/integral/founding part of team to reengineer/rebuild build web portal for car dealerships to manage customers and generate marketing campaigns",
+        "Mentor and train junior developers in JavaScript, OOP, SQL, PHP, ORM, and framework development"
+      ],
+      "accomplishments": [
+        "Primary/integral/founding part of team to reengineer/rebuild build web portal for car dealerships to manage customers and generate marketing campaigns",
+        "Mentor and train junior developers in JavaScript, OOP, SQL, PHP, ORM, and framework development"
+      ],
+      "technologies": [
+        {
+          "skillName": "php",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "cakephp",
+          "percentage": 30,
+          "expertise": 5
+        }
+      ]
     }
   ],
   "recommendations": [
     {
       "_id": "8fca923f-1110-592c-8fd1-fe399ee65066",
+      "gigId": "b838ee3b-41fa-5be8-b28d-f3de1053c623",
       "name": "Philipp Tkachev",
       "linkedIn": "https://www.linkedin.com/in/zoonman",
       "title": "Software Engineer",
@@ -1444,6 +1526,7 @@
     },
     {
       "_id": "4095adf9-d17f-51b0-b3e7-2020ae652382",
+      "gigId": "f5125144-36e1-5f91-98ae-0dc7465a0212",
       "name": "Michael Leo",
       "linkedIn": "https://www.linkedin.com/in/michaelaleo",
       "title": "Owner, Kettle River Consulting Inc",
@@ -1453,6 +1536,7 @@
     },
     {
       "_id": "0489c2c2-8ad1-5f26-b0c3-88a6fcc04f26",
+      "gigId": "f5125144-36e1-5f91-98ae-0dc7465a0212",
       "name": "Christopher Smithson",
       "linkedIn": "https://www.linkedin.com/in/christopher-s-62a2726",
       "title": "Software Innovation",
@@ -1462,6 +1546,7 @@
     },
     {
       "_id": "a66f3f3e-2da3-551d-ac81-c70144690599",
+      "gigId": "feb43610-fd18-5c9d-b1a2-af2d3d436c79",
       "name": "Natasha Gaffer",
       "linkedIn": "https://www.linkedin.com/in/natashagaffer",
       "title": "Web App Developer",
@@ -1472,6 +1557,7 @@
     },
     {
       "_id": "0d27ae76-c0b2-5bac-a11c-c24978eb1513",
+      "gigId": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
       "name": "Joseph Piché",
       "linkedIn": "https://www.linkedin.com/in/josephpiche",
       "title": "Android and iOS Developer",
@@ -1481,6 +1567,7 @@
     },
     {
       "_id": "14443301-00ae-5d9c-9a43-939c8305c207",
+      "gigId": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
       "name": "Darin Lynch",
       "linkedIn": "https://www.linkedin.com/in/darinlynch",
       "title": "Irish Titan ",
@@ -1490,6 +1577,7 @@
     },
     {
       "_id": "173c3a2e-f6fe-5984-a4b4-3d303a616c64",
+      "gigId": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
       "name": "Cevat Kerim Incedayi",
       "linkedIn": "https://www.linkedin.com/in/cevatkerim",
       "title": "Software Developer",
@@ -1499,6 +1587,7 @@
     },
     {
       "_id": "8435df6d-b6fd-51a7-b986-638ea2bc6d79",
+      "gigId": "32045bde-1e52-597e-875f-5f3eeefd6dc7",
       "name": "Brian LaBounty",
       "linkedIn": "https://www.linkedin.com/in/brianlabounty",
       "title": "Principal (Lead) Web Application Developer at Stratasys",
@@ -1508,12 +1597,32 @@
     },
     {
       "_id": "cb1e88b7-cfd4-5775-92e5-e3c714fb254c",
+      "gigId": "32045bde-1e52-597e-875f-5f3eeefd6dc7",
       "name": "TQ White II",
       "linkedIn": "https://www.linkedin.com/in/tqwhite",
       "title": "Writing Software to Help Teachers Help Students",
       "when": "2009-08-15",
       "relationship": "Daniel J. worked with TQ at Visible Customer",
       "recommendation": "Daniel is a very smart, capable developer. I continue to be impressed by his thoughtful approach to software, strong sense of clean architecture and awareness of maintainability. His code is clean and clever. He was always happy to help me with technical issues based on his thorough understanding of software and insightful knowledge of the technologies we used together. He's also an entertaining guy to have around. He's culturally aware and witty. I'd be very happy to work with him again."
+    }
+  ],
+  "links": [
+    {
+      "linkedin": {
+        "url": "http://danieljpost.net/linkedin"
+      },
+      "portfolio": {
+        "url": "http://danieljpost.net/portfolio"
+      },
+      "ama": {
+        "url": "http://danieljpost.net/ama"
+      },
+      "resume": {
+        "url": "http://danieljpost.net/resume"
+      },
+      "indeed": {
+        "url": "http://danieljpost.net/indeed"
+      }
     }
   ]
 }
