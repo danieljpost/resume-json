@@ -691,6 +691,25 @@
       "url": "https://code.visualstudio.com"
     },
     {
+      "_id": "66320774-878c-50c9-a2c1-160bd5ed58e8",
+      "sname": "git",
+      "name": "git",
+      "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency",
+      "category": "Development Tools",
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "priority": 0,
+      "expertise": 8,
+      "url": "https://git-scm.com/"
+    },
+    {
       "_id": "5c8b020d-c50a-5db0-82a2-82a58ebfb406",
       "sname": "eclipse",
       "name": "Eclipse IDE",
@@ -1389,17 +1408,14 @@
       "recruiterId": null,
       "startDate": "2013-12-01",
       "endDate": "2014-04-15",
-      "shortDesc": "fixme",
+      "shortDesc": "Built Slingshot tool to accelerate web content management",
       "longDesc": "fixme",
       "responsibilities:": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+        "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than four hundred people across multiple departments"
       ],
       "accomplishments": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
-        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
-        "Yet another accomplishment I'd like to brag about",
-        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
-        "Qui deler rapide germano o."
+        "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than  four hundred people across multiple departments",
+        "Saved millions of dollars in time and labor vs legacy content management tool"
       ],
       "technologies": [
         {
@@ -1414,12 +1430,12 @@
           "expertise": 5
         },
         {
-          "skillName": "fixme",
+          "skillName": "zf2",
           "percentage": 20,
           "expertise": 4
         },
         {
-          "skillName": "fixme",
+          "skillName": "git",
           "percentage": 20,
           "expertise": 4
         },
