@@ -219,6 +219,40 @@
       "blurb": "I've built dozens of applications using MySQL ranging from hand-written  SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
     },
     {
+      "_id": "d3c55aaa-33cc-53fc-ac65-fb58e8168ac7",
+      "sname": "memcache",
+      "name": "Memcache",
+      "description": "memcached is a high-performance, distributed memory object caching system, generic in nature, but originally intended for use in speeding up dynamic web applications by alleviating database load",
+      "category": "Data",
+      "tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "priority": 0,
+      "expertise": 8,
+      "url": "https://memcached.org/",
+      "blurb": "It's Web Scale!"
+    },
+    {
+      "_id": "10a203d6-80b2-59ec-92ea-f148c1d07d85",
+      "sname": "mongo",
+      "name": "MongoDB",
+      "description": "MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era",
+      "category": "Data",
+      "tiers": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "priority": 0,
+      "expertise": 8,
+      "url": "https://www.mongodb.com/",
+      "blurb": "It's Web Scale!"
+    },
+    {
       "_id": "a174c5f5-336d-55b9-8694-232a60bc24d5",
       "sname": "postgres",
       "name": "PostgreSQL",
@@ -318,6 +352,21 @@
       "url": "https://aws.amazon.com/s3"
     },
     {
+      "_id": "ad70661f-2fc1-5d87-a3ac-fcbef12a9dbb",
+      "sname": "gcloud",
+      "name": "Google Cloud",
+      "description": "Google Cloud Platform is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user product",
+      "category": "Cloud Technologies",
+      "tiers": [
+        1,
+        2,
+        3
+      ],
+      "priority": 0,
+      "expertise": 3,
+      "url": "https://cloud.google.com/"
+    },
+    {
       "_id": "800d5c14-5255-533e-b180-4eebe52d7661",
       "sname": "cloudfront",
       "name": "CloudFront",
@@ -375,6 +424,46 @@
       "priority": 0,
       "expertise": 6,
       "url": "https://www.atlassian.com/software/jira"
+    },
+    {
+      "_id": "a7ef3580-44f4-5089-a81d-43de9c4d821e",
+      "sname": "zoom",
+      "name": "Zoom",
+      "description": "Zoom is a videotelephony software program",
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "priority": 0,
+      "expertise": 5,
+      "url": "https://zoom.us/"
+    },
+    {
+      "_id": "61350d98-c67c-58ef-9f03-3a4091d64143",
+      "sname": "slack",
+      "name": "Slack",
+      "description": "Slack is a proprietary business communication platform",
+      "tiers": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "priority": 0,
+      "expertise": 6,
+      "url": "https://slack.com/"
     },
     {
       "_id": "5576be02-6a79-50a8-9700-7d933a0f536b",
@@ -972,21 +1061,167 @@
       "recruiterId": null,
       "startDate": "2009-01-01",
       "endDate": null,
-      "shortDesc": "fixme",
-      "longDesc": "fixme",
+      "shortDesc": "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
+      "longDesc": "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
       "responsibilities:": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+        "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it."
       ],
       "accomplishments": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
-        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
-        "Yet another accomplishment I'd like to brag about",
-        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
-        "Qui deler rapide germano o."
+        "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it."
       ],
       "technologies": [
         {
           "skillName": "php",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "slack",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 6
+        },
+        {
+          "skillName": "zoom",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 5
+        },
+        {
+          "skillName": "newrelic",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 5
+        },
+        {
+          "skillName": "docker",
+          "percentage": 1,
+          "duration": 42,
+          "expertise": 5
+        },
+        {
+          "skillName": "dockercompose",
+          "percentage": 1,
+          "duration": 0,
+          "expertise": 5
+        },
+        {
+          "skillName": "composer",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 7
+        },
+        {
+          "skillName": "react",
+          "percentage": 8,
+          "duration": 42,
+          "expertise": 5
+        },
+        {
+          "skillName": "s3",
+          "percentage": 2,
+          "duration": 42,
+          "expertise": 5
+        },
+        {
+          "skillName": "cloudfront",
+          "percentage": 2,
+          "duration": 42,
+          "expertise": 5
+        },
+        {
+          "skillName": "eclipse",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "postgres",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "node",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "react",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "html",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "css",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "javascript",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "jira",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "bamboo",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "jira",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "gcloud",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "node",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "node",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "node",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "node",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "mysql",
           "percentage": 10,
           "duration": 42,
           "expertise": 4
