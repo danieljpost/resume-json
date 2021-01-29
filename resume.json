@@ -183,8 +183,23 @@
         6
       ],
       "priority": 1,
+      "expertise": 3,
+      "url": "https://gruntjs.com/"
+    },
+    {
+      "_id": "09f55099-c6d3-501d-8a32-71e242add905",
+      "sname": "webpack",
+      "name": "Webpack",
+      "description": "webpack is a static module bundler for modern JavaScript applications",
+      "category": "Development Tools",
+      "tiers": [
+        0,
+        1,
+        6
+      ],
+      "priority": 1,
       "expertise": 2,
-      "url": "https://ngrok.com/product"
+      "url": "https://webpack.js.org/"
     },
     {
       "_id": "63f077f3-63a8-5758-89fa-90b021f36cb8",
@@ -698,7 +713,7 @@
       "_id": "ebf53d06-23bf-5c60-82d7-1972cdff3333",
       "sname": "xdebug",
       "name": "Xdebug",
-      "description": "we're getting somewhere",
+      "description": "Xdebug is an extension for PHP to assist with debugging and development",
       "category": "Development Tools",
       "tiers": [
         0,
