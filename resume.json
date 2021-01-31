@@ -1,5 +1,5 @@
 {
-  "version": 20210128,
+  "version": 20210130,
   "canonical": {
     "production": "https://danieljpost.pro/resume.json",
     "development": "http://local.danieljpost.dev:5001/resume.json"
@@ -1088,6 +1088,7 @@
   "gigs": [
     {
       "_id": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
+      "relevance": 10,
       "title": "Proprietor",
       "gigType": "owner",
       "location": "Greater Twin Cities Area",
@@ -1263,7 +1264,8 @@
       ]
     },
     {
-      "_id": "028c81be-60ac-5b9d-8076-10b7fc652dae",
+      "_id": "btg",
+      "relevance": 8,
       "title": "PHP Developer",
       "gigType": "contract",
       "location": "Remote",
@@ -1302,9 +1304,11 @@
       ]
     },
     {
-      "_id": "b838ee3b-41fa-5be8-b28d-f3de1053c623",
+      "_id": "vivial",
+      "relevance": 7,
       "title": "Software Developer",
       "gigType": "employee",
+      "location": "Greater Twin Cities Area",
       "companyId": "5d017a2f-c584-5547-b73d-b572c779bf53",
       "recruiterId": null,
       "startDate": "2016-10-26",
@@ -1355,9 +1359,60 @@
       ]
     },
     {
+      "_id": "gbl",
+      "relevance": 7,
+      "title": "PHP Developer",
+      "gigType": "contract",
+      "location": "Minneapolis",
+      "companyId": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
+      "recruiterId": null,
+      "startDate": "2016-06-27",
+      "endDate": "2016-09-15",
+      "shortDesc": "Develop integration solutions to/from internal and externally provided APIs",
+      "longDesc": "Create backend API to enable clients to create offers, discounts, and donations\n Establish deployment processes, backend code design patterns",
+      "responsibilities:": [
+        "Create backend API to enable clients to create offers, discounts, and donations",
+        "Establish deployment processes, backend code design patterns"
+      ],
+      "accomplishments": [
+        "Wrote grunt and gulp scripts to accelerate rapid development in AngularJS",
+        "Established deployment processes, backend code design patterns"
+      ],
+      "technologies": [
+        {
+          "skillName": "php",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "mysql",
+          "percentage": 30,
+          "expertise": 5
+        },
+        {
+          "skillName": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillName": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        },
+        {
+          "skillName": "fixme",
+          "percentage": 20,
+          "expertise": 4
+        }
+      ]
+    },
+    {
       "_id": "resortsandlodges",
+      "relevance": 10,
       "title": "Software Developer",
       "gigType": "employee",
+      "location": "Greater Twin Cities Area",
       "companyId": "88abb4d1-694d-5384-bce2-21c0bc59b160",
       "recruiterId": null,
       "startDate": "2015-10-01",
@@ -1400,7 +1455,8 @@
       ]
     },
     {
-      "_id": "feb43610-fd18-5c9d-b1a2-af2d3d436c79",
+      "_id": "target",
+      "relevance": 9,
       "title": "Contractor",
       "gigType": "contract",
       "location": "Minneapolis",
@@ -1448,6 +1504,7 @@
     },
     {
       "_id": "usbank",
+      "relevance": 8,
       "title": "UI Prototype Developer",
       "gigType": "contract",
       "location": "Minneapolis",
@@ -1495,6 +1552,7 @@
     },
     {
       "_id": "lifetimefitness",
+      "relevance": 7,
       "title": "UI Prototyper",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
@@ -1545,6 +1603,7 @@
     },
     {
       "_id": "bluestem",
+      "relevance": 6,
       "title": "UI Developer",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
@@ -1594,7 +1653,8 @@
       ]
     },
     {
-      "_id": "f5125144-36e1-5f91-98ae-0dc7465a0212",
+      "_id": "razr",
+      "relevance": 10,
       "title": "Software Engineer",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
@@ -1602,7 +1662,7 @@
       "recruiterId": null,
       "startDate": "2015-01-01",
       "endDate": "2015-04-30",
-      "shortDesc": "fixme",
+      "shortDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
       "longDesc": "fixme",
       "responsibilities:": [
         "Recommend and implement best programming practices, add features, find and eliminate problems, share knowledge and expertise, profile and test code, rubberduck",
@@ -1634,57 +1694,6 @@
         },
         {
           "skillName": "APIs",
-          "percentage": 20,
-          "expertise": 4
-        },
-        {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
-        }
-      ]
-    },
-    {
-      "_id": "gbl",
-      "title": "PHP Developer",
-      "gigType": "contract",
-      "location": "Minneapolis",
-      "companyId": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
-      "recruiterId": null,
-      "startDate": "2016-06-27",
-      "endDate": "2016-09-15",
-      "shortDesc": "Develop integration solutions to/from internal and externally provided APIs",
-      "longDesc": "Create backend API to enable clients to create offers, discounts, and donations\n Establish deployment processes, backend code design patterns",
-      "responsibilities:": [
-        "Create backend API to enable clients to create offers, discounts, and donations",
-        "Establish deployment processes, backend code design patterns"
-      ],
-      "accomplishments": [
-        "wrote grunt and gulp scripts to accelerate rapid development in AngularJS",
-        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
-        "Yet another accomplishment I'd like to brag about",
-        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
-        "Qui deler rapide germano o."
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
-        },
-        {
-          "skillName": "mysql",
-          "percentage": 30,
-          "expertise": 5
-        },
-        {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
-        },
-        {
-          "skillName": "fixme",
           "percentage": 20,
           "expertise": 4
         },
@@ -1729,16 +1738,6 @@
           "expertise": 5
         },
         {
-          "skillName": "c0fdad84-a41f-5b64-a676-0d38d6e33295",
-          "percentage": 20,
-          "expertise": 4
-        },
-        {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
-        },
-        {
           "skillName": "fixme",
           "percentage": 20,
           "expertise": 4
@@ -1746,7 +1745,8 @@
       ]
     },
     {
-      "_id": "32045bde-1e52-597e-875f-5f3eeefd6dc7",
+      "_id": "visiblecustomer",
+      "relevance": 5,
       "title": "PHP Developer",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
