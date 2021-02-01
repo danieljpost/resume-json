@@ -59,7 +59,7 @@
         "DevOps",
         "Back End",
         "Front End",
-        5
+        "User Interface"
       ],
       "priority": 4,
       "expertise": 4,
@@ -75,7 +75,7 @@
         "DevOps",
         "Back End",
         "Front End",
-        5
+        "User Interface"
       ],
       "priority": 1,
       "expertise": 4,
@@ -90,7 +90,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 1,
       "expertise": 8,
@@ -105,7 +105,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 6,
@@ -120,7 +120,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 5,
@@ -135,7 +135,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 5,
@@ -150,7 +150,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 7,
@@ -165,7 +165,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 1,
       "expertise": 2,
@@ -180,7 +180,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 1,
       "expertise": 3,
@@ -195,7 +195,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 1,
       "expertise": 2,
@@ -210,7 +210,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 6,
@@ -226,7 +226,7 @@
         "DevOps",
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 0,
       "expertise": 8,
@@ -243,7 +243,7 @@
         "DevOps",
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 0,
       "expertise": 8,
@@ -260,7 +260,7 @@
         "DevOps",
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 0,
       "expertise": 8,
@@ -277,7 +277,7 @@
         "DevOps",
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 2,
       "expertise": 6,
@@ -293,7 +293,7 @@
         "DevOps",
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 1,
       "expertise": 7,
@@ -310,7 +310,7 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        4
+        "User Experience"
       ],
       "priority": 0,
       "expertise": 5,
@@ -328,7 +328,7 @@
         "Front End",
         "Software Engineer",
         "Business",
-        7
+        "Consulting"
       ],
       "priority": 0,
       "expertise": 7,
@@ -345,7 +345,7 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        4
+        "User Experience"
       ],
       "priority": 0,
       "expertise": 6,
@@ -360,7 +360,7 @@
       "tiers": [
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 0,
       "expertise": 3,
@@ -375,7 +375,7 @@
       "tiers": [
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 0,
       "expertise": 3,
@@ -390,7 +390,7 @@
       "tiers": [
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 0,
       "expertise": 3,
@@ -407,7 +407,7 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        4
+        "User Experience"
       ],
       "priority": 0,
       "expertise": 9,
@@ -422,7 +422,7 @@
       "tiers": [
         "Front End",
         "Software Engineer",
-        4
+        "User Experience"
       ],
       "priority": 0,
       "expertise": 7,
@@ -434,7 +434,7 @@
       "name": "Jira",
       "description": "Jira Software is the project management tool for agile teams",
       "tiers": [
-        5
+        "User Interface"
       ],
       "priority": 0,
       "expertise": 6,
@@ -491,7 +491,7 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        4
+        "User Experience"
       ],
       "priority": 0,
       "expertise": 8,
@@ -507,7 +507,7 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        4
+        "User Experience"
       ],
       "priority": 1,
       "expertise": 9,
@@ -522,7 +522,7 @@
       "tiers": [
         "Front End",
         "Software Engineer",
-        4
+        "User Experience"
       ],
       "priority": 2,
       "expertise": 7,
@@ -537,7 +537,7 @@
       "tiers": [
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 2,
       "expertise": 8,
@@ -553,7 +553,7 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        4
+        "User Experience"
       ],
       "priority": 0,
       "expertise": 3,
@@ -568,7 +568,7 @@
       "tiers": [
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 1,
       "expertise": 4,
@@ -583,7 +583,7 @@
       "tiers": [
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 1,
       "expertise": 7,
@@ -598,7 +598,7 @@
       "tiers": [
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 1,
       "expertise": 3,
@@ -614,7 +614,7 @@
         "DevOps",
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 1,
       "expertise": 8,
@@ -630,7 +630,7 @@
         "DevOps",
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 1,
       "expertise": 6,
@@ -646,7 +646,7 @@
         "DevOps",
         "Back End",
         "Front End",
-        3
+        "Software Engineer"
       ],
       "priority": 2,
       "expertise": 7,
@@ -665,7 +665,7 @@
         "Software Engineer",
         "User Experience",
         "User Interface",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 8,
@@ -684,7 +684,7 @@
         "Software Engineer",
         "User Experience",
         "User Interface",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 8,
@@ -703,7 +703,7 @@
         "Software Engineer",
         "User Experience",
         "User Interface",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 8,
@@ -722,7 +722,7 @@
         "User Experience",
         "User Interface",
         "Front End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 8,
@@ -742,7 +742,7 @@
         "User Experience",
         "User Interface",
         "Business",
-        7
+        "Consulting"
       ],
       "priority": 0,
       "expertise": 7,
@@ -762,7 +762,7 @@
         "User Experience",
         "User Interface",
         "Business",
-        7
+        "Consulting"
       ],
       "priority": 0,
       "expertise": 7,
@@ -782,7 +782,7 @@
         "User Experience",
         "User Interface",
         "Business",
-        7
+        "Consulting"
       ],
       "priority": 0,
       "expertise": 5,
@@ -798,7 +798,7 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        6
+        "Business"
       ],
       "priority": 2,
       "expertise": 5,
@@ -814,7 +814,7 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 4,
@@ -830,7 +830,7 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        6
+        "Business"
       ],
       "priority": 1,
       "expertise": 4,
@@ -846,7 +846,7 @@
         "DevOps",
         "Back End",
         "User Interface",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 3,
@@ -862,7 +862,7 @@
         "DevOps",
         "Back End",
         "User Interface",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 4,
@@ -877,7 +877,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 3,
@@ -892,7 +892,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 5,
@@ -907,7 +907,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 7,
@@ -922,7 +922,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 3,
@@ -937,7 +937,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 3,
@@ -952,7 +952,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 4,
@@ -967,7 +967,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 1,
       "expertise": 1,
@@ -982,7 +982,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 1,
@@ -997,7 +997,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 1,
@@ -1011,7 +1011,7 @@
       "tiers": [
         "DevOps",
         "Back End",
-        6
+        "Business"
       ],
       "priority": 0,
       "expertise": 1,
