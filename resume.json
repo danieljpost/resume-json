@@ -24,11 +24,11 @@
   "intros": {
     "DevOps": "Skilled DevOps Engineer with 3+ years of hands-on experience supporting, automating, and optimizing mission critical deployments in AWS, leveraging configuration management, CI/CD, and DevOps processes.",
     "Back End": "I have over 10 years of experience creating software using HTML, JavaScript, PHP and other languages, CSS, and databases. I’m passionate about performance, robustness, and maintainability in code, as well as integrity and collaboration in teams.",
-    "Front End": "This is the text of my Front End intro heading.",
-    "User Experience": "This is the text of my User Experience intro heading.",
-    "User Interface": "This is the text of my User Interface intro heading.",
+    "Front End": "My dedication to quality and robustness and usability make me an excellent Front End developer.",
+    "User Experience": "I really dig designing good User Experiences.",
+    "User Interface": "I make your User Interface Better.",
     "Software Engineer": "Skilled and results-oriented Software Engineer with more than 15 years of experience working in a variety of environments with a breadth of programs and technologies.",
-    "Business": "This is the text of my Business intro heading.",
+    "Business": "It is my business to help your business get more work done with less effort, saving you money in the long run.",
     "Consulting": "I have decades of experience creating software for and on the Internet. I believe in clear, forthright, and unambiguous communication and am passionate about performance, robustness, and maintainability in code, as well as integrity and collaboration in teams.",
     "Instructor": "I have over 10 years of experience using Web technology. The best parts of that experience have always been when I could share or explain something complex to a junior developer, or when I could help solve a particularly puzzling problem. ",
     "Team Lead": "I am eager to use my broad experience and knowledge to help me lead your product development team to success."
@@ -989,7 +989,7 @@
       "url": "https://coffeescript.org"
     },
     {
-      "_id": "varnish",
+      "_id": "e8b8ce23-f47e-554e-b058-e3955c9f917e",
       "sname": "varnish",
       "name": "Varnish",
       "description": "Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as well as APIs",
@@ -1002,7 +1002,8 @@
       "priority": 0,
       "expertise": 1,
       "url": "https://varnish-cache.org/"
-    },{
+    },
+    {
       "_id": "87b7e6ec-7448-5f90-95db-ddf3c4ab52ba",
       "sname": "babel",
       "name": "Babel",
