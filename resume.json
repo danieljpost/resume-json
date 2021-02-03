@@ -1,8 +1,8 @@
 {
-  "version": 20210201,
+  "version": 20210203,
   "canonical": {
     "production": "https://danieljpost.pro/resume.json",
-    "development": "http://local.danieljpost.dev:5001/resume.json"
+    "development": "http://localhost:3000/resume.json"
   },
   "gigTypes": [
     "owner",
@@ -56,10 +56,9 @@
       "description": "an operating system from Microsoft",
       "category": "Operating Systems",
       "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "User Interface"
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 4,
       "expertise": 4,
@@ -75,10 +74,12 @@
         "DevOps",
         "Back End",
         "Front End",
+        "Software Engineer",
+        "User Experience",
         "User Interface"
       ],
-      "priority": 1,
-      "expertise": 4,
+      "priority": 2,
+      "expertise": 5,
       "url": "http://microsoft.com"
     },
     {
@@ -90,9 +91,12 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
       ],
-      "priority": 1,
+      "priority": 2,
       "expertise": 8,
       "url": "https://linux.com"
     },
@@ -105,9 +109,15 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 2,
       "expertise": 6,
       "url": "https://macos.com"
     },
@@ -120,9 +130,12 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 2,
       "expertise": 5,
       "url": "https://www.docker.com/"
     },
@@ -135,7 +148,10 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 5,
@@ -150,7 +166,10 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 7,
@@ -165,7 +184,10 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 1,
       "expertise": 2,
@@ -180,7 +202,11 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Front End",
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 1,
       "expertise": 3,
@@ -195,10 +221,16 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 1,
-      "expertise": 2,
+      "priority": 2,
+      "expertise": 3,
       "url": "https://webpack.js.org/"
     },
     {
@@ -209,8 +241,10 @@
       "category": "System Tools",
       "tiers": [
         "DevOps",
-        "Back End",
-        "Business"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 6,
@@ -226,7 +260,10 @@
         "DevOps",
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 8,
@@ -243,7 +280,10 @@
         "DevOps",
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 8,
@@ -260,12 +300,15 @@
         "DevOps",
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 8,
       "url": "https://www.mongodb.com/",
-      "blurb": "It's Web Scale!"
+      "blurb": "I've used on several projects."
     },
     {
       "_id": "a174c5f5-336d-55b9-8694-232a60bc24d5",
@@ -276,8 +319,10 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 2,
       "expertise": 6,
@@ -287,15 +332,17 @@
       "_id": "8e167600-b448-5d98-ac3e-537eb3fd678f",
       "sname": "mssql",
       "name": "Microsoft SQL Server",
-      "description": "Microsoft SQL Server",
+      "description": "A relational database management system developed by Microsoft.",
       "category": "Data",
       "tiers": [
         "DevOps",
         "Back End",
-        "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 1,
+      "priority": 2,
       "expertise": 7,
       "url": "https://www.microsoft.com/en-us/sql-server/default.aspx"
     },
@@ -310,9 +357,13 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        "User Experience"
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 6,
       "expertise": 5,
       "url": "https://nodejs.org"
     },
@@ -325,12 +376,12 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Front End",
         "Software Engineer",
         "Business",
-        "Consulting"
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 3,
       "expertise": 7,
       "url": "http://httpd.apache.org"
     },
@@ -343,11 +394,12 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Front End",
         "Software Engineer",
-        "User Experience"
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 2,
       "expertise": 6,
       "url": "https://www.nginx.com/"
     },
@@ -358,12 +410,18 @@
       "description": "Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance",
       "category": "Cloud Technologies",
       "tiers": [
+        "DevOps",
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
-      "expertise": 3,
+      "priority": 4,
+      "expertise": 4,
       "url": "https://aws.amazon.com/s3"
     },
     {
@@ -373,11 +431,17 @@
       "description": "Google Cloud Platform is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user product",
       "category": "Cloud Technologies",
       "tiers": [
+        "DevOps",
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 4,
       "expertise": 3,
       "url": "https://cloud.google.com/"
     },
@@ -388,12 +452,18 @@
       "description": "Amazon CloudFront is a fast content delivery network service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment",
       "category": "Cloud Technologies",
       "tiers": [
+        "DevOps",
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
-      "expertise": 3,
+      "priority": 4,
+      "expertise": 4,
       "url": "https://aws.amazon.com/cloudfront"
     },
     {
@@ -407,9 +477,13 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        "User Experience"
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 10,
       "expertise": 9,
       "url": "http://php.net"
     },
@@ -422,10 +496,11 @@
       "tiers": [
         "Front End",
         "Software Engineer",
-        "User Experience"
+        "User Experience",
+        "User Interface"
       ],
-      "priority": 0,
-      "expertise": 7,
+      "priority": 4,
+      "expertise": 8,
       "url": "https://jquery.com"
     },
     {
@@ -434,10 +509,16 @@
       "name": "Jira",
       "description": "Jira Software is the project management tool for agile teams",
       "tiers": [
-        "User Interface"
+        "DevOps",
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
-      "expertise": 6,
+      "priority": 3,
+      "expertise": 7,
       "url": "https://www.atlassian.com/software/jira"
     },
     {
@@ -456,7 +537,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "priority": 4,
       "expertise": 5,
       "url": "https://zoom.us/"
     },
@@ -476,7 +557,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "priority": 4,
       "expertise": 6,
       "url": "https://slack.com/"
     },
@@ -491,9 +572,13 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        "User Experience"
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 8,
       "expertise": 8,
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
@@ -504,10 +589,10 @@
       "description": "HTML is the World Wide Web’s core markup language",
       "category": "Programming Languages",
       "tiers": [
-        "Back End",
         "Front End",
         "Software Engineer",
-        "User Experience"
+        "User Experience",
+        "User Interface"
       ],
       "priority": 1,
       "expertise": 9,
@@ -522,7 +607,8 @@
       "tiers": [
         "Front End",
         "Software Engineer",
-        "User Experience"
+        "User Experience",
+        "User Interface"
       ],
       "priority": 2,
       "expertise": 7,
@@ -535,9 +621,11 @@
       "description": "Bash is an sh-compatible shell that offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification",
       "category": "Programming Languages",
       "tiers": [
+        "DevOps",
         "Back End",
-        "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 2,
       "expertise": 8,
@@ -550,12 +638,14 @@
       "description": "Vue is a progressive framework for building user interfaces; Vue is designed from the ground up to be incrementally adoptable. ",
       "category": "Libraries",
       "tiers": [
+        "DevOps",
         "Back End",
         "Front End",
         "Software Engineer",
-        "User Experience"
+        "User Experience",
+        "User Interface"
       ],
-      "priority": 0,
+      "priority": 2,
       "expertise": 3,
       "url": "https://vuejs.org/"
     },
@@ -566,12 +656,18 @@
       "description": "A JavaScript library for building user interfaces",
       "category": "Libraries",
       "tiers": [
+        "DevOps",
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 1,
-      "expertise": 4,
+      "priority": 3,
+      "expertise": 5,
       "url": "https://reactjs.org/"
     },
     {
@@ -583,7 +679,9 @@
       "tiers": [
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
       ],
       "priority": 1,
       "expertise": 7,
@@ -596,12 +694,15 @@
       "description": "The async function declaration defines an asynchronous function, which returns an AsyncFunction object. An asynchronous function is a function which operates asynchronously via the event loop, using an implicit Promise to return its result. But the syntax and structure of your code using async functions is much more like using standard synchronous functions.",
       "category": "Design Patterns",
       "tiers": [
+        "DevOps",
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
       ],
-      "priority": 1,
-      "expertise": 3,
+      "priority": 2,
+      "expertise": 4,
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
     },
     {
@@ -614,9 +715,14 @@
         "DevOps",
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 1,
+      "priority": 2,
       "expertise": 8,
       "url": "https://framework.zend.com"
     },
@@ -627,12 +733,15 @@
       "description": "Yii is a fast, secure, and efficient PHP framework",
       "category": "Frameworks",
       "tiers": [
-        "DevOps",
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "User Experience",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 1,
+      "priority": 2,
       "expertise": 6,
       "url": "https://www.yiiframework.com"
     },
@@ -643,20 +752,23 @@
       "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
       "category": "Frameworks",
       "tiers": [
-        "DevOps",
         "Back End",
         "Front End",
-        "Software Engineer"
+        "Software Engineer",
+        "User Experience",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 2,
-      "expertise": 7,
+      "expertise": 6,
       "url": "https://www.codeigniter.com"
     },
     {
       "_id": "c82fb3ac-6b5f-5c3a-8400-29c0d961dd71",
       "sname": "phpstorm",
       "name": "PHPStorm",
-      "description": "A PHP IDE of some importance",
+      "description": "A perfect IDE for working with Symfony, Laravel, Laminas, CakePHP, Yii, and other frameworks.",
       "category": "Development Tools",
       "tiers": [
         "DevOps",
@@ -665,9 +777,11 @@
         "Software Engineer",
         "User Experience",
         "User Interface",
-        "Business"
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 4,
       "expertise": 8,
       "url": "https://www.jetbrains.com/phpstorm"
     },
@@ -675,7 +789,7 @@
       "_id": "8de1abe1-eebb-57ee-a718-146630a2904e",
       "sname": "vscode",
       "name": "Visual Studio Code",
-      "description": "An IDE of some note.",
+      "description": "A code editor redefined and optimized for building and debugging modern web and cloud application.",
       "category": "Development Tools",
       "tiers": [
         "DevOps",
@@ -684,9 +798,11 @@
         "Software Engineer",
         "User Experience",
         "User Interface",
-        "Business"
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 4,
       "expertise": 8,
       "url": "https://code.visualstudio.com"
     },
@@ -701,9 +817,10 @@
         "Back End",
         "Front End",
         "Software Engineer",
-        "User Experience",
         "User Interface",
-        "Business"
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 8,
@@ -718,11 +835,13 @@
       "tiers": [
         "DevOps",
         "Back End",
+        "Front End",
         "Software Engineer",
         "User Experience",
         "User Interface",
-        "Front End",
-        "Business"
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 8,
@@ -737,12 +856,10 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Front End",
         "Software Engineer",
-        "User Experience",
-        "User Interface",
         "Business",
-        "Consulting"
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 7,
@@ -755,14 +872,12 @@
       "description": "we're getting somewhere",
       "category": "Development Tools",
       "tiers": [
-        "DevOps",
         "Back End",
         "Front End",
         "Software Engineer",
         "User Experience",
         "User Interface",
-        "Business",
-        "Consulting"
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 7,
@@ -772,37 +887,18 @@
       "_id": "d5258419-76ee-537b-9766-aa1eab5812a3",
       "sname": "fde",
       "name": "Firefox Developer Edition",
-      "description": "we're getting somewhere",
+      "description": "A version of Firefox that's tailored for web developerse",
       "category": "Development Tools",
       "tiers": [
-        "DevOps",
         "Back End",
         "Front End",
         "Software Engineer",
         "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting"
+        "User Interface"
       ],
       "priority": 0,
       "expertise": 5,
       "url": "https://www.mozilla.org/en-US/firefox/developer"
-    },
-    {
-      "_id": "892025a8-57ba-5c60-92ae-6e4487d72c22",
-      "sname": "yslow",
-      "name": "YSlow",
-      "description": "we're getting somewhere",
-      "category": "Performance Tools",
-      "tiers": [
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "Business"
-      ],
-      "priority": 2,
-      "expertise": 5,
-      "url": "http://yslow.org"
     },
     {
       "_id": "1452badb-91d9-5764-b534-eeffcd915a52",
@@ -811,12 +907,14 @@
       "description": "The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.",
       "category": "Performance Tools",
       "tiers": [
+        "DevOps",
         "Back End",
-        "Front End",
         "Software Engineer",
-        "Business"
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 1,
       "expertise": 4,
       "url": "http://jmeter.apache.org"
     },
@@ -827,10 +925,12 @@
       "description": "Siege is an open source regression test and benchmark utility. It can stress test a single URL with a user defined number of simulated users, or it can read many URLs into memory and stress them simultaneously.",
       "category": "Performance Tools",
       "tiers": [
+        "DevOps",
         "Back End",
-        "Front End",
         "Software Engineer",
-        "Business"
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 1,
       "expertise": 4,
@@ -845,8 +945,13 @@
       "tiers": [
         "DevOps",
         "Back End",
+        "Front End",
+        "Software Engineer",
+        "User Experience",
         "User Interface",
-        "Business"
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 3,
@@ -861,8 +966,10 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "User Interface",
-        "Business"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 4,
@@ -877,9 +984,12 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 1,
       "expertise": 3,
       "url": "https://www.atlassian.com/software/bamboo"
     },
@@ -892,9 +1002,12 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 2,
       "expertise": 5,
       "url": "https://codeship.com"
     },
@@ -905,9 +1018,11 @@
       "description": "Composer is a tool for dependency management in PHP",
       "category": "Development Tools",
       "tiers": [
-        "DevOps",
         "Back End",
-        "Business"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
       "expertise": 7,
@@ -922,24 +1037,34 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 3,
       "expertise": 3,
-      "url": "fixme"
+      "url": "https://npmjs.com/"
     },
     {
       "_id": "ccf6afd4-e93e-5ea3-af5a-f98bdcc6ec32",
       "sname": "nvm",
       "name": "nvm",
       "description": "node versioning tool",
-      "category": "Deployment Tools",
+      "category": "System Tools",
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Front End",
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 2,
       "expertise": 3,
       "url": "https://github.com/nvm-sh/nvm/blob/master/README.md"
     },
@@ -952,9 +1077,15 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 2,
       "expertise": 4,
       "url": "http://compass-style.org"
     },
@@ -967,7 +1098,13 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 1,
       "expertise": 1,
@@ -982,10 +1119,16 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "priority": 0,
-      "expertise": 1,
+      "expertise": 0,
       "url": "https://coffeescript.org"
     },
     {
@@ -997,9 +1140,11 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Software Engineer",
+        "Business",
+        "Consulting"
       ],
-      "priority": 0,
+      "priority": 2,
       "expertise": 1,
       "url": "https://varnish-cache.org/"
     },
@@ -1012,9 +1157,12 @@
       "tiers": [
         "DevOps",
         "Back End",
-        "Business"
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
-      "priority": 0,
+      "priority": 2,
       "expertise": 1,
       "url": "https://babeljs.io"
     }
@@ -1111,13 +1259,15 @@
       "recruiterId": null,
       "startDate": "2009-01-01",
       "endDate": null,
-      "shortDesc": "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
+      "shortDesc": "I solve problems, build and improve features, maintain legacy applications, and look great doing it.",
       "longDesc": "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
       "responsibilities:": [
-        "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it."
+        "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
+        "fixme: need more"
       ],
       "accomplishments": [
-        "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it."
+        "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
+        "fixme: need more"
       ],
       "technologies": [
         {
@@ -1288,8 +1438,8 @@
       "recruiterId": null,
       "startDate": "2019-11-19",
       "endDate": null,
-      "shortDesc": "Remote contract through Build Technology Group",
-      "longDesc": "Build Technology Group",
+      "shortDesc": "Build Technology Group",
+      "longDesc": "Remote contract through Build Technology Group",
       "responsibilities:": [
         "Facilitate data synchronization between legacy application and new service provider",
         "Design and implement data migration tool",
@@ -1307,6 +1457,18 @@
       "technologies": [
         {
           "skillName": "remotework",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "slack",
+          "percentage": 10,
+          "duration": 42,
+          "expertise": 4
+        },
+        {
+          "skillName": "zoom",
           "percentage": 10,
           "duration": 42,
           "expertise": 4
