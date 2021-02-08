@@ -1,8 +1,8 @@
 {
-  "version": 20210203,
+  "version": 20210208,
   "canonical": {
     "production": "https://danieljpost.pro/resume.json",
-    "development": "http://localhost:3000/resume.json"
+    "development": "http://home.danielpost.pro:6081/resume.json"
   },
   "gigTypes": [
     "owner",
