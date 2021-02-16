@@ -356,6 +356,24 @@
       "blurb": "I've used on multiple projects."
     },
     {
+      "_id": "e70b80d9-3d04-5121-adeb-b32e57b17f1d",
+      "sname": "rest",
+      "name": "REST",
+      "description": "PostgreSQL is a powerful, open source object-relational database system with a strong reputation for reliability, feature robustness, and performance",
+      "category": "Data",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
+      ],
+      "priority": 3,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Representational_state_transfer"
+    },
+    {
       "_id": "a174c5f5-336d-55b9-8694-232a60bc24d5",
       "sname": "postgres",
       "name": "PostgreSQL",
