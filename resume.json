@@ -359,7 +359,7 @@
       "_id": "e70b80d9-3d04-5121-adeb-b32e57b17f1d",
       "sname": "rest",
       "name": "REST",
-      "description": "PostgreSQL is a powerful, open source object-relational database system with a strong reputation for reliability, feature robustness, and performance",
+      "description": "REST is a de-facto standard for a software architecture for interactive applications that typically use multiple Web services.",
       "category": "Data",
       "tiers": [
         "DevOps",
