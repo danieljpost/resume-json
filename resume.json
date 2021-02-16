@@ -96,7 +96,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 2,
+      "priority": 6,
       "expertise": 8,
       "url": "https://linux.com"
     },
@@ -334,6 +334,26 @@
       "expertise": 8,
       "url": "https://www.mongodb.com/",
       "blurb": "I've used on several projects."
+    },
+    {
+      "_id": "e5519976-8388-52d2-9bec-6569284eb474",
+      "sname": "xml",
+      "name": "XML",
+      "description": "XML is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.",
+      "category": "Data",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
+      ],
+      "priority": 4,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/XML",
+      "blurb": "I've used on multiple projects."
     },
     {
       "_id": "a174c5f5-336d-55b9-8694-232a60bc24d5",
