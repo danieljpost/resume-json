@@ -24,9 +24,9 @@
   "intros": {
     "DevOps": "Skilled DevOps Engineer with 3+ years of hands-on experience supporting, automating, and optimizing mission critical deployments in AWS, leveraging configuration management, CI/CD, and DevOps processes.",
     "Back End": "I have over 10 years of experience creating software using HTML, JavaScript, PHP and other languages, CSS, and databases. I’m passionate about performance, robustness, and maintainability in code, as well as integrity and collaboration in teams.",
-    "Front End": "My dedication to quality and robustness and usability make me an excellent Front End developer.",
-    "User Experience": "I really dig designing good User Experiences.",
-    "User Interface": "I make your User Interface Better.",
+    "Front End": "My dedication to quality, accessibility, robust and clean code, and usability make me an excellent Front End developer.",
+    "User Experience": "My dedication to quality, accessibility, robust and clean code, and usability make me an excellent User Experience developer.",
+    "User Interface": "My dedication to quality, accessibility, robust and clean code, and usability make me an excellent User Experience developer.",
     "Software Engineer": "Skilled and results-oriented Software Engineer with more than 15 years of experience working in a variety of environments with a breadth of programs and technologies.",
     "Business": "It is my business to help your business get more work done with less effort, saving you money in the long run.",
     "Consulting": "I have decades of experience creating software for and on the Internet. I believe in clear, forthright, and unambiguous communication and am passionate about performance, robustness, and maintainability in code, as well as integrity and collaboration in teams.",
@@ -1336,7 +1336,7 @@
       "_id": "4a94adbf-edb9-51e2-80db-a35777a79e31",
       "name": "visiblecustomer",
       "fullname": "Visible Customer",
-      "url": "http://visiblecustomer.com"
+      "url": "http://visiblecFustomer.com"
     }
   ],
   "gigs": [
@@ -1353,8 +1353,7 @@
       "shortDesc": "I solve problems, build and improve features, maintain legacy applications, and look great doing it.",
       "longDesc": "When I join your team, you will benefit from my knowledge of Software Development Life Cycle (SDLC), design patterns, frameworks and concepts; my ability to perform Root Cause Analysis; mentor and support junior developers; deliver well-tested systems timely that meet specification functionality requirements; troubleshoot technical issues; provide analysis for technical solutions based on functional requirements; and follow processes, protocols and quality standards in the development and deployment of solutions.\nI solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
       "responsibilities:": [
-        "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
-        "fixme: need more"
+        "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it."
       ],
       "accomplishments": [
         "Saved millions of dollars in ongoing labor costs for retail customer",
