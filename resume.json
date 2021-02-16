@@ -1,5 +1,5 @@
 {
-  "version": 20210209,
+  "version": 20210215,
   "canonical": {
     "production": "https://danieljpost.pro/resume.json",
     "development": "http://home.danielpost.pro:6081/resume.json"
