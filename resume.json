@@ -1408,6 +1408,10 @@
           "relevance": 10
         },
         {
+          "skillName": "rest",
+          "relevance": 6
+        },
+        {
           "skillName": "zoom",
           "relevance": 9
         },
@@ -1533,6 +1537,14 @@
           "relevance": 10
         },
         {
+          "skillName": "xml",
+          "relevance": 6
+        },
+        {
+          "skillName": "rest",
+          "relevance": 7
+        },
+        {
           "skillName": "php",
           "relevance": 80
         }
@@ -1594,6 +1606,10 @@
           "relevance": 8
         },
         {
+          "skillName": "rest",
+          "relevance": 7
+        },
+        {
           "skillName": "api",
           "relevance": 7
         },
@@ -1649,8 +1665,16 @@
           "relevance": 8
         },
         {
+          "skillName": "rest",
+          "relevance": 6
+        },
+        {
+          "skillName": "api",
+          "relevance": 7
+        },
+        {
           "skillName": "css",
-          "relevance": 8
+          "relevance": 5
         }
       ]
     },
@@ -1696,6 +1720,10 @@
         {
           "skillName": "zf2",
           "relevance": 9
+        },
+        {
+          "skillName": "rest",
+          "relevance": 6
         },
         {
           "skillName": "composer",
@@ -1753,6 +1781,14 @@
           "relevance": 7
         },
         {
+          "skillName": "rest",
+          "relevance": 6
+        },
+        {
+          "skillName": "api",
+          "relevance": 6
+        },
+        {
           "skillName": "git",
           "relevance": 8
         },
@@ -1789,19 +1825,23 @@
         },
         {
           "skillName": "mysql",
-          "relevance": 30
+          "relevance": 10
         },
         {
           "skillName": "html",
-          "relevance": 20
+          "relevance": 10
         },
         {
           "skillName": "css",
-          "relevance": 20
+          "relevance": 10
+        },
+        {
+          "skillName": "jquery",
+          "relevance": 6
         },
         {
           "skillName": "wireframes",
-          "relevance": 20
+          "relevance": 10
         }
       ]
     },
