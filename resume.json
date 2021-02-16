@@ -1319,7 +1319,7 @@
     {
       "_id": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
       "name": "gbl",
-      "fullname": "Go Buy Local",
+      "fullname": "Go Buy Local / Do Good Tech",
       "url": "http://gobuylocal.com"
     },
     {
@@ -1629,9 +1629,10 @@
       "recruiterId": null,
       "startDate": "2016-06-27",
       "endDate": "2016-09-15",
-      "shortDesc": "Develop integration solutions to/from internal and externally provided APIs",
+      "shortDesc": "Enable and improve processes to rapid-prototype solutions to/from internal and externally provided APIs",
       "longDesc": "Create backend API to enable clients to create offers, discounts, and donations\n Establish deployment processes, backend code design patterns",
       "responsibilities:": [
+        "Refactor PHP code to make maintenance easier",
         "Create backend API to enable clients to create offers, discounts, and donations",
         "Establish deployment processes, backend code design patterns"
       ],
@@ -1670,6 +1671,10 @@
         },
         {
           "skillName": "api",
+          "relevance": 7
+        },
+        {
+          "skillName": "angulario",
           "relevance": 7
         },
         {
