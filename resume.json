@@ -61,7 +61,6 @@
         "Team Lead"
       ],
       "priority": 4,
-      "expertise": 4,
       "url": "http://microsoft.com"
     },
     {
@@ -89,6 +88,7 @@
       "description": "The Operating System of the Internet",
       "category": "Operating Systems",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Front End",
@@ -107,6 +107,7 @@
       "description": "the operating system of choice for Web Nerds",
       "category": "Operating Systems",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Front End",
@@ -164,6 +165,7 @@
       "sname": "vagrant",
       "name": "Vagrant",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Software Engineer",
@@ -257,6 +259,7 @@
       "description": "MySQL is the world's most popular open source database",
       "category": "Data",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Front End",
@@ -277,6 +280,7 @@
       "description": "memcached is a high-performance, distributed memory object caching system, generic in nature, but originally intended for use in speeding up dynamic web applications by alleviating database load",
       "category": "Data",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Front End",
@@ -288,6 +292,27 @@
       "priority": 0,
       "expertise": 8,
       "url": "https://memcached.org/",
+      "blurb": "It's Web Scale!"
+    },
+    {
+      "_id": "d3c55aaa-33cc-53fc-ac65-fb58e8168ac7",
+      "sname": "redis",
+      "name": "Redis",
+      "description": "Redis is an in-memory data structure store, used as a database, cache, and message broker",
+      "category": "Data",
+      "tiers": [
+        "Administrator",
+        "DevOps",
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
+      ],
+      "priority": 4,
+      "expertise": 8,
+      "url": "https://redis.io/",
       "blurb": "It's Web Scale!"
     },
     {
@@ -305,7 +330,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "priority": 5,
       "expertise": 8,
       "url": "https://www.mongodb.com/",
       "blurb": "I've used on several projects."
@@ -324,7 +349,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "priority": 4,
       "expertise": 6,
       "url": "https://www.postgresql.org"
     },
@@ -342,7 +367,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "priority": 4,
       "expertise": 7,
       "url": "https://www.microsoft.com/en-us/sql-server/default.aspx"
     },
@@ -374,6 +399,7 @@
       "description": "The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems",
       "category": "Servers",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Software Engineer",
@@ -381,7 +407,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 3,
+      "priority": 4,
       "expertise": 7,
       "url": "http://httpd.apache.org"
     },
@@ -399,8 +425,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
-      "expertise": 6,
+      "priority": 4,
+      "expertise": 5,
       "url": "https://www.nginx.com/"
     },
     {
@@ -499,9 +525,41 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 4,
+      "priority": 6,
       "expertise": 8,
       "url": "https://jquery.com"
+    },
+    {
+      "_id": "959e394a-71b2-5b0c-962f-d7331969a199",
+      "sname": "angularjs",
+      "name": "AngularJS",
+      "description": "AngularJS. Ancient Angular, now in Long Term Support",
+      "category": "Libraries",
+      "tiers": [
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
+      "priority": 3,
+      "expertise": 6,
+      "url": "https://angularjs.org/"
+    },
+    {
+      "_id": "ba98c491-50ea-5f5b-8b5c-fb13abc905b1",
+      "sname": "angulario",
+      "name": "Angular IO",
+      "description": "Angular IO. The modern web developer's platform",
+      "category": "Libraries",
+      "tiers": [
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
+      "priority": 3,
+      "expertise": 6,
+      "url": "https://angular.io"
     },
     {
       "_id": "a367ff2f-a22a-5686-b6e8-668946b9741c",
@@ -509,6 +567,7 @@
       "name": "Jira",
       "description": "Jira Software is the project management tool for agile teams",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Front End",
@@ -517,7 +576,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 3,
+      "priority": 5,
       "expertise": 7,
       "url": "https://www.atlassian.com/software/jira"
     },
@@ -547,6 +606,7 @@
       "name": "Slack",
       "description": "Slack is a proprietary business communication platform",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Front End",
@@ -594,7 +654,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 1,
+      "priority": 8,
       "expertise": 9,
       "url": "https://www.w3.org/html"
     },
@@ -610,7 +670,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 2,
+      "priority": 8,
       "expertise": 7,
       "url": "https://www.w3.org/TR/CSS"
     },
@@ -621,13 +681,14 @@
       "description": "Bash is an sh-compatible shell that offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification",
       "category": "Programming Languages",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Software Engineer",
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "priority": 6,
       "expertise": 8,
       "url": "https://www.gnu.org/software/bash/"
     },
@@ -666,8 +727,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 3,
-      "expertise": 5,
+      "priority": 6,
+      "expertise": 6,
       "url": "https://reactjs.org/"
     },
     {
@@ -683,7 +744,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 1,
+      "priority": 6,
       "expertise": 7,
       "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
     },
@@ -701,7 +762,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 2,
+      "priority": 5,
       "expertise": 4,
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
     },
@@ -722,7 +783,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "priority": 5,
       "expertise": 8,
       "url": "https://framework.zend.com"
     },
@@ -733,6 +794,7 @@
       "description": "Yii is a fast, secure, and efficient PHP framework",
       "category": "Frameworks",
       "tiers": [
+        "Administrator",
         "Back End",
         "Front End",
         "Software Engineer",
@@ -741,7 +803,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "priority": 4,
       "expertise": 6,
       "url": "https://www.yiiframework.com"
     },
@@ -752,6 +814,7 @@
       "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
       "category": "Frameworks",
       "tiers": [
+        "Administrator",
         "Back End",
         "Front End",
         "Software Engineer",
@@ -760,7 +823,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "priority": 4,
       "expertise": 6,
       "url": "https://www.codeigniter.com"
     },
@@ -813,6 +876,7 @@
       "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency",
       "category": "Development Tools",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Front End",
@@ -822,7 +886,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "priority": 4,
       "expertise": 8,
       "url": "https://git-scm.com/"
     },
@@ -854,6 +918,7 @@
       "description": "Xdebug is an extension for PHP to assist with debugging and development",
       "category": "Development Tools",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Software Engineer",
@@ -861,7 +926,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "priority": 3,
       "expertise": 7,
       "url": "https://xdebug.org"
     },
@@ -879,8 +944,8 @@
         "User Interface",
         "Team Lead"
       ],
-      "priority": 0,
-      "expertise": 7,
+      "priority": 2,
+      "expertise": 6,
       "url": "https://developers.google.com/web/tools/chrome-devtools"
     },
     {
@@ -896,8 +961,8 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 0,
-      "expertise": 5,
+      "priority": 1,
+      "expertise": 4,
       "url": "https://www.mozilla.org/en-US/firefox/developer"
     },
     {
@@ -943,6 +1008,7 @@
       "description": "Sentry is an open-source error tracking tool that helps you monitor and fix crashes in real time",
       "category": "Performance Tools",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Front End",
@@ -964,6 +1030,7 @@
       "description": "Monitoring tool",
       "category": "Performance Tools",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Software Engineer",
@@ -1018,13 +1085,14 @@
       "description": "Composer is a tool for dependency management in PHP",
       "category": "Development Tools",
       "tiers": [
+        "Administrator",
         "Back End",
         "Software Engineer",
         "Business",
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "priority": 3,
       "expertise": 7,
       "url": "https://getcomposer.org"
     },
@@ -1107,7 +1175,7 @@
         "Team Lead"
       ],
       "priority": 1,
-      "expertise": 1,
+      "expertise": 2,
       "url": "https://www.typescriptlang.org"
     },
     {
@@ -1138,14 +1206,15 @@
       "description": "Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as well as APIs",
       "category": "Performance Tools",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Software Engineer",
         "Business",
         "Consulting"
       ],
-      "priority": 2,
-      "expertise": 1,
+      "priority": 3,
+      "expertise": 2,
       "url": "https://varnish-cache.org/"
     },
     {
@@ -1165,6 +1234,22 @@
       "priority": 2,
       "expertise": 1,
       "url": "https://babeljs.io"
+    },
+    {
+      "_id": "dd897237-9269-594f-9dac-67f901cb9304",
+      "sname": "training",
+      "name": "Training",
+      "description": "Train others to use tools or methods I know",
+      "category": "Development Tools",
+      "tiers": [
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
+      ],
+      "priority": 7,
+      "expertise": 4,
+      "url": ""
     }
   ],
   "companies": [
@@ -1218,6 +1303,12 @@
       "url": "https://razrmarketinginc.com"
     },
     {
+      "_id": "50926660-ca30-5281-aeeb-77e9dbedee39",
+      "name": "tpt",
+      "fullname": "Twin Cities Public Television",
+      "url": "https://www.tpt.org/"
+    },
+    {
       "_id": "44eba145-fbd7-54f3-8311-b413c3eaa021",
       "name": "usbank",
       "fullname": "U.S. Bank",
@@ -1260,7 +1351,7 @@
       "startDate": "2009-01-01",
       "endDate": null,
       "shortDesc": "I solve problems, build and improve features, maintain legacy applications, and look great doing it.",
-      "longDesc": "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
+      "longDesc": "When I join your team, you will benefit from my knowledge of Software Development Life Cycle (SDLC), design patterns, frameworks and concepts; my ability to perform Root Cause Analysis; mentor and support junior developers; deliver well-tested systems timely that meet specification functionality requirements; troubleshoot technical issues; provide analysis for technical solutions based on functional requirements; and follow processes, protocols and quality standards in the development and deployment of solutions.\nI solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
       "responsibilities:": [
         "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
         "fixme: need more"
@@ -1272,159 +1363,95 @@
       "technologies": [
         {
           "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "slack",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 6
+          "relevance": 10
         },
         {
           "skillName": "zoom",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 5
+          "relevance": 9
         },
         {
           "skillName": "newrelic",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 5
+          "relevance": 6
         },
         {
           "skillName": "docker",
-          "percentage": 1,
-          "duration": 42,
-          "expertise": 5
+          "relevance": 2
         },
         {
           "skillName": "dockercompose",
-          "percentage": 1,
-          "duration": 0,
-          "expertise": 5
+          "relevance": 2
         },
         {
           "skillName": "composer",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 7
+          "relevance": 10
         },
         {
           "skillName": "react",
-          "percentage": 8,
-          "duration": 42,
-          "expertise": 5
+          "relevance": 8
         },
         {
           "skillName": "s3",
-          "percentage": 2,
-          "duration": 42,
-          "expertise": 5
+          "relevance": 3
         },
         {
           "skillName": "cloudfront",
-          "percentage": 2,
-          "duration": 42,
-          "expertise": 5
+          "relevance": 2
         },
         {
           "skillName": "eclipse",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 4
         },
         {
           "skillName": "postgres",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "node",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 6
         },
         {
           "skillName": "react",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 7
         },
         {
           "skillName": "html",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "css",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "javascript",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "jira",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "bamboo",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 4
         },
         {
           "skillName": "jira",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "gcloud",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 2
         },
         {
           "skillName": "node",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
-        },
-        {
-          "skillName": "node",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
-        },
-        {
-          "skillName": "node",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
-        },
-        {
-          "skillName": "node",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 2
         },
         {
           "skillName": "mysql",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         }
       ]
     },
@@ -1457,26 +1484,19 @@
       "technologies": [
         {
           "skillName": "remotework",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "slack",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "zoom",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "php",
-          "percentage": 80,
-          "expertise": 9
+          "relevance": 80
         }
       ]
     },
@@ -1494,44 +1514,54 @@
       "longDesc": "Maintain and update flagship marketing platform\nAdd connectivity to third-party APIs, e.g. LinkedIn and Google My Business\nDesign, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application\nAnalyze performance issues and recommend and implement improvements\nPerform Root Cause Analysis to eliminate memory leaks in customer messaging service",
       "responsibilities:": [
         "Maintain and update flagship marketing platform",
-        "Add connectivity to third-party APIs, e.g. LinkedIn and Google My Business",
         "Design, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application",
         "Analyze performance issues and recommend and implement improvements",
         "Perform Root Cause Analysis to eliminate memory leaks in customer messaging service"
       ],
       "accomplishments": [
-        "Maintain and update flagship marketing platform",
         "Add connectivity to third-party APIs, e.g. LinkedIn and Google My Business",
-        "Design, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application",
-        "Analyze performance issues and recommend and implement improvements",
-        "Perform Root Cause Analysis to eliminate memory leaks in customer messaging service"
+        "Eliminate memory leaks in customer messaging service"
       ],
       "technologies": [
         {
           "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
+        },
+        {
+          "skillName": "html",
+          "relevance": 8
+        },
+        {
+          "skillName": "css",
+          "relevance": 8
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 8
         },
         {
           "skillName": "mysql",
-          "percentage": 30,
-          "expertise": 5
+          "relevance": 8
         },
         {
           "skillName": "drupal",
-          "percentage": 20,
-          "expertise": 4
+          "relevance": 8
+        },
+        {
+          "skillName": "redis",
+          "relevance": 7
+        },
+        {
+          "skillName": "mongo",
+          "relevance": 8
         },
         {
           "skillName": "api",
-          "percentage": 20,
-          "expertise": 4
+          "relevance": 7
         },
         {
           "skillName": "react",
-          "percentage": 5,
-          "expertise": 2
+          "relevance": 5
         }
       ]
     },
@@ -1558,29 +1588,31 @@
       "technologies": [
         {
           "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "mysql",
-          "percentage": 30,
-          "expertise": 5
+          "relevance": 9
         },
         {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "skillName": "grunt",
+          "relevance": 5
         },
         {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "skillName": "gulp",
+          "relevance": 5
         },
         {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "skillName": "html",
+          "relevance": 8
+        },
+        {
+          "skillName": "compass",
+          "relevance": 8
+        },
+        {
+          "skillName": "css",
+          "relevance": 8
         }
       ]
     },
@@ -1605,29 +1637,31 @@
       "technologies": [
         {
           "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 9
         },
         {
           "skillName": "mysql",
-          "percentage": 30,
-          "expertise": 5
+          "relevance": 7
         },
         {
           "skillName": "javascript",
-          "percentage": 20,
-          "expertise": 7
+          "relevance": 9
         },
         {
           "skillName": "bootstrap",
-          "percentage": 10,
-          "expertise": 4
+          "relevance": 9
         },
         {
           "skillName": "xdebug",
-          "percentage": 10,
-          "expertise": 7
+          "relevance": 10
+        },
+        {
+          "skillName": "zf2",
+          "relevance": 9
+        },
+        {
+          "skillName": "composer",
+          "relevance": 9
         }
       ]
     },
@@ -1641,41 +1675,52 @@
       "recruiterId": null,
       "startDate": "2013-12-01",
       "endDate": "2014-04-15",
-      "shortDesc": "Built Slingshot tool to accelerate web content management",
-      "longDesc": "fixme",
+      "shortDesc": "Build Slingshot tool to accelerate web content management",
+      "longDesc": "Build Project Slingshot, an internal content management tool utilized across multiple departments\nTrain tool users to develop and extend Slingshot system's code\nSaved millions of dollars in time and labor vs legacy content management tool",
       "responsibilities:": [
         "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than four hundred people across multiple departments"
       ],
       "accomplishments": [
         "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than  four hundred people across multiple departments",
+        "Train tool users to develop and extend Slingshot system's code",
         "Saved millions of dollars in time and labor vs legacy content management tool"
       ],
       "technologies": [
         {
           "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 9
         },
         {
           "skillName": "mysql",
-          "percentage": 30,
-          "expertise": 5
+          "relevance": 2
         },
         {
           "skillName": "zf2",
-          "percentage": 20,
-          "expertise": 4
+          "relevance": 9
+        },
+        {
+          "skillName": "jquery",
+          "relevance": 8
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 9
+        },
+        {
+          "skillName": "jira",
+          "relevance": 9
+        },
+        {
+          "skillName": "training",
+          "relevance": 7
         },
         {
           "skillName": "git",
-          "percentage": 20,
-          "expertise": 4
+          "relevance": 8
         },
         {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "skillName": "composer",
+          "relevance": 2
         }
       ]
     },
@@ -1689,10 +1734,11 @@
       "recruiterId": null,
       "startDate": "2011-06-01",
       "endDate": "2012-01-01",
-      "shortDesc": "fixme",
-      "longDesc": "fixme",
+      "shortDesc": "UI prototyping from visual design",
+      "longDesc": "Design and protoype user interface elements for banking application from specs and/or wireframes\nProvide feedback & support to business analysts",
       "responsibilities:": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+        "Design and protoype user interface elements for banking application from specs and/or wireframes",
+        "Provide feedback & support to business analysts"
       ],
       "accomplishments": [
         "Design and protoype user interface elements for banking application from specs and/or wireframes",
@@ -1701,29 +1747,23 @@
       "technologies": [
         {
           "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 4
         },
         {
           "skillName": "mysql",
-          "percentage": 30,
-          "expertise": 5
+          "relevance": 30
         },
         {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "skillName": "html",
+          "relevance": 20
         },
         {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "skillName": "css",
+          "relevance": 20
         },
         {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "skillName": "wireframes",
+          "relevance": 20
         }
       ]
     },
@@ -1752,29 +1792,19 @@
       "technologies": [
         {
           "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 7
         },
         {
-          "skillName": "mysql",
-          "percentage": 30,
-          "expertise": 5
+          "skillName": "javascript",
+          "relevance": 8
         },
         {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "skillName": "html",
+          "relevance": 8
         },
         {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
-        },
-        {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "skillName": "ui",
+          "relevance": 8
         }
       ]
     },
@@ -1803,29 +1833,23 @@
       "technologies": [
         {
           "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "mysql",
-          "percentage": 30,
-          "expertise": 5
+          "relevance": 30
         },
         {
           "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "relevance": 20
         },
         {
           "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "relevance": 20
         },
         {
           "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "relevance": 20
         }
       ]
     },
@@ -1855,29 +1879,52 @@
       "technologies": [
         {
           "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
         },
         {
           "skillName": "mysql",
-          "percentage": 30,
-          "expertise": 5
+          "relevance": 30
         },
         {
           "skillName": "AngularJS",
-          "percentage": 20,
-          "expertise": 4
+          "relevance": 20
         },
         {
           "skillName": "APIs",
-          "percentage": 20,
-          "expertise": 4
+          "relevance": 20
         },
         {
           "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "relevance": 20
+        }
+      ]
+    },
+    {
+      "_id": "tpt",
+      "relevance": 2,
+      "title": "Software Engineer",
+      "gigType": "contract",
+      "location": "Saint Paul",
+      "companyId": "50926660-ca30-5281-aeeb-77e9dbedee39",
+      "recruiterId": null,
+      "startDate": "2014-08-01",
+      "endDate": "2014-08-30",
+      "shortDesc": "Refactor, organize, optimize TPT Weather Application",
+      "longDesc": "Refactor, organize, optimize TPT Weather Application",
+      "responsibilities:": [
+        "Refactor, organize, optimize TPT Weather Application"
+      ],
+      "accomplishments": [
+        "Refactor, organize, optimize TPT Weather Application"
+      ],
+      "technologies": [
+        {
+          "skillName": "python",
+          "relevance": 10
+        },
+        {
+          "skillName": "git",
+          "relevance": 8
         }
       ]
     },
@@ -1890,34 +1937,38 @@
       "recruiterId": null,
       "startDate": "2013-01-01",
       "endDate": "2013-04-01",
-      "shortDesc": "fixme",
-      "longDesc": "fixme",
+      "shortDesc": "User Interface Developer",
+      "longDesc": "User Interface Developer",
       "responsibilities:": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+        "Develop responsive, accessible, high quality User Interface from functional and design specifications"
       ],
       "accomplishments": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
-        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
-        "Yet another accomplishment I'd like to brag about",
-        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
-        "Qui deler rapide germano o."
+        "Develop responsive, high quality UI (www.mayoclinic.org) from functional and design specifications"
       ],
       "technologies": [
         {
-          "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "skillName": "html",
+          "relevance": 10
         },
         {
-          "skillName": "mysql",
-          "percentage": 30,
-          "expertise": 5
+          "skillName": "css",
+          "relevance": 10
         },
         {
-          "skillName": "fixme",
-          "percentage": 20,
-          "expertise": 4
+          "skillName": "javascript",
+          "relevance": 10
+        },
+        {
+          "skillName": "jquery",
+          "relevance": 10
+        },
+        {
+          "skillName": "a11y",
+          "relevance": 7
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 20
         }
       ]
     },
@@ -1944,14 +1995,23 @@
       "technologies": [
         {
           "skillName": "php",
-          "percentage": 10,
-          "duration": 42,
-          "expertise": 4
+          "relevance": 10
+        },
+        {
+          "skillName": "html",
+          "relevance": 10
+        },
+        {
+          "skillName": "css",
+          "relevance": 10
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 10
         },
         {
           "skillName": "cakephp",
-          "percentage": 30,
-          "expertise": 5
+          "relevance": 30
         }
       ]
     }
