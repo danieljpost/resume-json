@@ -1482,6 +1482,12 @@
       "url": "http://example.com"
     },
     {
+      "_id": "b047adfa-dc91-53e6-8d1c-e9408abbfe1c",
+      "name": "blueearth",
+      "fullname": "Blue Earth Interactive / Torrch",
+      "url": "http://example.com"
+    },
+    {
       "_id": "fixme",
       "name": "imadeamistake",
       "fullname": "Oopsie Corp",
@@ -2488,6 +2494,49 @@
         },
         {
           "skillName": "cakephp",
+          "relevance": 30
+        }
+      ]
+    },
+    {
+      "_id": "blueearth",
+      "relevance": 4,
+      "title": "PHP Developer",
+      "gigType": "employee",
+      "location": "Saint Paul",
+      "companyId": "b047adfa-dc91-53e6-8d1c-e9408abbfe1c",
+      "recruiterId": null,
+      "startDate": "2009-10-01",
+      "endDate": "2010-06-15",
+      "shortDesc": "Blue Earth Interactive",
+      "longDesc": "Blue Earth Interactive",
+      "responsibilities:": [
+        "Co-design, code backend for complex e-learning/online book application",
+        "Co-design, code backend for complex e-learning/online book application"
+      ],
+      "accomplishments": [
+        "Co-design, code backend for complex e-learning/online book application",
+        "Co-design, code backend for complex e-learning/online book application"
+      ],
+      "technologies": [
+        {
+          "skillName": "php",
+          "relevance": 10
+        },
+        {
+          "skillName": "html",
+          "relevance": 10
+        },
+        {
+          "skillName": "css",
+          "relevance": 10
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 10
+        },
+        {
+          "skillName": "zf2",
           "relevance": 30
         }
       ]
