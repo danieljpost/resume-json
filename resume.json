@@ -2353,6 +2353,7 @@
     },
     {
       "_id": "razr",
+      "hasRecommendations": true,
       "relevance": 10,
       "title": "Software Engineer",
       "gigType": "contract",
@@ -2454,7 +2455,8 @@
     },
     {
       "_id": "ezXchanges",
-      "relevance": 2,
+      "relevance": 7,
+      "hasRecommendations": true,
       "title": "Software Engineer",
       "gigType": "contract",
       "location": "Saint Paul",
@@ -2817,6 +2819,7 @@
     },
     {
       "_id": "visiblecustomer",
+      "hasRecommendations": true,
       "relevance": 6,
       "title": "PHP Developer",
       "gigType": "contract",
