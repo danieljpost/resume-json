@@ -2665,6 +2665,10 @@
       ],
       "technologies": [
         {
+          "skillName": "beanstalk",
+          "relevance": 10
+        },
+        {
           "skillName": "php",
           "relevance": 10
         },
