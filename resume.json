@@ -1893,17 +1893,15 @@
       "recruiterId": null,
       "startDate": "2011-09-01",
       "endDate": "2012-02-01",
-      "shortDesc": "fixme",
-      "longDesc": "fixme",
+      "shortDesc": "Prototype UI from wireframes and design documents",
+      "longDesc": "Prototype and test overall UI experience from wireframes and design documents",
       "responsibilities:": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+        "Prototype and test overall UI experience from wireframes and design documents",
+        "Plan and estimate tasks in Scrum/Agile environment"
       ],
       "accomplishments": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
-        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
-        "Yet another accomplishment I'd like to brag about",
-        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
-        "Qui deler rapide germano o."
+        "Prototyped and tested overall UI experience from wireframes and design documents",
+        "Planned and estimated tasks in Scrum/Agile environment"
       ],
       "technologies": [
         {
@@ -1917,6 +1915,26 @@
         {
           "skillName": "html",
           "relevance": 8
+        },
+        {
+          "skillName": "jquery",
+          "relevance": 8
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 8
+        },
+        {
+          "skillName": "css",
+          "relevance": 8
+        },
+        {
+          "skillName": "griddesign",
+          "relevance": 8
+        },
+        {
+          "skillName": "compass",
+          "relevance": 6
         },
         {
           "skillName": "ui",
