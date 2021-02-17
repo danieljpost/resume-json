@@ -2693,7 +2693,6 @@
           "relevance": 4
         },
         {
-        {
           "skillName": "codeigniter",
           "relevance": 5
         },
@@ -2702,7 +2701,8 @@
           "relevance": 30
         }
       ]
-    }{
+    },
+    {
       "_id": "networkinstruments2",
       "note": "this is the second stint working for network instruments",
       "relevance": 4,
