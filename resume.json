@@ -714,6 +714,38 @@
       "url": "https://www.w3.org/TR/CSS"
     },
     {
+      "_id": "ead6404a-eac0-5e3c-a2c1-6ce84ab34502",
+      "sname": "a11y",
+      "name": "Accessibility",
+      "category": "Methodologies",
+      "description": "When websites and web tools are properly designed and coded, people with disabilities can use them. However, currently many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.",
+      "tiers": [
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
+      "priority": 8,
+      "expertise": 6,
+      "url": "https://www.w3.org/WAI/"
+    },
+    {
+      "_id": "4d06c0f0-736d-543a-9f76-d614d243fb4e",
+      "sname": "responsive",
+      "name": "Responsive Design",
+      "category": "Methodologies",
+      "description": "",
+      "tiers": [
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
+      "priority": 8,
+      "expertise": 7,
+      "url": "https://www.w3.org/TR/CSS"
+    },
+    {
       "_id": "8f2f5582-611e-5d93-a21c-78651b99425b",
       "sname": "bash",
       "name": "Bourne Again SHell",
@@ -2021,13 +2053,13 @@
       "recruiterId": null,
       "startDate": "2013-01-01",
       "endDate": "2013-04-01",
-      "shortDesc": "User Interface Developer",
-      "longDesc": "User Interface Developer",
+      "shortDesc": "Implement responsive, accessible UI for Mayo Clinic",
+      "longDesc": "Implement responsive, accessible UI for Mayo Clinic (mayoclinic.org)",
       "responsibilities:": [
         "Develop responsive, accessible, high quality User Interface from functional and design specifications"
       ],
       "accomplishments": [
-        "Develop responsive, high quality UI (www.mayoclinic.org) from functional and design specifications"
+        "Develop responsive, accessible, high quality User Interface from functional and design specifications"
       ],
       "technologies": [
         {
@@ -2051,8 +2083,12 @@
           "relevance": 7
         },
         {
-          "skillName": "javascript",
-          "relevance": 20
+          "skillName": "responsive",
+          "relevance": 8
+        },
+        {
+          "skillName": "remote",
+          "relevance": 9
         }
       ]
     },
