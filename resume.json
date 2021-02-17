@@ -1767,18 +1767,19 @@
       "title": "Proprietor",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
-      "companyId": "fixme",
+      "companyId": "bff69483-f42c-5711-b5a5-4f8b43225eae",
       "recruiterId": null,
       "contractorId": "bff69483-f42c-5711-b5a5-4f8b43225eae",
-      "startDate": "2009-01-01",
-      "endDate": null,
-      "shortDesc": "I solve problems, build and improve features, maintain legacy applications, and look great doing it.",
-      "longDesc": "When I join your team, you will benefit from my knowledge of Software Development Life Cycle (SDLC), design patterns, frameworks and concepts; my ability to perform Root Cause Analysis; mentor and support junior developers; deliver well-tested systems timely that meet specification functionality requirements; troubleshoot technical issues; provide analysis for technical solutions based on functional requirements; and follow processes, protocols and quality standards in the development and deployment of solutions.\nI solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
+      "startDate": "2014-10-01",
+      "endDate": "2014-10-31",
+      "shortDesc": "Google Wallet, Microsite",
+      "longDesc": "Added Google Wallet to customer's microsite",
       "responsibilities:": [
         "fixme"
       ],
       "accomplishments": [
-        "fixme"
+        "Add Google Wallet",
+        "Improved i18n performance"
       ],
       "technologies": [
         {
@@ -1794,28 +1795,24 @@
           "relevance": 10
         },
         {
-          "skillName": "rest",
-          "relevance": 6
-        },
-        {
           "skillName": "yii2",
           "relevance": 10
         },
         {
           "skillName": "html",
-          "relevance": 10
+          "relevance": 8
         },
         {
           "skillName": "css",
-          "relevance": 10
+          "relevance": 6
         },
         {
           "skillName": "javascript",
-          "relevance": 10
+          "relevance": 8
         },
         {
-          "skillName": "mysql",
-          "relevance": 8
+          "skillName": "mssql",
+          "relevance": 4
         }
       ]
     },
