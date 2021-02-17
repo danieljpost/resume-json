@@ -2018,7 +2018,7 @@
     },
     {
       "_id": "usbank",
-      "relevance": 8,
+      "relevance": 9,
       "title": "UI Prototype Developer",
       "gigType": "contract",
       "location": "Minneapolis",
@@ -2124,7 +2124,7 @@
     },
     {
       "_id": "bluestem",
-      "relevance": 6,
+      "relevance": 5,
       "title": "UI Developer",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
@@ -2154,11 +2154,11 @@
           "relevance": 30
         },
         {
-          "skillName": "fixme",
+          "skillName": "api",
           "relevance": 20
         },
         {
-          "skillName": "fixme",
+          "skillName": "jquery",
           "relevance": 20
         },
         {
@@ -2200,11 +2200,11 @@
           "relevance": 30
         },
         {
-          "skillName": "AngularJS",
+          "skillName": "angularjs",
           "relevance": 20
         },
         {
-          "skillName": "APIs",
+          "skillName": "api",
           "relevance": 20
         },
         {
@@ -2495,6 +2495,10 @@
         {
           "skillName": "javascript",
           "relevance": 10
+        },
+        {
+          "skillName": "kohana",
+          "relevance": 30
         },
         {
           "skillName": "mysql",
