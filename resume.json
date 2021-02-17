@@ -2650,13 +2650,13 @@
       "title": "PHP Developer",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
-      "companyId": "6e5b1562-3062-5c02-aa97-b08039574797",
+      "companyId": "ca6addd9-fc00-5ca4-87dd-b2cdaeea91db",
       "recruiterId": null,
-      "contractorId": null,
+      "contractorId": "ca6addd9-fc00-5ca4-87dd-b2cdaeea91db",
       "startDate": "2013-01-01",
       "endDate": "2013-04-30",
-      "shortDesc": "Add features to time/vacation tracking database",
-      "longDesc": "Add features to time/vacation tracking database",
+      "shortDesc": "Backend development for educational software",
+      "longDesc": "Backend development for educational software",
       "responsibilities:": [
         "Add features to time/vacation tracking database"
       ],
@@ -2674,15 +2674,20 @@
         },
         {
           "skillName": "css",
-          "relevance": 10
+          "relevance": 8
         },
         {
           "skillName": "javascript",
-          "relevance": 10
+          "relevance": 9
         },
         {
           "skillName": "git",
           "relevance": 4
+        },
+        {
+        {
+          "skillName": "codeigniter",
+          "relevance": 5
         },
         {
           "skillName": "mysql",
