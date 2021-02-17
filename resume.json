@@ -1409,7 +1409,7 @@
       "url": "https://www.homesforheroes.com/"
     },
     {
-      "_id": "1a84c2ca-c566-55f4-9a61-506d6b5b683b",
+      "_id": "4e9f69c1-548e-52ba-bd34-f0879191c888",
       "credit": true,
       "name": "irishtitan",
       "type": "contractor",
@@ -2460,7 +2460,7 @@
       "location": "Saint Paul",
       "companyId": "1a84c2ca-c566-55f4-9a61-506d6b5b683b",
       "recruiterId": null,
-      "contractorId": null,
+      "contractorId": "4e9f69c1-548e-52ba-bd34-f0879191c888",
       "startDate": "2013-08-01",
       "endDate": "2013-08-30",
       "shortDesc": "Refactor, rebuild video sharing application",
