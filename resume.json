@@ -734,7 +734,7 @@
       "sname": "responsive",
       "name": "Responsive Design",
       "category": "Methodologies",
-      "description": "",
+      "description": "Responsive design is the practice of designing a website so it looks and works properly on a range of different devices — particularly mobile phones and tablets as well as desktops and laptops.",
       "tiers": [
         "Front End",
         "Software Engineer",
@@ -742,8 +742,8 @@
         "User Interface"
       ],
       "priority": 8,
-      "expertise": 7,
-      "url": "https://www.w3.org/TR/CSS"
+      "expertise": 6,
+      "url": "https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode"
     },
     {
       "_id": "8f2f5582-611e-5d93-a21c-78651b99425b",
