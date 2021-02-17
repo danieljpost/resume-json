@@ -2309,7 +2309,7 @@
     },
     {
       "_id": "bluestem",
-      "relevance": 5,
+      "relevance": 6,
       "title": "UI Developer",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
@@ -2324,9 +2324,9 @@
         "Design, rapid-prototype, troubleshoot, maintain User Interface for new features"
       ],
       "accomplishments": [
+        "Co-design REST API and User Interface for product search",
         "Design, rapid-prototype, troubleshoot, maintain User Interface for new features",
-        "Implement, test, debug, and maintain HTML, JavaScript, and CSS for client's production site",
-        "Co-design API and User Interface for product search"
+        "Implement, test, debug, and maintain HTML, JavaScript, and CSS for client's production site"
       ],
       "technologies": [
         {
