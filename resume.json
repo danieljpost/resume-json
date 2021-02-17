@@ -61,7 +61,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 3,
+      "expertise": 5,
       "url": "http://microsoft.com"
     },
     {
@@ -78,7 +79,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 2,
+      "relevance": 4,
       "expertise": 5,
       "url": "http://microsoft.com"
     },
@@ -97,8 +98,8 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 6,
-      "expertise": 8,
+      "relevance": 7,
+      "expertise": 9,
       "url": "https://linux.com"
     },
     {
@@ -119,7 +120,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "relevance": 4,
       "expertise": 6,
       "url": "https://macos.com"
     },
@@ -137,8 +138,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
-      "expertise": 5,
+      "relevance": 2,
+      "expertise": 4,
       "url": "https://www.docker.com/"
     },
     {
@@ -155,8 +156,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
-      "expertise": 5,
+      "relevance": 0,
+      "expertise": 4,
       "url": "https://www.docker.com/"
     },
     {
@@ -174,8 +175,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
-      "expertise": 7,
+      "relevance": 1,
+      "expertise": 5,
       "url": "https://www.vagrantup.com"
     },
     {
@@ -192,7 +193,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 1,
+      "relevance": 1,
       "expertise": 2,
       "url": "https://ngrok.com/product"
     },
@@ -211,7 +212,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 1,
+      "relevance": 2,
       "expertise": 3,
       "url": "https://gruntjs.com/"
     },
@@ -232,7 +233,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "relevance": 2,
       "expertise": 3,
       "url": "https://webpack.js.org/"
     },
@@ -249,7 +250,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "relevance": 2,
       "expertise": 6,
       "url": "https://www.virtualbox.org/"
     },
@@ -269,7 +270,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "relevance": 8,
       "expertise": 8,
       "url": "https://www.mysql.com",
       "blurb": "I've built dozens of applications using MySQL ranging from hand-written  SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
@@ -290,7 +291,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 4,
       "expertise": 8,
       "url": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping",
       "blurb": "I've built dozens of applications using MySQL ranging from hand-written SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
@@ -311,7 +312,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "relevance": 2,
       "expertise": 8,
       "url": "https://memcached.org/",
       "blurb": "It's Web Scale!"
@@ -332,7 +333,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 2,
       "expertise": 8,
       "url": "https://redis.io/",
       "blurb": "It's Web Scale!"
@@ -352,7 +353,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 5,
+      "relevance": 5,
       "expertise": 8,
       "url": "https://www.mongodb.com/",
       "blurb": "I've used on several projects."
@@ -372,8 +373,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
-      "expertise": 8,
+      "relevance": 3,
+      "expertise": 7,
       "url": "https://en.wikipedia.org/wiki/XML",
       "blurb": "I've used on multiple projects."
     },
@@ -391,7 +392,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 3,
+      "relevance": 4,
       "expertise": 7,
       "url": "https://en.wikipedia.org/wiki/Representational_state_transfer"
     },
@@ -409,7 +410,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 4,
       "expertise": 6,
       "url": "https://www.postgresql.org"
     },
@@ -427,7 +428,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 3,
       "expertise": 7,
       "url": "https://www.microsoft.com/en-us/sql-server/default.aspx"
     },
@@ -448,7 +449,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 6,
+      "relevance": 5,
       "expertise": 5,
       "url": "https://nodejs.org"
     },
@@ -467,7 +468,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 6,
       "expertise": 7,
       "url": "http://httpd.apache.org"
     },
@@ -485,8 +486,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
-      "expertise": 5,
+      "relevance": 5,
+      "expertise": 4,
       "url": "https://www.nginx.com/"
     },
     {
@@ -506,7 +507,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 3,
       "expertise": 4,
       "url": "https://aws.amazon.com/s3"
     },
@@ -527,7 +528,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 3,
       "expertise": 3,
       "url": "https://cloud.google.com/"
     },
@@ -548,8 +549,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
-      "expertise": 4,
+      "relevance": 3,
+      "expertise": 3,
       "url": "https://aws.amazon.com/cloudfront"
     },
     {
@@ -569,7 +570,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 10,
+      "relevance": 10,
       "expertise": 9,
       "url": "http://php.net"
     },
@@ -585,7 +586,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 6,
+      "relevance": 7,
       "expertise": 8,
       "url": "https://jquery.com"
     },
@@ -601,7 +602,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 3,
+      "relevance": 3,
       "expertise": 6,
       "url": "https://angularjs.org/"
     },
@@ -617,7 +618,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 3,
+      "relevance": 4,
       "expertise": 6,
       "url": "https://angular.io"
     },
@@ -636,7 +637,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 5,
+      "relevance": 6,
       "expertise": 7,
       "url": "https://www.atlassian.com/software/jira"
     },
@@ -656,7 +657,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 5,
       "expertise": 5,
       "url": "https://zoom.us/"
     },
@@ -677,7 +678,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 5,
       "expertise": 6,
       "url": "https://slack.com/"
     },
@@ -698,8 +699,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 8,
-      "expertise": 8,
+      "relevance": 10,
+      "expertise": 9,
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
     },
     {
@@ -714,7 +715,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 8,
+      "relevance": 10,
       "expertise": 9,
       "url": "https://www.w3.org/html"
     },
@@ -730,7 +731,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 8,
+      "relevance": 9,
       "expertise": 7,
       "url": "https://www.w3.org/TR/CSS"
     },
@@ -746,7 +747,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 8,
+      "relevance": 7,
       "expertise": 6,
       "url": "https://www.w3.org/WAI/"
     },
@@ -762,7 +763,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 8,
+      "relevance": 7,
       "expertise": 6,
       "url": "https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode"
     },
@@ -780,7 +781,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 6,
+      "relevance": 6,
       "expertise": 8,
       "url": "https://www.gnu.org/software/bash/"
     },
@@ -798,7 +799,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 2,
+      "relevance": 1,
       "expertise": 3,
       "url": "https://vuejs.org/"
     },
@@ -819,8 +820,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 6,
-      "expertise": 6,
+      "relevance": 7,
+      "expertise": 5,
       "url": "https://reactjs.org/"
     },
     {
@@ -836,7 +837,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 6,
+      "relevance": 6,
       "expertise": 7,
       "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
     },
@@ -854,7 +855,7 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 5,
+      "relevance": 5,
       "expertise": 4,
       "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
     },
@@ -875,7 +876,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 5,
+      "relevance": 4,
       "expertise": 8,
       "url": "https://framework.zend.com"
     },
@@ -895,7 +896,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 3,
       "expertise": 6,
       "url": "https://www.yiiframework.com"
     },
@@ -915,27 +916,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
-      "expertise": 6,
-      "url": "https://www.codeigniter.com"
-    },
-    {
-      "_id": "ceda4f74-7535-5780-a219-72b776f1060b",
-      "sname": "codeigniter",
-      "name": "CodeIgniter",
-      "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
-      "category": "Frameworks",
-      "tiers": [
-        "Administrator",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "priority": 4,
+      "relevance": 3,
       "expertise": 6,
       "url": "https://www.codeigniter.com"
     },
@@ -943,7 +924,7 @@
       "_id": "ab228811-6d27-5c80-8bc6-32624d30a3ff",
       "sname": "symfony",
       "name": "Symfony",
-      "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
+      "description": "Symfony is a set of reusable PHP components and a PHP framework to build web applications, APIs, microservices and web services.",
       "category": "Frameworks",
       "tiers": [
         "Administrator",
@@ -955,9 +936,9 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 4,
       "expertise": 5,
-      "url": "https://www.codeigniter.com"
+      "url": "https://symfony.com"
     },
     {
       "_id": "4ba748ae-bdb9-5c0e-a54f-e0673642a3c5",
@@ -975,7 +956,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "relevance": 2,
       "expertise": 6,
       "url": "https://kohanaframework.org/"
     },
@@ -996,7 +977,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 4,
       "expertise": 8,
       "url": "https://www.jetbrains.com/phpstorm"
     },
@@ -1017,8 +998,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
-      "expertise": 8,
+      "relevance": 4,
+      "expertise": 7,
       "url": "https://code.visualstudio.com"
     },
     {
@@ -1038,7 +1019,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 4,
+      "relevance": 6,
       "expertise": 8,
       "url": "https://git-scm.com/"
     },
@@ -1059,7 +1040,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "relevance": 0,
       "expertise": 8,
       "url": "https://www.eclipse.org"
     },
@@ -1078,7 +1059,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 3,
+      "relevance": 3,
       "expertise": 7,
       "url": "https://xdebug.org"
     },
@@ -1096,7 +1077,7 @@
         "User Interface",
         "Team Lead"
       ],
-      "priority": 2,
+      "relevance": 2,
       "expertise": 6,
       "url": "https://developers.google.com/web/tools/chrome-devtools"
     },
@@ -1113,8 +1094,8 @@
         "User Experience",
         "User Interface"
       ],
-      "priority": 1,
-      "expertise": 4,
+      "relevance": 1,
+      "expertise": 3,
       "url": "https://www.mozilla.org/en-US/firefox/developer"
     },
     {
@@ -1131,7 +1112,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 1,
+      "relevance": 1,
       "expertise": 4,
       "url": "http://jmeter.apache.org"
     },
@@ -1149,7 +1130,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 1,
+      "relevance": 1,
       "expertise": 4,
       "url": "https://github.com/JoeDog/siege"
     },
@@ -1171,7 +1152,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "relevance": 1,
       "expertise": 3,
       "url": "https://sentry.io"
     },
@@ -1190,7 +1171,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "relevance": 1,
       "expertise": 4,
       "url": "https://newrelic.com"
     },
@@ -1208,8 +1189,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 1,
-      "expertise": 3,
+      "relevance": 1,
+      "expertise": 4,
       "url": "https://www.atlassian.com/software/bamboo"
     },
     {
@@ -1226,7 +1207,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "relevance": 2,
       "expertise": 5,
       "url": "https://codeship.com"
     },
@@ -1244,7 +1225,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 3,
+      "relevance": 4,
       "expertise": 7,
       "url": "https://getcomposer.org"
     },
@@ -1265,8 +1246,8 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 3,
-      "expertise": 3,
+      "relevance": 4,
+      "expertise": 4,
       "url": "https://npmjs.com/"
     },
     {
@@ -1284,7 +1265,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "relevance": 3,
       "expertise": 3,
       "url": "https://github.com/nvm-sh/nvm/blob/master/README.md"
     },
@@ -1305,7 +1286,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "relevance": 3,
       "expertise": 4,
       "url": "http://compass-style.org"
     },
@@ -1326,7 +1307,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 1,
+      "relevance": 1,
       "expertise": 2,
       "url": "https://www.typescriptlang.org"
     },
@@ -1347,7 +1328,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 0,
+      "relevance": 0,
       "expertise": 0,
       "url": "https://coffeescript.org"
     },
@@ -1365,7 +1346,7 @@
         "Business",
         "Consulting"
       ],
-      "priority": 3,
+      "relevance": 3,
       "expertise": 2,
       "url": "https://varnish-cache.org/"
     },
@@ -1383,7 +1364,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 2,
+      "relevance": 2,
       "expertise": 1,
       "url": "https://babeljs.io"
     },
@@ -1399,15 +1380,16 @@
         "Consulting",
         "Team Lead"
       ],
-      "priority": 7,
+      "relevance": 8,
       "expertise": 4,
-      "url": ""
+      "url": "https://danieljpost.consulting"
     }
   ],
   "companies": [
     {
       "_id": "6f219570-cbb1-53fc-b563-357f37b414da",
       "name": "djpcorp",
+      "type": "owned",
       "fullname": "Daniel J. Post Consulting, Inc",
       "url": "http://danieljpost.consulting",
       "see": "https://schema.org/Organization"
@@ -1415,122 +1397,148 @@
     {
       "_id": "5d017a2f-c584-5547-b73d-b572c779bf53",
       "name": "vivial",
+      "type": "employer",
       "fullname": "Vivial Media, LLC",
-      "url": "http://vivial.net"
+      "url": "https://vivial.net"
     },
     {
       "_id": "09d49804-44c2-578e-b082-6be3a7d10b6d",
       "name": "homesforheroes",
+      "type": "client",
       "fullname": "Homes for Heroes",
       "url": "https://www.homesforheroes.com/"
     },
     {
       "_id": "1a84c2ca-c566-55f4-9a61-506d6b5b683b",
       "name": "ezxchanges",
+      "type": "client",
       "fullname": "ezXchanges",
       "url": "https://www.example.com/"
     },
     {
       "_id": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
       "name": "btg",
+      "type": "client",
       "fullname": "Build Technology Group",
       "url": "https://buildtechnologygroup.com"
     },
     {
       "_id": "88abb4d1-694d-5384-bce2-21c0bc59b160",
       "name": "resortsandlodges",
+      "type": "employer",
       "fullname": "Resorts and Lodges",
       "url": "http://resortsandlodges.com"
     },
     {
       "_id": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
       "name": "gbl",
+      "type": "client",
       "fullname": "Go Buy Local / Do Good Tech",
       "url": "http://gobuylocal.com"
     },
     {
       "_id": "3300eb6c-4406-5988-9adc-cb4c7a969fe2",
       "name": "lacek",
+      "type": "client",
       "fullname": "The Lacek Group",
       "url": "http://lacek.com"
     },
     {
       "_id": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
       "name": "target",
+      "type": "client",
       "fullname": "Target Corporation",
       "url": "http://target.com"
     },
     {
       "_id": "72e07a43-44d2-5850-98eb-33159db9eccd",
       "name": "razr",
+      "type": "client",
       "fullname": "RAZR Marketing",
       "url": "https://razrmarketinginc.com"
     },
     {
       "_id": "50926660-ca30-5281-aeeb-77e9dbedee39",
       "name": "tpt",
+      "type": "client",
       "fullname": "Twin Cities Public Television",
       "url": "https://www.tpt.org/"
     },
     {
       "_id": "44eba145-fbd7-54f3-8311-b413c3eaa021",
       "name": "usbank",
+      "type": "client",
       "fullname": "U.S. Bank",
       "url": "http://usbank.com"
     },
     {
       "_id": "c306459f-05ee-538e-8839-17355d27b43b",
       "name": "lifetimefitness",
+      "type": "client",
       "fullname": "Life Time Fitness",
       "url": "http://lifetimefitness.com"
     },
     {
       "_id": "1dfb2ad1-29db-552c-8060-5cd81ec68729",
       "name": "mayo",
+      "type": "client",
       "fullname": "Mayo Clinic",
       "url": "http://mayo.edu"
     },
     {
       "_id": "fa87f1e3-3d32-5b56-9e37-ac38b8f257e4",
       "name": "bluestem",
+      "type": "client",
       "fullname": "BlueStem Brands",
       "url": "http://bluestem.com"
     },
     {
       "_id": "6e5b1562-3062-5c02-aa97-b08039574797",
       "name": "networkinstruments",
+      "type": "client",
       "fullname": "Network Instruments",
       "url": "http://example.com"
     },
     {
       "_id": "b047adfa-dc91-53e6-8d1c-e9408abbfe1c",
       "name": "blueearth",
+      "type": "employer",
       "fullname": "Blue Earth Interactive / Torrch",
       "url": "http://example.com"
     },
     {
       "_id": "fixme",
       "name": "imadeamistake",
+      "type": "client",
       "fullname": "Oopsie Corp",
       "url": "http://example.com"
     },
     {
       "_id": "101d483d-07ac-51a6-88c2-288a29a226e6",
       "name": "tdxtech",
+      "type": "client",
       "fullname": "TDX Tech",
       "url": "http://example.com"
     },
     {
       "_id": "8331781e-7290-570d-9eab-ef1f0bbb93cd",
       "name": "mncee",
+      "type": "client",
       "fullname": "MN Center for Energy and the Environment",
       "url": "http://mncee.org"
     },
     {
       "_id": "4a94adbf-edb9-51e2-80db-a35777a79e31",
       "name": "visiblecustomer",
+      "type": "client",
       "fullname": "Visible Customer",
       "url": "http://visiblecFustomer.com"
+    },{
+      "_id": "fixme",
+      "name": "irishtitan",
+      "type": "recruiter",
+      "fullname": "Irish Titan",
+      "url": "https://irishtitan.com/"
     }
   ],
   "gigs": [
@@ -1560,6 +1568,18 @@
         "Mentor and train junior developers and other coworkers in a wide spectrum of technlogies"
       ],
       "technologies": [
+        {
+          "skillName": "httpd",
+          "relevance": 5
+        },
+        {
+          "skillName": "nginx",
+          "relevance": 5
+        },
+        {
+          "skillName": "varnish",
+          "relevance": 5
+        },
         {
           "skillName": "php",
           "relevance": 10
@@ -1664,7 +1684,7 @@
     },
     {
       "_id": "btg",
-      "relevance": 8,
+      "relevance": 9,
       "title": "PHP Developer",
       "gigType": "contract",
       "location": "Remote",
@@ -1717,7 +1737,7 @@
     },
     {
       "_id": "vivial",
-      "relevance": 7,
+      "relevance": 8,
       "title": "Software Developer",
       "gigType": "employee",
       "location": "Greater Twin Cities Area",
@@ -1748,7 +1768,7 @@
         },
         {
           "skillName": "xdebug",
-          "relevance": 8
+          "relevance": 9
         },
         {
           "skillName": "memcache",
@@ -1784,15 +1804,15 @@
         },
         {
           "skillName": "node",
-          "relevance": 3
+          "relevance": 4
         },
         {
           "skillName": "mongo",
-          "relevance": 8
+          "relevance": 7
         },
         {
           "skillName": "rest",
-          "relevance": 7
+          "relevance": 8
         },
         {
           "skillName": "api",
@@ -2382,31 +2402,31 @@
       "technologies": [
         {
           "skillName": "html",
-          "relevance": 10
-        },
-        {
-          "skillName": "css",
-          "relevance": 10
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 10
-        },
-        {
-          "skillName": "jquery",
-          "relevance": 10
-        },
-        {
-          "skillName": "a11y",
-          "relevance": 7
-        },
-        {
-          "skillName": "responsive",
           "relevance": 8
         },
         {
-          "skillName": "remote",
+          "skillName": "css",
+          "relevance": 8
+        },
+        {
+          "skillName": "javascript",
           "relevance": 9
+        },
+        {
+          "skillName": "jquery",
+          "relevance": 8
+        },
+        {
+          "skillName": "a11y",
+          "relevance": 9
+        },
+        {
+          "skillName": "responsive",
+          "relevance": 9
+        },
+        {
+          "skillName": "remote",
+          "relevance": 10
         }
       ]
     },
@@ -2464,7 +2484,7 @@
     },
     {
       "_id": "networkinstruments",
-      "relevance": 4,
+      "relevance": 5,
       "title": "PHP Developer",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
@@ -2509,6 +2529,7 @@
     },
     {
       "_id": "networkinstruments2",
+      "note": "this is the second stint working for network instruments",
       "relevance": 4,
       "title": "PHP Developer",
       "gigType": "contract",
@@ -2576,8 +2597,12 @@
           "relevance": 10
         },
         {
-          "skillName": "a11y",
+          "skillName": "responsive",
           "relevance": 8
+        },
+        {
+          "skillName": "a11y",
+          "relevance": 7
         },
         {
           "skillName": "html",
@@ -2607,7 +2632,7 @@
     },
     {
       "_id": "visiblecustomer",
-      "relevance": 5,
+      "relevance": 6,
       "title": "PHP Developer",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
@@ -2809,6 +2834,9 @@
       },
       "indeed": {
         "url": "http://danieljpost.net/indeed"
+      },
+      "opinions": {
+        "url": "http://danieljpost.net/opinion"
       }
     }
   ]
