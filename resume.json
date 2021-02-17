@@ -1887,12 +1887,15 @@
         "Maintain and update flagship marketing platform",
         "Design, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application",
         "Analyze performance issues and recommend and implement improvements",
-        "Perform Root Cause Analysis to eliminate memory leaks in customer messaging service"
+        "Perform Root Cause Analysis to eliminate memory leaks in monthly newsletter"
       ],
       "accomplishments": [
         "Add connectivity to third-party APIs, e.g. LinkedIn and Google My Business",
+        "FIXME: Dashboard",
+        "FIXME: Google Organics",
         "FIXME: Authlabs",
         "FIXME: React",
+        "FIXME: monthly newsletter",
         "FIXME: connect Google My Business API",
         "Eliminate memory leaks in customer messaging service"
       ],
@@ -1903,11 +1906,11 @@
         },
         {
           "skillName": "codeship",
-          "relevance": 8
+          "relevance": 6
         },
         {
           "skillName": "newrelic",
-          "relevance": 8
+          "relevance": 7
         },
         {
           "skillName": "xdebug",
