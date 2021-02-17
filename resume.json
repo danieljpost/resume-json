@@ -2667,13 +2667,12 @@
       "contractorId": null,
       "startDate": "2013-01-01",
       "endDate": "2013-02-31",
-      "shortDesc": "Add features to time/vacation tracking database",
-      "longDesc": "Add features to time/vacation tracking database",
+      "shortDesc": "built a WordPress plugin to support client needs",
+      "longDesc": "built a WordPress plugin to support client needs",
       "responsibilities:": [
-        "Add features to time/vacation tracking database"
       ],
       "accomplishments": [
-        "Add features to time/vacation tracking database"
+        "built a WordPress plugin to support client needs"
       ],
       "technologies": [
         {
@@ -2693,12 +2692,8 @@
           "relevance": 10
         },
         {
-          "skillName": "git",
-          "relevance": 4
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 30
+          "skillName": "wordpress",
+          "relevance": 10
         }
       ]
     },
