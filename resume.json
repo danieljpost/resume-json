@@ -3055,6 +3055,16 @@
       "when": "2009-08-15",
       "relationship": "Daniel J. worked with TQ at Visible Customer",
       "recommendation": "Daniel is a very smart, capable developer. I continue to be impressed by his thoughtful approach to software, strong sense of clean architecture and awareness of maintainability. His code is clean and clever. He was always happy to help me with technical issues based on his thorough understanding of software and insightful knowledge of the technologies we used together. He's also an entertaining guy to have around. He's culturally aware and witty. I'd be very happy to work with him again."
+    },
+    {
+      "_id": "fixme",
+      "gigId": "fixme",
+      "name": "James Marmas",
+      "linkedIn": "https://www.linkedin.com/in/jamesmarmas/",
+      "title": "President/Owner at Search Leaders",
+      "when": "2010-12-8",
+      "relationship": "James hired Daniel to do some subcontracting work",
+      "recommendation": "Daniel is an high integrity individual with excellent attention to detail in everything he does. I have worked with him for the past 6 months and he has done a remarkable job for our client. He is an exceptional developer with solid grasp of multiple programming languages. I would recommend Daniel to any of my other clients."
     }
   ],
   "links": [
