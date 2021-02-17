@@ -2677,19 +2677,19 @@
       "technologies": [
         {
           "skillName": "php",
-          "relevance": 10
+          "relevance": 8
         },
         {
           "skillName": "html",
-          "relevance": 10
+          "relevance": 7
         },
         {
           "skillName": "css",
-          "relevance": 10
+          "relevance": 7
         },
         {
           "skillName": "javascript",
-          "relevance": 10
+          "relevance": 7
         },
         {
           "skillName": "wordpress",
