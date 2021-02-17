@@ -899,6 +899,66 @@
       "url": "https://www.codeigniter.com"
     },
     {
+      "_id": "ceda4f74-7535-5780-a219-72b776f1060b",
+      "sname": "codeigniter",
+      "name": "CodeIgniter",
+      "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
+      "category": "Frameworks",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "Business",
+        "Consulting",
+        "Team Lead"
+      ],
+      "priority": 4,
+      "expertise": 6,
+      "url": "https://www.codeigniter.com"
+    },
+    {
+      "_id": "fixme",
+      "sname": "symfony",
+      "name": "Symfony",
+      "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
+      "category": "Frameworks",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "Business",
+        "Consulting",
+        "Team Lead"
+      ],
+      "priority": 4,
+      "expertise": 5,
+      "url": "https://www.codeigniter.com"
+    },
+    {
+      "_id": "fixme",
+      "sname": "kohana",
+      "name": "Kohana",
+      "description": "Deprecated PHP Framework",
+      "category": "Frameworks",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "Business",
+        "Consulting",
+        "Team Lead"
+      ],
+      "priority": 2,
+      "expertise": 6,
+      "url": "https://kohanaframework.org/"
+    },
+    {
       "_id": "c82fb3ac-6b5f-5c3a-8400-29c0d961dd71",
       "sname": "phpstorm",
       "name": "PHPStorm",
@@ -1842,6 +1902,79 @@
       ]
     },
     {
+      "_id": "homesforheroes",
+      "relevance": 9,
+      "title": "Contractor",
+      "gigType": "contract",
+      "location": "Minneapolis",
+      "companyId": "fixme",
+      "recruiterId": null,
+      "startDate": "2014-06-01",
+      "endDate": "2014-07-01",
+      "shortDesc": "Build Slingshot tool to accelerate web content management",
+      "longDesc": "Build Project Slingshot, an internal content management tool utilized across multiple departments\nTrain tool users to develop and extend Slingshot system's code\nSaved millions of dollars in time and labor vs legacy content management tool",
+      "responsibilities:": [
+        "Automate and test database export from Drupal platform to new CakePHP application"
+      ],
+      "accomplishments": [
+        "Automate and test database export from Drupal platform to new CakePHP application"
+      ],
+      "technologies": [
+        {
+          "skillName": "php",
+          "relevance": 9
+        },
+        {
+          "skillName": "cakephp",
+          "relevance": 9
+        },
+        {
+          "skillName": "mysql",
+          "relevance": 2
+        },
+        {
+          "skillName": "bash",
+          "relevance": 5
+        },
+        {
+          "skillName": "drupal",
+          "relevance": 5
+        },
+        {
+          "skillName": "jquery",
+          "relevance": 8
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 9
+        },
+        {
+          "skillName": "jira",
+          "relevance": 9
+        },
+        {
+          "skillName": "training",
+          "relevance": 7
+        },
+        {
+          "skillName": "rest",
+          "relevance": 6
+        },
+        {
+          "skillName": "api",
+          "relevance": 6
+        },
+        {
+          "skillName": "git",
+          "relevance": 8
+        },
+        {
+          "skillName": "composer",
+          "relevance": 2
+        }
+      ]
+    },
+    {
       "_id": "usbank",
       "relevance": 8,
       "title": "UI Prototype Developer",
@@ -2059,6 +2192,51 @@
       "technologies": [
         {
           "skillName": "python",
+          "relevance": 10
+        },
+        {
+          "skillName": "git",
+          "relevance": 8
+        }
+      ]
+    },
+    {
+      "_id": "ezXchanges",
+      "relevance": 2,
+      "title": "Software Engineer",
+      "gigType": "contract",
+      "location": "Saint Paul",
+      "companyId": "fixme",
+      "recruiterId": null,
+      "startDate": "2014-08-01",
+      "endDate": "2014-08-30",
+      "shortDesc": "Refactor, rebuild video sharing application",
+      "longDesc": "Refactor, rebuild video sharing application",
+      "responsibilities:": [
+        "Refactor, rebuild video sharing application"
+      ],
+      "accomplishments": [
+        "Refactor, rebuild video sharing application"
+      ],
+      "technologies": [
+        {
+          "skillName": "postgres",
+          "relevance": 10
+        },
+        {
+          "skillName": "bash",
+          "relevance": 9
+        },
+        {
+          "skillName": "cakephp",
+          "relevance": 5
+        },
+        {
+          "skillName": "drupal",
+          "relevance": 4
+        },
+        {
+          "skillName": "mysql",
           "relevance": 10
         },
         {
