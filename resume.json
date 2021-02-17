@@ -1410,7 +1410,7 @@
     },
     {
       "_id": "1a84c2ca-c566-55f4-9a61-506d6b5b683b",
-      "credit": false,
+      "credit": true,
       "name": "irishtitan",
       "type": "client",
       "fullname": "Irish Titan",
@@ -1426,6 +1426,8 @@
     {
       "_id": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
       "name": "btg",
+      "credit": true,
+      "name": "irishtitan",
       "type": "contractor",
       "fullname": "Build Technology Group",
       "url": "https://buildtechnologygroup.com"
@@ -1433,12 +1435,14 @@
     {
       "_id": "5a9d0998-fbd9-56d5-99fe-81dc601c6ed5",
       "name": "horizontal",
+      "credit": false,
+      "name": "irishtitan",
       "type": "contractor",
       "fullname": "Star Asia",
       "url": "https://star-asia.com"
     },
     {
-      "_id": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
+      "_id": "ca6addd9-fc00-5ca4-87dd-b2cdaeea91db",
       "name": "btg",
       "type": "client",
       "fullname": "Star Asia",
