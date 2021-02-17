@@ -1450,8 +1450,15 @@
     },
     {
       "_id": "ca6addd9-fc00-5ca4-87dd-b2cdaeea91db",
-      "name": "bluedoor",
+      "name": "bluedoorpublishing",
       "type": "client",
+      "fullname": "bluedoor publishing",
+      "url": "https://www.bluedoorpublishing.com/"
+    },
+    {
+      "_id": "ca6addd9-fc00-5ca4-87dd-b2cdaeea91db",
+      "name": "bluedoor",
+      "type": "contractor",
       "fullname": "bluedoor labs",
       "url": "https://www.bluedoorlabs.com/"
     },
