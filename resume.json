@@ -1423,7 +1423,12 @@
       "endDate": null,
       "shortDesc": "I solve problems, build and improve features, maintain legacy applications, and look great doing it.",
       "longDesc": "When I join your team, you will benefit from my knowledge of Software Development Life Cycle (SDLC), design patterns, frameworks and concepts; my ability to perform Root Cause Analysis; mentor and support junior developers; deliver well-tested systems timely that meet specification functionality requirements; troubleshoot technical issues; provide analysis for technical solutions based on functional requirements; and follow processes, protocols and quality standards in the development and deployment of solutions.\nI solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
+      "blurbs": {
+        "some label": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
+        "another label": ""
+      },
       "responsibilities:": [
+        "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it",
         "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it."
       ],
       "accomplishments": [
