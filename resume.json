@@ -1423,6 +1423,13 @@
       "url": "https://buildtechnologygroup.com"
     },
     {
+      "_id": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
+      "name": "btg",
+      "type": "client",
+      "fullname": "Star Asia",
+      "url": "https://star-asia.com"
+    },
+    {
       "_id": "88abb4d1-694d-5384-bce2-21c0bc59b160",
       "name": "resortsandlodges",
       "type": "employer",
