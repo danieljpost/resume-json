@@ -1476,6 +1476,12 @@
       "url": "http://bluestem.com"
     },
     {
+      "_id": "6e5b1562-3062-5c02-aa97-b08039574797",
+      "name": "networkinstruments",
+      "fullname": "Network Instruments",
+      "url": "http://example.com"
+    },
+    {
       "_id": "4a94adbf-edb9-51e2-80db-a35777a79e31",
       "name": "visiblecustomer",
       "fullname": "Visible Customer",
@@ -2302,6 +2308,132 @@
         {
           "skillName": "remote",
           "relevance": 9
+        }
+      ]
+    },
+    {
+      "_id": "tdxtech",
+      "relevance": 4,
+      "title": "PHP Developer",
+      "gigType": "contract",
+      "location": "Greater Twin Cities Area",
+      "companyId": "fixme",
+      "recruiterId": null,
+      "startDate": "2012-11-01",
+      "endDate": "2012-12-31",
+      "shortDesc": "Build Work Order tool for TDX Tech",
+      "longDesc": "Design and implement Work Orders database\nBuild user interface in Zend Framework 2\nCapture customer signatures in work order screen\nExport and persist Work Orders with signatures in PDF",
+      "responsibilities:": [
+        "Build Work Order reporting App for TDX Tech"
+      ],
+      "accomplishments": [
+        "Design and implement Work Orders database",
+        "Build user interface in Zend Framework 2",
+        "Capture customer signatures in work order screen",
+        "Export and persist Work Orders with signatures in PDF"
+      ],
+      "technologies": [
+        {
+          "skillName": "php",
+          "relevance": 10
+        },
+        {
+          "skillName": "html",
+          "relevance": 10
+        },
+        {
+          "skillName": "css",
+          "relevance": 10
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 10
+        },
+        {
+          "skillName": "zf2",
+          "relevance": 30
+        }
+      ]
+    },
+    {
+      "_id": "networkinstruments",
+      "relevance": 4,
+      "title": "PHP Developer",
+      "gigType": "contract",
+      "location": "Greater Twin Cities Area",
+      "companyId": "6e5b1562-3062-5c02-aa97-b08039574797",
+      "recruiterId": null,
+      "startDate": "2013-01-01",
+      "endDate": "2013-02-31",
+      "shortDesc": "Add features to time/vacation tracking database",
+      "longDesc": "Add features to time/vacation tracking database",
+      "responsibilities:": [
+        "Add features to time/vacation tracking database"
+      ],
+      "accomplishments": [
+        "Add features to time/vacation tracking database"
+      ],
+      "technologies": [
+        {
+          "skillName": "php",
+          "relevance": 10
+        },
+        {
+          "skillName": "html",
+          "relevance": 10
+        },
+        {
+          "skillName": "css",
+          "relevance": 10
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 10
+        },
+        {
+          "skillName": "mysql",
+          "relevance": 30
+        }
+      ]
+    },
+    {
+      "_id": "networkinstruments2",
+      "relevance": 4,
+      "title": "PHP Developer",
+      "gigType": "contract",
+      "location": "Greater Twin Cities Area",
+      "companyId": "6e5b1562-3062-5c02-aa97-b08039574797",
+      "recruiterId": null,
+      "startDate": "2013-04-01",
+      "endDate": "2013-06-30",
+      "shortDesc": "Add features to time/vacation tracking database",
+      "longDesc": "Add features to time/vacation tracking database",
+      "responsibilities:": [
+        "Add features to time/vacation tracking database"
+      ],
+      "accomplishments": [
+        "Add features to time/vacation tracking database"
+      ],
+      "technologies": [
+        {
+          "skillName": "php",
+          "relevance": 10
+        },
+        {
+          "skillName": "html",
+          "relevance": 10
+        },
+        {
+          "skillName": "css",
+          "relevance": 10
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 10
+        },
+        {
+          "skillName": "mysql",
+          "relevance": 30
         }
       ]
     },
