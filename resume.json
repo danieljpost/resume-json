@@ -2644,6 +2644,52 @@
       ]
     },
     {
+      "_id": "bluedoor",
+      "note": "via Seth Fair",
+      "relevance": 5,
+      "title": "PHP Developer",
+      "gigType": "contract",
+      "location": "Greater Twin Cities Area",
+      "companyId": "6e5b1562-3062-5c02-aa97-b08039574797",
+      "recruiterId": null,
+      "contractorId": null,
+      "startDate": "2013-01-01",
+      "endDate": "2013-04-30",
+      "shortDesc": "Add features to time/vacation tracking database",
+      "longDesc": "Add features to time/vacation tracking database",
+      "responsibilities:": [
+        "Add features to time/vacation tracking database"
+      ],
+      "accomplishments": [
+        "Add features to time/vacation tracking database"
+      ],
+      "technologies": [
+        {
+          "skillName": "php",
+          "relevance": 10
+        },
+        {
+          "skillName": "html",
+          "relevance": 10
+        },
+        {
+          "skillName": "css",
+          "relevance": 10
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 10
+        },
+        {
+          "skillName": "git",
+          "relevance": 4
+        },
+        {
+          "skillName": "mysql",
+          "relevance": 30
+        }
+      ]
+    }{
       "_id": "networkinstruments2",
       "note": "this is the second stint working for network instruments",
       "relevance": 4,
