@@ -1753,15 +1753,11 @@
       ],
       "technologies": [
         {
+          "skillName": "i18n",
+          "relevance": 5
+        },
+        {
           "skillName": "httpd",
-          "relevance": 5
-        },
-        {
-          "skillName": "nginx",
-          "relevance": 5
-        },
-        {
-          "skillName": "varnish",
           "relevance": 5
         },
         {
@@ -1769,60 +1765,12 @@
           "relevance": 10
         },
         {
-          "skillName": "slack",
-          "relevance": 10
-        },
-        {
           "skillName": "rest",
           "relevance": 6
         },
         {
-          "skillName": "zoom",
-          "relevance": 9
-        },
-        {
-          "skillName": "newrelic",
-          "relevance": 6
-        },
-        {
-          "skillName": "docker",
-          "relevance": 2
-        },
-        {
-          "skillName": "dockercompose",
-          "relevance": 2
-        },
-        {
-          "skillName": "composer",
+          "skillName": "yii2",
           "relevance": 10
-        },
-        {
-          "skillName": "react",
-          "relevance": 8
-        },
-        {
-          "skillName": "s3",
-          "relevance": 3
-        },
-        {
-          "skillName": "cloudfront",
-          "relevance": 2
-        },
-        {
-          "skillName": "eclipse",
-          "relevance": 4
-        },
-        {
-          "skillName": "postgres",
-          "relevance": 10
-        },
-        {
-          "skillName": "node",
-          "relevance": 6
-        },
-        {
-          "skillName": "react",
-          "relevance": 7
         },
         {
           "skillName": "html",
@@ -1835,30 +1783,6 @@
         {
           "skillName": "javascript",
           "relevance": 10
-        },
-        {
-          "skillName": "bamboo",
-          "relevance": 4
-        },
-        {
-          "skillName": "jira",
-          "relevance": 10
-        },
-        {
-          "skillName": "gcloud",
-          "relevance": 2
-        },
-        {
-          "skillName": "node",
-          "relevance": 2
-        },
-        {
-          "skillName": "newrelic",
-          "relevance": 3
-        },
-        {
-          "skillName": "codeship",
-          "relevance": 3
         },
         {
           "skillName": "mysql",
