@@ -1438,7 +1438,7 @@
       "credit": false,
       "type": "contractor",
       "fullname": "Robert Half Technology",
-      "url": "https://horizontal.blog/category/talent/talent-seekers/"
+      "url": "https://www.roberthalf.com/employers/technology"
     },
     {
       "_id": "5a9d0998-fbd9-56d5-99fe-81dc601c6ed5",
@@ -1447,6 +1447,13 @@
       "type": "contractor",
       "fullname": "Horizontal",
       "url": "https://horizontal.blog/category/talent/talent-seekers/"
+    },
+    {
+      "_id": "ca6addd9-fc00-5ca4-87dd-b2cdaeea91db",
+      "name": "bluedoor",
+      "type": "client",
+      "fullname": "bluedoor labs",
+      "url": "https://www.bluedoorlabs.com/"
     },
     {
       "_id": "ca6addd9-fc00-5ca4-87dd-b2cdaeea91db",
