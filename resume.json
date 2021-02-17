@@ -1500,6 +1500,12 @@
       "url": "http://example.com"
     },
     {
+      "_id": "8331781e-7290-570d-9eab-ef1f0bbb93cd",
+      "name": "mncee",
+      "fullname": "MN Center for Energy and the Environment",
+      "url": "http://mncee.org"
+    },
+    {
       "_id": "4a94adbf-edb9-51e2-80db-a35777a79e31",
       "name": "visiblecustomer",
       "fullname": "Visible Customer",
@@ -2431,6 +2437,47 @@
       ],
       "accomplishments": [
         "Add features to time/vacation tracking database"
+      ],
+      "technologies": [
+        {
+          "skillName": "php",
+          "relevance": 10
+        },
+        {
+          "skillName": "html",
+          "relevance": 10
+        },
+        {
+          "skillName": "css",
+          "relevance": 10
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 10
+        },
+        {
+          "skillName": "mysql",
+          "relevance": 30
+        }
+      ]
+    },
+    {
+      "_id": "mncee",
+      "relevance": 4,
+      "title": "PHP Developer",
+      "gigType": "contract",
+      "location": "Minneapolis",
+      "companyId": "8331781e-7290-570d-9eab-ef1f0bbb93cd",
+      "recruiterId": null,
+      "startDate": "2010-06-01",
+      "endDate": "2011-01-01",
+      "shortDesc": "Maintain and enhance database and front end for customer relationship system",
+      "longDesc": "Maintain and enhance database and front end for customer relationship system",
+      "responsibilities:": [
+        "Maintain and enhance database and front end for customer relationship system"
+      ],
+      "accomplishments": [
+        "Maintain and enhance database and front end for customer relationship system"
       ],
       "technologies": [
         {
