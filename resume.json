@@ -1891,9 +1891,16 @@
       ],
       "accomplishments": [
         "Add connectivity to third-party APIs, e.g. LinkedIn and Google My Business",
+        "FIXME: Authlabs",
+        "FIXME: React",
+        "FIXME: connect Google My Business API",
         "Eliminate memory leaks in customer messaging service"
       ],
       "technologies": [
+        {
+          "skillName": "oauth",
+          "relevance": 4
+        },
         {
           "skillName": "codeship",
           "relevance": 8
