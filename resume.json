@@ -2132,17 +2132,15 @@
       "recruiterId": null,
       "startDate": "2012-02-01",
       "endDate": "2012-09-01",
-      "shortDesc": "fixme",
-      "longDesc": "fixme",
+      "shortDesc": "UI Developer",
+      "longDesc": "Design, rapid-prototype, troubleshoot, maintain User Interface for new features",
       "responsibilities:": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale."
+        "Design, rapid-prototype, troubleshoot, maintain User Interface for new features"
       ],
       "accomplishments": [
-        "Turnip greens yarrow ricebean daikon napa cabbage asparagus winter purslane kale.",
-        "Nen ni elparolo propozicio, o volu greka rolfinaĵo ien. Io jes nigra siatempe, tiuj paki antaŭtagmezo nj oh",
-        "Yet another accomplishment I'd like to brag about",
-        "Tamben spatios complete web da, web su cinque linguas occidental. Qui es tamben questiones intermediari!",
-        "Qui deler rapide germano o."
+        "Design, rapid-prototype, troubleshoot, maintain User Interface for new features",
+        "Implement, test, debug, and maintain HTML, JavaScript, and CSS for client's production site",
+        "Co-design API and User Interface for product search"
       ],
       "technologies": [
         {
