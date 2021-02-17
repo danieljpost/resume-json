@@ -1436,14 +1436,13 @@
       "_id": "5a9d0998-fbd9-56d5-99fe-81dc601c6ed5",
       "name": "horizontal",
       "credit": false,
-      "name": "irishtitan",
       "type": "contractor",
-      "fullname": "Star Asia",
-      "url": "https://star-asia.com"
+      "fullname": "Horizontal",
+      "url": "https://horizontal.blog/category/talent/talent-seekers/"
     },
     {
       "_id": "ca6addd9-fc00-5ca4-87dd-b2cdaeea91db",
-      "name": "btg",
+      "name": "starasia",
       "type": "client",
       "fullname": "Star Asia",
       "url": "https://star-asia.com"
