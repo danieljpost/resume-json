@@ -1392,15 +1392,15 @@
       "description": "Working from home so I can care for my loved ones",
       "category": "Remote Working Tools",
       "tiers": [
-         "DevOps",
-         "Back End",
-         "Front End",
-         "Software Engineer",
-         "User Experience",
-         "User Interface",
-         "Business",
-         "Consulting",
-         "Team Lead"
+        "DevOps",
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
       ],
       "relevance": 8,
       "expertise": 4,
@@ -2691,8 +2691,7 @@
       "endDate": "2013-02-31",
       "shortDesc": "built a WordPress plugin to support client needs",
       "longDesc": "built a WordPress plugin to support client needs",
-      "responsibilities:": [
-      ],
+      "responsibilities:": [],
       "accomplishments": [
         "built a WordPress plugin to support client needs"
       ],
