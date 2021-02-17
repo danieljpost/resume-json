@@ -2146,14 +2146,6 @@
       ],
       "technologies": [
         {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 30
-        },
-        {
           "skillName": "api",
           "relevance": 20
         },
@@ -2162,7 +2154,11 @@
           "relevance": 20
         },
         {
-          "skillName": "fixme",
+          "skillName": "css",
+          "relevance": 20
+        },
+        {
+          "skillName": "html",
           "relevance": 20
         }
       ]
