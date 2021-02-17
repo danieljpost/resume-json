@@ -919,7 +919,7 @@
       "url": "https://www.codeigniter.com"
     },
     {
-      "_id": "fixme",
+      "_id": "ab228811-6d27-5c80-8bc6-32624d30a3ff",
       "sname": "symfony",
       "name": "Symfony",
       "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
@@ -939,7 +939,7 @@
       "url": "https://www.codeigniter.com"
     },
     {
-      "_id": "fixme",
+      "_id": "4ba748ae-bdb9-5c0e-a54f-e0673642a3c5",
       "sname": "kohana",
       "name": "Kohana",
       "description": "Deprecated PHP Framework",
@@ -1396,6 +1396,18 @@
       "name": "vivial",
       "fullname": "Vivial Media, LLC",
       "url": "http://vivial.net"
+    },
+    {
+      "_id": "09d49804-44c2-578e-b082-6be3a7d10b6d",
+      "name": "homesforheroes",
+      "fullname": "Homes for Heroes",
+      "url": "https://www.homesforheroes.com/"
+    },
+    {
+      "_id": "1a84c2ca-c566-55f4-9a61-506d6b5b683b",
+      "name": "ezxchanges",
+      "fullname": "ezXchanges",
+      "url": "https://www.example.com/"
     },
     {
       "_id": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
@@ -1907,7 +1919,7 @@
       "title": "Contractor",
       "gigType": "contract",
       "location": "Minneapolis",
-      "companyId": "fixme",
+      "companyId": "09d49804-44c2-578e-b082-6be3a7d10b6d",
       "recruiterId": null,
       "startDate": "2014-06-01",
       "endDate": "2014-07-01",
@@ -2206,7 +2218,7 @@
       "title": "Software Engineer",
       "gigType": "contract",
       "location": "Saint Paul",
-      "companyId": "fixme",
+      "companyId": "1a84c2ca-c566-55f4-9a61-506d6b5b683b",
       "recruiterId": null,
       "startDate": "2014-08-01",
       "endDate": "2014-08-30",
