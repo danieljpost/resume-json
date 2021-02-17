@@ -275,6 +275,27 @@
       "blurb": "I've built dozens of applications using MySQL ranging from hand-written  SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
     },
     {
+      "_id": "b139fbb9-e49a-5622-8604-2c84545d311c",
+      "sname": "orm",
+      "name": "Object Relational Mapping",
+      "description": "A programming technique for converting data between incompatible type systems using object-oriented programming languages.",
+      "category": "Design Patterns",
+      "tiers": [
+        "Administrator",
+        "DevOps",
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
+      ],
+      "priority": 4,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping",
+      "blurb": "I've built dozens of applications using MySQL ranging from hand-written SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
+    },
+    {
       "_id": "d3c55aaa-33cc-53fc-ac65-fb58e8168ac7",
       "sname": "memcache",
       "name": "Memcache",
@@ -1612,10 +1633,6 @@
           "relevance": 10
         },
         {
-          "skillName": "jira",
-          "relevance": 10
-        },
-        {
           "skillName": "bamboo",
           "relevance": 4
         },
@@ -1632,8 +1649,16 @@
           "relevance": 2
         },
         {
+          "skillName": "newrelic",
+          "relevance": 3
+        },
+        {
+          "skillName": "codeship",
+          "relevance": 3
+        },
+        {
           "skillName": "mysql",
-          "relevance": 10
+          "relevance": 8
         }
       ]
     },
@@ -1714,6 +1739,26 @@
       ],
       "technologies": [
         {
+          "skillName": "codeship",
+          "relevance": 8
+        },
+        {
+          "skillName": "newrelic",
+          "relevance": 8
+        },
+        {
+          "skillName": "xdebug",
+          "relevance": 8
+        },
+        {
+          "skillName": "memcache",
+          "relevance": 5
+        },
+        {
+          "skillName": "redis",
+          "relevance": 5
+        },
+        {
           "skillName": "php",
           "relevance": 10
         },
@@ -1738,8 +1783,8 @@
           "relevance": 8
         },
         {
-          "skillName": "redis",
-          "relevance": 7
+          "skillName": "node",
+          "relevance": 3
         },
         {
           "skillName": "mongo",
@@ -2008,7 +2053,7 @@
         },
         {
           "skillName": "git",
-          "relevance": 8
+          "relevance": 4
         },
         {
           "skillName": "composer",
@@ -2117,6 +2162,10 @@
           "relevance": 6
         },
         {
+          "skillName": "git",
+          "relevance": 3
+        },
+        {
           "skillName": "ui",
           "relevance": 8
         }
@@ -2190,6 +2239,26 @@
       ],
       "technologies": [
         {
+          "skillName": "newrelic",
+          "relevance": 8
+        },
+        {
+          "skillName": "xdebug",
+          "relevance": 4
+        },
+        {
+          "skillName": "a11y",
+          "relevance": 8
+        },
+        {
+          "skillName": "i18n",
+          "relevance": 8
+        },
+        {
+          "skillName": "bamboo",
+          "relevance": 2
+        },
+        {
           "skillName": "php",
           "relevance": 10
         },
@@ -2206,7 +2275,7 @@
           "relevance": 20
         },
         {
-          "skillName": "fixme",
+          "skillName": "css",
           "relevance": 20
         }
       ]
@@ -2233,6 +2302,10 @@
         {
           "skillName": "python",
           "relevance": 10
+        },
+        {
+          "skillName": "api",
+          "relevance": 8
         },
         {
           "skillName": "git",
@@ -2264,6 +2337,10 @@
           "relevance": 10
         },
         {
+          "skillName": "twig",
+          "relevance": 8
+        },
+        {
           "skillName": "bash",
           "relevance": 9
         },
@@ -2281,7 +2358,7 @@
         },
         {
           "skillName": "git",
-          "relevance": 8
+          "relevance": 4
         }
       ]
     },
@@ -2372,6 +2449,14 @@
           "relevance": 10
         },
         {
+          "skillName": "git",
+          "relevance": 8
+        },
+        {
+          "skillName": "httpd",
+          "relevance": 8
+        },
+        {
           "skillName": "zf2",
           "relevance": 30
         }
@@ -2411,6 +2496,10 @@
         {
           "skillName": "javascript",
           "relevance": 10
+        },
+        {
+          "skillName": "git",
+          "relevance": 4
         },
         {
           "skillName": "mysql",
@@ -2454,6 +2543,10 @@
           "relevance": 10
         },
         {
+          "skillName": "git",
+          "relevance": 4
+        },
+        {
           "skillName": "mysql",
           "relevance": 30
         }
@@ -2483,6 +2576,10 @@
           "relevance": 10
         },
         {
+          "skillName": "a11y",
+          "relevance": 8
+        },
+        {
           "skillName": "html",
           "relevance": 10
         },
@@ -2496,7 +2593,11 @@
         },
         {
           "skillName": "kohana",
-          "relevance": 30
+          "relevance": 8
+        },
+        {
+          "skillName": "git",
+          "relevance": 4
         },
         {
           "skillName": "mysql",
@@ -2540,6 +2641,14 @@
         {
           "skillName": "javascript",
           "relevance": 10
+        },
+        {
+          "skillName": "orm",
+          "relevance": 8
+        },
+        {
+          "skillName": "httpd",
+          "relevance": 8
         },
         {
           "skillName": "cakephp",
