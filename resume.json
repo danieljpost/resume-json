@@ -1384,6 +1384,27 @@
       "relevance": 8,
       "expertise": 4,
       "url": "https://danieljpost.consulting"
+    },
+    {
+      "_id": "fixme",
+      "sname": "remote",
+      "name": "Remote Work",
+      "description": "Working from home so I can care for my loved ones",
+      "category": "Remote Working Tools",
+      "tiers": [
+         "DevOps",
+         "Back End",
+         "Front End",
+         "Software Engineer",
+         "User Experience",
+         "User Interface",
+         "Business",
+         "Consulting",
+         "Team Lead"
+      ],
+      "relevance": 8,
+      "expertise": 4,
+      "url": "https://danieljpost.consulting"
     }
   ],
   "companies": [
