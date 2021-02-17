@@ -2150,6 +2150,10 @@
           "relevance": 20
         },
         {
+          "skillName": "javascript",
+          "relevance": 20
+        },
+        {
           "skillName": "jquery",
           "relevance": 20
         },
