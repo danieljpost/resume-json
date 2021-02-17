@@ -1409,6 +1409,13 @@
       "url": "https://www.homesforheroes.com/"
     },
     {
+      "_id": "60d94438-172f-575c-94d3-25da931f6448",
+      "name": "starkey",
+      "type": "client",
+      "fullname": "Starkey",
+      "url": "https://www.starkey.com/"
+    },
+    {
       "_id": "4e9f69c1-548e-52ba-bd34-f0879191c888",
       "credit": true,
       "name": "irishtitan",
@@ -2610,6 +2617,52 @@
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
       "companyId": "6e5b1562-3062-5c02-aa97-b08039574797",
+      "recruiterId": null,
+      "contractorId": null,
+      "startDate": "2013-01-01",
+      "endDate": "2013-02-31",
+      "shortDesc": "Add features to time/vacation tracking database",
+      "longDesc": "Add features to time/vacation tracking database",
+      "responsibilities:": [
+        "Add features to time/vacation tracking database"
+      ],
+      "accomplishments": [
+        "Add features to time/vacation tracking database"
+      ],
+      "technologies": [
+        {
+          "skillName": "php",
+          "relevance": 10
+        },
+        {
+          "skillName": "html",
+          "relevance": 10
+        },
+        {
+          "skillName": "css",
+          "relevance": 10
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 10
+        },
+        {
+          "skillName": "git",
+          "relevance": 4
+        },
+        {
+          "skillName": "mysql",
+          "relevance": 30
+        }
+      ]
+    },
+    {
+      "_id": "starkey",
+      "relevance": 4,
+      "title": "Wordpress Developer",
+      "gigType": "contract",
+      "location": "Greater Twin Cities Area",
+      "companyId": "60d94438-172f-575c-94d3-25da931f6448",
       "recruiterId": null,
       "contractorId": null,
       "startDate": "2013-01-01",
