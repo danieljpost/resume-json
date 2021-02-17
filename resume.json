@@ -2672,12 +2672,16 @@
       ],
       "technologies": [
         {
+          "skillName": "freshbooks",
+          "relevance": 4
+        },
+        {
           "skillName": "basecamp",
-          "relevance": 10
+          "relevance": 3
         },
         {
           "skillName": "beanstalk",
-          "relevance": 10
+          "relevance": 3
         },
         {
           "skillName": "php",
@@ -2685,7 +2689,7 @@
         },
         {
           "skillName": "html",
-          "relevance": 10
+          "relevance": 9
         },
         {
           "skillName": "css",
@@ -2701,11 +2705,11 @@
         },
         {
           "skillName": "codeigniter",
-          "relevance": 5
+          "relevance": 8
         },
         {
           "skillName": "mysql",
-          "relevance": 30
+          "relevance": 10
         }
       ]
     },
