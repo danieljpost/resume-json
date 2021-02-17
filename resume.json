@@ -1477,8 +1477,9 @@
       "url": "http://gobuylocal.com"
     },
     {
-      "_id": "3300eb6c-4406-5988-9adc-cb4c7a969fe2",
+      "_id": "bff69483-f42c-5711-b5a5-4f8b43225eae",
       "name": "lacek",
+      "credit": true,
       "type": "client",
       "fullname": "The Lacek Group",
       "url": "http://lacek.com"
@@ -1730,9 +1731,9 @@
       "title": "Proprietor",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
-      "companyId": "6f219570-cbb1-53fc-b563-357f37b414da",
+      "companyId": "fixme",
       "recruiterId": null,
-      "contractorId": null,
+      "contractorId": "bff69483-f42c-5711-b5a5-4f8b43225eae",
       "startDate": "2009-01-01",
       "endDate": null,
       "shortDesc": "I solve problems, build and improve features, maintain legacy applications, and look great doing it.",
