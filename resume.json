@@ -1652,6 +1652,15 @@
           "relevance": 5
         },
         {
+          "skillName": "dart",
+          "relevance": 1
+        },
+        {
+          "skillName": "flutter",
+          "TODO": "flutter.dev",
+          "relevance": 0
+        },
+        {
           "skillName": "nginx",
           "relevance": 5
         },
