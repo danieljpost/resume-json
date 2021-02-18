@@ -2705,6 +2705,7 @@
       "contractorId": null,
       "startDate": "2013-01-01",
       "endDate": "2013-02-31",
+      "note": "dates are fuzzy as of 20210218",
       "shortDesc": "built a WordPress plugin to support client needs",
       "longDesc": "built a WordPress plugin to support client needs",
       "responsibilities:": [],
