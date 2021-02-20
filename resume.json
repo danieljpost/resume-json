@@ -4,13 +4,13 @@
   "tag": "v1.0.1",
   "canonical": {
     "production": "https://danieljpost.pro/resume.json",
-    "development": "http://home.danielpost.pro:6081/resume.json"
+    "development": "http://danielpost.pro/r1/resume.json"
   },
   "gigTypes": [
     "owner",
     "employee",
     "contract",
-    "instructing"
+    "awesomeness"
   ],
   "tiers": [
     "DevOps",
