@@ -1,6 +1,6 @@
 {
   "date": 20210219,
-  "tag": "v1.0",
+  "tag": "v1.0.1",
   "canonical": {
     "production": "https://danieljpost.pro/resume.json",
     "development": "http://home.danielpost.pro:6081/resume.json"
