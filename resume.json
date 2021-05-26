@@ -1,15 +1,16 @@
 {
   "date": 20210219,
+  "branch": "develop",
   "tag": "v1.0.1",
   "canonical": {
     "production": "https://danieljpost.pro/resume.json",
-    "development": "http://home.danielpost.pro:6081/resume.json"
+    "development": "http://danieljpost.pro/v1/resume.json"
   },
   "gigTypes": [
     "owner",
     "employee",
     "contract",
-    "instructing"
+    "awesomeness"
   ],
   "tiers": [
     "DevOps",
@@ -1835,7 +1836,7 @@
       "recruiterId": null,
       "contractorId": null,
       "startDate": "2019-11-19",
-      "endDate": null,
+      "endDate": "2021-03-31",
       "shortDesc": "Build Technology Group",
       "longDesc": "Remote contract through Build Technology Group",
       "responsibilities:": [
