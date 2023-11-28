@@ -1,7 +1,7 @@
 {
-  "date": 20210219,
+  "updated": 202131128,
   "branch": "develop",
-  "tag": "v1.0.1",
+  "tag": "v1.0.2.0",
   "canonical": {
     "production": "https://danieljpost.pro/resume.json",
     "development": "http://danieljpost.pro/v1/resume.json"
