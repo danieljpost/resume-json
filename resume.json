@@ -660,7 +660,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "relevance": 5,
+      "relevance": 6,
       "expertise": 5,
       "url": "https://zoom.us/"
     },
@@ -1388,7 +1388,7 @@
       "url": "https://danieljpost.consulting"
     },
     {
-      "_id": "fixme",
+      "_id": "4feb9835-f10a-51cb-8f14-1a7a7cfadfb5",
       "sname": "remote",
       "name": "Remote Work",
       "description": "Working from home so I can care for my loved ones",
@@ -1575,21 +1575,20 @@
       "name": "networkinstruments",
       "type": "client",
       "fullname": "Network Instruments",
-      "url": "http://example.com"
+      "url": "http://networkinstruments.com"
     },
     {
       "_id": "b047adfa-dc91-53e6-8d1c-e9408abbfe1c",
       "name": "blueearth",
       "type": "employer",
       "fullname": "Blue Earth Interactive / Torrch",
-      "url": "http://example.com"
-    },
-    {
-      "_id": "fixme",
-      "name": "imadeamistake",
-      "type": "client",
-      "fullname": "Oopsie Corp",
-      "url": "http://example.com"
+      "url": "https://torrch.com"
+    },{
+      "_id": "5713a077-0318-5e86-8a13-00d8b58835ea",
+      "name": "unfi",
+      "type": "employer",
+      "fullname": "United Natural Foods, Inc",
+      "url": "https://unfi.com"
     },
     {
       "_id": "101d483d-07ac-51a6-88c2-288a29a226e6",
@@ -1610,10 +1609,10 @@
       "name": "visiblecustomer",
       "type": "client",
       "fullname": "Visible Customer",
-      "url": "http://visiblecFustomer.com"
+      "url": "https://visiblecustomer.com"
     },
     {
-      "_id": "fixme",
+      "_id": "0ba1d7f3-d963-5345-b843-1b757620508e",
       "name": "irishtitan",
       "type": "recruiter",
       "fullname": "Irish Titan",
@@ -1622,7 +1621,7 @@
   ],
   "gigs": [
     {
-      "_id": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
+      "_id": "danieljpost.pro",
       "relevance": 10,
       "title": "Proprietor",
       "gigType": "owner",
@@ -1772,8 +1771,106 @@
       ]
     },
     {
+      "_id": "unfi",
+      "relevance": 9,
+      "title": "PHP Developer",
+      "gigType": "employee",
+      "location": "Greater Twin Cities Area",
+      "companyId": "5713a077-0318-5e86-8a13-00d8b58835ea",
+      "recruiterId": null,
+      "contractorId": null,
+      "startDate": "2022-04-01",
+      "endDate": "2023-11-01",
+      "shortDesc": "Analyze and correct code inconsistencies between interconnected modules in greenfield React / TypeScript application. Translate design documents into working code. Focus on learning relationships and common elements of multiple modules in large e-commerce project in React / Typescript. Solve problems, build and improve features in legacy e-commerce solution.",
+      "longDesc": "Analyze problems .",
+      "blurbs": {
+        "some label": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
+        "another label": ""
+      },
+      "responsibilities:": [
+        "Attend Stand Up meetings",
+        "Solve problems"
+      ],
+      "accomplishments": [
+      ],
+      "technologies": [
+        {
+          "skillName": "httpd",
+          "relevance": 5
+        },
+        {
+          "skillName": "nginx",
+          "relevance": 5
+        },
+        {
+          "skillName": "varnish",
+          "relevance": 5
+        },
+        {
+          "skillName": "php",
+          "relevance": 10
+        },
+        {
+          "skillName": "slack",
+          "relevance": 10
+        },
+        {
+          "skillName": "rest",
+          "relevance": 6
+        },
+        {
+          "skillName": "zoom",
+          "relevance": 9
+        },
+        {
+          "skillName": "docker",
+          "relevance": 2
+        },
+        {
+          "skillName": "dockercompose",
+          "relevance": 2
+        },
+        {
+          "skillName": "composer",
+          "relevance": 10
+        },
+        {
+          "skillName": "react",
+          "relevance": 8
+        },
+        {
+          "skillName": "node",
+          "relevance": 6
+        },
+        {
+          "skillName": "html",
+          "relevance": 10
+        },
+        {
+          "skillName": "css",
+          "relevance": 10
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 10
+        },
+        {
+          "skillName": "jira",
+          "relevance": 10
+        },
+        {
+          "skillName": "node",
+          "relevance": 7
+        },
+        {
+          "skillName": "mysql",
+          "relevance": 8
+        }
+      ]
+    },
+    {
       "_id": "lacek",
-      "relevance": 10,
+      "relevance": 3,
       "title": "Proprietor",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
@@ -2411,7 +2508,7 @@
       "startDate": "2015-01-01",
       "endDate": "2015-04-30",
       "shortDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
-      "longDesc": "fixme",
+      "longDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
       "responsibilities:": [
         "Recommend and implement best programming practices, add features, find and eliminate problems, share knowledge and expertise, profile and test code, rubberduck",
         "Used Yii2, PHP5.4, JavaScript, AngularJS, HTML5, gettext, poedit. xdebug"
@@ -3097,8 +3194,8 @@
       "recommendation": "Daniel is a very smart, capable developer. I continue to be impressed by his thoughtful approach to software, strong sense of clean architecture and awareness of maintainability. His code is clean and clever. He was always happy to help me with technical issues based on his thorough understanding of software and insightful knowledge of the technologies we used together. He's also an entertaining guy to have around. He's culturally aware and witty. I'd be very happy to work with him again."
     },
     {
-      "_id": "fixme",
-      "gigId": "fixme",
+      "_id": "7f764700-28c4-5053-a7da-ebe77e2be9dc",
+      "gigId": "mncee",
       "name": "James Marmas",
       "linkedIn": "https://www.linkedin.com/in/jamesmarmas/",
       "title": "President/Owner at Search Leaders",
@@ -3107,11 +3204,11 @@
       "recommendation": "Daniel is an high integrity individual with excellent attention to detail in everything he does. I have worked with him for the past 6 months and he has done a remarkable job for our client. He is an exceptional developer with solid grasp of multiple programming languages. I would recommend Daniel to any of my other clients."
     },
     {
-      "_id": "fixme",
-      "gigId": "fixme",
+      "_id": "deb9f4dc-2171-5202-89a2-f9ead1b9e9ec",
+      "gigId": "brokerbin",
       "name": "Jake Jones",
       "linkedIn": "https://www.linkedin.com/in/jakejones/",
-      "title": "fixme",
+      "title": "Sales Director",
       "when": "2008-02-26",
       "relationship": "Jake worked with Daniel in ancient history",
       "recommendation": "Daniel has a vast knowledge of computer systems and software. Diligent, hardworking, and accountable."
