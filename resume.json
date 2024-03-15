@@ -1,10 +1,14 @@
 {
-  "date": 20210219,
-  "branch": "develop",
-  "tag": "v1.0.1",
-  "canonical": {
-    "production": "https://danieljpost.pro/resume.json",
-    "development": "http://danieljpost.pro/v1/resume.json"
+  "updated": 20240315,
+  "branch": "master",
+  "tag": "2024.3",
+  "versions": {
+    "production": "https://danieljpost.pro/resume/full.json",
+    "2024.3": "http://eatthebilionaires.pro/resume/2024.3.json",
+    "2024.3 raw": "https://raw.githubusercontent.com/danieljpost/resume-json/2024.3/resume.json",
+    "raw": "https://raw.githubusercontent.com/danieljpost/resume-json/master/resume.json",
+    "development": "http://eatthebilionaires.pro/resume/full.json",
+    "see also": "https://danieljpost.consulting/resume/v1.0.1.json"
   },
   "gigTypes": [
     "owner",
@@ -13,6 +17,7 @@
     "awesomeness"
   ],
   "tiers": [
+    "Administrator",
     "DevOps",
     "Back End",
     "Front End",
@@ -24,6 +29,7 @@
     "Team Lead"
   ],
   "intros": {
+    "Administrator": "Systems Administrator with years of hands-on experience supporting, automating, and optimizing mission critical information systems.",
     "DevOps": "Skilled DevOps Engineer with years of hands-on experience supporting, automating, and optimizing mission critical deployments in the cloud, leveraging configuration management, CI/CD, and DevOps processes.",
     "Back End": "I have years of experience creating software using HTML, JavaScript, PHP and other languages, CSS, and databases. I’m passionate about performance, robustness, and maintainability in code, as well as integrity and collaboration in teams.",
     "Front End": "My dedication to quality, accessibility, robust and clean code, and usability make me an excellent Front End developer.",
@@ -46,7 +52,6 @@
     "Performance Tools",
     "Deployment Tools",
     "Cloud Technologies",
-    "Code Transpilers",
     "Libraries",
     "Methodologies",
     "Remote Working Tools",
@@ -60,6 +65,7 @@
       "description": "an operating system from Microsoft",
       "category": "Operating Systems",
       "tiers": [
+        "Administrator",
         "Business",
         "Consulting",
         "Team Lead"
@@ -69,21 +75,39 @@
       "url": "http://microsoft.com"
     },
     {
+      "_id": "d2da1cc4-f19e-5dbd-b176-6a51117f3e18",
+      "sname": "magento",
+      "name": "Magento, now Adobe Commerce",
+      "description": "a flexible and scalable commerce platform that lets you create uniquely personalized B2B and B2C experiences",
+      "category": "Frameworks",
+      "tiers": [
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting"
+      ],
+      "relevance": 6,
+      "expertise": 4,
+      "url": "https://business.adobe.com/products/magento/magento-commerce.html"
+    },
+    {
       "_id": "17167ebc-b36f-5038-b432-21997a92f139",
       "sname": "win10",
       "name": "Windows 10",
       "description": "an operating system from Microsoft",
       "category": "Operating Systems",
       "tiers": [
+        "Administrator",
         "DevOps",
-        "Back End",
-        "Front End",
         "Software Engineer",
         "User Experience",
         "User Interface"
       ],
-      "relevance": 4,
-      "expertise": 5,
+      "relevance": 3,
+      "expertise": 6,
       "url": "http://microsoft.com"
     },
     {
@@ -134,6 +158,7 @@
       "name": "Docker",
       "category": "System Tools",
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Software Engineer",
@@ -152,11 +177,11 @@
       "description": "a container tool",
       "category": 1,
       "tiers": [
+        "Administrator",
         "DevOps",
         "Back End",
         "Software Engineer",
         "Business",
-        "Consulting",
         "Team Lead"
       ],
       "relevance": 0,
@@ -220,27 +245,6 @@
       "url": "https://gruntjs.com/"
     },
     {
-      "_id": "09f55099-c6d3-501d-8a32-71e242add905",
-      "sname": "webpack",
-      "name": "Webpack",
-      "description": "webpack is a static module bundler for modern JavaScript applications",
-      "category": "Development Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 3,
-      "url": "https://webpack.js.org/"
-    },
-    {
       "_id": "63f077f3-63a8-5758-89fa-90b021f36cb8",
       "sname": "virtualbox",
       "name": "VirtualBox",
@@ -276,7 +280,7 @@
       "relevance": 8,
       "expertise": 8,
       "url": "https://www.mysql.com",
-      "blurb": "I've built dozens of applications using MySQL ranging from hand-written  SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
+      "blurb": "I've built dozens of applications using MySQL ranging from hand-written SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
     },
     {
       "_id": "b139fbb9-e49a-5622-8604-2c84545d311c",
@@ -648,6 +652,7 @@
       "_id": "a7ef3580-44f4-5089-a81d-43de9c4d821e",
       "sname": "zoom",
       "name": "Zoom",
+      "category": "Remote Working Tools",
       "description": "Zoom is a videotelephony software program",
       "tiers": [
         "DevOps",
@@ -660,7 +665,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "relevance": 5,
+      "relevance": 6,
       "expertise": 5,
       "url": "https://zoom.us/"
     },
@@ -669,6 +674,7 @@
       "sname": "slack",
       "name": "Slack",
       "description": "Slack is a proprietary business communication platform",
+      "category": "Remote Working Tools",
       "tiers": [
         "Administrator",
         "DevOps",
@@ -907,7 +913,7 @@
       "_id": "ceda4f74-7535-5780-a219-72b776f1060b",
       "sname": "codeigniter",
       "name": "CodeIgniter",
-      "description": "CodeIgniter is a PHP framework with a  small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
+      "description": "CodeIgniter is a PHP framework with a small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
       "category": "Frameworks",
       "tiers": [
         "Administrator",
@@ -1388,7 +1394,7 @@
       "url": "https://danieljpost.consulting"
     },
     {
-      "_id": "fixme",
+      "_id": "4feb9835-f10a-51cb-8f14-1a7a7cfadfb5",
       "sname": "remote",
       "name": "Remote Work",
       "description": "Working from home so I can care for my loved ones",
@@ -1575,21 +1581,20 @@
       "name": "networkinstruments",
       "type": "client",
       "fullname": "Network Instruments",
-      "url": "http://example.com"
+      "url": "http://networkinstruments.com"
     },
     {
       "_id": "b047adfa-dc91-53e6-8d1c-e9408abbfe1c",
       "name": "blueearth",
       "type": "employer",
       "fullname": "Blue Earth Interactive / Torrch",
-      "url": "http://example.com"
-    },
-    {
-      "_id": "fixme",
-      "name": "imadeamistake",
-      "type": "client",
-      "fullname": "Oopsie Corp",
-      "url": "http://example.com"
+      "url": "https://torrch.com"
+    },{
+      "_id": "5713a077-0318-5e86-8a13-00d8b58835ea",
+      "name": "unfi",
+      "type": "employer",
+      "fullname": "United Natural Foods, Inc",
+      "url": "https://unfi.com"
     },
     {
       "_id": "101d483d-07ac-51a6-88c2-288a29a226e6",
@@ -1610,10 +1615,10 @@
       "name": "visiblecustomer",
       "type": "client",
       "fullname": "Visible Customer",
-      "url": "http://visiblecFustomer.com"
+      "url": "https://visiblecustomer.com"
     },
     {
-      "_id": "fixme",
+      "_id": "0ba1d7f3-d963-5345-b843-1b757620508e",
       "name": "irishtitan",
       "type": "recruiter",
       "fullname": "Irish Titan",
@@ -1622,7 +1627,7 @@
   ],
   "gigs": [
     {
-      "_id": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
+      "_id": "danieljpost.pro",
       "relevance": 10,
       "title": "Proprietor",
       "gigType": "owner",
@@ -1772,8 +1777,96 @@
       ]
     },
     {
+      "_id": "unfi",
+      "relevance": 9,
+      "title": "PHP Developer",
+      "gigType": "employee",
+      "location": "Greater Twin Cities Area",
+      "companyId": "5713a077-0318-5e86-8a13-00d8b58835ea",
+      "recruiterId": null,
+      "contractorId": null,
+      "startDate": "2022-04-01",
+      "endDate": "2023-11-01",
+      "shortDesc": "Analyze and correct code inconsistencies between interconnected modules in greenfield React / TypeScript application. Translate design documents into working code. Focus on learning relationships and common elements of multiple modules in large e-commerce project in React / Typescript. Solve problems, build and improve features in legacy e-commerce solution.",
+      "longDesc": "Analyze problems .",
+      "blurbs": {
+        "some label": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
+        "another label": ""
+      },
+      "responsibilities:": [
+        "Attend Stand Up meetings",
+        "Solve problems"
+      ],
+      "accomplishments": [
+        "Analyze and correct code inconsistencies between interconnected modules in greenfield React / TypeScript application. Translate design documents into working code. Focus on learning relationships and common elements of multiple modules in large e-commerce project in React / Typescript",
+        "Solve problems, build and improve features in legacy e-commerce solution."
+      ],
+      "technologies": [
+        {
+          "skillName": "httpd",
+          "relevance": 5
+        },
+        {
+          "skillName": "php",
+          "relevance": 10
+        },
+        {
+          "skillName": "slack",
+          "relevance": 10
+        },
+        {
+          "skillName": "rest",
+          "relevance": 6
+        },
+        {
+          "skillName": "zoom",
+          "relevance": 9
+        },
+        {
+          "skillName": "docker",
+          "relevance": 5
+        },
+        {
+          "skillName": "composer",
+          "relevance": 6
+        },
+        {
+          "skillName": "react",
+          "relevance": 8
+        },
+        {
+          "skillName": "node",
+          "relevance": 6
+        },
+        {
+          "skillName": "html",
+          "relevance": 10
+        },
+        {
+          "skillName": "css",
+          "relevance": 10
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 10
+        },
+        {
+          "skillName": "jira",
+          "relevance": 10
+        },
+        {
+          "skillName": "magento",
+          "relevance": 8
+        },
+        {
+          "skillName": "mysql",
+          "relevance": 8
+        }
+      ]
+    },
+    {
       "_id": "lacek",
-      "relevance": 10,
+      "relevance": 3,
       "title": "Proprietor",
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
@@ -1901,13 +1994,8 @@
       ],
       "accomplishments": [
         "Add connectivity to third-party APIs, e.g. LinkedIn and Google My Business",
-        "FIXME: Dashboard",
-        "FIXME: Google Organics",
-        "FIXME: Authlabs",
-        "FIXME: yelp, facebook, googlemybusiness, twitter, linkedin, instagram",
-        "FIXME: React",
-        "FIXME: monthly newsletter",
-        "FIXME: connect Google My Business API",
+        "Programmed and developed monthly newsletter",
+        "Connect Google My Business API to flagship product, Dashboard",
         "Eliminate memory leaks in customer messaging service"
       ],
       "technologies": [
@@ -2117,7 +2205,7 @@
         "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than four hundred people across multiple departments"
       ],
       "accomplishments": [
-        "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than  four hundred people across multiple departments",
+        "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than four hundred people across multiple departments",
         "Train tool users to develop and extend Slingshot system's code",
         "Saved millions of dollars in time and labor vs legacy content management tool"
       ],
@@ -2411,7 +2499,7 @@
       "startDate": "2015-01-01",
       "endDate": "2015-04-30",
       "shortDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
-      "longDesc": "fixme",
+      "longDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
       "responsibilities:": [
         "Recommend and implement best programming practices, add features, find and eliminate problems, share knowledge and expertise, profile and test code, rubberduck",
         "Used Yii2, PHP5.4, JavaScript, AngularJS, HTML5, gettext, poedit. xdebug"
@@ -3097,8 +3185,8 @@
       "recommendation": "Daniel is a very smart, capable developer. I continue to be impressed by his thoughtful approach to software, strong sense of clean architecture and awareness of maintainability. His code is clean and clever. He was always happy to help me with technical issues based on his thorough understanding of software and insightful knowledge of the technologies we used together. He's also an entertaining guy to have around. He's culturally aware and witty. I'd be very happy to work with him again."
     },
     {
-      "_id": "fixme",
-      "gigId": "fixme",
+      "_id": "7f764700-28c4-5053-a7da-ebe77e2be9dc",
+      "gigId": "mncee",
       "name": "James Marmas",
       "linkedIn": "https://www.linkedin.com/in/jamesmarmas/",
       "title": "President/Owner at Search Leaders",
@@ -3107,11 +3195,11 @@
       "recommendation": "Daniel is an high integrity individual with excellent attention to detail in everything he does. I have worked with him for the past 6 months and he has done a remarkable job for our client. He is an exceptional developer with solid grasp of multiple programming languages. I would recommend Daniel to any of my other clients."
     },
     {
-      "_id": "fixme",
-      "gigId": "fixme",
+      "_id": "deb9f4dc-2171-5202-89a2-f9ead1b9e9ec",
+      "gigId": "brokerbin",
       "name": "Jake Jones",
       "linkedIn": "https://www.linkedin.com/in/jakejones/",
-      "title": "fixme",
+      "title": "Sales Director",
       "when": "2008-02-26",
       "relationship": "Jake worked with Daniel in ancient history",
       "recommendation": "Daniel has a vast knowledge of computer systems and software. Diligent, hardworking, and accountable."
