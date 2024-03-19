@@ -3,12 +3,12 @@
   "branch": "master",
   "tag": "2024.3",
   "versions": {
+    "canonical": "https://danieljpost.pro/resume.json",
+    "beta": "https://danieljpost.pro/v1/resume.json",
     "2024.3 raw": "https://raw.githubusercontent.com/danieljpost/resume-json/2024.3/resume.json",
     "developraw": "https://raw.githubusercontent.com/danieljpost/resume-json/develop/resume.json",
     "masterraw": "https://raw.githubusercontent.com/danieljpost/resume-json/master/resume.json",
-    "legacyprod": "https://danieljpost.pro/resume.json",
-    "legacydevelop": "https://danieljpost.pro/v1/resume.json",
-    "development": "https://eatthebillionaires.pro/resume-json/resume.json",
+    "develop": "https://eatthebillionaires.pro/resume-json/resume.json",
     "master": "https://danieljpost.codes/resume-json/resume.json",
     "production": "https://danieljpost.consulting/resume-json/resume.json"
   },
