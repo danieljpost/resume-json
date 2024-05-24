@@ -1,7 +1,7 @@
 {
-  "updated": 20240319,
+  "updated": "20240524",
   "branch": "master",
-  "tag": "2024.3",
+  "tag": "2024.5",
   "versions": {
     "canonical": "https://danieljpost.pro/resume.json",
     "beta": "https://danieljpost.pro/v1/resume.json",
