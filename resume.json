@@ -1779,7 +1779,7 @@
       ]
     },
     {
-      "_id": "unfi",
+      "_id": "acf4ddf5-ae46-5df6-899a-49fe15229b13",
       "relevance": 9,
       "title": "PHP Developer",
       "gigType": "employee",
@@ -3095,6 +3095,16 @@
     }
   ],
   "recommendations": [
+    {
+      "_id": "028ba0d8-a127-5851-8248-9a05ce7de3ae",
+      "gigId": "acf4ddf5-ae46-5df6-899a-49fe15229b13",
+      "name": "Chris Griffin",
+      "linkedIn": "https://www.linkedin.com/in/zoonman",
+      "title": "Software Engineer",
+      "when": "2023-11-01",
+      "relationship": "Chris managed Daniel J. directly at UNFI",
+      "recommendation": "Daniel demonstrated his ability to transition to new languages and frameworks on our team and showed an openness to learning new things and new ways of working. Technology is always moving forward and evolving, and Daniel is the type of person who welcomes the change and looks forward to the path ahead of him."
+    },
     {
       "_id": "8fca923f-1110-592c-8fd1-fe399ee65066",
       "gigId": "b838ee3b-41fa-5be8-b28d-f3de1053c623",
