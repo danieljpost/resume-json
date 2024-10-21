@@ -1,7 +1,7 @@
 {
   "updated": "20240524",
   "branch": "develop",
-  "tag": "2024.5",
+  "tag": "2024.10",
   "versions": {
     "canonical": "https://danieljpost.pro/resume.json",
     "beta": "https://danieljpost.pro/v1/resume.json",
@@ -118,7 +118,7 @@
       "_id": "7f764700-28c4-5053-a7da-ebe77e2be9dc",
       "gigId": "mncee",
       "name": "James Marmas",
-      "linkedIn": "https://www.linkedin.com/in/jamesmarmas/",
+      "linkedIn": "https://www.linkedin.com/in/jamesmarmas",
       "title": "President/Owner at Search Leaders",
       "when": "2010-12-08",
       "relationship": "James hired Daniel to contract for several clients",
@@ -128,7 +128,7 @@
       "_id": "deb9f4dc-2171-5202-89a2-f9ead1b9e9ec",
       "gigId": "brokerbin",
       "name": "Jake Jones",
-      "linkedIn": "https://www.linkedin.com/in/jakejones/",
+      "linkedIn": "https://www.linkedin.com/in/jakejones",
       "title": "Sales Director",
       "when": "2008-02-26",
       "relationship": "Jake worked with Daniel in ancient history",
@@ -153,7 +153,7 @@
         "some label": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
         "another label": ""
       },
-      "responsibilities:": [
+      "responsibilities": [
         "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it",
         "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it."
       ],
@@ -303,7 +303,7 @@
         "some label": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
         "another label": ""
       },
-      "responsibilities:": [
+      "responsibilities": [
         "Attend Stand Up meetings",
         "Solve problems"
       ],
@@ -387,7 +387,7 @@
       "endDate": "2014-10-31",
       "shortDesc": "Google Wallet, Microsite",
       "longDesc": "Added Google Wallet to customer's microsite",
-      "responsibilities:": [
+      "responsibilities": [
         "Add Google Wallet to client's rewards program microsite"
       ],
       "accomplishments": [
@@ -442,7 +442,7 @@
       "endDate": "2021-03-31",
       "shortDesc": "Build Technology Group",
       "longDesc": "Remote contract through Build Technology Group",
-      "responsibilities:": [
+      "responsibilities": [
         "Facilitate data synchronization between legacy application and new service provider",
         "Design and implement data migration tool",
         "Build and manage internal tools (Data and UI)",
@@ -496,7 +496,7 @@
       "endDate": "2018-08-24",
       "shortDesc": "Maintain and update flagship marketing platform",
       "longDesc": "Maintain and update flagship marketing platform\nAdd connectivity to third-party APIs, e.g. LinkedIn and Google My Business\nDesign, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application\nAnalyze performance issues and recommend and implement improvements\nPerform Root Cause Analysis to eliminate memory leaks in customer messaging service",
-      "responsibilities:": [
+      "responsibilities": [
         "Maintain and update flagship marketing platform",
         "Design, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application",
         "Analyze performance issues and recommend and implement improvements",
@@ -592,7 +592,7 @@
       "endDate": "2016-09-15",
       "shortDesc": "Enable and improve processes to rapid-prototype solutions to/from internal and externally provided APIs",
       "longDesc": "Create backend API to enable clients to create offers, discounts, and donations\n Establish deployment processes, backend code design patterns",
-      "responsibilities:": [
+      "responsibilities": [
         "Refactor PHP code to make maintenance easier",
         "Create backend API to enable clients to create offers, discounts, and donations",
         "Establish deployment processes, backend code design patterns"
@@ -620,10 +620,6 @@
         },
         {
           "skillName": "html",
-          "relevance": 8
-        },
-        {
-          "skillName": "compass",
           "relevance": 8
         },
         {
@@ -657,7 +653,7 @@
       "endDate": "2016-06-01",
       "shortDesc": "Create, test, enhance extensive customer relationship management product for small business",
       "longDesc": "Create, test, enhance extensive customer relationship management product for small business",
-      "responsibilities:": [
+      "responsibilities": [
         "Create, test, enhance extensive customer relationship management product for small business"
       ],
       "accomplishments": [
@@ -711,7 +707,7 @@
       "endDate": "2014-04-15",
       "shortDesc": "Build Slingshot tool to accelerate web content management",
       "longDesc": "Build Project Slingshot, an internal content management tool utilized across multiple departments\nTrain tool users to develop and extend Slingshot system's code\nSaved millions of dollars in time and labor vs legacy content management tool",
-      "responsibilities:": [
+      "responsibilities": [
         "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than four hundred people across multiple departments"
       ],
       "accomplishments": [
@@ -779,7 +775,7 @@
       "endDate": "2014-07-01",
       "shortDesc": "Build Slingshot tool to accelerate web content management",
       "longDesc": "Build Project Slingshot, an internal content management tool utilized across multiple departments\nTrain tool users to develop and extend Slingshot system's code\nSaved millions of dollars in time and labor vs legacy content management tool",
-      "responsibilities:": [
+      "responsibilities": [
         "Automate and test database export from Drupal platform to new CakePHP application"
       ],
       "accomplishments": [
@@ -853,7 +849,7 @@
       "endDate": "2012-01-01",
       "shortDesc": "UI prototyping from visual design",
       "longDesc": "Design and protoype user interface elements for banking application from specs and/or wireframes\nProvide feedback & support to business analysts",
-      "responsibilities:": [
+      "responsibilities": [
         "Design and protoype user interface elements for banking application from specs and/or wireframes",
         "Provide feedback & support to business analysts"
       ],
@@ -901,7 +897,7 @@
       "endDate": "2012-02-01",
       "shortDesc": "Prototype UI from wireframes and design documents",
       "longDesc": "Prototype and test overall UI experience from wireframes and design documents",
-      "responsibilities:": [
+      "responsibilities": [
         "Prototype and test overall UI experience from wireframes and design documents",
         "Plan and estimate tasks in Scrum/Agile environment"
       ],
@@ -939,10 +935,6 @@
           "relevance": 8
         },
         {
-          "skillName": "compass",
-          "relevance": 6
-        },
-        {
           "skillName": "git",
           "relevance": 3
         },
@@ -965,7 +957,7 @@
       "endDate": "2012-09-01",
       "shortDesc": "UI Developer",
       "longDesc": "Design, rapid-prototype, troubleshoot, maintain User Interface for new features",
-      "responsibilities:": [
+      "responsibilities": [
         "Design, rapid-prototype, troubleshoot, maintain User Interface for new features"
       ],
       "accomplishments": [
@@ -1010,7 +1002,7 @@
       "endDate": "2015-04-30",
       "shortDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
       "longDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
-      "responsibilities:": [
+      "responsibilities": [
         "Recommend and implement best programming practices, add features, find and eliminate problems, share knowledge and expertise, profile and test code, rubberduck",
         "Used Yii2, PHP5.4, JavaScript, AngularJS, HTML5, gettext, poedit. xdebug"
       ],
@@ -1074,7 +1066,7 @@
       "endDate": "2014-08-30",
       "shortDesc": "Refactor, organize, optimize TPT Weather Application",
       "longDesc": "Refactor, organize, optimize TPT Weather Application",
-      "responsibilities:": [
+      "responsibilities": [
         "Refactor, organize, optimize TPT Weather Application"
       ],
       "accomplishments": [
@@ -1109,7 +1101,7 @@
       "endDate": "2013-08-30",
       "shortDesc": "Refactor, rebuild video sharing application",
       "longDesc": "Refactor, rebuild video sharing application",
-      "responsibilities:": [
+      "responsibilities": [
         "Refactor, rebuild video sharing application"
       ],
       "accomplishments": [
@@ -1158,7 +1150,7 @@
       "endDate": "2013-04-01",
       "shortDesc": "Implement responsive, accessible UI for Mayo Clinic",
       "longDesc": "Implement responsive, accessible UI for Mayo Clinic (mayoclinic.org)",
-      "responsibilities:": [
+      "responsibilities": [
         "Develop responsive, accessible, high quality User Interface from functional and design specifications"
       ],
       "accomplishments": [
@@ -1196,6 +1188,20 @@
       ]
     },
     {
+      "_id": "fedexPkgHandler",
+      "relevance": 1,
+      "title": "Contractor",
+      "location": "Greater Twin Cities Area",
+      "companyId": "1d1c49ae-6883-55b9-aee6-e445b841c755",
+      "startDate": "2024-07-15",
+      "endDate": null,
+      "shortDesc": "Package Handler (warehouse like)",
+      "longDesc": "Package Handler unloads and loads trucks",
+      "responsibilities": [
+        ""
+      ]
+    },
+    {
       "_id": "tdxtech",
       "relevance": 4,
       "title": "PHP Developer",
@@ -1208,7 +1214,7 @@
       "endDate": "2012-12-31",
       "shortDesc": "Build Work Order tool for TDX Tech",
       "longDesc": "Design and implement Work Orders database\nBuild user interface in Zend Framework 2\nCapture customer signatures in work order screen\nExport and persist Work Orders with signatures in PDF",
-      "responsibilities:": [
+      "responsibilities": [
         "Build Work Order reporting App for TDX Tech"
       ],
       "accomplishments": [
@@ -1261,7 +1267,7 @@
       "endDate": "2013-02-31",
       "shortDesc": "Add features to time/vacation tracking database",
       "longDesc": "Add features to time/vacation tracking database",
-      "responsibilities:": [
+      "responsibilities": [
         "Add features to time/vacation tracking database"
       ],
       "accomplishments": [
@@ -1308,7 +1314,7 @@
       "note": "dates are fuzzy as of 20210218",
       "shortDesc": "built a WordPress plugin to support client needs",
       "longDesc": "built a WordPress plugin to support client needs",
-      "responsibilities:": [],
+      "responsibilities": [],
       "accomplishments": [
         "built a WordPress plugin to support client needs"
       ],
@@ -1349,7 +1355,7 @@
       "endDate": "2013-04-30",
       "shortDesc": "Backend development for educational software",
       "longDesc": "Backend development for educational software",
-      "responsibilities:": [
+      "responsibilities": [
         "Add features to time/vacation tracking database"
       ],
       "accomplishments": [
@@ -1413,7 +1419,7 @@
       "endDate": "2013-06-30",
       "shortDesc": "Further features to time/vacation tracking database",
       "longDesc": "Further features to time/vacation tracking database",
-      "responsibilities:": [
+      "responsibilities": [
         "Further features to time/vacation tracking database"
       ],
       "accomplishments": [
@@ -1459,7 +1465,7 @@
       "endDate": "2011-01-01",
       "shortDesc": "Maintain and enhance database and front end for customer relationship system",
       "longDesc": "Maintain and enhance database and front end for customer relationship system",
-      "responsibilities:": [
+      "responsibilities": [
         "Maintain and enhance database and front end for customer relationship system"
       ],
       "accomplishments": [
@@ -1518,7 +1524,7 @@
       "endDate": "2009-06-15",
       "shortDesc": "Visible Customer",
       "longDesc": "Visibile Customer",
-      "responsibilities:": [
+      "responsibilities": [
         "Primary/integral/founding part of team to reengineer/rebuild build web portal for car dealerships to manage customers and generate marketing campaigns",
         "Mentor and train junior developers in JavaScript, OOP, SQL, PHP, ORM, and framework development"
       ],
@@ -1570,7 +1576,7 @@
       "endDate": "2010-06-15",
       "shortDesc": "Blue Earth Interactive",
       "longDesc": "Blue Earth Interactive",
-      "responsibilities:": [
+      "responsibilities": [
         "Co-design, code backend for complex e-learning/online book application",
         "Co-design, code backend for complex e-learning/online book application"
       ],
@@ -1651,6 +1657,22 @@
   ],
   "skills": [
     {
+      "_id": "6dad276e-293b-5113-b0b8-f442de996969",
+      "sname": "twilio",
+      "name": "Twilio",
+      "description": "a cloud communications service which provides programmable communication tools for making and receiving phone calls, sending and receiving text messages, and performing other communication functions",
+      "category": "Operating Systems",
+      "tiers": [
+        "Administrator",
+        "Business",
+        "Consulting",
+        "Team Lead"
+      ],
+      "relevance": 2,
+      "expertise": 4,
+      "url": "https://www.twilio.com/en-us"
+    },
+    {
       "_id": "1c7bffe0-e9e7-5e8f-b050-455fa72c6113",
       "sname": "winXP",
       "name": "Windows XP",
@@ -1663,8 +1685,8 @@
         "Team Lead"
       ],
       "relevance": 3,
-      "expertise": 5,
-      "url": "http://microsoft.com"
+      "expertise": 4,
+      "url": "https://www.microsoft.com/en-us"
     },
     {
       "_id": "d2da1cc4-f19e-5dbd-b176-6a51117f3e18",
@@ -1700,7 +1722,7 @@
       ],
       "relevance": 3,
       "expertise": 6,
-      "url": "http://microsoft.com"
+      "url": "https://microsoft.com"
     },
     {
       "_id": "2bba2c14-0922-5db0-915d-742e0642b1a9",
@@ -1760,7 +1782,7 @@
       ],
       "relevance": 2,
       "expertise": 4,
-      "url": "https://www.docker.com/"
+      "url": "https://www.docker.com"
     },
     {
       "_id": "0d2fa1e0-e67b-58f9-8809-7cfebd9e5d2c",
@@ -1778,7 +1800,7 @@
       ],
       "relevance": 0,
       "expertise": 4,
-      "url": "https://www.docker.com/"
+      "url": "https://www.docker.com"
     },
     {
       "_id": "1489ee24-6ff3-5430-a407-ac1a74185239",
@@ -1834,7 +1856,7 @@
       ],
       "relevance": 2,
       "expertise": 3,
-      "url": "https://gruntjs.com/"
+      "url": "https://gruntjs.com"
     },
     {
       "_id": "63f077f3-63a8-5758-89fa-90b021f36cb8",
@@ -1851,7 +1873,7 @@
       ],
       "relevance": 2,
       "expertise": 6,
-      "url": "https://www.virtualbox.org/"
+      "url": "https://www.virtualbox.org"
     },
     {
       "_id": "736056d8-e705-542e-8534-7d030a91064c",
@@ -1913,11 +1935,11 @@
       ],
       "relevance": 2,
       "expertise": 8,
-      "url": "https://memcached.org/",
+      "url": "https://memcached.org",
       "blurb": "It's Web Scale!"
     },
     {
-      "_id": "d3c55aaa-33cc-53fc-ac65-fb58e8168ac7",
+      "_id": "6baed952-a35d-5fba-91e5-541b025d439e",
       "sname": "redis",
       "name": "Redis",
       "description": "Redis is an in-memory data structure store, used as a database, cache, and message broker",
@@ -1934,11 +1956,11 @@
       ],
       "relevance": 2,
       "expertise": 8,
-      "url": "https://redis.io/",
+      "url": "https://redis.io",
       "blurb": "It's Web Scale!"
     },
     {
-      "_id": "10a203d6-80b2-59ec-92ea-f148c1d07d85",
+      "_id": "f1090fec-092f-5231-9ddc-861a8c1d8d64",
       "sname": "mongo",
       "name": "MongoDB",
       "description": "MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era",
@@ -1954,7 +1976,7 @@
       ],
       "relevance": 5,
       "expertise": 8,
-      "url": "https://www.mongodb.com/",
+      "url": "https://www.mongodb.com",
       "blurb": "I've used on several projects."
     },
     {
@@ -2069,7 +2091,26 @@
       ],
       "relevance": 6,
       "expertise": 7,
-      "url": "http://httpd.apache.org"
+      "url": "https://httpd.apache.org"
+    },
+    {
+      "_id": "0548af61-d94a-5c31-94ee-46cf30593b5b",
+      "sname": "lighthttpd",
+      "name": "Apache HTTPD",
+      "description": "lighttpd (pronounced /lighty/) is a secure, fast, compliant, and very flexible web server that has been optimized for high-performance environments. lighttpd uses memory and CPU efficiently and has lower resource use than other popular web servers. Its advanced feature-set (FastCGI, CGI, Auth, Output-Compression, URL-Rewriting and much more) make lighttpd the perfect web server for all systems, small and large.",
+      "category": "Servers",
+      "tiers": [
+        "Administrator",
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Business",
+        "Consulting",
+        "Team Lead"
+      ],
+      "relevance": 2,
+      "expertise": 3,
+      "url": "https://www.lighttpd.net"
     },
     {
       "_id": "a694109a-77f9-58c1-b296-ba7cf3fdf512",
@@ -2087,7 +2128,7 @@
       ],
       "relevance": 5,
       "expertise": 4,
-      "url": "https://www.nginx.com/"
+      "url": "https://www.nginx.com"
     },
     {
       "_id": "d47bc1d3-5278-5f70-81b5-55773b69a3c5",
@@ -2129,7 +2170,7 @@
       ],
       "relevance": 3,
       "expertise": 3,
-      "url": "https://cloud.google.com/"
+      "url": "https://cloud.google.com"
     },
     {
       "_id": "800d5c14-5255-533e-b180-4eebe52d7661",
@@ -2171,7 +2212,7 @@
       ],
       "relevance": 10,
       "expertise": 9,
-      "url": "http://php.net"
+      "url": "https://www.php.net"
     },
     {
       "_id": "d4f4cc55-cefc-5812-bbb3-29f38d950bd7",
@@ -2190,22 +2231,6 @@
       "url": "https://jquery.com"
     },
     {
-      "_id": "959e394a-71b2-5b0c-962f-d7331969a199",
-      "sname": "angularjs",
-      "name": "AngularJS",
-      "description": "AngularJS. Ancient Angular, now in Long Term Support",
-      "category": "Libraries",
-      "tiers": [
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 3,
-      "expertise": 6,
-      "url": "https://angularjs.org/"
-    },
-    {
       "_id": "ba98c491-50ea-5f5b-8b5c-fb13abc905b1",
       "sname": "angulario",
       "name": "Angular IO",
@@ -2219,7 +2244,7 @@
       ],
       "relevance": 4,
       "expertise": 6,
-      "url": "https://angular.io"
+      "url": "https://angular.dev"
     },
     {
       "_id": "a367ff2f-a22a-5686-b6e8-668946b9741c",
@@ -2259,7 +2284,7 @@
       ],
       "relevance": 6,
       "expertise": 5,
-      "url": "https://zoom.us/"
+      "url": "https://zoom.us"
     },
     {
       "_id": "61350d98-c67c-58ef-9f03-3a4091d64143",
@@ -2281,7 +2306,7 @@
       ],
       "relevance": 5,
       "expertise": 6,
-      "url": "https://slack.com/"
+      "url": "https://slack.com"
     },
     {
       "_id": "5576be02-6a79-50a8-9700-7d933a0f536b",
@@ -2350,7 +2375,7 @@
       ],
       "relevance": 7,
       "expertise": 6,
-      "url": "https://www.w3.org/WAI/"
+      "url": "https://www.w3.org/WAI"
     },
     {
       "_id": "4d06c0f0-736d-543a-9f76-d614d243fb4e",
@@ -2384,7 +2409,7 @@
       ],
       "relevance": 6,
       "expertise": 8,
-      "url": "https://www.gnu.org/software/bash/"
+      "url": "https://www.gnu.org/software/bash"
     },
     {
       "_id": "bd07c9a6-5c46-5775-b97f-4a2ed46751d3",
@@ -2402,7 +2427,7 @@
       ],
       "relevance": 1,
       "expertise": 3,
-      "url": "https://vuejs.org/"
+      "url": "https://vuejs.org"
     },
     {
       "_id": "0d5904d6-d5e5-51f9-ab1e-7a452cc688fc",
@@ -2423,7 +2448,7 @@
       ],
       "relevance": 7,
       "expertise": 5,
-      "url": "https://reactjs.org/"
+      "url": "https://reactjs.org"
     },
     {
       "_id": "9c7fb28b-3678-5edd-a6ae-67058aacabe8",
@@ -2559,7 +2584,7 @@
       ],
       "relevance": 2,
       "expertise": 6,
-      "url": "https://kohanaframework.org/"
+      "url": "https://kohanaframework.org"
     },
     {
       "_id": "c82fb3ac-6b5f-5c3a-8400-29c0d961dd71",
@@ -2622,7 +2647,7 @@
       ],
       "relevance": 6,
       "expertise": 8,
-      "url": "https://git-scm.com/"
+      "url": "https://git-scm.com"
     },
     {
       "_id": "5c8b020d-c50a-5db0-82a2-82a58ebfb406",
@@ -2715,7 +2740,7 @@
       ],
       "relevance": 1,
       "expertise": 4,
-      "url": "http://jmeter.apache.org"
+      "url": "https://jmeter.apache.org"
     },
     {
       "_id": "18745072-2b39-56c9-8a6f-3180566e6efe",
@@ -2849,7 +2874,7 @@
       ],
       "relevance": 4,
       "expertise": 4,
-      "url": "https://npmjs.com/"
+      "url": "https://npmjs.com"
     },
     {
       "_id": "ccf6afd4-e93e-5ea3-af5a-f98bdcc6ec32",
@@ -2869,27 +2894,6 @@
       "relevance": 3,
       "expertise": 3,
       "url": "https://github.com/nvm-sh/nvm/blob/master/README.md"
-    },
-    {
-      "_id": "771ae2b7-e635-583c-8139-3f33dd9125df",
-      "sname": "compass",
-      "name": "Compass",
-      "description": "CSS Transpiler",
-      "category": "Development Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 3,
-      "expertise": 4,
-      "url": "http://compass-style.org"
     },
     {
       "_id": "ed1cb385-c7d3-5a37-9382-ac97f23e0271",
@@ -2949,7 +2953,7 @@
       ],
       "relevance": 3,
       "expertise": 2,
-      "url": "https://varnish-cache.org/"
+      "url": "https://varnish-cache.org"
     },
     {
       "_id": "87b7e6ec-7448-5f90-95db-ddf3c4ab52ba",
@@ -3013,7 +3017,7 @@
       "name": "djpcorp",
       "type": "owned",
       "fullname": "Daniel J. Post Consulting, Inc",
-      "url": "http://danieljpost.consulting",
+      "url": "https://danieljpost.consulting",
       "see": "https://schema.org/Organization"
     },
     {
@@ -3028,14 +3032,14 @@
       "name": "homesforheroes",
       "type": "client",
       "fullname": "Homes for Heroes",
-      "url": "https://www.homesforheroes.com/"
+      "url": "https://www.homesforheroes.com"
     },
     {
       "_id": "60d94438-172f-575c-94d3-25da931f6448",
       "name": "starkey",
       "type": "client",
       "fullname": "Starkey",
-      "url": "https://www.starkey.com/"
+      "url": "https://www.starkey.com"
     },
     {
       "_id": "4e9f69c1-548e-52ba-bd34-f0879191c888",
@@ -3043,14 +3047,14 @@
       "name": "irishtitan",
       "type": "contractor",
       "fullname": "Irish Titan",
-      "url": "https://irishtitan.com/"
+      "url": "https://irishtitan.com"
     },
     {
       "_id": "1a84c2ca-c566-55f4-9a61-506d6b5b683b",
       "name": "ezxchanges",
       "type": "client",
       "fullname": "ezXchanges",
-      "url": "https://www.example.com/"
+      "url": "https://www.example.com"
     },
     {
       "_id": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
@@ -3074,35 +3078,38 @@
       "credit": false,
       "type": "contractor",
       "fullname": "Horizontal",
-      "url": "https://horizontal.blog/category/talent/talent-seekers/"
+      "url": "https://www.horizontaldigital.com"
     },
     {
       "_id": "860f72d5-ed7b-5e68-a1f8-cad348821361",
       "name": "bluedoorpublishing",
       "type": "client",
       "fullname": "bluedoor publishing",
-      "url": "https://www.bluedoorpublishing.com/"
+      "url": "https://www.bluedoorpublishing.com"
     },
     {
       "_id": "b9a40353-7087-5adc-8dbb-fa596f6d7d83",
       "name": "bluedoor",
       "type": "contractor",
       "fullname": "bluedoor labs",
-      "url": "https://www.bluedoorlabs.com/"
+      "url": "https://www.bluedoorlabs.com",
+      "logo": "https://assets-global.website-files.com/5e667e24f63b771502527c72/5e66dd507be553584a300d10_bd_logo_c.svg"
     },
     {
       "_id": "ca6addd9-fc00-5ca4-87dd-b2cdaeea91db",
       "name": "starasia",
       "type": "client",
       "fullname": "Star Asia",
-      "url": "https://star-asia.com"
+      "url": "https://star-asia.com",
+      "logo": "https://star-asia.com/images/star-asia_logo.png"
     },
     {
       "_id": "88abb4d1-694d-5384-bce2-21c0bc59b160",
       "name": "resortsandlodges",
       "type": "employer",
       "fullname": "Resorts and Lodges",
-      "url": "http://resortsandlodges.com"
+      "url": "https://www.resortsandlodges.com",
+      "logo": "https://s3.amazonaws.com/resortsandlodges-website-widgets/front-end+assets/logo.png"
     },
     {
       "_id": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
@@ -3117,14 +3124,14 @@
       "credit": true,
       "type": "client",
       "fullname": "The Lacek Group",
-      "url": "http://lacek.com"
+      "url": "https://lacek.com"
     },
     {
       "_id": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
       "name": "target",
       "type": "client",
       "fullname": "Target Corporation",
-      "url": "http://target.com"
+      "url": "https://target.com"
     },
     {
       "_id": "72e07a43-44d2-5850-98eb-33159db9eccd",
@@ -3138,35 +3145,36 @@
       "name": "tpt",
       "type": "client",
       "fullname": "Twin Cities Public Television",
-      "url": "https://www.tpt.org/"
+      "url": "https://www.tpt.org"
     },
     {
       "_id": "44eba145-fbd7-54f3-8311-b413c3eaa021",
       "name": "usbank",
       "type": "client",
       "fullname": "U.S. Bank",
-      "url": "http://usbank.com"
+      "url": "https://www.usbank.com"
     },
     {
       "_id": "c306459f-05ee-538e-8839-17355d27b43b",
       "name": "lifetimefitness",
       "type": "client",
       "fullname": "Life Time Fitness",
-      "url": "http://lifetimefitness.com"
+      "url": "https://lifetimefitness.com"
     },
     {
       "_id": "1dfb2ad1-29db-552c-8060-5cd81ec68729",
       "name": "mayo",
       "type": "client",
       "fullname": "Mayo Clinic",
-      "url": "http://mayo.edu"
+      "url": "https://mayo.edu",
+      "logo": "https://www.mayoclinic.org/~/media/386AC346D62D46A4944E0923CAF00D28.svg"
     },
     {
       "_id": "fa87f1e3-3d32-5b56-9e37-ac38b8f257e4",
       "name": "bluestem",
       "type": "client",
       "fullname": "BlueStem Brands",
-      "url": "http://bluestem.com"
+      "url": "https://bluestem.com"
     },
     {
       "_id": "6e5b1562-3062-5c02-aa97-b08039574797",
@@ -3181,7 +3189,8 @@
       "type": "employer",
       "fullname": "Blue Earth Interactive / Torrch",
       "url": "https://torrch.com"
-    },{
+    },
+    {
       "_id": "5713a077-0318-5e86-8a13-00d8b58835ea",
       "name": "unfi",
       "type": "employer",
@@ -3193,14 +3202,14 @@
       "name": "tdxtech",
       "type": "client",
       "fullname": "TDX Tech",
-      "url": "http://example.com"
+      "url": "https://www.tdxtech.com"
     },
     {
       "_id": "8331781e-7290-570d-9eab-ef1f0bbb93cd",
       "name": "mncee",
       "type": "client",
       "fullname": "MN Center for Energy and the Environment",
-      "url": "http://mncee.org"
+      "url": "https://mncee.org"
     },
     {
       "_id": "4a94adbf-edb9-51e2-80db-a35777a79e31",
@@ -3214,7 +3223,7 @@
       "name": "irishtitan",
       "type": "recruiter",
       "fullname": "Irish Titan",
-      "url": "https://irishtitan.com/"
+      "url": "https://irishtitan.com"
     }
   ],
   "links": [
