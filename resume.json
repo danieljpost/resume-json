@@ -1,14 +1,14 @@
 {
-  "updated": "20241021",
+  "updated": "20241118",
   "branch": "develop",
-  "tag": "2024.10",
+  "tag": "2024.11",
   "versions": {
     "canonical": "https://danieljpost.pro/resume.json",
     "beta": "https://danieljpost.pro/v1/resume.json",
     "develop": "https://eatthebillionaires.pro/resume.json",
     "master": "https://danieljpost.codes/resume.json",
     "production": "https://danieljpost.consulting/resume.json",
-    "2024.10": "https://raw.githubusercontent.com/danieljpost/resume-json/refs/tags/2024.10/resume.json",
+    "2024.11": "https://raw.githubusercontent.com/danieljpost/resume-json/refs/tags/2024.11/resume.json",
     "developraw": "https://raw.githubusercontent.com/danieljpost/resume-json/develop/resume.json",
     "masterraw": "https://raw.githubusercontent.com/danieljpost/resume-json/master/resume.json"
   },
@@ -172,11 +172,6 @@
           "relevance": 1
         },
         {
-          "skillName": "flutter",
-          "TODO": "flutter.dev",
-          "relevance": 0
-        },
-        {
           "skillName": "nginx",
           "relevance": 5
         },
@@ -271,10 +266,6 @@
         {
           "skillName": "node",
           "relevance": 2
-        },
-        {
-          "skillName": "newrelic",
-          "relevance": 3
         },
         {
           "skillName": "codeship",
@@ -393,6 +384,9 @@
       "accomplishments": [
         "Add Google Wallet",
         "Improved i18n performance"
+      ],
+      "blurbs": [
+        "I worked with Lacek to add Google Wallet functionality,  improve internationalization (i18n)"
       ],
       "technologies": [
         {

@@ -1,0 +1,215 @@
+[
+    {
+      "_id": "6f219570-cbb1-53fc-b563-357f37b414da",
+      "name": "djpcorp",
+      "type": "owned",
+      "fullname": "Daniel J. Post Consulting, Inc",
+      "url": "https://danieljpost.consulting",
+      "see": "https://schema.org/Organization"
+    },
+    {
+      "_id": "5d017a2f-c584-5547-b73d-b572c779bf53",
+      "name": "vivial",
+      "type": "employer",
+      "fullname": "Vivial Media, LLC",
+      "url": "https://vivial.net"
+    },
+    {
+      "_id": "09d49804-44c2-578e-b082-6be3a7d10b6d",
+      "name": "homesforheroes",
+      "type": "client",
+      "fullname": "Homes for Heroes",
+      "url": "https://www.homesforheroes.com"
+    },
+    {
+      "_id": "60d94438-172f-575c-94d3-25da931f6448",
+      "name": "starkey",
+      "type": "client",
+      "fullname": "Starkey",
+      "url": "https://www.starkey.com"
+    },
+    {
+      "_id": "4e9f69c1-548e-52ba-bd34-f0879191c888",
+      "credit": true,
+      "name": "irishtitan",
+      "type": "contractor",
+      "fullname": "Irish Titan",
+      "url": "https://irishtitan.com"
+    },
+    {
+      "_id": "1a84c2ca-c566-55f4-9a61-506d6b5b683b",
+      "name": "ezxchanges",
+      "type": "client",
+      "fullname": "ezXchanges",
+      "url": "https://www.example.com"
+    },
+    {
+      "_id": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
+      "name": "btg",
+      "credit": true,
+      "type": "contractor",
+      "fullname": "Build Technology Group",
+      "url": "https://buildtechnologygroup.com"
+    },
+    {
+      "_id": "d1d982c2-0f4d-5242-9157-4a40144bc980",
+      "name": "rht",
+      "credit": false,
+      "type": "contractor",
+      "fullname": "Robert Half Technology",
+      "url": "https://www.roberthalf.com/employers/technology"
+    },
+    {
+      "_id": "5a9d0998-fbd9-56d5-99fe-81dc601c6ed5",
+      "name": "horizontal",
+      "credit": false,
+      "type": "contractor",
+      "fullname": "Horizontal",
+      "url": "https://www.horizontaldigital.com"
+    },
+    {
+      "_id": "860f72d5-ed7b-5e68-a1f8-cad348821361",
+      "name": "bluedoorpublishing",
+      "type": "client",
+      "fullname": "bluedoor publishing",
+      "url": "https://www.bluedoorpublishing.com"
+    },
+    {
+      "_id": "b9a40353-7087-5adc-8dbb-fa596f6d7d83",
+      "name": "bluedoor",
+      "type": "contractor",
+      "fullname": "bluedoor labs",
+      "url": "https://www.bluedoorlabs.com",
+      "logo": "https://assets-global.website-files.com/5e667e24f63b771502527c72/5e66dd507be553584a300d10_bd_logo_c.svg"
+    },
+    {
+      "_id": "ca6addd9-fc00-5ca4-87dd-b2cdaeea91db",
+      "name": "starasia",
+      "type": "client",
+      "fullname": "Star Asia",
+      "url": "https://star-asia.com",
+      "logo": "https://star-asia.com/images/star-asia_logo.png"
+    },
+    {
+      "_id": "88abb4d1-694d-5384-bce2-21c0bc59b160",
+      "name": "resortsandlodges",
+      "type": "employer",
+      "fullname": "Resorts and Lodges",
+      "url": "https://www.resortsandlodges.com",
+      "logo": "https://s3.amazonaws.com/resortsandlodges-website-widgets/front-end+assets/logo.png"
+    },
+    {
+      "_id": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
+      "name": "gbl",
+      "type": "client",
+      "fullname": "Go Buy Local / Do Good Tech",
+      "url": "http://gobuylocal.com"
+    },
+    {
+      "_id": "bff69483-f42c-5711-b5a5-4f8b43225eae",
+      "name": "lacek",
+      "credit": true,
+      "type": "client",
+      "fullname": "The Lacek Group",
+      "url": "https://lacek.com"
+    },
+    {
+      "_id": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
+      "name": "target",
+      "type": "client",
+      "fullname": "Target Corporation",
+      "url": "https://target.com"
+    },
+    {
+      "_id": "72e07a43-44d2-5850-98eb-33159db9eccd",
+      "name": "razr",
+      "type": "client",
+      "fullname": "RAZR Marketing",
+      "url": "https://razrmarketinginc.com"
+    },
+    {
+      "_id": "50926660-ca30-5281-aeeb-77e9dbedee39",
+      "name": "tpt",
+      "type": "client",
+      "fullname": "Twin Cities Public Television",
+      "url": "https://www.tpt.org"
+    },
+    {
+      "_id": "44eba145-fbd7-54f3-8311-b413c3eaa021",
+      "name": "usbank",
+      "type": "client",
+      "fullname": "U.S. Bank",
+      "url": "https://www.usbank.com"
+    },
+    {
+      "_id": "c306459f-05ee-538e-8839-17355d27b43b",
+      "name": "lifetimefitness",
+      "type": "client",
+      "fullname": "Life Time Fitness",
+      "url": "https://lifetimefitness.com"
+    },
+    {
+      "_id": "1dfb2ad1-29db-552c-8060-5cd81ec68729",
+      "name": "mayo",
+      "type": "client",
+      "fullname": "Mayo Clinic",
+      "url": "https://mayo.edu",
+      "logo": "https://www.mayoclinic.org/~/media/386AC346D62D46A4944E0923CAF00D28.svg"
+    },
+    {
+      "_id": "fa87f1e3-3d32-5b56-9e37-ac38b8f257e4",
+      "name": "bluestem",
+      "type": "client",
+      "fullname": "BlueStem Brands",
+      "url": "https://bluestem.com"
+    },
+    {
+      "_id": "6e5b1562-3062-5c02-aa97-b08039574797",
+      "name": "networkinstruments",
+      "type": "client",
+      "fullname": "Network Instruments",
+      "url": "http://networkinstruments.com"
+    },
+    {
+      "_id": "b047adfa-dc91-53e6-8d1c-e9408abbfe1c",
+      "name": "blueearth",
+      "type": "employer",
+      "fullname": "Blue Earth Interactive / Torrch",
+      "url": "https://torrch.com"
+    },
+    {
+      "_id": "5713a077-0318-5e86-8a13-00d8b58835ea",
+      "name": "unfi",
+      "type": "employer",
+      "fullname": "United Natural Foods, Inc",
+      "url": "https://unfi.com"
+    },
+    {
+      "_id": "101d483d-07ac-51a6-88c2-288a29a226e6",
+      "name": "tdxtech",
+      "type": "client",
+      "fullname": "TDX Tech",
+      "url": "https://www.tdxtech.com"
+    },
+    {
+      "_id": "8331781e-7290-570d-9eab-ef1f0bbb93cd",
+      "name": "mncee",
+      "type": "client",
+      "fullname": "MN Center for Energy and the Environment",
+      "url": "https://mncee.org"
+    },
+    {
+      "_id": "4a94adbf-edb9-51e2-80db-a35777a79e31",
+      "name": "visiblecustomer",
+      "type": "client",
+      "fullname": "Visible Customer",
+      "url": "https://visiblecustomer.com"
+    },
+    {
+      "_id": "0ba1d7f3-d963-5345-b843-1b757620508e",
+      "name": "irishtitan",
+      "type": "recruiter",
+      "fullname": "Irish Titan",
+      "url": "https://irishtitan.com"
+    }
+  ]

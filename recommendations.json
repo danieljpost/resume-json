@@ -1,0 +1,123 @@
+[
+    {
+        "_id": "028ba0d8-a127-5851-8248-9a05ce7de3ae",
+        "gigId": "acf4ddf5-ae46-5df6-899a-49fe15229b13",
+        "name": "Chris Griffin",
+        "linkedIn": "https://www.linkedin.com/in/zoonman",
+        "title": "Software Engineer",
+        "when": "2023-11-01",
+        "relationship": "Chris managed Daniel J. directly at UNFI",
+        "recommendation": "Daniel demonstrated his ability to transition to new languages and frameworks on our team and showed an openness to learning new things and new ways of working. Technology is always moving forward and evolving, and Daniel is the type of person who welcomes the change and looks forward to the path ahead of him."
+    },
+    {
+        "_id": "8fca923f-1110-592c-8fd1-fe399ee65066",
+        "gigId": "b838ee3b-41fa-5be8-b28d-f3de1053c623",
+        "name": "Philipp Tkachev",
+        "linkedIn": "https://www.linkedin.com/in/zoonman",
+        "title": "Software Engineer",
+        "when": "2018-08-25",
+        "relationship": "Daniel J. worked with Philipp in the same group at Vivial Media",
+        "recommendation": "I used to work with Daniel for last couple years and he has proven himself as diligent and responsible colleague. Daniel did a great job making software fast and reliable. He is smart and knowledgeable. He strives to use modern technologies. Daniel was able to pickup all our internal complexity quickly and seamlessly. He discovered a tech debt and helped to eliminate it. It was a pleasure to work with Daniel and I would like to do it again."
+    },
+    {
+        "_id": "4095adf9-d17f-51b0-b3e7-2020ae652382",
+        "gigId": "f5125144-36e1-5f91-98ae-0dc7465a0212",
+        "name": "Michael Leo",
+        "linkedIn": "https://www.linkedin.com/in/michaelaleo",
+        "title": "Owner, Kettle River Consulting Inc",
+        "when": "2015-04-25",
+        "relationship": "Daniel J. worked with Michael in the same group at RAZR Marketing",
+        "recommendation": "Daniel's knowledge of robust application development is practical, solid, and broad. Daniel and I worked on an \"emergency implementation\" that had to be done in about 1/4 the time it should have taken. We worked closely together and relied on each other strengths to deliver on time and make the customer extremely happy. Daniel was great to work with. He is an expert on the front-end and has solid knowledge of the back-end. I would love to work with him again."
+    },
+    {
+        "_id": "0489c2c2-8ad1-5f26-b0c3-88a6fcc04f26",
+        "gigId": "f5125144-36e1-5f91-98ae-0dc7465a0212",
+        "name": "Christopher Smithson",
+        "linkedIn": "https://www.linkedin.com/in/christopher-s-62a2726",
+        "title": "Software Innovation",
+        "when": "2015-03-25",
+        "relationship": "Christopher managed Daniel J. directly at RAZR Marketing",
+        "recommendation": "Daniel was brought to the team at a critical time in development and asked to take on substantial amounts of work with minimal orientation or guidance. I needed someone who was fluent in the more advanced aspects of PHP development and could tackle tough design and implementation decisions. He delivered on that demand at one of the highest proficiencies and accuracies that I have had the pleasure of working with. His ability to positively impact the short term needs of a project while also offering critical insights into the long term vision of the product is of great asset to anyone. He has an in depth understanding of product life cycles, software application design patterns, and system performance, among many other parallels. Ultimately his contract resulted in a successful mission. This is my highest level of recommendation."
+    },
+    {
+        "_id": "a66f3f3e-2da3-551d-ac81-c70144690599",
+        "gigId": "feb43610-fd18-5c9d-b1a2-af2d3d436c79",
+        "name": "Natasha Gaffer",
+        "linkedIn": "https://www.linkedin.com/in/natashagaffer",
+        "title": "Web App Developer",
+        "when": "2014-06-07",
+        "relationship": "Daniel J. worked with Natasha in the same group at Target Corporation",
+        "company": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
+        "recommendation": "Daniel jumped right in developing a custom php interface to communicate with a brand-new CMS for Target.com. He worked solo with very demanding hours to bring my vision to life. He is confident about his work and dedicated to the project at hand. The tool has been incredibly successful so far and is scaling well as the project grows at an enterprise level."
+    },
+    {
+        "_id": "0d27ae76-c0b2-5bac-a11c-c24978eb1513",
+        "gigId": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
+        "name": "Joseph Piché",
+        "linkedIn": "https://www.linkedin.com/in/josephpiche",
+        "title": "Android and iOS Developer",
+        "when": "2013-08-12",
+        "relationship": "Joseph was a client of Daniel J.’s at Irish Titan",
+        "recommendation": "I worked alongside Daniel on an extremely difficult PHP project at Irish Titan, and am impressed with his ability to find security issues and bad programming practices that other programmers missed. Daniel is very detailed and thorough in all of his work, as well as very understanding of budget and time constraints."
+    },
+    {
+        "_id": "14443301-00ae-5d9c-9a43-939c8305c207",
+        "gigId": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
+        "name": "Darin Lynch",
+        "linkedIn": "https://www.linkedin.com/in/darinlynch",
+        "title": "Irish Titan ",
+        "when": "2013-08-06",
+        "relationship": "Darin was a client of Daniel J.’s at Irish Titan",
+        "recommendation": "We hired Daniel to provide some very specific programming skills that are outside of our core competency here at Irish Titan. Daniel provided them in spades...he's very knowledgeable, and clearly an expert in his field. He was very good at explaining technical concepts to non-technical resources, and worked diligently and with alot of respect. We'd hire him again."
+    },
+    {
+        "_id": "173c3a2e-f6fe-5984-a4b4-3d303a616c64",
+        "gigId": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
+        "name": "Cevat Kerim Incedayi",
+        "linkedIn": "https://www.linkedin.com/in/cevatkerim",
+        "title": "Software Developer",
+        "when": "2012-02-06",
+        "relationship": "Daniel J. worked with Cevat Kerim in the same group at U.S. Bank",
+        "recommendation": "Daniel is a very detailed individual. His ability to think beyond what is needed helps him produce robust solutions that can later be extended upon. I recommend him to any company seeking true programmers."
+    },
+    {
+        "_id": "8435df6d-b6fd-51a7-b986-638ea2bc6d79",
+        "gigId": "32045bde-1e52-597e-875f-5f3eeefd6dc7",
+        "name": "Brian LaBounty",
+        "linkedIn": "https://www.linkedin.com/in/brianlabounty",
+        "title": "Principal (Lead) Web Application Developer at Stratasys",
+        "when": "2009-08-16",
+        "relationship": "Daniel J. worked with Brian at Visible Customer",
+        "recommendation": "When it comes to working with new people and being patient and effective in giving the vital information necessary to get a new guy up to speed in a rapidly changing, intense environment, Daniel was the man who got me going fast, and got me ready to start contributing to the project faster than I thought possible. He's a good guy and would be an asset to any team, especially as a mentor."
+    },
+    {
+        "_id": "cb1e88b7-cfd4-5775-92e5-e3c714fb254c",
+        "gigId": "32045bde-1e52-597e-875f-5f3eeefd6dc7",
+        "name": "TQ White II",
+        "linkedIn": "https://www.linkedin.com/in/tqwhite",
+        "title": "Writing Software to Help Teachers Help Students",
+        "when": "2009-08-15",
+        "relationship": "Daniel J. worked with TQ at Visible Customer",
+        "recommendation": "Daniel is a very smart, capable developer. I continue to be impressed by his thoughtful approach to software, strong sense of clean architecture and awareness of maintainability. His code is clean and clever. He was always happy to help me with technical issues based on his thorough understanding of software and insightful knowledge of the technologies we used together. He's also an entertaining guy to have around. He's culturally aware and witty. I'd be very happy to work with him again."
+    },
+    {
+        "_id": "7f764700-28c4-5053-a7da-ebe77e2be9dc",
+        "gigId": "mncee",
+        "name": "James Marmas",
+        "linkedIn": "https://www.linkedin.com/in/jamesmarmas",
+        "title": "President/Owner at Search Leaders",
+        "when": "2010-12-08",
+        "relationship": "James hired Daniel to contract for several clients",
+        "recommendation": "Daniel is an high integrity individual with excellent attention to detail in everything he does. I have worked with him for the past 6 months and he has done a remarkable job for our client. He is an exceptional developer with solid grasp of multiple programming languages. I would recommend Daniel to any of my other clients."
+    },
+    {
+        "_id": "deb9f4dc-2171-5202-89a2-f9ead1b9e9ec",
+        "gigId": "brokerbin",
+        "name": "Jake Jones",
+        "linkedIn": "https://www.linkedin.com/in/jakejones",
+        "title": "Sales Director",
+        "when": "2008-02-26",
+        "relationship": "Jake worked with Daniel in ancient history",
+        "recommendation": "Daniel has a vast knowledge of computer systems and software. Diligent, hardworking, and accountable."
+    }
+]
