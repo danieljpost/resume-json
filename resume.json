@@ -1,14 +1,16 @@
 {
-  "updated": "20241118",
+  "$id": "https://danieljpost.pro/resume.json",
+  "title": "Daniel J. Post's Resume, as a raw JSON file",
+  "updated": "20250123",
   "branch": "develop",
-  "tag": "2024.11",
+  "tag": "2025.01",
   "versions": {
     "canonical": "https://danieljpost.pro/resume.json",
     "beta": "https://danieljpost.pro/v1/resume.json",
     "develop": "https://eatthebillionaires.pro/resume.json",
     "master": "https://danieljpost.codes/resume.json",
     "production": "https://danieljpost.consulting/resume.json",
-    "2024.11": "https://raw.githubusercontent.com/danieljpost/resume-json/refs/tags/2024.11/resume.json",
+    "2025.01": "https://raw.githubusercontent.com/danieljpost/resume-json/refs/tags/2025.01/resume.json",
     "developraw": "https://raw.githubusercontent.com/danieljpost/resume-json/develop/resume.json",
     "masterraw": "https://raw.githubusercontent.com/danieljpost/resume-json/master/resume.json"
   },
@@ -19,7 +21,11 @@
       "name": "Chris Griffin",
       "linkedIn": "https://www.linkedin.com/in/zoonman",
       "title": "Software Engineer",
+      "phone": "870-761-0146",
+      "email": "cjgriffin@cjgriffin.net",
+      "role": "Senior Engineering Manager, Digital Solutions",
       "when": "2023-11-01",
+      "contact": "true",
       "relationship": "Chris managed Daniel J. directly at UNFI",
       "recommendation": "Daniel demonstrated his ability to transition to new languages and frameworks on our team and showed an openness to learning new things and new ways of working. Technology is always moving forward and evolving, and Daniel is the type of person who welcomes the change and looks forward to the path ahead of him.",
       "priority": 10
@@ -3028,6 +3034,13 @@
       "url": "https://danieljpost.consulting"
     }
   ],
+  "me": {
+    "@type": "person",
+    "name": "Daniel J. Post",
+    "and": "so forth",
+    "see": "https://schema.org/Person",
+    "avatar": "https://avatars.githubusercontent.com/u/51143907"
+  },
   "companies": [
     {
       "_id": "6f219570-cbb1-53fc-b563-357f37b414da",

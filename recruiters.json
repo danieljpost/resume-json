@@ -1,0 +1,18 @@
+{
+    "$schema": "https://eatthebillionaires.pro/schema/recruiters.schema.json",
+    "about": "This is not even close to correct.",
+    "recruiters": [
+        {
+            "_id": "calmunkvold",
+            "name": "Cal Munkvold",
+            "email": "fixme",
+            "gigs": [
+                {
+                    "id": "fixme",
+                    "company": "Vivial"
+                }
+            ]
+        },
+        {}
+    ]
+}

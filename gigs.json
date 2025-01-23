@@ -1,1467 +1,1467 @@
 [
-    {
-      "_id": "danieljpost.pro",
-      "relevance": 10,
-      "title": "Proprietor",
-      "gigType": "owner",
-      "location": "Greater Twin Cities Area",
-      "companyId": "6f219570-cbb1-53fc-b563-357f37b414da",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2009-01-01",
-      "endDate": null,
-      "shortDesc": "I solve problems, build and improve features, maintain legacy applications, and look great doing it.",
-      "longDesc": "When I join your team, you will benefit from my knowledge of Software Development Life Cycle (SDLC), design patterns, frameworks and concepts; my ability to perform Root Cause Analysis; mentor and support junior developers; deliver well-tested systems timely that meet specification functionality requirements; troubleshoot technical issues; provide analysis for technical solutions based on functional requirements; and follow processes, protocols and quality standards in the development and deployment of solutions.\nI solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
-      "blurbs": {
-        "some label": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
-        "another label": ""
+  {
+    "_id": "danieljpost.pro",
+    "relevance": 10,
+    "title": "Proprietor",
+    "gigType": "owner",
+    "location": "Greater Twin Cities Area",
+    "companyId": "6f219570-cbb1-53fc-b563-357f37b414da",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2009-01-01",
+    "endDate": null,
+    "shortDesc": "I solve problems, build and improve features, maintain legacy applications, and look great doing it.",
+    "longDesc": "When I join your team, you will benefit from my knowledge of Software Development Life Cycle (SDLC), design patterns, frameworks and concepts; my ability to perform Root Cause Analysis; mentor and support junior developers; deliver well-tested systems timely that meet specification functionality requirements; troubleshoot technical issues; provide analysis for technical solutions based on functional requirements; and follow processes, protocols and quality standards in the development and deployment of solutions.\nI solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
+    "blurbs": {
+      "some label": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
+      "another label": ""
+    },
+    "responsibilities": [
+      "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it",
+      "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it."
+    ],
+    "accomplishments": [
+      "Saved millions of dollars in ongoing labor costs for retail customer",
+      "Implemented accessible and responsive User Interfaces for a world-famous healthcare organization",
+      "Mentor and train junior developers and other coworkers in a wide spectrum of technlogies"
+    ],
+    "technologies": [
+      {
+        "skillName": "httpd",
+        "relevance": 5
       },
-      "responsibilities": [
-        "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it",
-        "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it."
-      ],
-      "accomplishments": [
-        "Saved millions of dollars in ongoing labor costs for retail customer",
-        "Implemented accessible and responsive User Interfaces for a world-famous healthcare organization",
-        "Mentor and train junior developers and other coworkers in a wide spectrum of technlogies"
-      ],
-      "technologies": [
-        {
-          "skillName": "httpd",
-          "relevance": 5
-        },
-        {
-          "skillName": "dart",
-          "relevance": 1
-        },
-        {
-          "skillName": "nginx",
-          "relevance": 5
-        },
-        {
-          "skillName": "varnish",
-          "relevance": 5
-        },
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "slack",
-          "relevance": 10
-        },
-        {
-          "skillName": "rest",
-          "relevance": 6
-        },
-        {
-          "skillName": "zoom",
-          "relevance": 9
-        },
-        {
-          "skillName": "newrelic",
-          "relevance": 6
-        },
-        {
-          "skillName": "docker",
-          "relevance": 2
-        },
-        {
-          "skillName": "dockercompose",
-          "relevance": 2
-        },
-        {
-          "skillName": "composer",
-          "relevance": 10
-        },
-        {
-          "skillName": "react",
-          "relevance": 8
-        },
-        {
-          "skillName": "s3",
-          "relevance": 3
-        },
-        {
-          "skillName": "cloudfront",
-          "relevance": 2
-        },
-        {
-          "skillName": "eclipse",
-          "relevance": 4
-        },
-        {
-          "skillName": "postgres",
-          "relevance": 10
-        },
-        {
-          "skillName": "node",
-          "relevance": 6
-        },
-        {
-          "skillName": "react",
-          "relevance": 7
-        },
-        {
-          "skillName": "html",
-          "relevance": 10
-        },
-        {
-          "skillName": "css",
-          "relevance": 10
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 10
-        },
-        {
-          "skillName": "bamboo",
-          "relevance": 4
-        },
-        {
-          "skillName": "jira",
-          "relevance": 10
-        },
-        {
-          "skillName": "gcloud",
-          "relevance": 2
-        },
-        {
-          "skillName": "node",
-          "relevance": 2
-        },
-        {
-          "skillName": "codeship",
-          "relevance": 3
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 8
-        }
-      ]
-    },
-    {
-      "_id": "acf4ddf5-ae46-5df6-899a-49fe15229b13",
-      "relevance": 9,
-      "title": "PHP Developer",
-      "gigType": "employee",
-      "location": "Greater Twin Cities Area",
-      "companyId": "5713a077-0318-5e86-8a13-00d8b58835ea",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2022-04-01",
-      "endDate": "2023-11-01",
-      "shortDesc": "Analyze and correct code inconsistencies between interconnected modules in greenfield React / TypeScript application. Translate design documents into working code. Focus on learning relationships and common elements of multiple modules in large e-commerce project in React / Typescript. Solve problems, build and improve features in legacy e-commerce solution.",
-      "longDesc": "Analyze problems .",
-      "blurbs": {
-        "some label": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
-        "another label": ""
+      {
+        "skillName": "dart",
+        "relevance": 1
       },
-      "responsibilities": [
-        "Attend Stand Up meetings",
-        "Solve problems"
-      ],
-      "accomplishments": [
-        "Analyze and correct code inconsistencies between interconnected modules in greenfield React / TypeScript application. Translate design documents into working code. Focus on learning relationships and common elements of multiple modules in large e-commerce project in React / Typescript",
-        "Solve problems, build and improve features in legacy e-commerce solution."
-      ],
-      "technologies": [
-        {
-          "skillName": "httpd",
-          "relevance": 5
-        },
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "slack",
-          "relevance": 10
-        },
-        {
-          "skillName": "rest",
-          "relevance": 6
-        },
-        {
-          "skillName": "zoom",
-          "relevance": 9
-        },
-        {
-          "skillName": "docker",
-          "relevance": 5
-        },
-        {
-          "skillName": "composer",
-          "relevance": 6
-        },
-        {
-          "skillName": "react",
-          "relevance": 8
-        },
-        {
-          "skillName": "node",
-          "relevance": 6
-        },
-        {
-          "skillName": "html",
-          "relevance": 10
-        },
-        {
-          "skillName": "css",
-          "relevance": 10
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 10
-        },
-        {
-          "skillName": "jira",
-          "relevance": 10
-        },
-        {
-          "skillName": "magento",
-          "relevance": 8
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 8
-        }
-      ]
+      {
+        "skillName": "nginx",
+        "relevance": 5
+      },
+      {
+        "skillName": "varnish",
+        "relevance": 5
+      },
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "slack",
+        "relevance": 10
+      },
+      {
+        "skillName": "rest",
+        "relevance": 6
+      },
+      {
+        "skillName": "zoom",
+        "relevance": 9
+      },
+      {
+        "skillName": "newrelic",
+        "relevance": 6
+      },
+      {
+        "skillName": "docker",
+        "relevance": 2
+      },
+      {
+        "skillName": "dockercompose",
+        "relevance": 2
+      },
+      {
+        "skillName": "composer",
+        "relevance": 10
+      },
+      {
+        "skillName": "react",
+        "relevance": 8
+      },
+      {
+        "skillName": "s3",
+        "relevance": 3
+      },
+      {
+        "skillName": "cloudfront",
+        "relevance": 2
+      },
+      {
+        "skillName": "eclipse",
+        "relevance": 4
+      },
+      {
+        "skillName": "postgres",
+        "relevance": 10
+      },
+      {
+        "skillName": "node",
+        "relevance": 6
+      },
+      {
+        "skillName": "react",
+        "relevance": 7
+      },
+      {
+        "skillName": "html",
+        "relevance": 10
+      },
+      {
+        "skillName": "css",
+        "relevance": 10
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 10
+      },
+      {
+        "skillName": "bamboo",
+        "relevance": 4
+      },
+      {
+        "skillName": "jira",
+        "relevance": 10
+      },
+      {
+        "skillName": "gcloud",
+        "relevance": 2
+      },
+      {
+        "skillName": "node",
+        "relevance": 2
+      },
+      {
+        "skillName": "codeship",
+        "relevance": 3
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 8
+      }
+    ]
+  },
+  {
+    "_id": "acf4ddf5-ae46-5df6-899a-49fe15229b13",
+    "relevance": 9,
+    "title": "PHP Developer",
+    "gigType": "employee",
+    "location": "Greater Twin Cities Area",
+    "companyId": "5713a077-0318-5e86-8a13-00d8b58835ea",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2022-04-01",
+    "endDate": "2023-11-01",
+    "shortDesc": "Analyze and correct code inconsistencies between interconnected modules in greenfield React / TypeScript application. Translate design documents into working code. Focus on learning relationships and common elements of multiple modules in large e-commerce project in React / Typescript. Solve problems, build and improve features in legacy e-commerce solution.",
+    "longDesc": "Analyze problems .",
+    "blurbs": {
+      "some label": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
+      "another label": ""
     },
-    {
-      "_id": "lacek",
-      "relevance": 3,
-      "title": "Proprietor",
-      "gigType": "contract",
-      "location": "Greater Twin Cities Area",
-      "companyId": "bff69483-f42c-5711-b5a5-4f8b43225eae",
-      "recruiterId": null,
-      "contractorId": "bff69483-f42c-5711-b5a5-4f8b43225eae",
-      "startDate": "2014-10-01",
-      "endDate": "2014-10-31",
-      "shortDesc": "Google Wallet, Microsite",
-      "longDesc": "Added Google Wallet to customer's microsite",
-      "responsibilities": [
-        "Add Google Wallet to client's rewards program microsite"
-      ],
-      "accomplishments": [
-        "Add Google Wallet",
-        "Improved i18n performance"
-      ],
-      "blurbs": [
-        ""
-      ],
-      "technologies": [
-        {
-          "skillName": "i18n",
-          "relevance": 5
-        },
-        {
-          "skillName": "httpd",
-          "relevance": 5
-        },
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "yii2",
-          "relevance": 10
-        },
-        {
-          "skillName": "html",
-          "relevance": 8
-        },
-        {
-          "skillName": "css",
-          "relevance": 6
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 8
-        },
-        {
-          "skillName": "mssql",
-          "relevance": 4
-        }
-      ]
-    },
-    {
-      "_id": "btg",
-      "relevance": 9,
-      "title": "PHP Developer",
-      "gigType": "contract",
-      "location": "Remote",
-      "companyId": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2019-11-19",
-      "endDate": "2021-03-31",
-      "shortDesc": "Build Technology Group",
-      "longDesc": "Remote contract through Build Technology Group",
-      "responsibilities": [
-        "Facilitate data synchronization between legacy application and new service provider",
-        "Design and implement data migration tool",
-        "Build and manage internal tools (Data and UI)",
-        "Add features to legacy AngularJS app",
-        "Design and build client data API (Data and Security)"
-      ],
-      "accomplishments": [
-        "Facilitate data synchronization between legacy application and new service provider",
-        "Design and implement data migration tool",
-        "Build and manage internal tools (Data and UI)",
-        "Add features to legacy AngularJS app",
-        "Design and build client data API (Data and Security)"
-      ],
-      "technologies": [
-        {
-          "skillName": "remote",
-          "relevance": 10
-        },
-        {
-          "skillName": "slack",
-          "relevance": 10
-        },
-        {
-          "skillName": "zoom",
-          "relevance": 10
-        },
-        {
-          "skillName": "xml",
-          "relevance": 6
-        },
-        {
-          "skillName": "rest",
-          "relevance": 7
-        },
-        {
-          "skillName": "php",
-          "relevance": 80
-        }
-      ]
-    },
-    {
-      "_id": "vivial",
-      "relevance": 8,
-      "title": "Software Developer",
-      "gigType": "employee",
-      "location": "Greater Twin Cities Area",
-      "companyId": "5d017a2f-c584-5547-b73d-b572c779bf53",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2016-10-26",
-      "endDate": "2018-08-24",
-      "shortDesc": "Maintain and update flagship marketing platform",
-      "longDesc": "Maintain and update flagship marketing platform\nAdd connectivity to third-party APIs, e.g. LinkedIn and Google My Business\nDesign, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application\nAnalyze performance issues and recommend and implement improvements\nPerform Root Cause Analysis to eliminate memory leaks in customer messaging service",
-      "responsibilities": [
-        "Maintain and update flagship marketing platform",
-        "Design, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application",
-        "Analyze performance issues and recommend and implement improvements",
-        "Perform Root Cause Analysis to eliminate memory leaks in monthly newsletter"
-      ],
-      "accomplishments": [
-        "Add connectivity to third-party APIs, e.g. LinkedIn and Google My Business",
-        "Programmed and developed monthly newsletter",
-        "Connect Google My Business API to flagship product, Dashboard",
-        "Eliminate memory leaks in customer messaging service"
-      ],
-      "technologies": [
-        {
-          "skillName": "oauth",
-          "relevance": 4
-        },
-        {
-          "skillName": "codeship",
-          "relevance": 6
-        },
-        {
-          "skillName": "newrelic",
-          "relevance": 7
-        },
-        {
-          "skillName": "xdebug",
-          "relevance": 9
-        },
-        {
-          "skillName": "memcache",
-          "relevance": 5
-        },
-        {
-          "skillName": "redis",
-          "relevance": 5
-        },
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "html",
-          "relevance": 8
-        },
-        {
-          "skillName": "css",
-          "relevance": 8
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 8
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 8
-        },
-        {
-          "skillName": "drupal",
-          "relevance": 8
-        },
-        {
-          "skillName": "node",
-          "relevance": 4
-        },
-        {
-          "skillName": "mongo",
-          "relevance": 7
-        },
-        {
-          "skillName": "rest",
-          "relevance": 8
-        },
-        {
-          "skillName": "api",
-          "relevance": 7
-        },
-        {
-          "skillName": "react",
-          "relevance": 5
-        }
-      ]
-    },
-    {
-      "_id": "gbl",
-      "relevance": 7,
-      "title": "PHP Developer",
-      "gigType": "contract",
-      "location": "Minneapolis",
-      "companyId": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2016-06-27",
-      "endDate": "2016-09-15",
-      "shortDesc": "Enable and improve processes to rapid-prototype solutions to/from internal and externally provided APIs",
-      "longDesc": "Create backend API to enable clients to create offers, discounts, and donations\n Establish deployment processes, backend code design patterns",
-      "responsibilities": [
-        "Refactor PHP code to make maintenance easier",
-        "Create backend API to enable clients to create offers, discounts, and donations",
-        "Establish deployment processes, backend code design patterns"
-      ],
-      "accomplishments": [
-        "Wrote grunt and gulp scripts to accelerate rapid development in AngularJS",
-        "Established deployment processes, backend code design patterns"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 9
-        },
-        {
-          "skillName": "grunt",
-          "relevance": 5
-        },
-        {
-          "skillName": "gulp",
-          "relevance": 5
-        },
-        {
-          "skillName": "html",
-          "relevance": 8
-        },
-        {
-          "skillName": "rest",
-          "relevance": 6
-        },
-        {
-          "skillName": "api",
-          "relevance": 7
-        },
-        {
-          "skillName": "angulario",
-          "relevance": 7
-        },
-        {
-          "skillName": "css",
-          "relevance": 5
-        }
-      ]
-    },
-    {
-      "_id": "resortsandlodges",
-      "relevance": 10,
-      "title": "Software Developer",
-      "gigType": "employee",
-      "location": "Greater Twin Cities Area",
-      "companyId": "88abb4d1-694d-5384-bce2-21c0bc59b160",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2015-10-01",
-      "endDate": "2016-06-01",
-      "shortDesc": "Create, test, enhance extensive customer relationship management product for small business",
-      "longDesc": "Create, test, enhance extensive customer relationship management product for small business",
-      "responsibilities": [
-        "Create, test, enhance extensive customer relationship management product for small business"
-      ],
-      "accomplishments": [
-        "Create, test, enhance extensive customer relationship management product for small business"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 9
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 7
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 9
-        },
-        {
-          "skillName": "bootstrap",
-          "relevance": 9
-        },
-        {
-          "skillName": "xdebug",
-          "relevance": 10
-        },
-        {
-          "skillName": "zf2",
-          "relevance": 9
-        },
-        {
-          "skillName": "rest",
-          "relevance": 6
-        },
-        {
-          "skillName": "composer",
-          "relevance": 9
-        }
-      ]
-    },
-    {
-      "_id": "target",
-      "relevance": 9,
-      "title": "Contractor",
-      "gigType": "contract",
-      "location": "Minneapolis",
-      "companyId": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2013-12-01",
-      "endDate": "2014-04-15",
-      "shortDesc": "Build Slingshot tool to accelerate web content management",
-      "longDesc": "Build Project Slingshot, an internal content management tool utilized across multiple departments\nTrain tool users to develop and extend Slingshot system's code\nSaved millions of dollars in time and labor vs legacy content management tool",
-      "responsibilities": [
-        "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than four hundred people across multiple departments"
-      ],
-      "accomplishments": [
-        "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than four hundred people across multiple departments",
-        "Train tool users to develop and extend Slingshot system's code",
-        "Saved millions of dollars in time and labor vs legacy content management tool"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 9
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 2
-        },
-        {
-          "skillName": "zf2",
-          "relevance": 9
-        },
-        {
-          "skillName": "jquery",
-          "relevance": 8
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 9
-        },
-        {
-          "skillName": "jira",
-          "relevance": 9
-        },
-        {
-          "skillName": "training",
-          "relevance": 7
-        },
-        {
-          "skillName": "rest",
-          "relevance": 6
-        },
-        {
-          "skillName": "api",
-          "relevance": 6
-        },
-        {
-          "skillName": "git",
-          "relevance": 8
-        },
-        {
-          "skillName": "composer",
-          "relevance": 2
-        }
-      ]
-    },
-    {
-      "_id": "homesforheroes",
-      "relevance": 9,
-      "title": "Contractor",
-      "gigType": "contract",
-      "location": "Minneapolis",
-      "companyId": "09d49804-44c2-578e-b082-6be3a7d10b6d",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2014-06-01",
-      "endDate": "2014-07-01",
-      "shortDesc": "Build Slingshot tool to accelerate web content management",
-      "longDesc": "Build Project Slingshot, an internal content management tool utilized across multiple departments\nTrain tool users to develop and extend Slingshot system's code\nSaved millions of dollars in time and labor vs legacy content management tool",
-      "responsibilities": [
-        "Automate and test database export from Drupal platform to new CakePHP application"
-      ],
-      "accomplishments": [
-        "Automate and test database export from Drupal platform to new CakePHP application"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 9
-        },
-        {
-          "skillName": "cakephp",
-          "relevance": 9
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 2
-        },
-        {
-          "skillName": "bash",
-          "relevance": 5
-        },
-        {
-          "skillName": "drupal",
-          "relevance": 5
-        },
-        {
-          "skillName": "jquery",
-          "relevance": 8
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 9
-        },
-        {
-          "skillName": "jira",
-          "relevance": 9
-        },
-        {
-          "skillName": "training",
-          "relevance": 7
-        },
-        {
-          "skillName": "rest",
-          "relevance": 6
-        },
-        {
-          "skillName": "api",
-          "relevance": 6
-        },
-        {
-          "skillName": "git",
-          "relevance": 4
-        },
-        {
-          "skillName": "composer",
-          "relevance": 2
-        }
-      ]
-    },
-    {
-      "_id": "usbank",
-      "relevance": 9,
-      "title": "UI Prototype Developer",
-      "gigType": "contract",
-      "location": "Minneapolis",
-      "companyId": "44eba145-fbd7-54f3-8311-b413c3eaa021",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2011-06-01",
-      "endDate": "2012-01-01",
-      "shortDesc": "UI prototyping from visual design",
-      "longDesc": "Design and protoype user interface elements for banking application from specs and/or wireframes\nProvide feedback & support to business analysts",
-      "responsibilities": [
-        "Design and protoype user interface elements for banking application from specs and/or wireframes",
-        "Provide feedback & support to business analysts"
-      ],
-      "accomplishments": [
-        "Design and protoype user interface elements for banking application from specs and/or wireframes",
-        "Provide feedback & support to business analysts"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 4
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 10
-        },
-        {
-          "skillName": "html",
-          "relevance": 10
-        },
-        {
-          "skillName": "css",
-          "relevance": 10
-        },
-        {
-          "skillName": "jquery",
-          "relevance": 6
-        },
-        {
-          "skillName": "wireframes",
-          "relevance": 10
-        }
-      ]
-    },
-    {
-      "_id": "lifetimefitness",
-      "relevance": 7,
-      "title": "UI Prototyper",
-      "gigType": "contract",
-      "location": "Greater Twin Cities Area",
-      "companyId": "c306459f-05ee-538e-8839-17355d27b43b",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2011-09-01",
-      "endDate": "2012-02-01",
-      "shortDesc": "Prototype UI from wireframes and design documents",
-      "longDesc": "Prototype and test overall UI experience from wireframes and design documents",
-      "responsibilities": [
-        "Prototype and test overall UI experience from wireframes and design documents",
-        "Plan and estimate tasks in Scrum/Agile environment"
-      ],
-      "accomplishments": [
-        "Prototyped and tested overall UI experience from wireframes and design documents",
-        "Planned and estimated tasks in Scrum/Agile environment"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 7
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 8
-        },
-        {
-          "skillName": "html",
-          "relevance": 8
-        },
-        {
-          "skillName": "jquery",
-          "relevance": 8
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 8
-        },
-        {
-          "skillName": "css",
-          "relevance": 8
-        },
-        {
-          "skillName": "griddesign",
-          "relevance": 8
-        },
-        {
-          "skillName": "git",
-          "relevance": 3
-        },
-        {
-          "skillName": "ui",
-          "relevance": 8
-        }
-      ]
-    },
-    {
-      "_id": "bluestem",
-      "relevance": 6,
-      "title": "UI Developer",
-      "gigType": "contract",
-      "location": "Greater Twin Cities Area",
-      "companyId": "fa87f1e3-3d32-5b56-9e37-ac38b8f257e4",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2012-02-01",
-      "endDate": "2012-09-01",
-      "shortDesc": "UI Developer",
-      "longDesc": "Design, rapid-prototype, troubleshoot, maintain User Interface for new features",
-      "responsibilities": [
-        "Design, rapid-prototype, troubleshoot, maintain User Interface for new features"
-      ],
-      "accomplishments": [
-        "Co-design REST API and User Interface for product search",
-        "Design, rapid-prototype, troubleshoot, maintain User Interface for new features",
-        "Implement, test, debug, and maintain HTML, JavaScript, and CSS for client's production site"
-      ],
-      "technologies": [
-        {
-          "skillName": "api",
-          "relevance": 20
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 20
-        },
-        {
-          "skillName": "jquery",
-          "relevance": 20
-        },
-        {
-          "skillName": "css",
-          "relevance": 20
-        },
-        {
-          "skillName": "html",
-          "relevance": 20
-        }
-      ]
-    },
-    {
-      "_id": "razr",
-      "hasRecommendations": true,
-      "relevance": 10,
-      "title": "Software Engineer",
-      "gigType": "contract",
-      "location": "Greater Twin Cities Area",
-      "companyId": "72e07a43-44d2-5850-98eb-33159db9eccd",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2015-01-01",
-      "endDate": "2015-04-30",
-      "shortDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
-      "longDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
-      "responsibilities": [
-        "Recommend and implement best programming practices, add features, find and eliminate problems, share knowledge and expertise, profile and test code, rubberduck",
-        "Used Yii2, PHP5.4, JavaScript, AngularJS, HTML5, gettext, poedit. xdebug"
-      ],
-      "accomplishments": [
-        "built rewards microsite in 3 days",
-        "Used Yii2, PHP5.4, JavaScript, AngularJS, HTML5, gettext, poedit. xdebug"
-      ],
-      "technologies": [
-        {
-          "skillName": "newrelic",
-          "relevance": 8
-        },
-        {
-          "skillName": "xdebug",
-          "relevance": 4
-        },
-        {
-          "skillName": "a11y",
-          "relevance": 8
-        },
-        {
-          "skillName": "i18n",
-          "relevance": 8
-        },
-        {
-          "skillName": "bamboo",
-          "relevance": 2
-        },
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 30
-        },
-        {
-          "skillName": "angularjs",
-          "relevance": 20
-        },
-        {
-          "skillName": "api",
-          "relevance": 20
-        },
-        {
-          "skillName": "css",
-          "relevance": 20
-        }
-      ]
-    },
-    {
-      "_id": "tpt",
-      "relevance": 2,
-      "title": "Software Engineer",
-      "gigType": "contract",
-      "location": "Saint Paul",
-      "companyId": "50926660-ca30-5281-aeeb-77e9dbedee39",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2014-08-01",
-      "endDate": "2014-08-30",
-      "shortDesc": "Refactor, organize, optimize TPT Weather Application",
-      "longDesc": "Refactor, organize, optimize TPT Weather Application",
-      "responsibilities": [
-        "Refactor, organize, optimize TPT Weather Application"
-      ],
-      "accomplishments": [
-        "Refactor, organize, optimize TPT Weather Application"
-      ],
-      "technologies": [
-        {
-          "skillName": "python",
-          "relevance": 10
-        },
-        {
-          "skillName": "api",
-          "relevance": 8
-        },
-        {
-          "skillName": "git",
-          "relevance": 8
-        }
-      ]
-    },
-    {
-      "_id": "ezXchanges",
-      "relevance": 7,
-      "hasRecommendations": true,
-      "title": "Software Engineer",
-      "gigType": "contract",
-      "location": "Saint Paul",
-      "companyId": "1a84c2ca-c566-55f4-9a61-506d6b5b683b",
-      "recruiterId": null,
-      "contractorId": "4e9f69c1-548e-52ba-bd34-f0879191c888",
-      "startDate": "2013-06-01",
-      "endDate": "2013-08-30",
-      "shortDesc": "Refactor, rebuild video sharing application",
-      "longDesc": "Refactor, rebuild video sharing application",
-      "responsibilities": [
-        "Refactor, rebuild video sharing application"
-      ],
-      "accomplishments": [
-        "Refactor, rebuild video sharing application"
-      ],
-      "technologies": [
-        {
-          "skillName": "postgres",
-          "relevance": 10
-        },
-        {
-          "skillName": "twig",
-          "relevance": 8
-        },
-        {
-          "skillName": "bash",
-          "relevance": 9
-        },
-        {
-          "skillName": "cakephp",
-          "relevance": 5
-        },
-        {
-          "skillName": "drupal",
-          "relevance": 4
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 10
-        },
-        {
-          "skillName": "git",
-          "relevance": 4
-        }
-      ]
-    },
-    {
-      "_id": "mayo",
-      "title": "UI Developer",
-      "gigType": "contract",
-      "location": "Remote",
-      "companyId": "1dfb2ad1-29db-552c-8060-5cd81ec68729",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2013-01-01",
-      "endDate": "2013-04-01",
-      "shortDesc": "Implement responsive, accessible UI for Mayo Clinic",
-      "longDesc": "Implement responsive, accessible UI for Mayo Clinic (mayoclinic.org)",
-      "responsibilities": [
-        "Develop responsive, accessible, high quality User Interface from functional and design specifications"
-      ],
-      "accomplishments": [
-        "Develop responsive, accessible, high quality User Interface from functional and design specifications"
-      ],
-      "technologies": [
-        {
-          "skillName": "html",
-          "relevance": 8
-        },
-        {
-          "skillName": "css",
-          "relevance": 8
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 9
-        },
-        {
-          "skillName": "jquery",
-          "relevance": 8
-        },
-        {
-          "skillName": "a11y",
-          "relevance": 9
-        },
-        {
-          "skillName": "responsive",
-          "relevance": 9
-        },
-        {
-          "skillName": "remote",
-          "relevance": 10
-        }
-      ]
-    },
-    {
-      "_id": "fedexPkgHandler",
-      "relevance": 1,
-      "title": "Contractor",
-      "location": "Greater Twin Cities Area",
-      "companyId": "1d1c49ae-6883-55b9-aee6-e445b841c755",
-      "startDate": "2024-07-15",
-      "endDate": null,
-      "shortDesc": "Package Handler (warehouse like)",
-      "longDesc": "Package Handler unloads and loads trucks",
-      "responsibilities": [
-        ""
-      ]
-    },
-    {
-      "_id": "tdxtech",
-      "relevance": 4,
-      "title": "PHP Developer",
-      "gigType": "contract",
-      "location": "Greater Twin Cities Area",
-      "companyId": "101d483d-07ac-51a6-88c2-288a29a226e6",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2012-11-01",
-      "endDate": "2012-12-31",
-      "shortDesc": "Build Work Order tool for TDX Tech",
-      "longDesc": "Design and implement Work Orders database\nBuild user interface in Zend Framework 2\nCapture customer signatures in work order screen\nExport and persist Work Orders with signatures in PDF",
-      "responsibilities": [
-        "Build Work Order reporting App for TDX Tech"
-      ],
-      "accomplishments": [
-        "Design and implement Work Orders database",
-        "Build user interface in Zend Framework 2",
-        "Capture customer signatures in work order screen",
-        "Export and persist Work Orders with signatures in PDF"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "html",
-          "relevance": 10
-        },
-        {
-          "skillName": "css",
-          "relevance": 10
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 10
-        },
-        {
-          "skillName": "git",
-          "relevance": 8
-        },
-        {
-          "skillName": "httpd",
-          "relevance": 8
-        },
-        {
-          "skillName": "zf2",
-          "relevance": 30
-        }
-      ]
-    },
-    {
-      "_id": "networkinstruments",
-      "relevance": 5,
-      "title": "PHP Developer",
-      "gigType": "contract",
-      "location": "Greater Twin Cities Area",
-      "companyId": "6e5b1562-3062-5c02-aa97-b08039574797",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2013-01-01",
-      "endDate": "2013-02-31",
-      "shortDesc": "Add features to time/vacation tracking database",
-      "longDesc": "Add features to time/vacation tracking database",
-      "responsibilities": [
-        "Add features to time/vacation tracking database"
-      ],
-      "accomplishments": [
-        "Add features to time/vacation tracking database"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "html",
-          "relevance": 10
-        },
-        {
-          "skillName": "css",
-          "relevance": 10
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 10
-        },
-        {
-          "skillName": "git",
-          "relevance": 4
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 30
-        }
-      ]
-    },
-    {
-      "_id": "starkey",
-      "relevance": 4,
-      "title": "Wordpress Developer",
-      "gigType": "contract",
-      "location": "Greater Twin Cities Area",
-      "companyId": "60d94438-172f-575c-94d3-25da931f6448",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2013-01-01",
-      "endDate": "2013-02-31",
-      "note": "dates are fuzzy as of 20210218",
-      "shortDesc": "built a WordPress plugin to support client needs",
-      "longDesc": "built a WordPress plugin to support client needs",
-      "responsibilities": [],
-      "accomplishments": [
-        "built a WordPress plugin to support client needs"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 8
-        },
-        {
-          "skillName": "html",
-          "relevance": 7
-        },
-        {
-          "skillName": "css",
-          "relevance": 7
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 7
-        },
-        {
-          "skillName": "wordpress",
-          "relevance": 10
-        }
-      ]
-    },
-    {
-      "_id": "bluedoor",
-      "note": "via Seth Fair",
-      "relevance": 5,
-      "title": "PHP Developer",
-      "gigType": "contract",
-      "location": "Greater Twin Cities Area",
-      "companyId": "860f72d5-ed7b-5e68-a1f8-cad348821361",
-      "contractorId": "b9a40353-7087-5adc-8dbb-fa596f6d7d83",
-      "recruiterId": null,
-      "startDate": "2013-01-01",
-      "endDate": "2013-04-30",
-      "shortDesc": "Backend development for educational software",
-      "longDesc": "Backend development for educational software",
-      "responsibilities": [
-        "Add features to time/vacation tracking database"
-      ],
-      "accomplishments": [
-        "design and optimize educational software database",
-        "recommend and test new features"
-      ],
-      "technologies": [
-        {
-          "skillName": "freshbooks",
-          "relevance": 2
-        },
-        {
-          "skillName": "basecamp",
-          "relevance": 3
-        },
-        {
-          "skillName": "beanstalk",
-          "relevance": 3
-        },
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "html",
-          "relevance": 9
-        },
-        {
-          "skillName": "css",
-          "relevance": 8
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 9
-        },
-        {
-          "skillName": "git",
-          "relevance": 4
-        },
-        {
-          "skillName": "codeigniter",
-          "relevance": 8
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 10
-        }
-      ]
-    },
-    {
-      "_id": "networkinstruments2",
-      "note": "this is the second stint working for network instruments",
-      "relevance": 4,
-      "title": "PHP Developer",
-      "gigType": "contract",
-      "location": "Greater Twin Cities Area",
-      "companyId": "6e5b1562-3062-5c02-aa97-b08039574797",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2013-04-01",
-      "endDate": "2013-06-30",
-      "shortDesc": "Further features to time/vacation tracking database",
-      "longDesc": "Further features to time/vacation tracking database",
-      "responsibilities": [
-        "Further features to time/vacation tracking database"
-      ],
-      "accomplishments": [
-        "Further features to time/vacation tracking database"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "html",
-          "relevance": 10
-        },
-        {
-          "skillName": "css",
-          "relevance": 10
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 10
-        },
-        {
-          "skillName": "git",
-          "relevance": 4
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 30
-        }
-      ]
-    },
-    {
-      "_id": "mncee",
-      "relevance": 4,
-      "title": "PHP Developer",
-      "gigType": "contract",
-      "location": "Minneapolis",
-      "companyId": "8331781e-7290-570d-9eab-ef1f0bbb93cd",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2010-06-01",
-      "endDate": "2011-01-01",
-      "shortDesc": "Maintain and enhance database and front end for customer relationship system",
-      "longDesc": "Maintain and enhance database and front end for customer relationship system",
-      "responsibilities": [
-        "Maintain and enhance database and front end for customer relationship system"
-      ],
-      "accomplishments": [
-        "Maintain and enhance database and front end for customer relationship system"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "responsive",
-          "relevance": 8
-        },
-        {
-          "skillName": "a11y",
-          "relevance": 7
-        },
-        {
-          "skillName": "html",
-          "relevance": 10
-        },
-        {
-          "skillName": "css",
-          "relevance": 10
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 10
-        },
-        {
-          "skillName": "kohana",
-          "relevance": 8
-        },
-        {
-          "skillName": "git",
-          "relevance": 4
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 30
-        }
-      ]
-    },
-    {
-      "_id": "visiblecustomer",
-      "hasRecommendations": true,
-      "relevance": 6,
-      "title": "PHP Developer",
-      "gigType": "contract",
-      "location": "Greater Twin Cities Area",
-      "companyId": "4a94adbf-edb9-51e2-80db-a35777a79e31",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2009-01-02",
-      "endDate": "2009-06-15",
-      "shortDesc": "Visible Customer",
-      "longDesc": "Visibile Customer",
-      "responsibilities": [
-        "Primary/integral/founding part of team to reengineer/rebuild build web portal for car dealerships to manage customers and generate marketing campaigns",
-        "Mentor and train junior developers in JavaScript, OOP, SQL, PHP, ORM, and framework development"
-      ],
-      "accomplishments": [
-        "Primary/integral/founding part of team to reengineer/rebuild build web portal for car dealerships to manage customers and generate marketing campaigns",
-        "Mentor and train junior developers in JavaScript, OOP, SQL, PHP, ORM, and framework development"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "html",
-          "relevance": 10
-        },
-        {
-          "skillName": "css",
-          "relevance": 10
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 10
-        },
-        {
-          "skillName": "orm",
-          "relevance": 8
-        },
-        {
-          "skillName": "httpd",
-          "relevance": 8
-        },
-        {
-          "skillName": "cakephp",
-          "relevance": 30
-        }
-      ]
-    },
-    {
-      "_id": "blueearth",
-      "relevance": 4,
-      "title": "PHP Developer",
-      "gigType": "employee",
-      "location": "Saint Paul",
-      "companyId": "b047adfa-dc91-53e6-8d1c-e9408abbfe1c",
-      "recruiterId": null,
-      "contractorId": null,
-      "startDate": "2009-10-01",
-      "endDate": "2010-06-15",
-      "shortDesc": "Blue Earth Interactive",
-      "longDesc": "Blue Earth Interactive",
-      "responsibilities": [
-        "Co-design, code backend for complex e-learning/online book application",
-        "Co-design, code backend for complex e-learning/online book application"
-      ],
-      "accomplishments": [
-        "Co-design, code backend for complex e-learning/online book application",
-        "Co-design, code backend for complex e-learning/online book application"
-      ],
-      "technologies": [
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "html",
-          "relevance": 10
-        },
-        {
-          "skillName": "css",
-          "relevance": 10
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 10
-        },
-        {
-          "skillName": "zf2",
-          "relevance": 30
-        }
-      ]
-    }
-  ]
+    "responsibilities": [
+      "Attend Stand Up meetings",
+      "Solve problems"
+    ],
+    "accomplishments": [
+      "Analyze and correct code inconsistencies between interconnected modules in greenfield React / TypeScript application. Translate design documents into working code. Focus on learning relationships and common elements of multiple modules in large e-commerce project in React / Typescript",
+      "Solve problems, build and improve features in legacy e-commerce solution."
+    ],
+    "technologies": [
+      {
+        "skillName": "httpd",
+        "relevance": 5
+      },
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "slack",
+        "relevance": 10
+      },
+      {
+        "skillName": "rest",
+        "relevance": 6
+      },
+      {
+        "skillName": "zoom",
+        "relevance": 9
+      },
+      {
+        "skillName": "docker",
+        "relevance": 5
+      },
+      {
+        "skillName": "composer",
+        "relevance": 6
+      },
+      {
+        "skillName": "react",
+        "relevance": 8
+      },
+      {
+        "skillName": "node",
+        "relevance": 6
+      },
+      {
+        "skillName": "html",
+        "relevance": 10
+      },
+      {
+        "skillName": "css",
+        "relevance": 10
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 10
+      },
+      {
+        "skillName": "jira",
+        "relevance": 10
+      },
+      {
+        "skillName": "magento",
+        "relevance": 8
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 8
+      }
+    ]
+  },
+  {
+    "_id": "lacek",
+    "relevance": 3,
+    "title": "Proprietor",
+    "gigType": "contract",
+    "location": "Greater Twin Cities Area",
+    "companyId": "bff69483-f42c-5711-b5a5-4f8b43225eae",
+    "recruiterId": null,
+    "contractorId": "bff69483-f42c-5711-b5a5-4f8b43225eae",
+    "startDate": "2014-10-01",
+    "endDate": "2014-10-31",
+    "shortDesc": "Google Wallet, Microsite",
+    "longDesc": "Added Google Wallet to customer's microsite",
+    "responsibilities": [
+      "Add Google Wallet to client's rewards program microsite"
+    ],
+    "accomplishments": [
+      "Add Google Wallet",
+      "Improved i18n performance"
+    ],
+    "blurbs": [
+      ""
+    ],
+    "technologies": [
+      {
+        "skillName": "i18n",
+        "relevance": 5
+      },
+      {
+        "skillName": "httpd",
+        "relevance": 5
+      },
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "yii2",
+        "relevance": 10
+      },
+      {
+        "skillName": "html",
+        "relevance": 8
+      },
+      {
+        "skillName": "css",
+        "relevance": 6
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 8
+      },
+      {
+        "skillName": "mssql",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "_id": "btg",
+    "relevance": 9,
+    "title": "PHP Developer",
+    "gigType": "contract",
+    "location": "Remote",
+    "companyId": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2019-11-19",
+    "endDate": "2021-03-31",
+    "shortDesc": "Build Technology Group",
+    "longDesc": "Remote contract through Build Technology Group",
+    "responsibilities": [
+      "Facilitate data synchronization between legacy application and new service provider",
+      "Design and implement data migration tool",
+      "Build and manage internal tools (Data and UI)",
+      "Add features to legacy AngularJS app",
+      "Design and build client data API (Data and Security)"
+    ],
+    "accomplishments": [
+      "Facilitate data synchronization between legacy application and new service provider",
+      "Design and implement data migration tool",
+      "Build and manage internal tools (Data and UI)",
+      "Add features to legacy AngularJS app",
+      "Design and build client data API (Data and Security)"
+    ],
+    "technologies": [
+      {
+        "skillName": "remote",
+        "relevance": 10
+      },
+      {
+        "skillName": "slack",
+        "relevance": 10
+      },
+      {
+        "skillName": "zoom",
+        "relevance": 10
+      },
+      {
+        "skillName": "xml",
+        "relevance": 6
+      },
+      {
+        "skillName": "rest",
+        "relevance": 7
+      },
+      {
+        "skillName": "php",
+        "relevance": 80
+      }
+    ]
+  },
+  {
+    "_id": "vivial",
+    "relevance": 8,
+    "title": "Software Developer",
+    "gigType": "employee",
+    "location": "Greater Twin Cities Area",
+    "companyId": "5d017a2f-c584-5547-b73d-b572c779bf53",
+    "recruiterId": "calmunkvold",
+    "contractorId": null,
+    "startDate": "2016-10-26",
+    "endDate": "2018-08-24",
+    "shortDesc": "Maintain and update flagship marketing platform",
+    "longDesc": "Maintain and update flagship marketing platform\nAdd connectivity to third-party APIs, e.g. LinkedIn and Google My Business\nDesign, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application\nAnalyze performance issues and recommend and implement improvements\nPerform Root Cause Analysis to eliminate memory leaks in customer messaging service",
+    "responsibilities": [
+      "Maintain and update flagship marketing platform",
+      "Design, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application",
+      "Analyze performance issues and recommend and implement improvements",
+      "Perform Root Cause Analysis to eliminate memory leaks in monthly newsletter"
+    ],
+    "accomplishments": [
+      "Add connectivity to third-party APIs, e.g. LinkedIn and Google My Business",
+      "Programmed and developed monthly newsletter",
+      "Connect Google My Business API to flagship product, Dashboard",
+      "Eliminate memory leaks in customer messaging service"
+    ],
+    "technologies": [
+      {
+        "skillName": "oauth",
+        "relevance": 4
+      },
+      {
+        "skillName": "codeship",
+        "relevance": 6
+      },
+      {
+        "skillName": "newrelic",
+        "relevance": 7
+      },
+      {
+        "skillName": "xdebug",
+        "relevance": 9
+      },
+      {
+        "skillName": "memcache",
+        "relevance": 5
+      },
+      {
+        "skillName": "redis",
+        "relevance": 5
+      },
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "html",
+        "relevance": 8
+      },
+      {
+        "skillName": "css",
+        "relevance": 8
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 8
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 8
+      },
+      {
+        "skillName": "drupal",
+        "relevance": 8
+      },
+      {
+        "skillName": "node",
+        "relevance": 4
+      },
+      {
+        "skillName": "mongo",
+        "relevance": 7
+      },
+      {
+        "skillName": "rest",
+        "relevance": 8
+      },
+      {
+        "skillName": "api",
+        "relevance": 7
+      },
+      {
+        "skillName": "react",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "_id": "gbl",
+    "relevance": 7,
+    "title": "PHP Developer",
+    "gigType": "contract",
+    "location": "Minneapolis",
+    "companyId": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2016-06-27",
+    "endDate": "2016-09-15",
+    "shortDesc": "Enable and improve processes to rapid-prototype solutions to/from internal and externally provided APIs",
+    "longDesc": "Create backend API to enable clients to create offers, discounts, and donations\n Establish deployment processes, backend code design patterns",
+    "responsibilities": [
+      "Refactor PHP code to make maintenance easier",
+      "Create backend API to enable clients to create offers, discounts, and donations",
+      "Establish deployment processes, backend code design patterns"
+    ],
+    "accomplishments": [
+      "Wrote grunt and gulp scripts to accelerate rapid development in AngularJS",
+      "Established deployment processes, backend code design patterns"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 9
+      },
+      {
+        "skillName": "grunt",
+        "relevance": 5
+      },
+      {
+        "skillName": "gulp",
+        "relevance": 5
+      },
+      {
+        "skillName": "html",
+        "relevance": 8
+      },
+      {
+        "skillName": "rest",
+        "relevance": 6
+      },
+      {
+        "skillName": "api",
+        "relevance": 7
+      },
+      {
+        "skillName": "angulario",
+        "relevance": 7
+      },
+      {
+        "skillName": "css",
+        "relevance": 5
+      }
+    ]
+  },
+  {
+    "_id": "resortsandlodges",
+    "relevance": 10,
+    "title": "Software Developer",
+    "gigType": "employee",
+    "location": "Greater Twin Cities Area",
+    "companyId": "88abb4d1-694d-5384-bce2-21c0bc59b160",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2015-10-01",
+    "endDate": "2016-06-01",
+    "shortDesc": "Create, test, enhance extensive customer relationship management product for small business",
+    "longDesc": "Create, test, enhance extensive customer relationship management product for small business",
+    "responsibilities": [
+      "Create, test, enhance extensive customer relationship management product for small business"
+    ],
+    "accomplishments": [
+      "Create, test, enhance extensive customer relationship management product for small business"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 9
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 7
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 9
+      },
+      {
+        "skillName": "bootstrap",
+        "relevance": 9
+      },
+      {
+        "skillName": "xdebug",
+        "relevance": 10
+      },
+      {
+        "skillName": "zf2",
+        "relevance": 9
+      },
+      {
+        "skillName": "rest",
+        "relevance": 6
+      },
+      {
+        "skillName": "composer",
+        "relevance": 9
+      }
+    ]
+  },
+  {
+    "_id": "target",
+    "relevance": 9,
+    "title": "Contractor",
+    "gigType": "contract",
+    "location": "Minneapolis",
+    "companyId": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2013-12-01",
+    "endDate": "2014-04-15",
+    "shortDesc": "Build Slingshot tool to accelerate web content management",
+    "longDesc": "Build Project Slingshot, an internal content management tool utilized across multiple departments\nTrain tool users to develop and extend Slingshot system's code\nSaved millions of dollars in time and labor vs legacy content management tool",
+    "responsibilities": [
+      "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than four hundred people across multiple departments"
+    ],
+    "accomplishments": [
+      "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than four hundred people across multiple departments",
+      "Train tool users to develop and extend Slingshot system's code",
+      "Saved millions of dollars in time and labor vs legacy content management tool"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 9
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 2
+      },
+      {
+        "skillName": "zf2",
+        "relevance": 9
+      },
+      {
+        "skillName": "jquery",
+        "relevance": 8
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 9
+      },
+      {
+        "skillName": "jira",
+        "relevance": 9
+      },
+      {
+        "skillName": "training",
+        "relevance": 7
+      },
+      {
+        "skillName": "rest",
+        "relevance": 6
+      },
+      {
+        "skillName": "api",
+        "relevance": 6
+      },
+      {
+        "skillName": "git",
+        "relevance": 8
+      },
+      {
+        "skillName": "composer",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "_id": "homesforheroes",
+    "relevance": 9,
+    "title": "Contractor",
+    "gigType": "contract",
+    "location": "Minneapolis",
+    "companyId": "09d49804-44c2-578e-b082-6be3a7d10b6d",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2014-06-01",
+    "endDate": "2014-07-01",
+    "shortDesc": "Build Slingshot tool to accelerate web content management",
+    "longDesc": "Build Project Slingshot, an internal content management tool utilized across multiple departments\nTrain tool users to develop and extend Slingshot system's code\nSaved millions of dollars in time and labor vs legacy content management tool",
+    "responsibilities": [
+      "Automate and test database export from Drupal platform to new CakePHP application"
+    ],
+    "accomplishments": [
+      "Automate and test database export from Drupal platform to new CakePHP application"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 9
+      },
+      {
+        "skillName": "cakephp",
+        "relevance": 9
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 2
+      },
+      {
+        "skillName": "bash",
+        "relevance": 5
+      },
+      {
+        "skillName": "drupal",
+        "relevance": 5
+      },
+      {
+        "skillName": "jquery",
+        "relevance": 8
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 9
+      },
+      {
+        "skillName": "jira",
+        "relevance": 9
+      },
+      {
+        "skillName": "training",
+        "relevance": 7
+      },
+      {
+        "skillName": "rest",
+        "relevance": 6
+      },
+      {
+        "skillName": "api",
+        "relevance": 6
+      },
+      {
+        "skillName": "git",
+        "relevance": 4
+      },
+      {
+        "skillName": "composer",
+        "relevance": 2
+      }
+    ]
+  },
+  {
+    "_id": "usbank",
+    "relevance": 9,
+    "title": "UI Prototype Developer",
+    "gigType": "contract",
+    "location": "Minneapolis",
+    "companyId": "44eba145-fbd7-54f3-8311-b413c3eaa021",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2011-06-01",
+    "endDate": "2012-01-01",
+    "shortDesc": "UI prototyping from visual design",
+    "longDesc": "Design and protoype user interface elements for banking application from specs and/or wireframes\nProvide feedback & support to business analysts",
+    "responsibilities": [
+      "Design and protoype user interface elements for banking application from specs and/or wireframes",
+      "Provide feedback & support to business analysts"
+    ],
+    "accomplishments": [
+      "Design and protoype user interface elements for banking application from specs and/or wireframes",
+      "Provide feedback & support to business analysts"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 4
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 10
+      },
+      {
+        "skillName": "html",
+        "relevance": 10
+      },
+      {
+        "skillName": "css",
+        "relevance": 10
+      },
+      {
+        "skillName": "jquery",
+        "relevance": 6
+      },
+      {
+        "skillName": "wireframes",
+        "relevance": 10
+      }
+    ]
+  },
+  {
+    "_id": "lifetimefitness",
+    "relevance": 7,
+    "title": "UI Prototyper",
+    "gigType": "contract",
+    "location": "Greater Twin Cities Area",
+    "companyId": "c306459f-05ee-538e-8839-17355d27b43b",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2011-09-01",
+    "endDate": "2012-02-01",
+    "shortDesc": "Prototype UI from wireframes and design documents",
+    "longDesc": "Prototype and test overall UI experience from wireframes and design documents",
+    "responsibilities": [
+      "Prototype and test overall UI experience from wireframes and design documents",
+      "Plan and estimate tasks in Scrum/Agile environment"
+    ],
+    "accomplishments": [
+      "Prototyped and tested overall UI experience from wireframes and design documents",
+      "Planned and estimated tasks in Scrum/Agile environment"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 7
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 8
+      },
+      {
+        "skillName": "html",
+        "relevance": 8
+      },
+      {
+        "skillName": "jquery",
+        "relevance": 8
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 8
+      },
+      {
+        "skillName": "css",
+        "relevance": 8
+      },
+      {
+        "skillName": "griddesign",
+        "relevance": 8
+      },
+      {
+        "skillName": "git",
+        "relevance": 3
+      },
+      {
+        "skillName": "ui",
+        "relevance": 8
+      }
+    ]
+  },
+  {
+    "_id": "bluestem",
+    "relevance": 6,
+    "title": "UI Developer",
+    "gigType": "contract",
+    "location": "Greater Twin Cities Area",
+    "companyId": "fa87f1e3-3d32-5b56-9e37-ac38b8f257e4",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2012-02-01",
+    "endDate": "2012-09-01",
+    "shortDesc": "UI Developer",
+    "longDesc": "Design, rapid-prototype, troubleshoot, maintain User Interface for new features",
+    "responsibilities": [
+      "Design, rapid-prototype, troubleshoot, maintain User Interface for new features"
+    ],
+    "accomplishments": [
+      "Co-design REST API and User Interface for product search",
+      "Design, rapid-prototype, troubleshoot, maintain User Interface for new features",
+      "Implement, test, debug, and maintain HTML, JavaScript, and CSS for client's production site"
+    ],
+    "technologies": [
+      {
+        "skillName": "api",
+        "relevance": 20
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 20
+      },
+      {
+        "skillName": "jquery",
+        "relevance": 20
+      },
+      {
+        "skillName": "css",
+        "relevance": 20
+      },
+      {
+        "skillName": "html",
+        "relevance": 20
+      }
+    ]
+  },
+  {
+    "_id": "razr",
+    "hasRecommendations": true,
+    "relevance": 10,
+    "title": "Software Engineer",
+    "gigType": "contract",
+    "location": "Greater Twin Cities Area",
+    "companyId": "72e07a43-44d2-5850-98eb-33159db9eccd",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2015-01-01",
+    "endDate": "2015-04-30",
+    "shortDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
+    "longDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
+    "responsibilities": [
+      "Recommend and implement best programming practices, add features, find and eliminate problems, share knowledge and expertise, profile and test code, rubberduck",
+      "Used Yii2, PHP5.4, JavaScript, AngularJS, HTML5, gettext, poedit. xdebug"
+    ],
+    "accomplishments": [
+      "built rewards microsite in 3 days",
+      "Used Yii2, PHP5.4, JavaScript, AngularJS, HTML5, gettext, poedit. xdebug"
+    ],
+    "technologies": [
+      {
+        "skillName": "newrelic",
+        "relevance": 8
+      },
+      {
+        "skillName": "xdebug",
+        "relevance": 4
+      },
+      {
+        "skillName": "a11y",
+        "relevance": 8
+      },
+      {
+        "skillName": "i18n",
+        "relevance": 8
+      },
+      {
+        "skillName": "bamboo",
+        "relevance": 2
+      },
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 30
+      },
+      {
+        "skillName": "angularjs",
+        "relevance": 20
+      },
+      {
+        "skillName": "api",
+        "relevance": 20
+      },
+      {
+        "skillName": "css",
+        "relevance": 20
+      }
+    ]
+  },
+  {
+    "_id": "tpt",
+    "relevance": 2,
+    "title": "Software Engineer",
+    "gigType": "contract",
+    "location": "Saint Paul",
+    "companyId": "50926660-ca30-5281-aeeb-77e9dbedee39",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2014-08-01",
+    "endDate": "2014-08-30",
+    "shortDesc": "Refactor, organize, optimize TPT Weather Application",
+    "longDesc": "Refactor, organize, optimize TPT Weather Application",
+    "responsibilities": [
+      "Refactor, organize, optimize TPT Weather Application"
+    ],
+    "accomplishments": [
+      "Refactor, organize, optimize TPT Weather Application"
+    ],
+    "technologies": [
+      {
+        "skillName": "python",
+        "relevance": 10
+      },
+      {
+        "skillName": "api",
+        "relevance": 8
+      },
+      {
+        "skillName": "git",
+        "relevance": 8
+      }
+    ]
+  },
+  {
+    "_id": "ezXchanges",
+    "relevance": 7,
+    "hasRecommendations": true,
+    "title": "Software Engineer",
+    "gigType": "contract",
+    "location": "Saint Paul",
+    "companyId": "1a84c2ca-c566-55f4-9a61-506d6b5b683b",
+    "recruiterId": null,
+    "contractorId": "4e9f69c1-548e-52ba-bd34-f0879191c888",
+    "startDate": "2013-06-01",
+    "endDate": "2013-08-30",
+    "shortDesc": "Refactor, rebuild video sharing application",
+    "longDesc": "Refactor, rebuild video sharing application",
+    "responsibilities": [
+      "Refactor, rebuild video sharing application"
+    ],
+    "accomplishments": [
+      "Refactor, rebuild video sharing application"
+    ],
+    "technologies": [
+      {
+        "skillName": "postgres",
+        "relevance": 10
+      },
+      {
+        "skillName": "twig",
+        "relevance": 8
+      },
+      {
+        "skillName": "bash",
+        "relevance": 9
+      },
+      {
+        "skillName": "cakephp",
+        "relevance": 5
+      },
+      {
+        "skillName": "drupal",
+        "relevance": 4
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 10
+      },
+      {
+        "skillName": "git",
+        "relevance": 4
+      }
+    ]
+  },
+  {
+    "_id": "mayo",
+    "title": "UI Developer",
+    "gigType": "contract",
+    "location": "Remote",
+    "companyId": "1dfb2ad1-29db-552c-8060-5cd81ec68729",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2013-01-01",
+    "endDate": "2013-04-01",
+    "shortDesc": "Implement responsive, accessible UI for Mayo Clinic",
+    "longDesc": "Implement responsive, accessible UI for Mayo Clinic (mayoclinic.org)",
+    "responsibilities": [
+      "Develop responsive, accessible, high quality User Interface from functional and design specifications"
+    ],
+    "accomplishments": [
+      "Develop responsive, accessible, high quality User Interface from functional and design specifications"
+    ],
+    "technologies": [
+      {
+        "skillName": "html",
+        "relevance": 8
+      },
+      {
+        "skillName": "css",
+        "relevance": 8
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 9
+      },
+      {
+        "skillName": "jquery",
+        "relevance": 8
+      },
+      {
+        "skillName": "a11y",
+        "relevance": 9
+      },
+      {
+        "skillName": "responsive",
+        "relevance": 9
+      },
+      {
+        "skillName": "remote",
+        "relevance": 10
+      }
+    ]
+  },
+  {
+    "_id": "fedexPkgHandler",
+    "relevance": 1,
+    "title": "Contractor",
+    "location": "Greater Twin Cities Area",
+    "companyId": "1d1c49ae-6883-55b9-aee6-e445b841c755",
+    "startDate": "2024-07-15",
+    "endDate": null,
+    "shortDesc": "Package Handler (warehouse like)",
+    "longDesc": "Package Handler unloads and loads trucks",
+    "responsibilities": [
+      ""
+    ]
+  },
+  {
+    "_id": "tdxtech",
+    "relevance": 4,
+    "title": "PHP Developer",
+    "gigType": "contract",
+    "location": "Greater Twin Cities Area",
+    "companyId": "101d483d-07ac-51a6-88c2-288a29a226e6",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2012-11-01",
+    "endDate": "2012-12-31",
+    "shortDesc": "Build Work Order tool for TDX Tech",
+    "longDesc": "Design and implement Work Orders database\nBuild user interface in Zend Framework 2\nCapture customer signatures in work order screen\nExport and persist Work Orders with signatures in PDF",
+    "responsibilities": [
+      "Build Work Order reporting App for TDX Tech"
+    ],
+    "accomplishments": [
+      "Design and implement Work Orders database",
+      "Build user interface in Zend Framework 2",
+      "Capture customer signatures in work order screen",
+      "Export and persist Work Orders with signatures in PDF"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "html",
+        "relevance": 10
+      },
+      {
+        "skillName": "css",
+        "relevance": 10
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 10
+      },
+      {
+        "skillName": "git",
+        "relevance": 8
+      },
+      {
+        "skillName": "httpd",
+        "relevance": 8
+      },
+      {
+        "skillName": "zf2",
+        "relevance": 30
+      }
+    ]
+  },
+  {
+    "_id": "networkinstruments",
+    "relevance": 5,
+    "title": "PHP Developer",
+    "gigType": "contract",
+    "location": "Greater Twin Cities Area",
+    "companyId": "6e5b1562-3062-5c02-aa97-b08039574797",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2013-01-01",
+    "endDate": "2013-02-31",
+    "shortDesc": "Add features to time/vacation tracking database",
+    "longDesc": "Add features to time/vacation tracking database",
+    "responsibilities": [
+      "Add features to time/vacation tracking database"
+    ],
+    "accomplishments": [
+      "Add features to time/vacation tracking database"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "html",
+        "relevance": 10
+      },
+      {
+        "skillName": "css",
+        "relevance": 10
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 10
+      },
+      {
+        "skillName": "git",
+        "relevance": 4
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 30
+      }
+    ]
+  },
+  {
+    "_id": "starkey",
+    "relevance": 4,
+    "title": "Wordpress Developer",
+    "gigType": "contract",
+    "location": "Greater Twin Cities Area",
+    "companyId": "60d94438-172f-575c-94d3-25da931f6448",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2013-01-01",
+    "endDate": "2013-02-31",
+    "note": "dates are fuzzy as of 20210218",
+    "shortDesc": "built a WordPress plugin to support client needs",
+    "longDesc": "built a WordPress plugin to support client needs",
+    "responsibilities": [],
+    "accomplishments": [
+      "built a WordPress plugin to support client needs"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 8
+      },
+      {
+        "skillName": "html",
+        "relevance": 7
+      },
+      {
+        "skillName": "css",
+        "relevance": 7
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 7
+      },
+      {
+        "skillName": "wordpress",
+        "relevance": 10
+      }
+    ]
+  },
+  {
+    "_id": "bluedoor",
+    "note": "via Seth Fair",
+    "relevance": 5,
+    "title": "PHP Developer",
+    "gigType": "contract",
+    "location": "Greater Twin Cities Area",
+    "companyId": "860f72d5-ed7b-5e68-a1f8-cad348821361",
+    "contractorId": "b9a40353-7087-5adc-8dbb-fa596f6d7d83",
+    "recruiterId": null,
+    "startDate": "2013-01-01",
+    "endDate": "2013-04-30",
+    "shortDesc": "Backend development for educational software",
+    "longDesc": "Backend development for educational software",
+    "responsibilities": [
+      "Add features to time/vacation tracking database"
+    ],
+    "accomplishments": [
+      "design and optimize educational software database",
+      "recommend and test new features"
+    ],
+    "technologies": [
+      {
+        "skillName": "freshbooks",
+        "relevance": 2
+      },
+      {
+        "skillName": "basecamp",
+        "relevance": 3
+      },
+      {
+        "skillName": "beanstalk",
+        "relevance": 3
+      },
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "html",
+        "relevance": 9
+      },
+      {
+        "skillName": "css",
+        "relevance": 8
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 9
+      },
+      {
+        "skillName": "git",
+        "relevance": 4
+      },
+      {
+        "skillName": "codeigniter",
+        "relevance": 8
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 10
+      }
+    ]
+  },
+  {
+    "_id": "networkinstruments2",
+    "note": "this is the second stint working for network instruments",
+    "relevance": 4,
+    "title": "PHP Developer",
+    "gigType": "contract",
+    "location": "Greater Twin Cities Area",
+    "companyId": "6e5b1562-3062-5c02-aa97-b08039574797",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2013-04-01",
+    "endDate": "2013-06-30",
+    "shortDesc": "Further features to time/vacation tracking database",
+    "longDesc": "Further features to time/vacation tracking database",
+    "responsibilities": [
+      "Further features to time/vacation tracking database"
+    ],
+    "accomplishments": [
+      "Further features to time/vacation tracking database"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "html",
+        "relevance": 10
+      },
+      {
+        "skillName": "css",
+        "relevance": 10
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 10
+      },
+      {
+        "skillName": "git",
+        "relevance": 4
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 30
+      }
+    ]
+  },
+  {
+    "_id": "mncee",
+    "relevance": 4,
+    "title": "PHP Developer",
+    "gigType": "contract",
+    "location": "Minneapolis",
+    "companyId": "8331781e-7290-570d-9eab-ef1f0bbb93cd",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2010-06-01",
+    "endDate": "2011-01-01",
+    "shortDesc": "Maintain and enhance database and front end for customer relationship system",
+    "longDesc": "Maintain and enhance database and front end for customer relationship system",
+    "responsibilities": [
+      "Maintain and enhance database and front end for customer relationship system"
+    ],
+    "accomplishments": [
+      "Maintain and enhance database and front end for customer relationship system"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "responsive",
+        "relevance": 8
+      },
+      {
+        "skillName": "a11y",
+        "relevance": 7
+      },
+      {
+        "skillName": "html",
+        "relevance": 10
+      },
+      {
+        "skillName": "css",
+        "relevance": 10
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 10
+      },
+      {
+        "skillName": "kohana",
+        "relevance": 8
+      },
+      {
+        "skillName": "git",
+        "relevance": 4
+      },
+      {
+        "skillName": "mysql",
+        "relevance": 30
+      }
+    ]
+  },
+  {
+    "_id": "visiblecustomer",
+    "hasRecommendations": true,
+    "relevance": 6,
+    "title": "PHP Developer",
+    "gigType": "contract",
+    "location": "Greater Twin Cities Area",
+    "companyId": "4a94adbf-edb9-51e2-80db-a35777a79e31",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2009-01-02",
+    "endDate": "2009-06-15",
+    "shortDesc": "Visible Customer",
+    "longDesc": "Visibile Customer",
+    "responsibilities": [
+      "Primary/integral/founding part of team to reengineer/rebuild build web portal for car dealerships to manage customers and generate marketing campaigns",
+      "Mentor and train junior developers in JavaScript, OOP, SQL, PHP, ORM, and framework development"
+    ],
+    "accomplishments": [
+      "Primary/integral/founding part of team to reengineer/rebuild build web portal for car dealerships to manage customers and generate marketing campaigns",
+      "Mentor and train junior developers in JavaScript, OOP, SQL, PHP, ORM, and framework development"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "html",
+        "relevance": 10
+      },
+      {
+        "skillName": "css",
+        "relevance": 10
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 10
+      },
+      {
+        "skillName": "orm",
+        "relevance": 8
+      },
+      {
+        "skillName": "httpd",
+        "relevance": 8
+      },
+      {
+        "skillName": "cakephp",
+        "relevance": 30
+      }
+    ]
+  },
+  {
+    "_id": "blueearth",
+    "relevance": 4,
+    "title": "PHP Developer",
+    "gigType": "employee",
+    "location": "Saint Paul",
+    "companyId": "b047adfa-dc91-53e6-8d1c-e9408abbfe1c",
+    "recruiterId": null,
+    "contractorId": null,
+    "startDate": "2009-10-01",
+    "endDate": "2010-06-15",
+    "shortDesc": "Blue Earth Interactive",
+    "longDesc": "Blue Earth Interactive",
+    "responsibilities": [
+      "Co-design, code backend for complex e-learning/online book application",
+      "Co-design, code backend for complex e-learning/online book application"
+    ],
+    "accomplishments": [
+      "Co-design, code backend for complex e-learning/online book application",
+      "Co-design, code backend for complex e-learning/online book application"
+    ],
+    "technologies": [
+      {
+        "skillName": "php",
+        "relevance": 10
+      },
+      {
+        "skillName": "html",
+        "relevance": 10
+      },
+      {
+        "skillName": "css",
+        "relevance": 10
+      },
+      {
+        "skillName": "javascript",
+        "relevance": 10
+      },
+      {
+        "skillName": "zf2",
+        "relevance": 30
+      }
+    ]
+  }
+]
