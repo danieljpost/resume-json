@@ -48,7 +48,7 @@
       "linkedIn": "https://www.linkedin.com/in/kevinkinley",
       "title": "Executive Director-Inter Atlanta FC | VP IT-Star Asia International",
       "when": "2021-03-21",
-      "relationship": "Kevin was a client of Daniel J.’s at Daniel J. Post Consulting, Inc.",
+      "relationship": "Kevin was a client of Daniel J.'s at Daniel J. Post Consulting, Inc.",
       "recommendation": "Daniel is a pleasure to work with. His work is very detailed and takes pride in what he does.",
       "priority": 10
     },
@@ -93,7 +93,7 @@
       "linkedIn": "https://www.linkedin.com/in/josephpiche",
       "title": "Android and iOS Developer",
       "when": "2013-08-12",
-      "relationship": "Joseph was a client of Daniel J.’s at Irish Titan",
+      "relationship": "Joseph was a client of Daniel J.'s at Irish Titan",
       "recommendation": "I worked alongside Daniel on an extremely difficult PHP project at Irish Titan, and am impressed with his ability to find security issues and bad programming practices that other programmers missed. Daniel is very detailed and thorough in all of his work, as well as very understanding of budget and time constraints.",
       "priority": 10
     },
@@ -104,7 +104,7 @@
       "linkedIn": "https://www.linkedin.com/in/darinlynch",
       "title": "Irish Titan ",
       "when": "2013-08-06",
-      "relationship": "Darin was a client of Daniel J.’s at Irish Titan",
+      "relationship": "Darin was a client of Daniel J.'s at Irish Titan",
       "recommendation": "We hired Daniel to provide some very specific programming skills that are outside of our core competency here at Irish Titan. Daniel provided them in spades...he's very knowledgeable, and clearly an expert in his field. He was very good at explaining technical concepts to non-technical resources, and worked diligently and with alot of respect. We'd hire him again.",
       "priority": 10
     },
@@ -195,10 +195,6 @@
         {
           "skillName": "httpd",
           "relevance": 5
-        },
-        {
-          "skillName": "dart",
-          "relevance": 1
         },
         {
           "skillName": "nginx",
@@ -310,6 +306,9 @@
       "_id": "acf4ddf5-ae46-5df6-899a-49fe15229b13",
       "relevance": 9,
       "title": "PHP Developer",
+      "tiers": [
+        "Front End"
+      ],
       "gigType": "employee",
       "location": "Greater Twin Cities Area",
       "companyId": "5713a077-0318-5e86-8a13-00d8b58835ea",
@@ -317,10 +316,10 @@
       "contractorId": null,
       "startDate": "2022-04-01",
       "endDate": "2023-11-01",
-      "shortDesc": "Analyze and correct code inconsistencies between interconnected modules in greenfield React / TypeScript application. Translate design documents into working code. Focus on learning relationships and common elements of multiple modules in large e-commerce project in React / Typescript. Solve problems, build and improve features in legacy e-commerce solution.",
-      "longDesc": "Analyze problems .",
+      "shortDesc": "Analyze and correct code inconsistencies between interconnected modules in React / TypeScript application. Translate design documents into working code. Focus on learning relationships and common elements of multiple modules in large e-commerce project in React / Typescript. Solve problems, build and improve features in legacy e-commerce solution.",
+      "longDesc": "Fixme",
       "blurbs": {
-        "some label": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
+        "Data": "",
         "another label": ""
       },
       "responsibilities": [
@@ -328,7 +327,7 @@
         "Solve problems"
       ],
       "accomplishments": [
-        "Analyze and correct code inconsistencies between interconnected modules in greenfield React / TypeScript application. Translate design documents into working code. Focus on learning relationships and common elements of multiple modules in large e-commerce project in React / Typescript",
+        "Analyze and correct code inconsistencies between interconnected modules in React / TypeScript application. Translate design documents into working code. Focus on learning relationships and common elements of multiple modules in large e-commerce project in React / Typescript",
         "Solve problems, build and improve features in legacy e-commerce solution."
       ],
       "technologies": [
@@ -466,14 +465,18 @@
       "shortDesc": "Build Technology Group",
       "longDesc": "Remote contract through Build Technology Group",
       "responsibilities": [
-        "Facilitate data synchronization between legacy application and new service provider",
+        "Write software tools to facilitate data synchronization between legacy application and new service provider",
         "Design and implement data migration tool",
         "Build and manage internal tools (Data and UI)",
         "Add features to legacy AngularJS app",
         "Design and build client data API (Data and Security)"
       ],
+      "blurbs": {
+        "Data": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
+        "another label": ""
+      },
       "accomplishments": [
-        "Facilitate data synchronization between legacy application and new service provider",
+        "Write software tools to facilitate data synchronization between legacy application and new service provider",
         "Design and implement data migration tool",
         "Build and manage internal tools (Data and UI)",
         "Add features to legacy AngularJS app",
@@ -483,6 +486,10 @@
         {
           "skillName": "remote",
           "relevance": 10
+        },
+        {
+          "skillName": "bitvise",
+          "relevance": 6
         },
         {
           "skillName": "slack",
@@ -520,9 +527,10 @@
       "shortDesc": "Maintain and update flagship marketing platform",
       "longDesc": "Maintain and update flagship marketing platform\nAdd connectivity to third-party APIs, e.g. LinkedIn and Google My Business\nDesign, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application\nAnalyze performance issues and recommend and implement improvements\nPerform Root Cause Analysis to eliminate memory leaks in customer messaging service",
       "responsibilities": [
+        "Manage SQL and NoSQL databases and caching tools (e.g., MySQL, PostgreSQL, MongoDB, Redis) to address various website requirements, balancing flexibility with performance.",
+        "Design, test, and add robustness in all levels of a complex, multi-tier, multi-platform user application",
+        "Analyze performance issues and recommend and implement improvements including caching, normalization, stored procedures",
         "Maintain and update flagship marketing platform",
-        "Design, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application",
-        "Analyze performance issues and recommend and implement improvements",
         "Perform Root Cause Analysis to eliminate memory leaks in monthly newsletter"
       ],
       "accomplishments": [
@@ -1652,7 +1660,7 @@
   "intros": {
     "Administrator": "Systems Administrator with years of hands-on experience supporting, automating, and optimizing mission critical information systems.",
     "DevOps": "Skilled DevOps Engineer with years of hands-on experience supporting, automating, and optimizing mission critical deployments in the cloud, leveraging configuration management, CI/CD, and DevOps processes.",
-    "Back End": "I have years of experience creating software using HTML, JavaScript, PHP and other languages, CSS, and databases. I’m passionate about performance, robustness, and maintainability in code, as well as integrity and collaboration in teams.",
+    "Back End": "I have years of experience creating software using APIs, Databases, HTML and CSS, JavaScript, and PHP and other languages. I'm passionate about performance, robustness, and maintainability in code, as well as integrity and collaboration in teams.",
     "Front End": "My dedication to quality, accessibility, robust and clean code, and usability make me an excellent Front End developer.",
     "User Experience": "My dedication to quality, accessibility, robust and clean code, and usability make me an excellent User Experience developer.",
     "User Interface": "My dedication to quality, accessibility, robust and clean code, and usability make me an excellent User Experience developer.",
@@ -1660,7 +1668,7 @@
     "Business": "It is my business to help your business get more work done with less effort, saving you money in the long run.",
     "Consulting": "I have decades of experience creating software for and on the Internet. I believe in clear, forthright, and unambiguous communication and am passionate about performance, robustness, and maintainability in code, as well as integrity and collaboration in teams.",
     "Instructor": "I have over 10 years of experience using Web technology. The best parts of that experience have always been when I could share or explain something complex to a junior developer, or when I could help solve a particularly puzzling problem. ",
-    "Team Lead": "I am eager to use my broad experience and knowledge to help me lead your product development team to success."
+    "Team Lead": "A leader plans for goals and challenges rather than responding to them. I am eager to use my broad experience and knowledge to help me lead your product development team to success."
   },
   "skillCategories": [
     "Operating Systems",
@@ -2047,6 +2055,7 @@
       "description": "PostgreSQL is a powerful, open source object-relational database system with a strong reputation for reliability, feature robustness, and performance",
       "category": "Data",
       "tiers": [
+        "Data",
         "DevOps",
         "Back End",
         "Software Engineer",
@@ -2310,6 +2319,23 @@
       "url": "https://zoom.us"
     },
     {
+      "_id": "a7ef3580-44f4-5089-a81d-43de9c4d821e",
+      "sname": "bitvise",
+      "name": "Bitvise",
+      "category": "System Tools",
+      "description": "SSH Client",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Business",
+        "Consulting"
+      ],
+      "relevance": 6,
+      "expertise": 5,
+      "url": "https://www.bitvise.com"
+    },
+    {
       "_id": "61350d98-c67c-58ef-9f03-3a4091d64143",
       "sname": "slack",
       "name": "Slack",
@@ -2356,7 +2382,7 @@
       "_id": "c208bcdf-43b3-5c36-8e24-3d4eeada3d19",
       "sname": "html",
       "name": "HTML",
-      "description": "HTML is the World Wide Web’s core markup language",
+      "description": "HTML is the World Wide Web's core markup language",
       "category": "Programming Languages",
       "tiers": [
         "Front End",
@@ -2626,7 +2652,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "relevance": 4,
+      "relevance": 5,
       "expertise": 8,
       "url": "https://www.jetbrains.com/phpstorm"
     },

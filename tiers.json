@@ -1,0 +1,15 @@
+{
+    "about": "These are job roles. Some accomplishments and many skills are related to a specific subset of roles and so will only render in the resume generator if those roles are selected",
+    "tiers": [
+        "Administrator",
+        "DevOps",
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Business",
+        "Consulting",
+        "Team Lead"
+    ]
+}
