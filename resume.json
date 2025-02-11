@@ -1666,28 +1666,6 @@
       "url": "https://irishtitan.com"
     }
   ],
-  "links": [
-    {
-      "linkedin": {
-        "url": "http://danieljpost.net/linkedin"
-      },
-      "portfolio": {
-        "url": "http://danieljpost.net/portfolio"
-      },
-      "ama": {
-        "url": "http://danieljpost.net/ama"
-      },
-      "resume": {
-        "url": "http://danieljpost.net/resume"
-      },
-      "indeed": {
-        "url": "http://danieljpost.net/indeed"
-      },
-      "opinions": {
-        "url": "http://danieljpost.net/opinion"
-      }
-    }
-  ],
   "gigs": [
     {
       "_id": "danieljpost.pro",
