@@ -1,16 +1,16 @@
 {
   "$id": "https://danieljpost.pro/resume.json",
   "title": "Daniel J. Post's Resume, as a raw JSON file",
-  "updated": "20250123",
+  "updated": "20250211",
   "branch": "develop",
-  "tag": "2025.01",
+  "tag": "2025.02",
   "versions": {
     "canonical": "https://danieljpost.pro/resume.json",
     "beta": "https://danieljpost.pro/v1/resume.json",
     "develop": "https://eatthebillionaires.pro/resume.json",
     "master": "https://danieljpost.codes/resume.json",
     "production": "https://danieljpost.consulting/resume.json",
-    "2025.01": "https://raw.githubusercontent.com/danieljpost/resume-json/refs/tags/2025.01/resume.json",
+    "2025.02": "https://raw.githubusercontent.com/danieljpost/resume-json/refs/tags/2025.02/resume.json",
     "developraw": "https://raw.githubusercontent.com/danieljpost/resume-json/develop/resume.json",
     "masterraw": "https://raw.githubusercontent.com/danieljpost/resume-json/master/resume.json"
   },
