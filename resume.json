@@ -1671,6 +1671,17 @@
       "_id": "danieljpost.pro",
       "relevance": 10,
       "title": "Proprietor",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Business",
+        "Consulting",
+        "Data",
+        "DevOps",
+        "Front End",
+        "Software Engineer",
+        "User Interface"
+      ],
       "gigType": "owner",
       "location": "Greater Twin Cities Area",
       "companyId": "6f219570-cbb1-53fc-b563-357f37b414da",
@@ -1809,7 +1820,11 @@
       "relevance": 9,
       "title": "PHP Developer",
       "tiers": [
-        "Front End"
+        "Front End",
+        "Software Engineer",
+        "User Interface",
+        "Data",
+        "Back End"
       ],
       "gigType": "employee",
       "location": "Greater Twin Cities Area",
@@ -1899,6 +1914,13 @@
       "_id": "lacek",
       "relevance": 3,
       "title": "Proprietor",
+      "tiers": [
+        "Back End",
+        "Consulting",
+        "Data",
+        "Front End",
+        "Software Engineer"
+      ],
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
       "companyId": "bff69483-f42c-5711-b5a5-4f8b43225eae",
@@ -1957,6 +1979,14 @@
       "_id": "btg",
       "relevance": 9,
       "title": "PHP Developer",
+      "tiers": [
+        "Back End",
+        "Data",
+        "DevOps",
+        "Front End",
+        "Software Engineer",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Remote",
       "companyId": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
@@ -2019,6 +2049,15 @@
       "_id": "vivial",
       "relevance": 8,
       "title": "Software Developer",
+      "tiers": [
+        "DevOps",
+        "Administrator",
+        "Front End",
+        "Software Engineer",
+        "User Interface",
+        "Data",
+        "Back End"
+      ],
       "gigType": "employee",
       "location": "Greater Twin Cities Area",
       "companyId": "5d017a2f-c584-5547-b73d-b572c779bf53",
@@ -2116,6 +2155,18 @@
       "_id": "gbl",
       "relevance": 7,
       "title": "PHP Developer",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Business",
+        "Consulting",
+        "Data",
+        "DevOps",
+        "Front End",
+        "Software Engineer",
+        "User Interface",
+        "User Experience"
+      ],
       "gigType": "contract",
       "location": "Minneapolis",
       "companyId": "4a1440b5-1868-5cd2-8fcb-53d4e2051a36",
@@ -2177,6 +2228,13 @@
       "_id": "resortsandlodges",
       "relevance": 10,
       "title": "Software Developer",
+      "tiers": [
+        "Front End",
+        "Software Engineer",
+        "User Interface",
+        "Data",
+        "Back End"
+      ],
       "gigType": "employee",
       "location": "Greater Twin Cities Area",
       "companyId": "88abb4d1-694d-5384-bce2-21c0bc59b160",
@@ -2231,6 +2289,18 @@
       "_id": "target",
       "relevance": 9,
       "title": "Contractor",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Business",
+        "Consulting",
+        "Data",
+        "DevOps",
+        "Front End",
+        "Software Engineer",
+        "User Interface",
+        "User Experience"
+      ],
       "gigType": "contract",
       "location": "Minneapolis",
       "companyId": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
@@ -2299,6 +2369,13 @@
       "_id": "homesforheroes",
       "relevance": 9,
       "title": "Contractor",
+      "tiers": [
+        "Back End",
+        "Consulting",
+        "Data",
+        "Software Engineer",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Minneapolis",
       "companyId": "09d49804-44c2-578e-b082-6be3a7d10b6d",
@@ -2373,6 +2450,12 @@
       "_id": "usbank",
       "relevance": 9,
       "title": "UI Prototype Developer",
+      "tiers": [
+        "Consulting",
+        "Front End",
+        "Software Engineer",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Minneapolis",
       "companyId": "44eba145-fbd7-54f3-8311-b413c3eaa021",
@@ -2421,6 +2504,12 @@
       "_id": "lifetimefitness",
       "relevance": 7,
       "title": "UI Prototyper",
+      "tiers": [
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
       "companyId": "c306459f-05ee-538e-8839-17355d27b43b",
@@ -2481,6 +2570,13 @@
       "_id": "bluestem",
       "relevance": 6,
       "title": "UI Developer",
+      "tiers": [
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "User Interface",
+        "User Experience"
+      ],
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
       "companyId": "fa87f1e3-3d32-5b56-9e37-ac38b8f257e4",
@@ -2526,6 +2622,16 @@
       "hasRecommendations": true,
       "relevance": 10,
       "title": "Software Engineer",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Consulting",
+        "DevOps",
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
       "companyId": "72e07a43-44d2-5850-98eb-33159db9eccd",
@@ -2590,6 +2696,9 @@
       "_id": "tpt",
       "relevance": 2,
       "title": "Software Engineer",
+      "tiers": [
+        "Software Engineer"
+      ],
       "gigType": "contract",
       "location": "Saint Paul",
       "companyId": "50926660-ca30-5281-aeeb-77e9dbedee39",
@@ -2674,6 +2783,12 @@
     {
       "_id": "mayo",
       "title": "UI Developer",
+      "tiers": [
+        "Consulting",
+        "Front End",
+        "User Experience",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Remote",
       "companyId": "1dfb2ad1-29db-552c-8060-5cd81ec68729",
@@ -2738,6 +2853,16 @@
       "_id": "tdxtech",
       "relevance": 4,
       "title": "PHP Developer",
+      "tiers": [
+        "Back End",
+        "Business",
+        "Consulting",
+        "Data",
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
       "companyId": "101d483d-07ac-51a6-88c2-288a29a226e6",
@@ -2791,6 +2916,15 @@
       "_id": "networkinstruments",
       "relevance": 5,
       "title": "PHP Developer",
+      "tiers": [
+        "Back End",
+        "Business",
+        "Consulting",
+        "Data",
+        "Front End",
+        "Software Engineer",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
       "companyId": "6e5b1562-3062-5c02-aa97-b08039574797",
@@ -2879,6 +3013,18 @@
       "note": "via Seth Fair",
       "relevance": 5,
       "title": "PHP Developer",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Business",
+        "Consulting",
+        "Data",
+        "DevOps",
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
       "companyId": "860f72d5-ed7b-5e68-a1f8-cad348821361",
@@ -2943,6 +3089,17 @@
       "note": "this is the second stint working for network instruments",
       "relevance": 4,
       "title": "PHP Developer",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Business",
+        "Consulting",
+        "Data",
+        "DevOps",
+        "Front End",
+        "Software Engineer",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
       "companyId": "6e5b1562-3062-5c02-aa97-b08039574797",
@@ -2989,6 +3146,16 @@
       "_id": "mncee",
       "relevance": 4,
       "title": "PHP Developer",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Business",
+        "Consulting",
+        "Data",
+        "Front End",
+        "Software Engineer",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Minneapolis",
       "companyId": "8331781e-7290-570d-9eab-ef1f0bbb93cd",
@@ -3048,6 +3215,18 @@
       "hasRecommendations": true,
       "relevance": 6,
       "title": "PHP Developer",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Business",
+        "Consulting",
+        "Data",
+        "DevOps",
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
       "gigType": "contract",
       "location": "Greater Twin Cities Area",
       "companyId": "4a94adbf-edb9-51e2-80db-a35777a79e31",
@@ -3100,6 +3279,15 @@
       "_id": "blueearth",
       "relevance": 4,
       "title": "PHP Developer",
+      "tiers": [
+        "DevOps",
+        "Front End",
+        "Software Engineer",
+        "User Interface",
+        "User Experience",
+        "Data",
+        "Back End"
+      ],
       "gigType": "employee",
       "location": "Saint Paul",
       "companyId": "b047adfa-dc91-53e6-8d1c-e9408abbfe1c",
