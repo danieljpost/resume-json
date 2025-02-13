@@ -1691,17 +1691,45 @@
       "endDate": null,
       "shortDesc": "I solve problems, build and improve features, maintain legacy applications, and look great doing it.",
       "longDesc": "When I join your team, you will benefit from my knowledge of Software Development Life Cycle (SDLC), design patterns, frameworks and concepts; my ability to perform Root Cause Analysis; mentor and support junior developers; deliver well-tested systems timely that meet specification functionality requirements; troubleshoot technical issues; provide analysis for technical solutions based on functional requirements; and follow processes, protocols and quality standards in the development and deployment of solutions.\nI solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it.",
-      "blurbs": {
-        "some label": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
-        "another label": ""
-      },
+      "blurbs": [
+        {
+          "Administrator": ""
+        },
+        {
+          "DevOps": ""
+        },
+        {
+          "Back End": ""
+        },
+        {
+          "Front End": ""
+        },
+        {
+          "Software Engineer": "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it.",
+        },
+        {
+          "User Experience": ""
+        },
+        {
+          "User Interface": ""
+        },
+        {
+          "Business": ""
+        },
+        {
+          "Consulting": ""
+        },
+        {
+          "Team Lead": ""
+        }
+      ],
       "responsibilities": [
         "Software Engineering is an Art as much as it is a Science. The goal is to never stop learning, never stop trying, never stop improving. The next project will be executed to a higher standard than the previous one, and the client will know it",
         "I solve problems, enhance processes, build/test/improve features, maintain legacy applications, and look great doing it."
       ],
       "accomplishments": [
-        "Saved millions of dollars in ongoing labor costs for retail customer",
-        "Implemented accessible and responsive User Interfaces for a world-famous healthcare organization",
+        "Save millions of dollars in ongoing labor costs for retail customer",
+        "Implement accessible and responsive User Interfaces for a world-famous healthcare organization",
         "Mentor and train junior developers and other coworkers in a wide spectrum of technlogies"
       ],
       "technologies": [
@@ -2182,7 +2210,7 @@
         "Establish deployment processes, backend code design patterns"
       ],
       "accomplishments": [
-        "Wrote grunt and gulp scripts to accelerate rapid development in AngularJS",
+        "Write grunt and gulp scripts to accelerate rapid development in AngularJS",
         "Established deployment processes, backend code design patterns"
       ],
       "technologies": [
@@ -2523,10 +2551,7 @@
         "Prototype and test overall UI experience from wireframes and design documents",
         "Plan and estimate tasks in Scrum/Agile environment"
       ],
-      "accomplishments": [
-        "Prototyped and tested overall UI experience from wireframes and design documents",
-        "Planned and estimated tasks in Scrum/Agile environment"
-      ],
+      "accomplishments": [],
       "technologies": [
         {
           "skillName": "php",
@@ -2639,15 +2664,14 @@
       "contractorId": null,
       "startDate": "2015-01-01",
       "endDate": "2015-04-30",
-      "shortDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
+      "shortDesc": "Marketing platform",
       "longDesc": "Recommend and implement best programming practices, share knowledge and expertise, profile and test code",
       "responsibilities": [
         "Recommend and implement best programming practices, add features, find and eliminate problems, share knowledge and expertise, profile and test code, rubberduck",
         "Used Yii2, PHP5.4, JavaScript, AngularJS, HTML5, gettext, poedit. xdebug"
       ],
       "accomplishments": [
-        "built rewards microsite in 3 days",
-        "Used Yii2, PHP5.4, JavaScript, AngularJS, HTML5, gettext, poedit. xdebug"
+        "Rewards microsite in 3 days"
       ],
       "technologies": [
         {
@@ -2656,7 +2680,7 @@
         },
         {
           "skillName": "xdebug",
-          "relevance": 4
+          "relevance": 3
         },
         {
           "skillName": "a11y",
@@ -2668,7 +2692,7 @@
         },
         {
           "skillName": "bamboo",
-          "relevance": 2
+          "relevance": 3
         },
         {
           "skillName": "php",
@@ -2688,6 +2712,10 @@
         },
         {
           "skillName": "css",
+          "relevance": 20
+        }
+        {
+          "skillName": "javascript",
           "relevance": 20
         }
       ]
