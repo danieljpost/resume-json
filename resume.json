@@ -314,6 +314,67 @@
       ]
     },
     {
+      "_id": "6ce4a9f0-42cb-526a-a9b7-3bf3836a28b5",
+      "relevance": 8,
+      "title": "Game Systems Engineer",
+      "tiers": [
+        "Back End",
+        "Software Engineer",
+        "Data"
+      ],
+      "gigType": "owner",
+      "location": "Remote",
+      "companyId": "2beadf60-48fe-5661-82fc-52ce23c805ed",
+      "recruiterId": null,
+      "contractorId": null,
+      "startDate": "2025-11-14",
+      "endDate": null,
+      "shortDesc": "Architected the canonical Rust rules engine for ThreatLVL, modeling D&D 5e (2014 + 2024), Pathfinder, and GURPS 4e across 1,700+ game object stubs behind compile-time Cargo feature gates.",
+      "longDesc": "Designed and built threatlvl_common, the Rust library at the core of the ThreatLVL platform, encoding tabletop RPG rules for multiple game systems and editions behind a 9-feature Cargo gate system so each downstream service compiles only the systems it needs. Shipped character sheets with armor class and multiclass HP logic, spell and inventory models, dice rolling, XP tracking, a compile-time book registry codegen pipeline via build.rs, and a page-reference feature backed by Arc<Book>. Built an automated Python ETL pipeline (ingest_canon.py) against 5etools source data to generate 304 monster stubs with real page references, classify 1,723 game objects against SRD 5.1 and 5.2.1 definitions, and resolve naming discrepancies via a NAME_ALIASES layer — driving a 1,592-item ingestion campaign to completion across 27 batch passes.",
+      "blurbs": {
+        "Back End": "Built threatlvl_common, a multi-system Rust library behind a 9-feature Cargo gate system, delivering 1,700+ game object stubs (monsters, spells, equipment, magic items, classes) for D&D 5e 2014, D&D 5e 2024, Pathfinder, and GURPS 4e. Implemented a dual-edition architecture (dnd5e / dnd5e_2024 features) enabling downstream services to compile the 2014 base alone or with 2024 rule deltas. Added compile-time book registry codegen via build.rs and a page-reference feature (Arc<Book>) for zero-cost stub cloning. Maintained zero clippy warnings under -D warnings and brought 437 files into rustfmt compliance.",
+        "Software Engineer": "Architected a multi-system, multi-edition tabletop RPG rules engine in Rust, navigating 17 documented architectural revisions to arrive at a clean edition_2014/ + edition_2024/ directory split gated by separate Cargo features. Built a Python ETL pipeline against 5etools source data that auto-generates populated Rust stubs with SRD classification, replacing a manual process. Designed NAME_ALIASES resolution and per-book non-SRD feature gates (monster-manual, volos-guide-to-monsters) for IP compliance. Established contributor standards: feature-gate strategy, per-edition compile-check matrix, and implementer playbooks.",
+        "Data": "Built an end-to-end data ingestion pipeline for 5e SRD game content sourced from 5etools-src, 5etools-xmm, and 5e-database; cross-referenced against SRD 5.1 and 5.2.1 definitions for per-row license classification. Pipeline handles plural-category expansion (e.g., color dragons → per-age-category stubs), naming normalization via NAME_ALIASES.csv, and non-SRD content routing. Caught and corrected 22 SRD misclassifications; fixed a CR-0 XP=0 calculation bug and a 2024 page-index cross-edition data leak. Produced a 1,723-row OBJECTS.csv inventory and drove 304 monster stubs to PageReference-populated status.",
+        "Consulting": "Designed a sustainable multi-session workflow for large-scale game content ingestion: proposal → founder-review → bake-in cycle for architectural decisions, staged decision documents and backlog proposals, and maintained clean separation between locked decisions and draft proposals. Operated a structured multi-agent orchestration workflow (srd-tracker) with agent specs, pass tracking, and status accounting for parallel stub-generation campaigns.",
+        "Team Lead": "Wrote and maintained CLAUDE.md contributor documentation covering feature-gate strategy, module ownership, per-commit compile-check matrix, and testing conventions for a growing Rust library. Defined the principle 'Cargo features double as product features' and enforced it. Produced an implementer playbook for the page-reference feature. Operated a structured multi-agent orchestration workflow enabling parallel stub-generation campaigns without coordination failures.",
+        "Administrator": "Maintained rigorous code-quality baseline across a 437-file Rust library: cargo clippy -- -D warnings with zero tolerance, cargo fmt uniformly, per-edition compile check matrix before every commit touching system_dnd5e. Tracked 1,592 game objects in a PENDING.txt inventory; drove batch processing to completion with STATUS.md accounting. Managed filename convention migration (base-creature-first rename pass) and SRD reclassification passes without data loss."
+      },
+      "responsibilities": [
+        "Design and maintain the canonical Rust game-logic library (threatlvl_common) shared across all ThreatLVL services",
+        "Implement multi-system tabletop RPG data models (D&D 5e, Pathfinder, GURPS) behind compile-time Cargo feature gates",
+        "Build and iterate automated Python ingestion pipelines against third-party RPG datasets (5etools-src, 5etools-xmm, 5e-database)",
+        "Classify, normalize, and curate SRD 5.1 and SRD 5.2.1 game content for IP and license compliance",
+        "Design architectural proposals, stage them for founder review, and bake approved decisions into code",
+        "Enforce code quality: cargo fmt, clippy -D warnings, no-default-features compile matrix before every commit",
+        "Maintain comprehensive tracking systems (OBJECTS.csv, STATUS.md, INGEST_LOG.md) for large-scale stub-generation campaigns",
+        "Produce contributor documentation (CLAUDE.md, implementer playbooks) to enable future contributors to onboard without ramp-up"
+      ],
+      "accomplishments": [
+        "Architected threatlvl_common, a multi-system Rust rules engine modeling D&D 5e (2014 + 2024), Pathfinder, and GURPS 4e behind 9 compile-time Cargo feature gates",
+        "Generated 1,700+ game object stubs (monsters, spells, equipment, magic items, classes, backgrounds, feats) across 27 automated batch passes",
+        "Built ingest_canon.py, an automated Python ETL pipeline against 5etools source data, populating 304 monster stubs with real page references and SRD classification",
+        "Designed a dual-edition architecture (dnd5e / dnd5e_2024 Cargo features) enabling downstream services to compile the 2014 base alone or with 2024 rule deltas",
+        "Implemented compile-time book registry codegen via build.rs reading 5etools books.json, emitting BOOK_* constants at compile time under the page-reference feature",
+        "Introduced per-book Cargo features (monster-manual, volos-guide-to-monsters) for license-gated non-SRD content, extensible to future sourcebooks",
+        "Caught and corrected 22 SRD misclassifications by cross-referencing against 5e-SRD-Monsters.json; restored license-compliance accuracy for the 2014 monster corpus",
+        "Resolved a CR-0 XP=0 calculation bug and a 2024 page-index cross-edition data leak contaminating 2014 page lookups",
+        "Brought 437 Rust source files into rustfmt compliance in a single formatting pass; maintained zero clippy warnings under -D warnings",
+        "Established and documented the feature-gate architecture: per-edition compile-check matrix (4 cargo check variants) required before every commit touching system_dnd5e"
+      ],
+      "technologies": [
+        { "skillName": "rust", "relevance": 10 },
+        { "skillName": "cargo", "relevance": 9 },
+        { "skillName": "python", "relevance": 8 },
+        { "skillName": "git", "relevance": 7 },
+        { "skillName": "feature flags", "relevance": 9 },
+        { "skillName": "data modeling", "relevance": 8 },
+        { "skillName": "systems design", "relevance": 9 },
+        { "skillName": "build automation", "relevance": 7 },
+        { "skillName": "etl", "relevance": 8 },
+        { "skillName": "cli", "relevance": 6 }
+      ]
+    },
+    {
       "_id": "acf4ddf5-ae46-5df6-899a-49fe15229b13",
       "relevance": 9,
       "title": "PHP Developer",
