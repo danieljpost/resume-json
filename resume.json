@@ -1,7 +1,7 @@
 {
   "$id": "https://danieljpost.pro/resume.json",
   "title": "Daniel J. Post's Resume, as a raw JSON file",
-  "updated": "20250211",
+  "updated": "20260812",
   "branch": "master",
   "tag": "2025.02-master",
   "versions": {
@@ -314,64 +314,216 @@
       ]
     },
     {
-      "_id": "6ce4a9f0-42cb-526a-a9b7-3bf3836a28b5",
+      "_id": "267c4d1c-5300-5fc0-a17c-6ac6926bb7de",
       "relevance": 8,
-      "title": "Game Systems Engineer",
+      "title": "Principal Software Engineer",
       "tiers": [
-        "Back End",
         "Software Engineer",
-        "Data"
+        "Back End",
+        "Data",
+        "Administrator",
+        "Consulting",
+        "Team Lead"
       ],
       "gigType": "owner",
-      "location": "Remote",
+      "location": "Minneapolis, MN (Remote)",
       "companyId": "2beadf60-48fe-5661-82fc-52ce23c805ed",
       "recruiterId": null,
       "contractorId": null,
-      "startDate": "2025-11-14",
+      "startDate": "2025-09-01",
       "endDate": null,
-      "shortDesc": "Architected the canonical Rust rules engine for ThreatLVL, modeling D&D 5e (2014 + 2024), Pathfinder, and GURPS 4e across 1,700+ game object stubs behind compile-time Cargo feature gates.",
-      "longDesc": "Designed and built threatlvl_common, the Rust library at the core of the ThreatLVL platform, encoding tabletop RPG rules for multiple game systems and editions behind a 9-feature Cargo gate system so each downstream service compiles only the systems it needs. Shipped character sheets with armor class and multiclass HP logic, spell and inventory models, dice rolling, XP tracking, a compile-time book registry codegen pipeline via build.rs, and a page-reference feature backed by Arc<Book>. Built an automated Python ETL pipeline (ingest_canon.py) against 5etools source data to generate 304 monster stubs with real page references, classify 1,723 game objects against SRD 5.1 and 5.2.1 definitions, and resolve naming discrepancies via a NAME_ALIASES layer — driving a 1,592-item ingestion campaign to completion across 27 batch passes.",
+      "shortDesc": "Architected and built a 12-repository, multi-service platform in Rust and Python — 406 commits, 135,000+ lines of application code, 37 REST and WebSocket endpoints, and two production-shaped data pipelines including a cited, locally-run large language model (LLM) retrieval-augmented generation system measured against a 130-question held-out evaluation set.",
+      "longDesc": "Designed and delivered the ThreatLVL platform end to end: a shared rules-engine library consumed by five services, a 26-route Actix-web API gateway with WebSocket subscriptions, an RS256 OIDC (OpenID Connect) authentication service backed by PostgreSQL and Redis, a GitOps deployment repository running under Kubernetes and ArgoCD, and two independent ingestion pipelines. Worked from written specifications throughout — 15 design proposals with high-level and low-level detail, a decisions log tracking 19 open questions with options and constraints, and 17 numbered architecture revisions — translating product requirements into technical designs before implementation. Enforced object-oriented and type-driven design patterns across a 3,250-file workspace with compile-time modularity: 17 build features and 17,642 conditional-compilation sites let each service compile only the subsystems it needs, sized against a deliberately constrained reference machine. Practiced disciplined defect triage and root cause analysis on machine-generated data — tracing 22 license misclassifications, a challenge-rating experience-point calculation bug, a cross-edition index leak, and 56 CSV rows damaged by a quoting defect back to their causes and fixing the tooling so each class of failure could not recur. Built the generative AI surface as an engineering system under explicit governance: a four-stage Python document pipeline feeding large language model (LLM) retrieval-augmented generation with mandatory citation and provenance, retrieval abstracted behind a single swappable interface with both a lexical (SQLite FTS5/BM25) and an embedding-based lane, prompt templates read from version control at runtime so documented and executed prompts cannot drift, capped and time-bounded CPU-only LLM inference, a 130-question held-out evaluation set, and a standing architectural rule that no AI-dependent path may block the user or run without a deterministic fallback.",
       "blurbs": {
-        "Back End": "Built threatlvl_common, a multi-system Rust library behind a 9-feature Cargo gate system, delivering 1,700+ game object stubs (monsters, spells, equipment, magic items, classes) for D&D 5e 2014, D&D 5e 2024, Pathfinder, and GURPS 4e. Implemented a dual-edition architecture (dnd5e / dnd5e_2024 features) enabling downstream services to compile the 2014 base alone or with 2024 rule deltas. Added compile-time book registry codegen via build.rs and a page-reference feature (Arc<Book>) for zero-cost stub cloning. Maintained zero clippy warnings under -D warnings and brought 437 files into rustfmt compliance.",
-        "Software Engineer": "Architected a multi-system, multi-edition tabletop RPG rules engine in Rust, navigating 17 documented architectural revisions to arrive at a clean edition_2014/ + edition_2024/ directory split gated by separate Cargo features. Built a Python ETL pipeline against 5etools source data that auto-generates populated Rust stubs with SRD classification, replacing a manual process. Designed NAME_ALIASES resolution and per-book non-SRD feature gates (monster-manual, volos-guide-to-monsters) for IP compliance. Established contributor standards: feature-gate strategy, per-edition compile-check matrix, and implementer playbooks.",
-        "Data": "Built an end-to-end data ingestion pipeline for 5e SRD game content sourced from 5etools-src, 5etools-xmm, and 5e-database; cross-referenced against SRD 5.1 and 5.2.1 definitions for per-row license classification. Pipeline handles plural-category expansion (e.g., color dragons → per-age-category stubs), naming normalization via NAME_ALIASES.csv, and non-SRD content routing. Caught and corrected 22 SRD misclassifications; fixed a CR-0 XP=0 calculation bug and a 2024 page-index cross-edition data leak. Produced a 1,723-row OBJECTS.csv inventory and drove 304 monster stubs to PageReference-populated status.",
-        "Consulting": "Designed a sustainable multi-session workflow for large-scale game content ingestion: proposal → founder-review → bake-in cycle for architectural decisions, staged decision documents and backlog proposals, and maintained clean separation between locked decisions and draft proposals. Operated a structured multi-agent orchestration workflow (srd-tracker) with agent specs, pass tracking, and status accounting for parallel stub-generation campaigns.",
-        "Team Lead": "Wrote and maintained CLAUDE.md contributor documentation covering feature-gate strategy, module ownership, per-commit compile-check matrix, and testing conventions for a growing Rust library. Defined the principle 'Cargo features double as product features' and enforced it. Produced an implementer playbook for the page-reference feature. Operated a structured multi-agent orchestration workflow enabling parallel stub-generation campaigns without coordination failures.",
-        "Administrator": "Maintained rigorous code-quality baseline across a 437-file Rust library: cargo clippy -- -D warnings with zero tolerance, cargo fmt uniformly, per-edition compile check matrix before every commit touching system_dnd5e. Tracked 1,592 game objects in a PENDING.txt inventory; drove batch processing to completion with STATUS.md accounting. Managed filename convention migration (base-creature-first rename pass) and SRD reclassification passes without data loss."
+        "Software Engineer": "Architected a multi-service platform in Rust across 12 repositories and 406 commits, applying object-oriented and type-driven design patterns, data-structure and algorithm work, and compile-time modularity (17 build features, 17,642 conditional-compilation sites). Produced high-level and low-level design documents before implementation — 15 written proposals with open questions resolved in writing, a 19-question decisions log, and 17 numbered architecture revisions — including reversing an edition-split architecture after the evidence showed it cost more than it returned. Held a hard quality baseline: zero-warning linting, enforced formatting, and a five-variant compile matrix required before any commit touching the core system module.",
+        "Back End": "Built five backend services in Rust on Actix-web: a 26-route API gateway with WebSocket subscriptions, room and invitation lifecycle, message and notes APIs with per-role authorization filtering, and player heartbeats; an authentication service issuing RS256 JSON Web Tokens as an OIDC provider with Argon2 password hashing, PostgreSQL persistence via SQL, and Redis caching; plus static-content and server-rendered web services. Designed the canonical shared library every service consumes and none reimplements. Engineered the AI surface as a backend concern — retrieval behind one swappable interface, model calls capped and time-bounded, prompts loaded from version-controlled files at runtime, and a deterministic fallback required on every AI-dependent path. Load-tested the gateway on constrained reference hardware, found the per-user connection pool failed near six concurrent users, and replaced it with a stateless per-request design — the fix removed 673 lines and added 256.",
+        "Data": "Built and operated two data pipelines over licensed third-party content, 20 Python modules and 4,932 lines across the ingestion toolchain. The first generates typed, license-classified code from three upstream datasets across 20+ entity types, with per-row classification against two specification versions, a 164-entry alias layer resolving cross-source naming conflicts, and proven idempotency against a merged baseline. The second is a four-stage document pipeline — extraction with 14 per-publisher layout strategies, rules-first shape classification, indexing, and evaluation — converting publisher PDFs into provenance-tagged chunks across 19 books and 2,950 chunks, serving citation-bearing answers from a locally-run model. Designed retrieval as a swappable backend rather than a committed dependency: one entry point, a SQLite FTS5/BM25 lexical lane as the default and an implemented embedding lane (nomic-embed-text, 768-dimension vectors, brute-force cosine), with the choice to defer sqlite-vec documented against its real cost — regenerating a hash-locked lockfile and moving a supply-chain cutoff. Measured rather than asserted quality with a 130-question held-out evaluation set across 13 books, reproducible runs, and stage-to-stage count-agreement assertions that fail loudly on silent data loss. Root-caused and fixed 22 license misclassifications, a calculation bug, a cross-edition index leak, and 56 quote-damaged rows, hardening the tooling against each.",
+        "Administrator": "Maintained a 3,250-file, 12-repository workspace as one coherent system: zero-tolerance lint and format gates, a five-variant per-edition compile matrix before every core-module commit, warning count driven from 2,518 to 2,032, and 437 files brought into format compliance in a single pass. Ran the tracking substrate that made a 1,592-item campaign finishable — a 2,901-row object inventory, status accounting, and ingest logs, with unresolved items error-logged rather than dropped. Managed submodule pointer hygiene across seven submodules, dependency-path migrations, and filename-convention migrations across hundreds of files without data loss. Applied supply-chain controls as policy: hash-pinned dependencies with a time-based cutoff, authenticated dependency clones in continuous integration, and pre-commit controls preventing licensed content from entering version control.",
+        "Consulting": "Ran the engagement so that nothing significant was decided in passing: a decisions log carrying 19 numbered open questions with context, options, constraints, and a locked / open / parked status — including items deliberately parked rather than resolved prematurely. Established a proposal → review → decision → bake-in workflow, with applied proposals removed so the staging area never misrepresented what was live. Produced stakeholder-actionable artifacts: a phased roadmap, competitive positioning, a business model with licensing posture, and storage-tier tradeoffs marked locked or provisional. Evaluated emerging technology against measured cost rather than reputation — deferring a vector-database dependency after pricing it against a millisecond-scale brute-force scan and a supply-chain cutoff it would have forced. Flagged discovered inconsistencies with evidence for triage instead of fixing them unilaterally.",
+        "Team Lead": "Built the onboarding surface a second engineer would need before there was one: 118 documents totaling 54,930 lines — contributor guides, per-service tactical guides layered under a strategic source of truth, implementer playbooks written for someone absent from the design conversation, runbooks, and procedures. Defined standards and enforced them mechanically rather than socially. Ran multi-agent AI orchestration with written agent specifications, pass tracking, and status accounting to drive batch work across thousands of generated files, with automated formatting and zero-warning linting as the gate every batch had to clear."
       },
       "responsibilities": [
-        "Design and maintain the canonical Rust game-logic library (threatlvl_common) shared across all ThreatLVL services",
-        "Implement multi-system tabletop RPG data models (D&D 5e, Pathfinder, GURPS) behind compile-time Cargo feature gates",
-        "Build and iterate automated Python ingestion pipelines against third-party RPG datasets (5etools-src, 5etools-xmm, 5e-database)",
-        "Classify, normalize, and curate SRD 5.1 and SRD 5.2.1 game content for IP and license compliance",
-        "Design architectural proposals, stage them for founder review, and bake approved decisions into code",
-        "Enforce code quality: cargo fmt, clippy -D warnings, no-default-features compile matrix before every commit",
-        "Maintain comprehensive tracking systems (OBJECTS.csv, STATUS.md, INGEST_LOG.md) for large-scale stub-generation campaigns",
-        "Produce contributor documentation (CLAUDE.md, implementer playbooks) to enable future contributors to onboard without ramp-up"
+        "Translate product requirements and functional specifications into high-level and low-level technical designs, reviewed in writing before implementation",
+        "Design, develop, and maintain scalable backend services and the shared library they depend on, following documented coding standards",
+        "Design and enforce a modular architecture in which every optional subsystem compiles out cleanly and the system still ships coherently",
+        "Perform defect triage and root cause analysis across application code and generated data, then harden the tooling so each defect class cannot recur",
+        "Design, develop, and deploy AI-powered solutions under explicit governance — human review, citation and provenance requirements, and a deterministic fallback for every AI-dependent path",
+        "Design retrieval and inference as swappable interfaces, and require a measured comparison on a held-out evaluation set before any backend earns adoption",
+        "Own relational and live-state data models, license classification, and pipeline reliability across multiple third-party data sources",
+        "Maintain build, test, and deployment automation across services, in both Kubernetes-orchestrated and single-machine deployment modes",
+        "Produce contributor documentation, implementer playbooks, and decision records so the work is reviewable and transferable",
+        "Evaluate emerging technologies against measured results on reference hardware rather than adopting them on reputation"
       ],
       "accomplishments": [
-        "Architected threatlvl_common, a multi-system Rust rules engine modeling D&D 5e (2014 + 2024), Pathfinder, and GURPS 4e behind 9 compile-time Cargo feature gates",
-        "Generated 1,700+ game object stubs (monsters, spells, equipment, magic items, classes, backgrounds, feats) across 27 automated batch passes",
-        "Built ingest_canon.py, an automated Python ETL pipeline against 5etools source data, populating 304 monster stubs with real page references and SRD classification",
-        "Designed a dual-edition architecture (dnd5e / dnd5e_2024 Cargo features) enabling downstream services to compile the 2014 base alone or with 2024 rule deltas",
-        "Implemented compile-time book registry codegen via build.rs reading 5etools books.json, emitting BOOK_* constants at compile time under the page-reference feature",
-        "Introduced per-book Cargo features (monster-manual, volos-guide-to-monsters) for license-gated non-SRD content, extensible to future sourcebooks",
-        "Caught and corrected 22 SRD misclassifications by cross-referencing against 5e-SRD-Monsters.json; restored license-compliance accuracy for the 2014 monster corpus",
-        "Resolved a CR-0 XP=0 calculation bug and a 2024 page-index cross-edition data leak contaminating 2014 page lookups",
-        "Brought 437 Rust source files into rustfmt compliance in a single formatting pass; maintained zero clippy warnings under -D warnings",
-        "Established and documented the feature-gate architecture: per-edition compile-check matrix (4 cargo check variants) required before every commit touching system_dnd5e"
+        "Architected and delivered a 12-repository platform across 406 commits and +299,963 / −54,900 lines of churn, spanning five services, a shared rules library, and a GitOps deployment repository",
+        "Python: built a 4-stage retrieval-augmented generation (RAG) pipeline — extraction with 14 per-publisher layout strategies, classification, indexing, evaluation — covering 19 books and 2,950 chunks, serving large language model (LLM) answers in which every claim carries a page-level citation",
+        "Ollama on CPU: ran generative AI inference locally under capped, time-bounded generation on a 4-core reference machine, with prompt templates loaded from version control at runtime so the documented prompt and the executed prompt cannot drift apart",
+        "Designed a 130-question held-out evaluation set across 13 sources to measure retrieval and answer quality, with reproducible runs and stage-to-stage count-agreement assertions that fail loudly on silent data loss",
+        "Abstracted retrieval behind a single swappable interface with two lanes — SQLite FTS5/BM25 lexical search and nomic-embed-text 768-dimension embeddings with brute-force cosine similarity — and documented the deferral of a vector-database dependency against its measured cost",
+        "Designed a compile-time modularity system — 17 build features across 17,642 conditional-compilation sites — so each service links only the subsystems it needs on constrained reference hardware",
+        "Built a 26-route API gateway with WebSocket subscriptions and server-side authorization filtering, plus a 5-route RS256 OIDC authentication service on PostgreSQL and Redis with Argon2 hashing",
+        "Diagnosed a concurrency failure under load testing and replaced a per-user connection pool with a stateless per-request design, deleting 673 lines while adding 256",
+        "Deployed the platform through Kubernetes and ArgoCD — 37 manifests including 6 ArgoCD Applications and 13 Kustomizations across 7 submodules — with the same stack documented to run as native bare-metal processes",
+        "Built an ingestion pipeline generating license-classified typed code across 20+ entity types from three upstream datasets, proven idempotent against a merged baseline",
+        "Root-caused and corrected 22 license misclassifications, a challenge-rating calculation bug, a cross-edition index leak, and 56 quote-damaged data rows, hardening the tooling against each recurrence",
+        "Authored 15 design proposals and a 19-question decisions log, and executed 17 numbered architecture revisions — including reversing a completed edition-split design when evidence contradicted it",
+        "Applied supply-chain controls: hash-pinned dependencies with a time-based cutoff, authenticated dependency clones in continuous integration, and pre-commit controls preventing licensed content from entering version control",
+        "Reduced compiler warnings from 2,518 to 2,032 and brought 437 files into format compliance, then wired formatting into code generation so emitted code is compliant by construction",
+        "Produced 118 documents totaling 54,930 lines of contributor guides, playbooks, runbooks, and decision records"
       ],
       "technologies": [
-        { "skillName": "rust", "relevance": 10 },
-        { "skillName": "cargo", "relevance": 9 },
-        { "skillName": "python", "relevance": 8 },
-        { "skillName": "git", "relevance": 7 },
-        { "skillName": "feature flags", "relevance": 9 },
-        { "skillName": "data modeling", "relevance": 8 },
-        { "skillName": "systems design", "relevance": 9 },
-        { "skillName": "build automation", "relevance": 7 },
-        { "skillName": "etl", "relevance": 8 },
-        { "skillName": "cli", "relevance": 6 }
+        {
+          "skillName": "rust",
+          "relevance": 10
+        },
+        {
+          "skillName": "python",
+          "relevance": 9
+        },
+        {
+          "skillName": "rest api",
+          "relevance": 9
+        },
+        {
+          "skillName": "sql",
+          "relevance": 7
+        },
+        {
+          "skillName": "postgresql",
+          "relevance": 7
+        },
+        {
+          "skillName": "sqlite",
+          "relevance": 7
+        },
+        {
+          "skillName": "redis",
+          "relevance": 6
+        },
+        {
+          "skillName": "websocket",
+          "relevance": 8
+        },
+        {
+          "skillName": "oidc",
+          "relevance": 7
+        },
+        {
+          "skillName": "jwt",
+          "relevance": 7
+        },
+        {
+          "skillName": "generative ai",
+          "relevance": 9
+        },
+        {
+          "skillName": "large language models",
+          "relevance": 9
+        },
+        {
+          "skillName": "retrieval augmented generation",
+          "relevance": 9
+        },
+        {
+          "skillName": "prompt engineering",
+          "relevance": 8
+        },
+        {
+          "skillName": "embeddings",
+          "relevance": 7
+        },
+        {
+          "skillName": "vector search",
+          "relevance": 6
+        },
+        {
+          "skillName": "full-text search",
+          "relevance": 7
+        },
+        {
+          "skillName": "model evaluation",
+          "relevance": 9
+        },
+        {
+          "skillName": "local model inference",
+          "relevance": 8
+        },
+        {
+          "skillName": "ollama",
+          "relevance": 7
+        },
+        {
+          "skillName": "ai governance",
+          "relevance": 8
+        },
+        {
+          "skillName": "software design patterns",
+          "relevance": 9
+        },
+        {
+          "skillName": "systems design",
+          "relevance": 10
+        },
+        {
+          "skillName": "technical design documentation",
+          "relevance": 9
+        },
+        {
+          "skillName": "root cause analysis",
+          "relevance": 8
+        },
+        {
+          "skillName": "etl",
+          "relevance": 9
+        },
+        {
+          "skillName": "data modeling",
+          "relevance": 8
+        },
+        {
+          "skillName": "kubernetes",
+          "relevance": 7
+        },
+        {
+          "skillName": "argocd",
+          "relevance": 6
+        },
+        {
+          "skillName": "gitops",
+          "relevance": 6
+        },
+        {
+          "skillName": "docker",
+          "relevance": 6
+        },
+        {
+          "skillName": "ci/cd",
+          "relevance": 7
+        },
+        {
+          "skillName": "actix-web",
+          "relevance": 8
+        },
+        {
+          "skillName": "microservices",
+          "relevance": 8
+        },
+        {
+          "skillName": "git",
+          "relevance": 8
+        },
+        {
+          "skillName": "load testing",
+          "relevance": 7
+        },
+        {
+          "skillName": "supply chain security",
+          "relevance": 7
+        },
+        {
+          "skillName": "webassembly",
+          "relevance": 5
+        }
       ]
     },
     {
@@ -1915,6 +2067,7 @@
     "DevOps",
     "Back End",
     "Front End",
+    "Data",
     "Software Engineer",
     "User Experience",
     "User Interface",
@@ -3538,6 +3691,14 @@
       "type": "recruiter",
       "fullname": "Irish Titan",
       "url": "https://irishtitan.com"
+    },
+    {
+      "_id": "2beadf60-48fe-5661-82fc-52ce23c805ed",
+      "name": "threatlvl",
+      "type": "owned",
+      "fullname": "ThreatLVL",
+      "url": "https://threatlvl.com",
+      "see": "https://schema.org/Organization"
     }
   ]
 }
