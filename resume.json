@@ -48,7 +48,7 @@
       "linkedIn": "https://www.linkedin.com/in/kevinkinley",
       "title": "Executive Director-Inter Atlanta FC | VP IT-Star Asia International",
       "when": "2021-03-21",
-      "relationship": "Kevin was a client of Daniel J.'s at Daniel J. Post Consulting, Inc.",
+      "relationship": "Kevin was a client of Daniel J.’s at Daniel J. Post Consulting, Inc.",
       "recommendation": "Daniel is a pleasure to work with. His work is very detailed and takes pride in what he does.",
       "priority": 10
     },
@@ -60,7 +60,7 @@
       "title": "Owner, Kettle River Consulting Inc",
       "when": "2015-04-25",
       "relationship": "Daniel J. worked with Michael in the same group at RAZR Marketing",
-      "recommendation": "Daniel's knowledge of robust application development is practical, solid, and broad. Daniel and I worked on an \"emergency implementation\" that had to be done in about 1/4 the time it should have taken. We worked closely together and relied on each other strengths to deliver on time and make the customer extremely happy. Daniel was great to work with. He is an expert on the front-end and has solid knowledge of the back-end. I would love to work with him again.",
+      "recommendation": "Daniel’s knowledge of robust application development is practical, solid, and broad. Daniel and I worked on an \"emergency implementation\" that had to be done in about 1/4 the time it should have taken. We worked closely together and relied on each other strengths to deliver on time and make the customer extremely happy. Daniel was great to work with. He is an expert on the front-end and has solid knowledge of the back-end. I would love to work with him again.",
       "priority": 10
     },
     {
@@ -93,7 +93,7 @@
       "linkedIn": "https://www.linkedin.com/in/josephpiche",
       "title": "Android and iOS Developer",
       "when": "2013-08-12",
-      "relationship": "Joseph was a client of Daniel J.'s at Irish Titan",
+      "relationship": "Joseph was a client of Daniel J.’s at Irish Titan",
       "recommendation": "I worked alongside Daniel on an extremely difficult PHP project at Irish Titan, and am impressed with his ability to find security issues and bad programming practices that other programmers missed. Daniel is very detailed and thorough in all of his work, as well as very understanding of budget and time constraints.",
       "priority": 10
     },
@@ -104,8 +104,8 @@
       "linkedIn": "https://www.linkedin.com/in/darinlynch",
       "title": "Irish Titan ",
       "when": "2013-08-06",
-      "relationship": "Darin was a client of Daniel J.'s at Irish Titan",
-      "recommendation": "We hired Daniel to provide some very specific programming skills that are outside of our core competency here at Irish Titan. Daniel provided them in spades...he's very knowledgeable, and clearly an expert in his field. He was very good at explaining technical concepts to non-technical resources, and worked diligently and with alot of respect. We'd hire him again.",
+      "relationship": "Darin was a client of Daniel J.’s at Irish Titan",
+      "recommendation": "We hired Daniel to provide some very specific programming skills that are outside of our core competency here at Irish Titan. Daniel provided them in spades...he’s very knowledgeable, and clearly an expert in his field. He was very good at explaining technical concepts to non-technical resources, and worked diligently and with alot of respect. We’d hire him again.",
       "priority": 10
     },
     {
@@ -127,7 +127,7 @@
       "title": "Principal (Lead) Web Application Developer at Stratasys",
       "when": "2009-08-16",
       "relationship": "Daniel J. worked with Brian at Visible Customer",
-      "recommendation": "When it comes to working with new people and being patient and effective in giving the vital information necessary to get a new guy up to speed in a rapidly changing, intense environment, Daniel was the man who got me going fast, and got me ready to start contributing to the project faster than I thought possible. He's a good guy and would be an asset to any team, especially as a mentor.",
+      "recommendation": "When it comes to working with new people and being patient and effective in giving the vital information necessary to get a new guy up to speed in a rapidly changing, intense environment, Daniel was the man who got me going fast, and got me ready to start contributing to the project faster than I thought possible. He’s a good guy and would be an asset to any team, especially as a mentor.",
       "priority": 10
     },
     {
@@ -138,7 +138,7 @@
       "title": "Writing Software to Help Teachers Help Students",
       "when": "2009-08-15",
       "relationship": "Daniel J. worked with TQ at Visible Customer",
-      "recommendation": "Daniel is a very smart, capable developer. I continue to be impressed by his thoughtful approach to software, strong sense of clean architecture and awareness of maintainability. His code is clean and clever. He was always happy to help me with technical issues based on his thorough understanding of software and insightful knowledge of the technologies we used together. He's also an entertaining guy to have around. He's culturally aware and witty. I'd be very happy to work with him again.",
+      "recommendation": "Daniel is a very smart, capable developer. I continue to be impressed by his thoughtful approach to software, strong sense of clean architecture and awareness of maintainability. His code is clean and clever. He was always happy to help me with technical issues based on his thorough understanding of software and insightful knowledge of the technologies we used together. He’s also an entertaining guy to have around. He’s culturally aware and witty. I’d be very happy to work with him again.",
       "priority": 10
     },
     {
@@ -316,7 +316,7 @@
         "Consulting",
         "Team Lead"
       ],
-      "gigType": "owner",
+      "gigType": "contract",
       "location": "Minneapolis, MN (Remote)",
       "companyId": "2beadf60-48fe-5661-82fc-52ce23c805ed",
       "recruiterId": null,
@@ -988,7 +988,7 @@
     {
       "_id": "target",
       "relevance": 9,
-      "title": "Contractor",
+      "title": "Software Architect",
       "tiers": [
         "Administrator",
         "Back End",
@@ -1538,11 +1538,27 @@
     {
       "_id": "fedexPkgHandler",
       "relevance": 1,
-      "title": "Contractor",
+      "title": "Package Handler",
+      "gigType": "employee",
       "location": "Greater Twin Cities Area",
       "companyId": "1d1c49ae-6883-55b9-aee6-e445b841c755",
       "startDate": "2024-07-15",
-      "endDate": null,
+      "endDate": "2024-12-08",
+      "shortDesc": "Package Handler (warehouse like)",
+      "longDesc": "Package Handler unloads and loads trucks",
+      "responsibilities": [
+        ""
+      ]
+    },
+    {
+      "_id": "fedexPkgHandler2",
+      "relevance": 1,
+      "title": "Package Handler",
+      "gigType": "employee",
+      "location": "Greater Twin Cities Area",
+      "companyId": "1d1c49ae-6883-55b9-aee6-e445b841c755",
+      "startDate": "2025-07-01",
+      "endDate": "2025-10-05",
       "shortDesc": "Package Handler (warehouse like)",
       "longDesc": "Package Handler unloads and loads trucks",
       "responsibilities": [
@@ -1631,7 +1647,7 @@
       "recruiterId": null,
       "contractorId": null,
       "startDate": "2013-01-01",
-      "endDate": "2013-02-31",
+      "endDate": "2013-02-28",
       "shortDesc": "Add features to time/vacation tracking database",
       "longDesc": "Add features to time/vacation tracking database",
       "responsibilities": [
@@ -1677,7 +1693,7 @@
       "recruiterId": null,
       "contractorId": null,
       "startDate": "2013-01-01",
-      "endDate": "2013-02-31",
+      "endDate": "2013-02-28",
       "note": "dates are fuzzy as of 20210218",
       "shortDesc": "built a WordPress plugin to support client needs",
       "longDesc": "built a WordPress plugin to support client needs",
@@ -2279,8 +2295,7 @@
   "gigTypes": [
     "owner",
     "employee",
-    "contract",
-    "awesomeness"
+    "contract"
   ],
   "tiers": [
     "Administrator",
@@ -5160,7 +5175,7 @@
     {
       "_id": "2beadf60-48fe-5661-82fc-52ce23c805ed",
       "name": "threatlvl",
-      "type": "owned",
+      "type": "client",
       "fullname": "ThreatLVL",
       "url": "https://threatlvl.com",
       "see": "https://schema.org/Organization"
@@ -5176,6 +5191,13 @@
       "name": "imaginationguild",
       "type": "contractor",
       "fullname": "Imagination Guild"
+    },
+    {
+      "_id": "1d1c49ae-6883-55b9-aee6-e445b841c755",
+      "name": "fedex",
+      "type": "employer",
+      "fullname": "FedEx",
+      "url": "https://www.fedex.com"
     }
   ]
 }

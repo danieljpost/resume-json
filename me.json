@@ -1,7 +1,16 @@
 {
-    "@type": "person",
+    "@context": "https://schema.org",
+    "@type": "Person",
     "name": "Daniel J. Post",
-    "and": "so forth",
+    "birthDate": "1977-04-09",
+    "email": "contact@danieljpost.pro",
+    "givenName": "Daniel",
+    "owns": "Daniel J. Post Consulting, Inc.",
     "see": "https://schema.org/Person",
-    "avatar": "https://avatars.githubusercontent.com/u/51143907"
+    "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Consultant",
+        "educationRequirements": "Rock Star status"
+    },
+    "image": "https://avatars.githubusercontent.com/u/51143907"
 }

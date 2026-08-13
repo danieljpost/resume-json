@@ -1,1356 +1,2615 @@
 [
     {
-      "_id": "6dad276e-293b-5113-b0b8-f442de996969",
-      "sname": "twilio",
-      "name": "Twilio",
-      "description": "a cloud communications service which provides programmable communication tools for making and receiving phone calls, sending and receiving text messages, and performing other communication functions",
-      "category": "Operating Systems",
-      "tiers": [
-        "Administrator",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 4,
-      "url": "https://www.twilio.com/en-us"
-    },
-    {
-      "_id": "1c7bffe0-e9e7-5e8f-b050-455fa72c6113",
-      "sname": "winXP",
-      "name": "Windows XP",
-      "description": "an operating system from Microsoft",
-      "category": "Operating Systems",
-      "tiers": [
-        "Administrator",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 3,
-      "expertise": 4,
-      "url": "https://www.microsoft.com/en-us"
-    },
-    {
-      "_id": "d2da1cc4-f19e-5dbd-b176-6a51117f3e18",
-      "sname": "magento",
-      "name": "Magento, now Adobe Commerce",
-      "description": "a flexible and scalable commerce platform that lets you create uniquely personalized B2B and B2C experiences",
-      "category": "Frameworks",
-      "tiers": [
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting"
-      ],
-      "relevance": 6,
-      "expertise": 4,
-      "url": "https://business.adobe.com/products/magento/magento-commerce.html"
-    },
-    {
-      "_id": "17167ebc-b36f-5038-b432-21997a92f139",
-      "sname": "win10",
-      "name": "Windows 10",
-      "description": "an operating system from Microsoft",
-      "category": "Operating Systems",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 3,
-      "expertise": 6,
-      "url": "https://microsoft.com"
-    },
-    {
-      "_id": "2bba2c14-0922-5db0-915d-742e0642b1a9",
-      "sname": "linux",
-      "name": "GNU/Linux",
-      "description": "The Operating System of the Internet",
-      "category": "Operating Systems",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 7,
-      "expertise": 9,
-      "url": "https://linux.com"
-    },
-    {
-      "_id": "dda3719c-f090-58f6-baf1-a90c7aeaba22",
-      "sname": "macos",
-      "name": "Mac OS",
-      "description": "the operating system of choice for Web Nerds",
-      "category": "Operating Systems",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 4,
-      "expertise": 6,
-      "url": "https://macos.com"
-    },
-    {
-      "_id": "3141ab22-6d10-5373-8aee-0e90cbec5eef",
-      "description": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. ",
-      "sname": "docker",
-      "name": "Docker",
-      "category": "System Tools",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 4,
-      "url": "https://www.docker.com"
-    },
-    {
-      "_id": "0d2fa1e0-e67b-58f9-8809-7cfebd9e5d2c",
-      "sname": "dockercompose",
-      "name": "Docker-compose",
-      "description": "a container tool",
-      "category": 1,
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Team Lead"
-      ],
-      "relevance": 0,
-      "expertise": 4,
-      "url": "https://www.docker.com"
-    },
-    {
-      "_id": "1489ee24-6ff3-5430-a407-ac1a74185239",
-      "description": "Vagrant is a tool for building and managing virtual machine environments in a single workflow.",
-      "category": "System Tools",
-      "sname": "vagrant",
-      "name": "Vagrant",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 1,
-      "expertise": 5,
-      "url": "https://www.vagrantup.com"
-    },
-    {
-      "_id": "fdd12ca2-c397-5599-9211-9b56dbbcf93a",
-      "sname": "ngrok",
-      "name": "ngrok",
-      "description": "ngrok exposes local servers behind NATs and firewalls to the public internet over secure tunnels",
-      "category": "System Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 1,
-      "expertise": 2,
-      "url": "https://ngrok.com/product"
-    },
-    {
-      "_id": "61e000f3-f54c-5fb0-bf8f-1e3b084f2650",
-      "sname": "grunt",
-      "name": "Grunt",
-      "description": "The JavaScript Task Runner",
-      "category": "System Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 3,
-      "url": "https://gruntjs.com"
-    },
-    {
-      "_id": "63f077f3-63a8-5758-89fa-90b021f36cb8",
-      "sname": "virtualbox",
-      "name": "VirtualBox",
-      "description": "VirtualBox is a powerful virtualization product for enterprise",
-      "category": "System Tools",
-      "tiers": [
-        "DevOps",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 6,
-      "url": "https://www.virtualbox.org"
-    },
-    {
-      "_id": "736056d8-e705-542e-8534-7d030a91064c",
-      "sname": "mysql",
-      "name": "MySQL",
-      "description": "MySQL is the world's most popular open source database",
-      "category": "Data",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 8,
-      "expertise": 8,
-      "url": "https://www.mysql.com",
-      "blurb": "I've built dozens of applications using MySQL ranging from hand-written SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
-    },
-    {
-      "_id": "b139fbb9-e49a-5622-8604-2c84545d311c",
-      "sname": "orm",
-      "name": "Object Relational Mapping",
-      "description": "A programming technique for converting data between incompatible type systems using object-oriented programming languages.",
-      "category": "Design Patterns",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 4,
-      "expertise": 8,
-      "url": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping",
-      "blurb": "I've built dozens of applications using MySQL ranging from hand-written SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
-    },
-    {
-      "_id": "d3c55aaa-33cc-53fc-ac65-fb58e8168ac7",
-      "sname": "memcache",
-      "name": "Memcache",
-      "description": "memcached is a high-performance, distributed memory object caching system, generic in nature, but originally intended for use in speeding up dynamic web applications by alleviating database load",
-      "category": "Data",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 8,
-      "url": "https://memcached.org",
-      "blurb": "It's Web Scale!"
-    },
-    {
-      "_id": "6baed952-a35d-5fba-91e5-541b025d439e",
-      "sname": "redis",
-      "name": "Redis",
-      "description": "Redis is an in-memory data structure store, used as a database, cache, and message broker",
-      "category": "Data",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 8,
-      "url": "https://redis.io",
-      "blurb": "It's Web Scale!"
-    },
-    {
-      "_id": "f1090fec-092f-5231-9ddc-861a8c1d8d64",
-      "sname": "mongo",
-      "name": "MongoDB",
-      "description": "MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era",
-      "category": "Data",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 5,
-      "expertise": 8,
-      "url": "https://www.mongodb.com",
-      "blurb": "I've used on several projects."
-    },
-    {
-      "_id": "e5519976-8388-52d2-9bec-6569284eb474",
-      "sname": "xml",
-      "name": "XML",
-      "description": "XML is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.",
-      "category": "Data",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 3,
-      "expertise": 7,
-      "url": "https://en.wikipedia.org/wiki/XML",
-      "blurb": "I've used on multiple projects."
-    },
-    {
-      "_id": "e70b80d9-3d04-5121-adeb-b32e57b17f1d",
-      "sname": "rest",
-      "name": "REST",
-      "description": "REST is a de-facto standard for a software architecture for interactive applications that typically use multiple Web services.",
-      "category": "Data",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 4,
-      "expertise": 7,
-      "url": "https://en.wikipedia.org/wiki/Representational_state_transfer"
-    },
-    {
-      "_id": "a174c5f5-336d-55b9-8694-232a60bc24d5",
-      "sname": "postgres",
-      "name": "PostgreSQL",
-      "description": "PostgreSQL is a powerful, open source object-relational database system with a strong reputation for reliability, feature robustness, and performance",
-      "category": "Data",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 4,
-      "expertise": 6,
-      "url": "https://www.postgresql.org"
-    },
-    {
-      "_id": "8e167600-b448-5d98-ac3e-537eb3fd678f",
-      "sname": "mssql",
-      "name": "Microsoft SQL Server",
-      "description": "A relational database management system developed by Microsoft.",
-      "category": "Data",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 3,
-      "expertise": 7,
-      "url": "https://www.microsoft.com/en-us/sql-server/default.aspx"
-    },
-    {
-      "_id": "55ba7ffb-d11c-5215-86e0-1610fd4f8fd8",
-      "sname": "node",
-      "name": "node",
-      "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine",
-      "category": "Servers",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 5,
-      "expertise": 5,
-      "url": "https://nodejs.org"
-    },
-    {
-      "_id": "10aad1fa-5fb3-5a3b-8fd9-c50a7477325a",
-      "sname": "httpd",
-      "name": "Apache HTTPD",
-      "description": "The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems",
-      "category": "Servers",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 6,
-      "expertise": 7,
-      "url": "https://httpd.apache.org"
-    },
-    {
-      "_id": "0548af61-d94a-5c31-94ee-46cf30593b5b",
-      "sname": "lighthttpd",
-      "name": "Apache HTTPD",
-      "description": "lighttpd (pronounced /lighty/) is a secure, fast, compliant, and very flexible web server that has been optimized for high-performance environments. lighttpd uses memory and CPU efficiently and has lower resource use than other popular web servers. Its advanced feature-set (FastCGI, CGI, Auth, Output-Compression, URL-Rewriting and much more) make lighttpd the perfect web server for all systems, small and large.",
-      "category": "Servers",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 3,
-      "url": "https://www.lighttpd.net"
-    },
-    {
-      "_id": "a694109a-77f9-58c1-b296-ba7cf3fdf512",
-      "sname": "nginx",
-      "name": "nginx",
-      "description": "NGINX is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache",
-      "category": "Servers",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 5,
-      "expertise": 4,
-      "url": "https://www.nginx.com"
-    },
-    {
-      "_id": "d47bc1d3-5278-5f70-81b5-55773b69a3c5",
-      "sname": "s3",
-      "name": "S3",
-      "description": "Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance",
-      "category": "Cloud Technologies",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 3,
-      "expertise": 4,
-      "url": "https://aws.amazon.com/s3"
-    },
-    {
-      "_id": "ad70661f-2fc1-5d87-a3ac-fcbef12a9dbb",
-      "sname": "gcloud",
-      "name": "Google Cloud",
-      "description": "Google Cloud Platform is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user product",
-      "category": "Cloud Technologies",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 3,
-      "expertise": 3,
-      "url": "https://cloud.google.com"
-    },
-    {
-      "_id": "800d5c14-5255-533e-b180-4eebe52d7661",
-      "sname": "cloudfront",
-      "name": "CloudFront",
-      "description": "Amazon CloudFront is a fast content delivery network service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment",
-      "category": "Cloud Technologies",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 3,
-      "expertise": 3,
-      "url": "https://aws.amazon.com/cloudfront"
-    },
-    {
-      "_id": "214f984a-0d6a-5f6a-83b5-f99cca703c89",
-      "sname": "php",
-      "name": "PHP",
-      "description": "PHP is a popular general-purpose scripting language that is especially suited to web development",
-      "category": "Programming Languages",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 10,
-      "expertise": 9,
-      "url": "https://www.php.net"
-    },
-    {
-      "_id": "d4f4cc55-cefc-5812-bbb3-29f38d950bd7",
-      "sname": "jquery",
-      "name": "jQuery",
-      "description": "jQuery is a fast, small, and feature-rich JavaScript library",
-      "category": "Libraries",
-      "tiers": [
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 7,
-      "expertise": 8,
-      "url": "https://jquery.com"
-    },
-    {
-      "_id": "ba98c491-50ea-5f5b-8b5c-fb13abc905b1",
-      "sname": "angulario",
-      "name": "Angular IO",
-      "description": "Angular IO. The modern web developer's platform",
-      "category": "Libraries",
-      "tiers": [
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 4,
-      "expertise": 6,
-      "url": "https://angular.dev"
-    },
-    {
-      "_id": "a367ff2f-a22a-5686-b6e8-668946b9741c",
-      "sname": "jira",
-      "name": "Jira",
-      "description": "Jira Software is the project management tool for agile teams",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 6,
-      "expertise": 7,
-      "url": "https://www.atlassian.com/software/jira"
-    },
-    {
-      "_id": "a7ef3580-44f4-5089-a81d-43de9c4d821e",
-      "sname": "zoom",
-      "name": "Zoom",
-      "category": "Remote Working Tools",
-      "description": "Zoom is a videotelephony software program",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 6,
-      "expertise": 5,
-      "url": "https://zoom.us"
-    },
-    {
-      "_id": "61350d98-c67c-58ef-9f03-3a4091d64143",
-      "sname": "slack",
-      "name": "Slack",
-      "description": "Slack is a proprietary business communication platform",
-      "category": "Remote Working Tools",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 5,
-      "expertise": 6,
-      "url": "https://slack.com"
-    },
-    {
-      "_id": "5576be02-6a79-50a8-9700-7d933a0f536b",
-      "sname": "javascript",
-      "name": "JavaScript",
-      "description": "JavaScript is a lightweight interpreted or JIT-compiled programming language with first-class functions",
-      "category": "Programming Languages",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 10,
-      "expertise": 9,
-      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    },
-    {
-      "_id": "c208bcdf-43b3-5c36-8e24-3d4eeada3d19",
-      "sname": "html",
-      "name": "HTML",
-      "description": "HTML is the World Wide Web’s core markup language",
-      "category": "Programming Languages",
-      "tiers": [
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 10,
-      "expertise": 9,
-      "url": "https://www.w3.org/html"
-    },
-    {
-      "_id": "476e39da-c8e8-5abf-8a08-bce2261bbf59",
-      "sname": "css",
-      "name": "CSS",
-      "category": "Programming Languages",
-      "description": "CSS is a language for describing the rendering of structured documents on screen, on paper, etc",
-      "tiers": [
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 9,
-      "expertise": 7,
-      "url": "https://www.w3.org/TR/CSS"
-    },
-    {
-      "_id": "ead6404a-eac0-5e3c-a2c1-6ce84ab34502",
-      "sname": "a11y",
-      "name": "Accessibility",
-      "category": "Methodologies",
-      "description": "When websites and web tools are properly designed and coded, people with disabilities can use them. However, currently many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.",
-      "tiers": [
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 7,
-      "expertise": 6,
-      "url": "https://www.w3.org/WAI"
-    },
-    {
-      "_id": "4d06c0f0-736d-543a-9f76-d614d243fb4e",
-      "sname": "responsive",
-      "name": "Responsive Design",
-      "category": "Methodologies",
-      "description": "Responsive design is the practice of designing a website so it looks and works properly on a range of different devices — particularly mobile phones and tablets as well as desktops and laptops.",
-      "tiers": [
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 7,
-      "expertise": 6,
-      "url": "https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode"
-    },
-    {
-      "_id": "8f2f5582-611e-5d93-a21c-78651b99425b",
-      "sname": "bash",
-      "name": "Bourne Again SHell",
-      "description": "Bash is an sh-compatible shell that offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification",
-      "category": "Programming Languages",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 6,
-      "expertise": 8,
-      "url": "https://www.gnu.org/software/bash"
-    },
-    {
-      "_id": "bd07c9a6-5c46-5775-b97f-4a2ed46751d3",
-      "sname": "vue",
-      "name": "Vue.js",
-      "description": "Vue is a progressive framework for building user interfaces; Vue is designed from the ground up to be incrementally adoptable. ",
-      "category": "Libraries",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 1,
-      "expertise": 3,
-      "url": "https://vuejs.org"
-    },
-    {
-      "_id": "0d5904d6-d5e5-51f9-ab1e-7a452cc688fc",
-      "sname": "react",
-      "name": "React",
-      "description": "A JavaScript library for building user interfaces",
-      "category": "Libraries",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 7,
-      "expertise": 5,
-      "url": "https://reactjs.org"
-    },
-    {
-      "_id": "9c7fb28b-3678-5edd-a6ae-67058aacabe8",
-      "sname": "mvc",
-      "name": "MVC",
-      "description": "Model–View–Controller is an architectural pattern commonly used for developing user interfaces that divides an application into three interconnected parts",
-      "category": "Design Patterns",
-      "tiers": [
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 6,
-      "expertise": 7,
-      "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
-    },
-    {
-      "_id": "95744d4e-e276-54e9-a4c7-129754a35513",
-      "sname": "asyncawait",
-      "name": "async/await",
-      "description": "The async function declaration defines an asynchronous function, which returns an AsyncFunction object. An asynchronous function is a function which operates asynchronously via the event loop, using an implicit Promise to return its result. But the syntax and structure of your code using async functions is much more like using standard synchronous functions.",
-      "category": "Design Patterns",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 5,
-      "expertise": 4,
-      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
-    },
-    {
-      "_id": "b41c55cd-8841-53f4-b82f-1748dde43620",
-      "sname": "zf2",
-      "name": "Zend Framework 2",
-      "description": "Zend Framework is a collection of professional PHP packages; It can be used to develop web applications and services using PHP 5.6+, and provides object-oriented code using a broad spectrum of language features",
-      "category": "Frameworks",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 4,
-      "expertise": 8,
-      "url": "https://framework.zend.com"
-    },
-    {
-      "_id": "c78816b5-a7e6-5e97-9dbe-d15a7ae6c51f",
-      "sname": "yii2",
-      "name": "Yii 2",
-      "description": "Yii is a fast, secure, and efficient PHP framework",
-      "category": "Frameworks",
-      "tiers": [
-        "Administrator",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 3,
-      "expertise": 6,
-      "url": "https://www.yiiframework.com"
-    },
-    {
-      "_id": "ceda4f74-7535-5780-a219-72b776f1060b",
-      "sname": "codeigniter",
-      "name": "CodeIgniter",
-      "description": "CodeIgniter is a PHP framework with a small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
-      "category": "Frameworks",
-      "tiers": [
-        "Administrator",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 3,
-      "expertise": 6,
-      "url": "https://www.codeigniter.com"
-    },
-    {
-      "_id": "ab228811-6d27-5c80-8bc6-32624d30a3ff",
-      "sname": "symfony",
-      "name": "Symfony",
-      "description": "Symfony is a set of reusable PHP components and a PHP framework to build web applications, APIs, microservices and web services.",
-      "category": "Frameworks",
-      "tiers": [
-        "Administrator",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 4,
-      "expertise": 5,
-      "url": "https://symfony.com"
-    },
-    {
-      "_id": "4ba748ae-bdb9-5c0e-a54f-e0673642a3c5",
-      "sname": "kohana",
-      "name": "Kohana",
-      "description": "Deprecated PHP Framework",
-      "category": "Frameworks",
-      "tiers": [
-        "Administrator",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 6,
-      "url": "https://kohanaframework.org"
-    },
-    {
-      "_id": "c82fb3ac-6b5f-5c3a-8400-29c0d961dd71",
-      "sname": "phpstorm",
-      "name": "PHPStorm",
-      "description": "A perfect IDE for working with Symfony, Laravel, Laminas, CakePHP, Yii, and other frameworks.",
-      "category": "Development Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 4,
-      "expertise": 8,
-      "url": "https://www.jetbrains.com/phpstorm"
-    },
-    {
-      "_id": "8de1abe1-eebb-57ee-a718-146630a2904e",
-      "sname": "vscode",
-      "name": "Visual Studio Code",
-      "description": "A code editor redefined and optimized for building and debugging modern web and cloud application.",
-      "category": "Development Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 4,
-      "expertise": 7,
-      "url": "https://code.visualstudio.com"
-    },
-    {
-      "_id": "66320774-878c-50c9-a2c1-160bd5ed58e8",
-      "sname": "git",
-      "name": "git",
-      "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency",
-      "category": "Development Tools",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 6,
-      "expertise": 8,
-      "url": "https://git-scm.com"
-    },
-    {
-      "_id": "5c8b020d-c50a-5db0-82a2-82a58ebfb406",
-      "sname": "eclipse",
-      "name": "Eclipse IDE",
-      "description": "An IDE of some note.",
-      "category": "Development Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 0,
-      "expertise": 8,
-      "url": "https://www.eclipse.org"
-    },
-    {
-      "_id": "ebf53d06-23bf-5c60-82d7-1972cdff3333",
-      "sname": "xdebug",
-      "name": "Xdebug",
-      "description": "Xdebug is an extension for PHP to assist with debugging and development",
-      "category": "Development Tools",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 3,
-      "expertise": 7,
-      "url": "https://xdebug.org"
-    },
-    {
-      "_id": "dbbdd36f-3732-5520-b7fc-94a2604b486a",
-      "sname": "cdt",
-      "name": "Chrome Developer Tools",
-      "description": "we're getting somewhere",
-      "category": "Development Tools",
-      "tiers": [
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 6,
-      "url": "https://developers.google.com/web/tools/chrome-devtools"
-    },
-    {
-      "_id": "d5258419-76ee-537b-9766-aa1eab5812a3",
-      "sname": "fde",
-      "name": "Firefox Developer Edition",
-      "description": "A version of Firefox that's tailored for web developerse",
-      "category": "Development Tools",
-      "tiers": [
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface"
-      ],
-      "relevance": 1,
-      "expertise": 3,
-      "url": "https://www.mozilla.org/en-US/firefox/developer"
-    },
-    {
-      "_id": "1452badb-91d9-5764-b534-eeffcd915a52",
-      "sname": "jmeter",
-      "name": "JMeter",
-      "description": "The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.",
-      "category": "Performance Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 1,
-      "expertise": 4,
-      "url": "https://jmeter.apache.org"
-    },
-    {
-      "_id": "18745072-2b39-56c9-8a6f-3180566e6efe",
-      "sname": "siege",
-      "name": "Siege",
-      "description": "Siege is an open source regression test and benchmark utility. It can stress test a single URL with a user defined number of simulated users, or it can read many URLs into memory and stress them simultaneously.",
-      "category": "Performance Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 1,
-      "expertise": 4,
-      "url": "https://github.com/JoeDog/siege"
-    },
-    {
-      "_id": "469024a6-90b8-5d29-afbe-861f78f14d82",
-      "sname": "sentry",
-      "name": "Sentry.io",
-      "description": "Sentry is an open-source error tracking tool that helps you monitor and fix crashes in real time",
-      "category": "Performance Tools",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 1,
-      "expertise": 3,
-      "url": "https://sentry.io"
-    },
-    {
-      "_id": "a39e81ab-e75b-500d-9ed2-d1fe8b7af520",
-      "sname": "newrelic",
-      "name": "New Relic",
-      "description": "Monitoring tool",
-      "category": "Performance Tools",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 1,
-      "expertise": 4,
-      "url": "https://newrelic.com"
-    },
-    {
-      "_id": "d787c8ee-821a-5984-b36b-5bec314545a7",
-      "sname": "bamboo",
-      "name": "Bamboo",
-      "description": "Bamboo is a tool for continuous integration, deployment, and delivery",
-      "category": "Deployment Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 1,
-      "expertise": 4,
-      "url": "https://www.atlassian.com/software/bamboo"
-    },
-    {
-      "_id": "085d19e8-f370-59ee-a294-fb2c58ac5878",
-      "sname": "codeship",
-      "name": "CodeShip",
-      "description": "Deployment tool",
-      "category": "Deployment Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 5,
-      "url": "https://codeship.com"
-    },
-    {
-      "_id": "63f077f3-63a8-5758-89fa-90b021f36cb8",
-      "sname": "composer",
-      "name": "Composer",
-      "description": "Composer is a tool for dependency management in PHP",
-      "category": "Development Tools",
-      "tiers": [
-        "Administrator",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 4,
-      "expertise": 7,
-      "url": "https://getcomposer.org"
-    },
-    {
-      "_id": "c66c57f0-d7ba-5be5-b3e1-d9ccb6338033",
-      "sname": "npm",
-      "name": "npm",
-      "description": "Deployment tool",
-      "category": "Deployment Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 4,
-      "expertise": 4,
-      "url": "https://npmjs.com"
-    },
-    {
-      "_id": "ccf6afd4-e93e-5ea3-af5a-f98bdcc6ec32",
-      "sname": "nvm",
-      "name": "nvm",
-      "description": "node versioning tool",
-      "category": "System Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 3,
-      "expertise": 3,
-      "url": "https://github.com/nvm-sh/nvm/blob/master/README.md"
-    },
-    {
-      "_id": "ed1cb385-c7d3-5a37-9382-ac97f23e0271",
-      "sname": "typescript",
-      "name": "TypeScript",
-      "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript",
-      "category": "Development Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 1,
-      "expertise": 2,
-      "url": "https://www.typescriptlang.org"
-    },
-    {
-      "_id": "58062854-aa26-5c28-bdfa-e6ee2c9f3432",
-      "sname": "coffeescript",
-      "name": "CoffeeScript",
-      "description": "CoffeeScript is a little language that compiles into JavaScript",
-      "category": "Development Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 0,
-      "expertise": 0,
-      "url": "https://coffeescript.org"
-    },
-    {
-      "_id": "e8b8ce23-f47e-554e-b058-e3955c9f917e",
-      "sname": "varnish",
-      "name": "Varnish",
-      "description": "Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as well as APIs",
-      "category": "Performance Tools",
-      "tiers": [
-        "Administrator",
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting"
-      ],
-      "relevance": 3,
-      "expertise": 2,
-      "url": "https://varnish-cache.org"
-    },
-    {
-      "_id": "87b7e6ec-7448-5f90-95db-ddf3c4ab52ba",
-      "sname": "babel",
-      "name": "Babel",
-      "description": "JavaScript Transpiler",
-      "category": "Development Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 2,
-      "expertise": 1,
-      "url": "https://babeljs.io"
-    },
-    {
-      "_id": "dd897237-9269-594f-9dac-67f901cb9304",
-      "sname": "training",
-      "name": "Training",
-      "description": "Train others to use tools or methods I know",
-      "category": "Development Tools",
-      "tiers": [
-        "Software Engineer",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 8,
-      "expertise": 4,
-      "url": "https://danieljpost.consulting"
-    },
-    {
-      "_id": "4feb9835-f10a-51cb-8f14-1a7a7cfadfb5",
-      "sname": "remote",
-      "name": "Remote Work",
-      "description": "Working from home so I can care for my loved ones",
-      "category": "Remote Working Tools",
-      "tiers": [
-        "DevOps",
-        "Back End",
-        "Front End",
-        "Software Engineer",
-        "User Experience",
-        "User Interface",
-        "Business",
-        "Consulting",
-        "Team Lead"
-      ],
-      "relevance": 8,
-      "expertise": 4,
-      "url": "https://danieljpost.consulting"
+        "_id": "6dad276e-293b-5113-b0b8-f442de996969",
+        "sname": "twilio",
+        "name": "Twilio",
+        "description": "a cloud communications service which provides programmable communication tools for making and receiving phone calls, sending and receiving text messages, and performing other communication functions",
+        "category": "Operating Systems",
+        "tiers": [
+            "Administrator",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 2,
+        "expertise": 4,
+        "url": "https://www.twilio.com/en-us"
+    },
+    {
+        "_id": "1c7bffe0-e9e7-5e8f-b050-455fa72c6113",
+        "sname": "winXP",
+        "name": "Windows XP",
+        "description": "an operating system from Microsoft",
+        "category": "Operating Systems",
+        "tiers": [
+            "Administrator",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 3,
+        "expertise": 4,
+        "url": "https://www.microsoft.com/en-us"
+    },
+    {
+        "_id": "d2da1cc4-f19e-5dbd-b176-6a51117f3e18",
+        "sname": "magento",
+        "name": "Magento, now Adobe Commerce",
+        "description": "a flexible and scalable commerce platform that lets you create uniquely personalized B2B and B2C experiences",
+        "category": "Frameworks",
+        "tiers": [
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting"
+        ],
+        "relevance": 6,
+        "expertise": 4,
+        "url": "https://business.adobe.com/products/magento/magento-commerce.html"
+    },
+    {
+        "_id": "17167ebc-b36f-5038-b432-21997a92f139",
+        "sname": "win10",
+        "name": "Windows 10",
+        "description": "an operating system from Microsoft",
+        "category": "Operating Systems",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 3,
+        "expertise": 6,
+        "url": "https://microsoft.com"
+    },
+    {
+        "_id": "2bba2c14-0922-5db0-915d-742e0642b1a9",
+        "sname": "linux",
+        "name": "GNU/Linux",
+        "description": "The Operating System of the Internet",
+        "category": "Operating Systems",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 7,
+        "expertise": 9,
+        "url": "https://linux.com"
+    },
+    {
+        "_id": "dda3719c-f090-58f6-baf1-a90c7aeaba22",
+        "sname": "macos",
+        "name": "Mac OS",
+        "description": "the operating system of choice for Web Nerds",
+        "category": "Operating Systems",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 4,
+        "expertise": 6,
+        "url": "https://macos.com"
+    },
+    {
+        "_id": "3141ab22-6d10-5373-8aee-0e90cbec5eef",
+        "description": "Docker provides the ability to package and run an application in a loosely isolated environment called a container. ",
+        "sname": "docker",
+        "name": "Docker",
+        "category": "System Tools",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 2,
+        "expertise": 4,
+        "url": "https://www.docker.com"
+    },
+    {
+        "_id": "0d2fa1e0-e67b-58f9-8809-7cfebd9e5d2c",
+        "sname": "dockercompose",
+        "name": "Docker-compose",
+        "description": "a container tool",
+        "category": "System Tools",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Team Lead"
+        ],
+        "relevance": 0,
+        "expertise": 4,
+        "url": "https://www.docker.com"
+    },
+    {
+        "_id": "1489ee24-6ff3-5430-a407-ac1a74185239",
+        "description": "Vagrant is a tool for building and managing virtual machine environments in a single workflow.",
+        "category": "System Tools",
+        "sname": "vagrant",
+        "name": "Vagrant",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 1,
+        "expertise": 5,
+        "url": "https://www.vagrantup.com"
+    },
+    {
+        "_id": "fdd12ca2-c397-5599-9211-9b56dbbcf93a",
+        "sname": "ngrok",
+        "name": "ngrok",
+        "description": "ngrok exposes local servers behind NATs and firewalls to the public internet over secure tunnels",
+        "category": "System Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 1,
+        "expertise": 2,
+        "url": "https://ngrok.com/product"
+    },
+    {
+        "_id": "61e000f3-f54c-5fb0-bf8f-1e3b084f2650",
+        "sname": "grunt",
+        "name": "Grunt",
+        "description": "The JavaScript Task Runner",
+        "category": "System Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 2,
+        "expertise": 3,
+        "url": "https://gruntjs.com"
+    },
+    {
+        "_id": "3d9947f6-1c3c-5c07-92f8-a4cd4b4c5ad4",
+        "sname": "virtualbox",
+        "name": "VirtualBox",
+        "description": "VirtualBox is a powerful virtualization product for enterprise",
+        "category": "System Tools",
+        "tiers": [
+            "DevOps",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 2,
+        "expertise": 6,
+        "url": "https://www.virtualbox.org"
+    },
+    {
+        "_id": "736056d8-e705-542e-8534-7d030a91064c",
+        "sname": "mysql",
+        "name": "MySQL",
+        "description": "MySQL is the world's most popular open source database",
+        "category": "Data",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 8,
+        "expertise": 8,
+        "url": "https://www.mysql.com",
+        "blurb": "I've built dozens of applications using MySQL ranging from hand-written SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
+    },
+    {
+        "_id": "b139fbb9-e49a-5622-8604-2c84545d311c",
+        "sname": "orm",
+        "name": "Object Relational Mapping",
+        "description": "A programming technique for converting data between incompatible type systems using object-oriented programming languages.",
+        "category": "Design Patterns",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 4,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping",
+        "blurb": "I've built dozens of applications using MySQL ranging from hand-written SQL statements through complex system refactors including multiple tables and using various database abstraction tools like Doctrine and Gii"
+    },
+    {
+        "_id": "d3c55aaa-33cc-53fc-ac65-fb58e8168ac7",
+        "sname": "memcache",
+        "name": "Memcache",
+        "description": "memcached is a high-performance, distributed memory object caching system, generic in nature, but originally intended for use in speeding up dynamic web applications by alleviating database load",
+        "category": "Data",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 2,
+        "expertise": 8,
+        "url": "https://memcached.org",
+        "blurb": "It's Web Scale!"
+    },
+    {
+        "_id": "6baed952-a35d-5fba-91e5-541b025d439e",
+        "sname": "redis",
+        "name": "Redis",
+        "description": "Redis is an in-memory data structure store, used as a database, cache, and message broker",
+        "category": "Data",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 2,
+        "expertise": 8,
+        "url": "https://redis.io",
+        "blurb": "It's Web Scale!"
+    },
+    {
+        "_id": "f1090fec-092f-5231-9ddc-861a8c1d8d64",
+        "sname": "mongo",
+        "name": "MongoDB",
+        "description": "MongoDB is a general purpose, document-based, distributed database built for modern application developers and for the cloud era",
+        "category": "Data",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 5,
+        "expertise": 8,
+        "url": "https://www.mongodb.com",
+        "blurb": "I've used on several projects."
+    },
+    {
+        "_id": "e5519976-8388-52d2-9bec-6569284eb474",
+        "sname": "xml",
+        "name": "XML",
+        "description": "XML is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable.",
+        "category": "Data",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 3,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/XML",
+        "blurb": "I've used on multiple projects."
+    },
+    {
+        "_id": "e70b80d9-3d04-5121-adeb-b32e57b17f1d",
+        "sname": "rest",
+        "name": "REST",
+        "description": "REST is a de-facto standard for a software architecture for interactive applications that typically use multiple Web services.",
+        "category": "Data",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 4,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Representational_state_transfer"
+    },
+    {
+        "_id": "a174c5f5-336d-55b9-8694-232a60bc24d5",
+        "sname": "postgres",
+        "name": "PostgreSQL",
+        "description": "PostgreSQL is a powerful, open source object-relational database system with a strong reputation for reliability, feature robustness, and performance",
+        "category": "Data",
+        "tiers": [
+            "Data",
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 4,
+        "expertise": 6,
+        "url": "https://www.postgresql.org"
+    },
+    {
+        "_id": "8e167600-b448-5d98-ac3e-537eb3fd678f",
+        "sname": "mssql",
+        "name": "Microsoft SQL Server",
+        "description": "A relational database management system developed by Microsoft.",
+        "category": "Data",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 3,
+        "expertise": 7,
+        "url": "https://www.microsoft.com/en-us/sql-server/default.aspx"
+    },
+    {
+        "_id": "55ba7ffb-d11c-5215-86e0-1610fd4f8fd8",
+        "sname": "node",
+        "name": "node",
+        "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine",
+        "category": "Servers",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 5,
+        "expertise": 5,
+        "url": "https://nodejs.org"
+    },
+    {
+        "_id": "10aad1fa-5fb3-5a3b-8fd9-c50a7477325a",
+        "sname": "httpd",
+        "name": "Apache HTTPD",
+        "description": "The Apache HTTP Server Project is an effort to develop and maintain an open-source HTTP server for modern operating systems",
+        "category": "Servers",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 6,
+        "expertise": 7,
+        "url": "https://httpd.apache.org"
+    },
+    {
+        "_id": "0548af61-d94a-5c31-94ee-46cf30593b5b",
+        "sname": "lighthttpd",
+        "name": "Apache HTTPD",
+        "description": "lighttpd (pronounced /lighty/) is a secure, fast, compliant, and very flexible web server that has been optimized for high-performance environments. lighttpd uses memory and CPU efficiently and has lower resource use than other popular web servers. Its advanced feature-set (FastCGI, CGI, Auth, Output-Compression, URL-Rewriting and much more) make lighttpd the perfect web server for all systems, small and large.",
+        "category": "Servers",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 2,
+        "expertise": 3,
+        "url": "https://www.lighttpd.net"
+    },
+    {
+        "_id": "a694109a-77f9-58c1-b296-ba7cf3fdf512",
+        "sname": "nginx",
+        "name": "nginx",
+        "description": "NGINX is a web server which can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache",
+        "category": "Servers",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 5,
+        "expertise": 4,
+        "url": "https://www.nginx.com"
+    },
+    {
+        "_id": "d47bc1d3-5278-5f70-81b5-55773b69a3c5",
+        "sname": "s3",
+        "name": "S3",
+        "description": "Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance",
+        "category": "Cloud Technologies",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 3,
+        "expertise": 4,
+        "url": "https://aws.amazon.com/s3"
+    },
+    {
+        "_id": "ad70661f-2fc1-5d87-a3ac-fcbef12a9dbb",
+        "sname": "gcloud",
+        "name": "Google Cloud",
+        "description": "Google Cloud Platform is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user product",
+        "category": "Cloud Technologies",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 3,
+        "expertise": 3,
+        "url": "https://cloud.google.com"
+    },
+    {
+        "_id": "800d5c14-5255-533e-b180-4eebe52d7661",
+        "sname": "cloudfront",
+        "name": "CloudFront",
+        "description": "Amazon CloudFront is a fast content delivery network service that securely delivers data, videos, applications, and APIs to customers globally with low latency, high transfer speeds, all within a developer-friendly environment",
+        "category": "Cloud Technologies",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 3,
+        "expertise": 3,
+        "url": "https://aws.amazon.com/cloudfront"
+    },
+    {
+        "_id": "214f984a-0d6a-5f6a-83b5-f99cca703c89",
+        "sname": "php",
+        "name": "PHP",
+        "description": "PHP is a popular general-purpose scripting language that is especially suited to web development",
+        "category": "Programming Languages",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 10,
+        "expertise": 9,
+        "url": "https://www.php.net"
+    },
+    {
+        "_id": "d4f4cc55-cefc-5812-bbb3-29f38d950bd7",
+        "sname": "jquery",
+        "name": "jQuery",
+        "description": "jQuery is a fast, small, and feature-rich JavaScript library",
+        "category": "Libraries",
+        "tiers": [
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 7,
+        "expertise": 8,
+        "url": "https://jquery.com"
+    },
+    {
+        "_id": "ba98c491-50ea-5f5b-8b5c-fb13abc905b1",
+        "sname": "angulario",
+        "name": "Angular IO",
+        "description": "Angular IO. The modern web developer's platform",
+        "category": "Libraries",
+        "tiers": [
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 4,
+        "expertise": 6,
+        "url": "https://angular.dev"
+    },
+    {
+        "_id": "a367ff2f-a22a-5686-b6e8-668946b9741c",
+        "sname": "jira",
+        "name": "Jira",
+        "description": "Jira Software is the project management tool for agile teams",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 6,
+        "expertise": 7,
+        "url": "https://www.atlassian.com/software/jira",
+        "category": "Project Management"
+    },
+    {
+        "_id": "a7ef3580-44f4-5089-a81d-43de9c4d821e",
+        "sname": "zoom",
+        "name": "Zoom",
+        "category": "Remote Working Tools",
+        "description": "Zoom is a videotelephony software program",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 6,
+        "expertise": 5,
+        "url": "https://zoom.us"
+    },
+    {
+        "_id": "60f51514-23f7-5b91-a450-9e19bebdc93e",
+        "sname": "bitvise",
+        "name": "Bitvise",
+        "category": "System Tools",
+        "description": "SSH Client",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting"
+        ],
+        "relevance": 6,
+        "expertise": 5,
+        "url": "https://www.bitvise.com"
+    },
+    {
+        "_id": "61350d98-c67c-58ef-9f03-3a4091d64143",
+        "sname": "slack",
+        "name": "Slack",
+        "description": "Slack is a proprietary business communication platform",
+        "category": "Remote Working Tools",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 5,
+        "expertise": 6,
+        "url": "https://slack.com"
+    },
+    {
+        "_id": "5576be02-6a79-50a8-9700-7d933a0f536b",
+        "sname": "javascript",
+        "name": "JavaScript",
+        "description": "JavaScript is a lightweight interpreted or JIT-compiled programming language with first-class functions",
+        "category": "Programming Languages",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 10,
+        "expertise": 9,
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+        "_id": "c208bcdf-43b3-5c36-8e24-3d4eeada3d19",
+        "sname": "html",
+        "name": "HTML",
+        "description": "HTML is the World Wide Web's core markup language",
+        "category": "Programming Languages",
+        "tiers": [
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 10,
+        "expertise": 9,
+        "url": "https://www.w3.org/html"
+    },
+    {
+        "_id": "476e39da-c8e8-5abf-8a08-bce2261bbf59",
+        "sname": "css",
+        "name": "CSS",
+        "category": "Programming Languages",
+        "description": "CSS is a language for describing the rendering of structured documents on screen, on paper, etc",
+        "tiers": [
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 9,
+        "expertise": 7,
+        "url": "https://www.w3.org/TR/CSS"
+    },
+    {
+        "_id": "ead6404a-eac0-5e3c-a2c1-6ce84ab34502",
+        "sname": "a11y",
+        "name": "Accessibility",
+        "category": "Methodologies",
+        "description": "When websites and web tools are properly designed and coded, people with disabilities can use them. However, currently many sites and tools are developed with accessibility barriers that make them difficult or impossible for some people to use.",
+        "tiers": [
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 7,
+        "expertise": 6,
+        "url": "https://www.w3.org/WAI"
+    },
+    {
+        "_id": "4d06c0f0-736d-543a-9f76-d614d243fb4e",
+        "sname": "responsive",
+        "name": "Responsive Design",
+        "category": "Methodologies",
+        "description": "Responsive design is the practice of designing a website so it looks and works properly on a range of different devices — particularly mobile phones and tablets as well as desktops and laptops.",
+        "tiers": [
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 7,
+        "expertise": 6,
+        "url": "https://developer.mozilla.org/en-US/docs/Tools/Responsive_Design_Mode"
+    },
+    {
+        "_id": "8f2f5582-611e-5d93-a21c-78651b99425b",
+        "sname": "bash",
+        "name": "Bourne Again SHell",
+        "description": "Bash is an sh-compatible shell that offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification",
+        "category": "Programming Languages",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 6,
+        "expertise": 8,
+        "url": "https://www.gnu.org/software/bash"
+    },
+    {
+        "_id": "bd07c9a6-5c46-5775-b97f-4a2ed46751d3",
+        "sname": "vue",
+        "name": "Vue.js",
+        "description": "Vue is a progressive framework for building user interfaces; Vue is designed from the ground up to be incrementally adoptable. ",
+        "category": "Libraries",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 1,
+        "expertise": 3,
+        "url": "https://vuejs.org"
+    },
+    {
+        "_id": "0d5904d6-d5e5-51f9-ab1e-7a452cc688fc",
+        "sname": "react",
+        "name": "React",
+        "description": "A JavaScript library for building user interfaces",
+        "category": "Libraries",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 7,
+        "expertise": 5,
+        "url": "https://reactjs.org"
+    },
+    {
+        "_id": "9c7fb28b-3678-5edd-a6ae-67058aacabe8",
+        "sname": "mvc",
+        "name": "MVC",
+        "description": "Model–View–Controller is an architectural pattern commonly used for developing user interfaces that divides an application into three interconnected parts",
+        "category": "Design Patterns",
+        "tiers": [
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 6,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"
+    },
+    {
+        "_id": "95744d4e-e276-54e9-a4c7-129754a35513",
+        "sname": "asyncawait",
+        "name": "async/await",
+        "description": "The async function declaration defines an asynchronous function, which returns an AsyncFunction object. An asynchronous function is a function which operates asynchronously via the event loop, using an implicit Promise to return its result. But the syntax and structure of your code using async functions is much more like using standard synchronous functions.",
+        "category": "Design Patterns",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 5,
+        "expertise": 4,
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+    },
+    {
+        "_id": "b41c55cd-8841-53f4-b82f-1748dde43620",
+        "sname": "zf2",
+        "name": "Zend Framework 2",
+        "description": "Zend Framework is a collection of professional PHP packages; It can be used to develop web applications and services using PHP 5.6+, and provides object-oriented code using a broad spectrum of language features",
+        "category": "Frameworks",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 4,
+        "expertise": 8,
+        "url": "https://framework.zend.com"
+    },
+    {
+        "_id": "c78816b5-a7e6-5e97-9dbe-d15a7ae6c51f",
+        "sname": "yii2",
+        "name": "Yii 2",
+        "description": "Yii is a fast, secure, and efficient PHP framework",
+        "category": "Frameworks",
+        "tiers": [
+            "Administrator",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 3,
+        "expertise": 6,
+        "url": "https://www.yiiframework.com"
+    },
+    {
+        "_id": "ceda4f74-7535-5780-a219-72b776f1060b",
+        "sname": "codeigniter",
+        "name": "CodeIgniter",
+        "description": "CodeIgniter is a PHP framework with a small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications",
+        "category": "Frameworks",
+        "tiers": [
+            "Administrator",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 3,
+        "expertise": 6,
+        "url": "https://www.codeigniter.com"
+    },
+    {
+        "_id": "ab228811-6d27-5c80-8bc6-32624d30a3ff",
+        "sname": "symfony",
+        "name": "Symfony",
+        "description": "Symfony is a set of reusable PHP components and a PHP framework to build web applications, APIs, microservices and web services.",
+        "category": "Frameworks",
+        "tiers": [
+            "Administrator",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 4,
+        "expertise": 5,
+        "url": "https://symfony.com"
+    },
+    {
+        "_id": "4ba748ae-bdb9-5c0e-a54f-e0673642a3c5",
+        "sname": "kohana",
+        "name": "Kohana",
+        "description": "Deprecated PHP Framework",
+        "category": "Frameworks",
+        "tiers": [
+            "Administrator",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 2,
+        "expertise": 6,
+        "url": "https://kohanaframework.org"
+    },
+    {
+        "_id": "c82fb3ac-6b5f-5c3a-8400-29c0d961dd71",
+        "sname": "phpstorm",
+        "name": "PHPStorm",
+        "description": "A perfect IDE for working with Symfony, Laravel, Laminas, CakePHP, Yii, and other frameworks.",
+        "category": "Development Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 5,
+        "expertise": 8,
+        "url": "https://www.jetbrains.com/phpstorm"
+    },
+    {
+        "_id": "8de1abe1-eebb-57ee-a718-146630a2904e",
+        "sname": "vscode",
+        "name": "Visual Studio Code",
+        "description": "A code editor redefined and optimized for building and debugging modern web and cloud application.",
+        "category": "Development Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 4,
+        "expertise": 7,
+        "url": "https://code.visualstudio.com"
+    },
+    {
+        "_id": "66320774-878c-50c9-a2c1-160bd5ed58e8",
+        "sname": "git",
+        "name": "git",
+        "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency",
+        "category": "Development Tools",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 6,
+        "expertise": 8,
+        "url": "https://git-scm.com"
+    },
+    {
+        "_id": "5c8b020d-c50a-5db0-82a2-82a58ebfb406",
+        "sname": "eclipse",
+        "name": "Eclipse IDE",
+        "description": "An IDE of some note.",
+        "category": "Development Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 0,
+        "expertise": 8,
+        "url": "https://www.eclipse.org"
+    },
+    {
+        "_id": "ebf53d06-23bf-5c60-82d7-1972cdff3333",
+        "sname": "xdebug",
+        "name": "Xdebug",
+        "description": "Xdebug is an extension for PHP to assist with debugging and development",
+        "category": "Development Tools",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 3,
+        "expertise": 7,
+        "url": "https://xdebug.org"
+    },
+    {
+        "_id": "dbbdd36f-3732-5520-b7fc-94a2604b486a",
+        "sname": "cdt",
+        "name": "Chrome Developer Tools",
+        "description": "we're getting somewhere",
+        "category": "Development Tools",
+        "tiers": [
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Team Lead"
+        ],
+        "relevance": 2,
+        "expertise": 6,
+        "url": "https://developers.google.com/web/tools/chrome-devtools"
+    },
+    {
+        "_id": "d5258419-76ee-537b-9766-aa1eab5812a3",
+        "sname": "fde",
+        "name": "Firefox Developer Edition",
+        "description": "A version of Firefox that's tailored for web developerse",
+        "category": "Development Tools",
+        "tiers": [
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 1,
+        "expertise": 3,
+        "url": "https://www.mozilla.org/en-US/firefox/developer"
+    },
+    {
+        "_id": "1452badb-91d9-5764-b534-eeffcd915a52",
+        "sname": "jmeter",
+        "name": "JMeter",
+        "description": "The Apache JMeter™ application is open source software, a 100% pure Java application designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.",
+        "category": "Performance Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 1,
+        "expertise": 4,
+        "url": "https://jmeter.apache.org"
+    },
+    {
+        "_id": "18745072-2b39-56c9-8a6f-3180566e6efe",
+        "sname": "siege",
+        "name": "Siege",
+        "description": "Siege is an open source regression test and benchmark utility. It can stress test a single URL with a user defined number of simulated users, or it can read many URLs into memory and stress them simultaneously.",
+        "category": "Performance Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 1,
+        "expertise": 4,
+        "url": "https://github.com/JoeDog/siege"
+    },
+    {
+        "_id": "469024a6-90b8-5d29-afbe-861f78f14d82",
+        "sname": "sentry",
+        "name": "Sentry.io",
+        "description": "Sentry is an open-source error tracking tool that helps you monitor and fix crashes in real time",
+        "category": "Performance Tools",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 1,
+        "expertise": 3,
+        "url": "https://sentry.io"
+    },
+    {
+        "_id": "a39e81ab-e75b-500d-9ed2-d1fe8b7af520",
+        "sname": "newrelic",
+        "name": "New Relic",
+        "description": "Monitoring tool",
+        "category": "Performance Tools",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 1,
+        "expertise": 4,
+        "url": "https://newrelic.com"
+    },
+    {
+        "_id": "d787c8ee-821a-5984-b36b-5bec314545a7",
+        "sname": "bamboo",
+        "name": "Bamboo",
+        "description": "Bamboo is a tool for continuous integration, deployment, and delivery",
+        "category": "Deployment Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 1,
+        "expertise": 4,
+        "url": "https://www.atlassian.com/software/bamboo"
+    },
+    {
+        "_id": "085d19e8-f370-59ee-a294-fb2c58ac5878",
+        "sname": "codeship",
+        "name": "CodeShip",
+        "description": "Deployment tool",
+        "category": "Deployment Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 2,
+        "expertise": 5,
+        "url": "https://codeship.com"
+    },
+    {
+        "_id": "63f077f3-63a8-5758-89fa-90b021f36cb8",
+        "sname": "composer",
+        "name": "Composer",
+        "description": "Composer is a tool for dependency management in PHP",
+        "category": "Development Tools",
+        "tiers": [
+            "Administrator",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 4,
+        "expertise": 7,
+        "url": "https://getcomposer.org"
+    },
+    {
+        "_id": "c66c57f0-d7ba-5be5-b3e1-d9ccb6338033",
+        "sname": "npm",
+        "name": "npm",
+        "description": "Deployment tool",
+        "category": "Deployment Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 4,
+        "expertise": 4,
+        "url": "https://npmjs.com"
+    },
+    {
+        "_id": "ccf6afd4-e93e-5ea3-af5a-f98bdcc6ec32",
+        "sname": "nvm",
+        "name": "nvm",
+        "description": "node versioning tool",
+        "category": "System Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 3,
+        "expertise": 3,
+        "url": "https://github.com/nvm-sh/nvm/blob/master/README.md"
+    },
+    {
+        "_id": "ed1cb385-c7d3-5a37-9382-ac97f23e0271",
+        "sname": "typescript",
+        "name": "TypeScript",
+        "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript",
+        "category": "Development Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 1,
+        "expertise": 2,
+        "url": "https://www.typescriptlang.org"
+    },
+    {
+        "_id": "58062854-aa26-5c28-bdfa-e6ee2c9f3432",
+        "sname": "coffeescript",
+        "name": "CoffeeScript",
+        "description": "CoffeeScript is a little language that compiles into JavaScript",
+        "category": "Development Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 0,
+        "expertise": 0,
+        "url": "https://coffeescript.org"
+    },
+    {
+        "_id": "e8b8ce23-f47e-554e-b058-e3955c9f917e",
+        "sname": "varnish",
+        "name": "Varnish",
+        "description": "Varnish is an HTTP accelerator designed for content-heavy dynamic web sites as well as APIs",
+        "category": "Performance Tools",
+        "tiers": [
+            "Administrator",
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting"
+        ],
+        "relevance": 3,
+        "expertise": 2,
+        "url": "https://varnish-cache.org"
+    },
+    {
+        "_id": "87b7e6ec-7448-5f90-95db-ddf3c4ab52ba",
+        "sname": "babel",
+        "name": "Babel",
+        "description": "JavaScript Transpiler",
+        "category": "Development Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 2,
+        "expertise": 1,
+        "url": "https://babeljs.io"
+    },
+    {
+        "_id": "dd897237-9269-594f-9dac-67f901cb9304",
+        "sname": "training",
+        "name": "Training",
+        "description": "Train others to use tools or methods I know",
+        "category": "Development Tools",
+        "tiers": [
+            "Software Engineer",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 8,
+        "expertise": 4,
+        "url": "https://danieljpost.consulting"
+    },
+    {
+        "_id": "4feb9835-f10a-51cb-8f14-1a7a7cfadfb5",
+        "sname": "remote",
+        "name": "Remote Work",
+        "description": "Working from home so I can care for my loved ones",
+        "category": "Remote Working Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 8,
+        "expertise": 4,
+        "url": "https://danieljpost.consulting"
+    },
+    {
+        "_id": "42c002f1-f27d-5297-ae6a-581adf6b0f20",
+        "sname": "rust",
+        "name": "Rust",
+        "description": "A systems programming language focused on safety, speed, and concurrency, with memory safety guaranteed at compile time without a garbage collector",
+        "category": "Programming Languages",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 10,
+        "expertise": 9,
+        "url": "https://www.rust-lang.org"
+    },
+    {
+        "_id": "dec5b8f1-3467-5cb3-9a8d-5c48c98f6b4e",
+        "sname": "python",
+        "name": "Python",
+        "description": "A high-level general-purpose programming language widely used for scripting, data processing, and automation",
+        "category": "Programming Languages",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Data"
+        ],
+        "relevance": 10,
+        "expertise": 7,
+        "url": "https://www.python.org"
+    },
+    {
+        "_id": "38c88cfa-ef3f-5323-9960-b9dc7c1f3334",
+        "sname": "webassembly",
+        "name": "WebAssembly",
+        "description": "A binary instruction format for a stack-based virtual machine, designed as a portable compilation target for programming languages",
+        "category": "Programming Languages",
+        "tiers": [
+            "Back End",
+            "Front End",
+            "Software Engineer"
+        ],
+        "relevance": 5,
+        "expertise": 4,
+        "url": "https://webassembly.org"
+    },
+    {
+        "_id": "928f9ec6-feee-5ed4-8db9-26f4c2f9265d",
+        "sname": "sql",
+        "name": "SQL",
+        "description": "The standard query language for relational databases, used to define, manipulate, and retrieve structured data",
+        "category": "Data",
+        "tiers": [
+            "Data",
+            "Back End",
+            "Software Engineer"
+        ],
+        "relevance": 7,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/SQL"
+    },
+    {
+        "_id": "a8567a2c-fe82-5e17-a182-eac027229a18",
+        "sname": "sqlite",
+        "name": "SQLite",
+        "description": "A small, fast, self-contained, high-reliability, full-featured SQL database engine embedded directly into the application",
+        "category": "Data",
+        "tiers": [
+            "Data",
+            "Back End",
+            "Software Engineer"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://www.sqlite.org"
+    },
+    {
+        "_id": "fe3c3bef-0633-5f00-b308-97b428051642",
+        "sname": "data modeling",
+        "name": "Data Modeling",
+        "description": "The practice of defining the structure, relationships, and constraints of data so that it accurately represents the domain it describes",
+        "category": "Data",
+        "tiers": [
+            "Data",
+            "Back End",
+            "Software Engineer",
+            "Consulting"
+        ],
+        "relevance": 8,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Data_model"
+    },
+    {
+        "_id": "038edfcc-de89-5936-831b-9d349ccd4209",
+        "sname": "etl",
+        "name": "ETL",
+        "description": "Extract, Transform, Load; the process of pulling data from source systems, reshaping it, and loading it into a destination store",
+        "category": "Data",
+        "tiers": [
+            "Data",
+            "Back End",
+            "Software Engineer"
+        ],
+        "relevance": 9,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Extract,_transform,_load"
+    },
+    {
+        "_id": "086b111e-aaed-530d-9813-123b4a3da193",
+        "sname": "full-text search",
+        "name": "Full-Text Search",
+        "description": "Techniques for indexing and querying natural-language text so documents can be retrieved by the words they contain rather than by exact key",
+        "category": "Data",
+        "tiers": [
+            "Data",
+            "Back End",
+            "Software Engineer"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Full-text_search"
+    },
+    {
+        "_id": "60759bb0-ed3c-5f28-8e0f-8a3e9d0618da",
+        "sname": "embeddings",
+        "name": "Embeddings",
+        "description": "Dense vector representations of text or other content that place semantically similar items near one another in a high-dimensional space",
+        "category": "AI",
+        "tiers": [
+            "Data",
+            "Back End",
+            "Software Engineer"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Word_embedding"
+    },
+    {
+        "_id": "d62dd781-ea90-56a2-adf4-06da2cd1165d",
+        "sname": "vector search",
+        "name": "Vector Search",
+        "description": "Retrieval of records by nearest-neighbour similarity over embedding vectors rather than by exact or keyword match",
+        "category": "AI",
+        "tiers": [
+            "Data",
+            "Back End",
+            "Software Engineer"
+        ],
+        "relevance": 6,
+        "expertise": 6,
+        "url": "https://en.wikipedia.org/wiki/Nearest_neighbor_search"
+    },
+    {
+        "_id": "1218f710-66bb-5afd-9f24-43d27dc21296",
+        "sname": "websocket",
+        "name": "WebSocket",
+        "description": "A protocol providing full-duplex communication over a single long-lived TCP connection, used for real-time client/server messaging",
+        "category": "Data",
+        "tiers": [
+            "Back End",
+            "Front End",
+            "Software Engineer"
+        ],
+        "relevance": 8,
+        "expertise": 8,
+        "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API"
+    },
+    {
+        "_id": "06167f1c-d66e-590b-bb81-3aba73c21e62",
+        "sname": "oidc",
+        "name": "OpenID Connect",
+        "description": "An identity layer built on top of OAuth 2.0 that lets clients verify a user's identity and obtain basic profile information",
+        "category": "Security",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://openid.net/developers/how-connect-works"
+    },
+    {
+        "_id": "36e819dd-a3e3-55c1-93f7-2634308ebcb5",
+        "sname": "jwt",
+        "name": "JSON Web Tokens",
+        "description": "A compact, URL-safe means of representing claims between two parties, commonly used to carry authentication and authorization state",
+        "category": "Security",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://jwt.io/introduction"
+    },
+    {
+        "_id": "f323108e-f296-5cd8-a09b-3950e1265baf",
+        "sname": "generative ai",
+        "name": "Generative AI",
+        "description": "Systems that produce new text, code, images, or other content from learned statistical models rather than retrieving stored results",
+        "category": "AI",
+        "tiers": [
+            "Software Engineer",
+            "Consulting",
+            "Team Lead",
+            "Back End",
+            "Business"
+        ],
+        "relevance": 9,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence"
+    },
+    {
+        "_id": "f899dfc4-d50a-5505-a3c3-404a7922e6bb",
+        "sname": "large language models",
+        "name": "Large Language Models",
+        "description": "Neural models trained on very large text corpora that generate and transform natural language, and increasingly code",
+        "category": "AI",
+        "tiers": [
+            "Software Engineer",
+            "Consulting",
+            "Team Lead",
+            "Back End",
+            "Business"
+        ],
+        "relevance": 9,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Large_language_model"
+    },
+    {
+        "_id": "db52e19f-0e43-57c3-8b62-3a9411642dd6",
+        "sname": "retrieval augmented generation",
+        "name": "Retrieval Augmented Generation",
+        "description": "An architecture that grounds a language model's output in documents fetched at query time, reducing reliance on parametric memory",
+        "category": "AI",
+        "tiers": [
+            "Software Engineer",
+            "Consulting",
+            "Team Lead",
+            "Back End",
+            "Data"
+        ],
+        "relevance": 9,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+    },
+    {
+        "_id": "7fc6671c-a545-5377-91a1-f5dccb820778",
+        "sname": "prompt engineering",
+        "name": "Prompt Engineering",
+        "description": "The practice of structuring instructions and context so a language model produces reliable, repeatable output",
+        "category": "AI",
+        "tiers": [
+            "Software Engineer",
+            "Consulting",
+            "Team Lead",
+            "Business"
+        ],
+        "relevance": 8,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Prompt_engineering"
+    },
+    {
+        "_id": "6010c95c-2d00-5940-98e3-a2cc729803a6",
+        "sname": "model evaluation",
+        "name": "Model Evaluation",
+        "description": "Systematic measurement of model output quality against defined criteria, so that changes can be shown to improve rather than merely alter results",
+        "category": "AI",
+        "tiers": [
+            "Software Engineer",
+            "Consulting",
+            "Team Lead",
+            "Data"
+        ],
+        "relevance": 9,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Statistical_model_validation"
+    },
+    {
+        "_id": "44d22d40-d868-5cde-ad32-8419c7f8dd19",
+        "sname": "local model inference",
+        "name": "Local Model Inference",
+        "description": "Running language models on self-hosted hardware rather than a third-party API, for cost, latency, or data-custody reasons",
+        "category": "AI",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator"
+        ],
+        "relevance": 8,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Inference_engine"
+    },
+    {
+        "_id": "070c7ff5-d649-5fb3-a002-6d4649b75bf7",
+        "sname": "ollama",
+        "name": "Ollama",
+        "description": "A tool for packaging, serving, and running large language models locally",
+        "category": "AI",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://ollama.com"
+    },
+    {
+        "_id": "4625ce10-b6f2-56ed-9fb2-660a8f9c0a25",
+        "sname": "ai governance",
+        "name": "AI Governance",
+        "description": "The policies and controls determining how AI systems may be used, what data they may touch, and who is accountable for their output",
+        "category": "AI",
+        "tiers": [
+            "Business",
+            "Consulting",
+            "Team Lead",
+            "Administrator"
+        ],
+        "relevance": 8,
+        "expertise": 6,
+        "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_governance"
+    },
+    {
+        "_id": "ece3c027-4390-55fb-8114-4f540dc4057c",
+        "sname": "systems design",
+        "name": "Systems Design",
+        "description": "Defining the architecture, components, interfaces, and data flows of a system to satisfy its functional and operational requirements",
+        "category": "Methodologies",
+        "tiers": [
+            "Software Engineer",
+            "Consulting",
+            "Team Lead",
+            "Back End",
+            "Business"
+        ],
+        "relevance": 10,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Systems_design"
+    },
+    {
+        "_id": "9feb98cc-79f7-57f2-a1da-474f4e2df83c",
+        "sname": "software design patterns",
+        "name": "Software Design Patterns",
+        "description": "General, reusable solutions to commonly occurring problems in software design",
+        "category": "Design Patterns",
+        "tiers": [
+            "Software Engineer",
+            "Consulting",
+            "Team Lead",
+            "Back End",
+            "Front End"
+        ],
+        "relevance": 9,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Software_design_pattern"
+    },
+    {
+        "_id": "b3b9acc7-ccd8-5601-9ea4-311a189bf398",
+        "sname": "technical design documentation",
+        "name": "Technical Design Documentation",
+        "description": "Written specifications that record architectural decisions and their rationale so that other engineers can implement and maintain the system",
+        "category": "Methodologies",
+        "tiers": [
+            "Software Engineer",
+            "Consulting",
+            "Team Lead",
+            "Business"
+        ],
+        "relevance": 9,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Software_design_description"
+    },
+    {
+        "_id": "4d681780-a13e-5e16-9275-65271afa9808",
+        "sname": "root cause analysis",
+        "name": "Root Cause Analysis",
+        "description": "A structured approach to identifying the underlying cause of a fault rather than its symptoms, so the fix prevents recurrence",
+        "category": "Methodologies",
+        "tiers": [
+            "Software Engineer",
+            "Consulting",
+            "Team Lead",
+            "Administrator",
+            "DevOps"
+        ],
+        "relevance": 8,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Root_cause_analysis"
+    },
+    {
+        "_id": "3cdf4a06-2c4f-5ef3-aee3-2207dd7b4b82",
+        "sname": "microservices",
+        "name": "Microservices",
+        "description": "An architectural style structuring an application as a collection of independently deployable services communicating over a network",
+        "category": "Design Patterns",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 8,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Microservices"
+    },
+    {
+        "_id": "42c4cad6-eccb-5043-b0e9-89379348e6da",
+        "sname": "actix-web",
+        "name": "actix-web",
+        "description": "A powerful, pragmatic, and extremely fast web framework for Rust",
+        "category": "Frameworks",
+        "tiers": [
+            "Back End",
+            "Software Engineer",
+            "DevOps"
+        ],
+        "relevance": 8,
+        "expertise": 8,
+        "url": "https://actix.rs"
+    },
+    {
+        "_id": "67464378-006c-507c-9b9f-1f541a1307b2",
+        "sname": "kubernetes",
+        "name": "Kubernetes",
+        "description": "An open-source system for automating deployment, scaling, and management of containerized applications",
+        "category": "Cloud Technologies",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator"
+        ],
+        "relevance": 7,
+        "expertise": 5,
+        "url": "https://kubernetes.io"
+    },
+    {
+        "_id": "05c4d448-05bc-5e58-9a85-8ac696e45b5e",
+        "sname": "argocd",
+        "name": "Argo CD",
+        "description": "A declarative, GitOps continuous delivery tool for Kubernetes",
+        "category": "Deployment Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator"
+        ],
+        "relevance": 6,
+        "expertise": 5,
+        "url": "https://argo-cd.readthedocs.io"
+    },
+    {
+        "_id": "7fadc273-8465-5052-b7e1-1397108d9d04",
+        "sname": "gitops",
+        "name": "GitOps",
+        "description": "An operational model in which the desired state of infrastructure is declared in version control and reconciled automatically",
+        "category": "Methodologies",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator"
+        ],
+        "relevance": 6,
+        "expertise": 6,
+        "url": "https://en.wikipedia.org/wiki/DevOps"
+    },
+    {
+        "_id": "cf9a5ea5-c80b-5835-9838-764688a07478",
+        "sname": "ci/cd",
+        "name": "CI/CD",
+        "description": "Continuous Integration and Continuous Delivery; automated building, testing, and release of software on every change",
+        "category": "Methodologies",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Team Lead"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/CI/CD"
+    },
+    {
+        "_id": "2bbb47dd-01b5-562e-9a01-714f4ff9280c",
+        "sname": "load testing",
+        "name": "Load Testing",
+        "description": "Measuring how a system behaves under expected and peak demand, to find limits before users do",
+        "category": "Performance Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator"
+        ],
+        "relevance": 7,
+        "expertise": 6,
+        "url": "https://en.wikipedia.org/wiki/Load_testing"
+    },
+    {
+        "_id": "bf9343f7-fe29-51df-a656-5a6e737d6f62",
+        "sname": "supply chain security",
+        "name": "Supply Chain Security",
+        "description": "Controls over the provenance and integrity of third-party dependencies and build artifacts consumed by a project",
+        "category": "Security",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator",
+            "Consulting"
+        ],
+        "relevance": 7,
+        "expertise": 6,
+        "url": "https://en.wikipedia.org/wiki/Supply_chain_attack"
+    },
+    {
+        "_id": "1ea359d1-ff56-5225-a45d-4d55f13cd456",
+        "sname": "cakephp",
+        "name": "CakePHP",
+        "description": "A rapid development framework for PHP providing an extensible architecture for building, maintaining, and deploying applications",
+        "category": "Frameworks",
+        "tiers": [
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting"
+        ],
+        "relevance": 10,
+        "expertise": 7,
+        "url": "https://cakephp.org"
+    },
+    {
+        "_id": "4b3fc89b-f399-5c3a-879b-504449d0dc20",
+        "sname": "drupal",
+        "name": "Drupal",
+        "description": "An open-source content management framework written in PHP, used for everything from personal blogs to enterprise sites",
+        "category": "Frameworks",
+        "tiers": [
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting"
+        ],
+        "relevance": 8,
+        "expertise": 5,
+        "url": "https://www.drupal.org"
+    },
+    {
+        "_id": "ffd626fa-4a19-5dce-b824-ca241fdb04c8",
+        "sname": "wordpress",
+        "name": "WordPress",
+        "description": "An open-source content management system written in PHP, powering a large share of the public web",
+        "category": "Frameworks",
+        "tiers": [
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting"
+        ],
+        "relevance": 10,
+        "expertise": 6,
+        "url": "https://wordpress.org"
+    },
+    {
+        "_id": "60085182-5837-5493-a8e1-f34859a92c72",
+        "sname": "twig",
+        "name": "Twig",
+        "description": "A flexible, fast, and secure template engine for PHP, and the default templating layer for Symfony",
+        "category": "Libraries",
+        "tiers": [
+            "Back End",
+            "Front End",
+            "Software Engineer",
+            "Business",
+            "Consulting"
+        ],
+        "relevance": 8,
+        "expertise": 6,
+        "url": "https://twig.symfony.com"
+    },
+    {
+        "_id": "959e394a-71b2-5b0c-962f-d7331969a199",
+        "sname": "angularjs",
+        "name": "AngularJS",
+        "description": "The original 1.x AngularJS framework for building dynamic single-page web applications; superseded by Angular",
+        "category": "Libraries",
+        "tiers": [
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 10,
+        "expertise": 7,
+        "url": "https://angularjs.org"
+    },
+    {
+        "_id": "26fbaccc-08bd-55da-89af-5b532e916b2a",
+        "sname": "bootstrap",
+        "name": "Bootstrap",
+        "description": "A front-end toolkit of prebuilt CSS and JavaScript components for building responsive, mobile-first sites",
+        "category": "Libraries",
+        "tiers": [
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 9,
+        "expertise": 6,
+        "url": "https://getbootstrap.com"
+    },
+    {
+        "_id": "3551bbe7-b301-5069-8fbb-68a96f36780c",
+        "sname": "gulp",
+        "name": "gulp.js",
+        "description": "A JavaScript-based toolkit for automating repetitive build tasks such as compilation, minification, and asset pipelines",
+        "category": "System Tools",
+        "tiers": [
+            "DevOps",
+            "Front End",
+            "Back End",
+            "Software Engineer"
+        ],
+        "relevance": 5,
+        "expertise": 4,
+        "url": "https://gulpjs.com"
+    },
+    {
+        "_id": "cf9f8ce5-0d3b-5daa-bcd6-9f19ef5c4085",
+        "sname": "api",
+        "name": "API Development",
+        "description": "Designing and building application programming interfaces so that systems can exchange data over well-defined contracts",
+        "category": "Data",
+        "tiers": [
+            "Back End",
+            "Software Engineer",
+            "DevOps",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 10,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/API"
+    },
+    {
+        "_id": "1b3bd60d-06f3-5e16-9250-54fbe0ce8be9",
+        "sname": "oauth",
+        "name": "OAuth 2.0",
+        "description": "An authorization framework letting an application obtain limited access to a user's account on another service without handling their credentials",
+        "category": "Security",
+        "tiers": [
+            "Back End",
+            "Software Engineer",
+            "DevOps",
+            "Administrator"
+        ],
+        "relevance": 4,
+        "expertise": 6,
+        "url": "https://oauth.net/2/"
+    },
+    {
+        "_id": "d312406e-90fc-5af1-ad8e-38d35e1d2529",
+        "sname": "i18n",
+        "name": "Internationalization",
+        "description": "Designing software so it can be adapted to different languages, regions, and locales without engineering changes to the codebase",
+        "category": "Methodologies",
+        "tiers": [
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Back End",
+            "Consulting"
+        ],
+        "relevance": 8,
+        "expertise": 6,
+        "url": "https://www.w3.org/International/questions/qa-i18n"
+    },
+    {
+        "_id": "7a2310a0-898b-591a-90ab-1d990412b488",
+        "sname": "wireframes",
+        "name": "Wireframing",
+        "description": "Producing low-fidelity structural layouts that establish content hierarchy and behaviour before visual design begins",
+        "category": "Methodologies",
+        "tiers": [
+            "Front End",
+            "User Experience",
+            "User Interface",
+            "Consulting"
+        ],
+        "relevance": 10,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Website_wireframe"
+    },
+    {
+        "_id": "cfdd3af5-f29c-5720-bd9e-06f6ed64034b",
+        "sname": "griddesign",
+        "name": "Grid Design",
+        "description": "Laying out interfaces on a modular grid so that spacing, alignment, and proportion stay consistent across breakpoints",
+        "category": "Methodologies",
+        "tiers": [
+            "Front End",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 8,
+        "expertise": 6,
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout"
+    },
+    {
+        "_id": "edd6cc4d-fe56-5d27-847a-34cd22b9c0d7",
+        "sname": "ui",
+        "name": "User Interface Design",
+        "description": "Designing the controls, layout, and visual language through which a user operates a system",
+        "category": "Methodologies",
+        "tiers": [
+            "Front End",
+            "User Experience",
+            "User Interface",
+            "Consulting"
+        ],
+        "relevance": 8,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/User_interface_design"
+    },
+    {
+        "_id": "3df049a4-1b8b-5eec-af2f-2d088796bb27",
+        "sname": "basecamp",
+        "name": "Basecamp",
+        "description": "A web-based project management and team collaboration tool organizing work into projects, message boards, and to-do lists",
+        "category": "Project Management",
+        "tiers": [
+            "Business",
+            "Consulting",
+            "Team Lead"
+        ],
+        "relevance": 3,
+        "expertise": 4,
+        "url": "https://basecamp.com"
+    },
+    {
+        "_id": "a54dfe37-41fc-57ff-80b1-124471de2002",
+        "sname": "freshbooks",
+        "name": "FreshBooks",
+        "description": "A cloud accounting and invoicing service used by small businesses to track time, bill clients, and manage expenses",
+        "category": "Project Management",
+        "tiers": [
+            "Business",
+            "Consulting"
+        ],
+        "relevance": 2,
+        "expertise": 4,
+        "url": "https://www.freshbooks.com"
+    },
+    {
+        "_id": "7d7e7b10-7b51-5004-9636-dd12cb53b1df",
+        "sname": "beanstalk",
+        "name": "Beanstalk",
+        "description": "A hosted version control and deployment service providing repository hosting with built-in deployment to servers",
+        "category": "Deployment Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer"
+        ],
+        "relevance": 3,
+        "expertise": 5,
+        "url": "https://beanstalkapp.com"
+    },
+    {
+        "_id": "69e3e5a8-34da-5637-9378-87762603b16f",
+        "sname": "next.js",
+        "name": "Next.js",
+        "description": "A React framework providing server-side rendering, routing, and build tooling for production web applications",
+        "category": "Frameworks",
+        "tiers": [
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface",
+            "Back End"
+        ],
+        "relevance": 10,
+        "expertise": 8,
+        "url": "https://nextjs.org"
+    },
+    {
+        "_id": "3ccc1716-518c-54b6-9d28-7cb9b63a37dd",
+        "sname": "tailwind-css",
+        "name": "Tailwind CSS",
+        "description": "A utility-first CSS framework for composing designs directly in markup without writing custom stylesheets",
+        "category": "Libraries",
+        "tiers": [
+            "Front End",
+            "Software Engineer",
+            "User Experience",
+            "User Interface"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://tailwindcss.com"
+    },
+    {
+        "_id": "73823e54-f2b1-5660-a186-f018ae65533b",
+        "sname": "drizzle-orm",
+        "name": "Drizzle ORM",
+        "description": "A TypeScript ORM offering type-safe SQL query building and schema migrations",
+        "category": "Libraries",
+        "tiers": [
+            "Back End",
+            "Software Engineer",
+            "Data"
+        ],
+        "relevance": 9,
+        "expertise": 8,
+        "url": "https://orm.drizzle.team"
+    },
+    {
+        "_id": "898126f3-c52a-5147-9636-6149c1949ee0",
+        "sname": "discord-api",
+        "name": "Discord API",
+        "description": "The Discord developer platform used to build bots and deliver automated notifications into team channels",
+        "category": "Libraries",
+        "tiers": [
+            "Back End",
+            "Software Engineer",
+            "DevOps"
+        ],
+        "relevance": 5,
+        "expertise": 6,
+        "url": "https://discord.com/developers/docs"
+    },
+    {
+        "_id": "6f702bfd-bb6e-50a4-8d3e-b83bb91c374c",
+        "sname": "github-actions",
+        "name": "GitHub Actions",
+        "description": "GitHub's built-in automation platform for running build, test, and deployment workflows in response to repository events",
+        "category": "Deployment Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Team Lead"
+        ],
+        "relevance": 10,
+        "expertise": 9,
+        "url": "https://docs.github.com/actions"
+    },
+    {
+        "_id": "67f6427b-d5ea-5481-a153-012d9f622347",
+        "sname": "helm",
+        "name": "Helm",
+        "description": "A package manager for Kubernetes that templates and versions application manifests as installable charts",
+        "category": "Deployment Tools",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator"
+        ],
+        "relevance": 9,
+        "expertise": 8,
+        "url": "https://helm.sh"
+    },
+    {
+        "_id": "c3c7a054-5cb3-56a6-9089-99e64179150c",
+        "sname": "aws",
+        "name": "Amazon Web Services",
+        "description": "Amazon's cloud platform providing compute, storage, networking, and managed services",
+        "category": "Cloud Technologies",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator",
+            "Business"
+        ],
+        "relevance": 9,
+        "expertise": 8,
+        "url": "https://aws.amazon.com"
+    },
+    {
+        "_id": "07d56b1d-77db-5c15-a22f-1bad5ecd2434",
+        "sname": "eks",
+        "name": "Amazon EKS",
+        "description": "AWS Elastic Kubernetes Service, a managed control plane for running Kubernetes clusters",
+        "category": "Cloud Technologies",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator"
+        ],
+        "relevance": 9,
+        "expertise": 8,
+        "url": "https://aws.amazon.com/eks"
+    },
+    {
+        "_id": "ddc53a2f-94e5-5970-b32a-214a38765f4e",
+        "sname": "s3-object-lock",
+        "name": "S3 Object Lock",
+        "description": "An S3 feature enforcing write-once-read-many retention so stored objects cannot be altered or deleted for a defined period",
+        "category": "Cloud Technologies",
+        "tiers": [
+            "DevOps",
+            "Administrator",
+            "Data"
+        ],
+        "relevance": 6,
+        "expertise": 6,
+        "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html"
+    },
+    {
+        "_id": "4c8f1f28-7f19-5481-85f1-0472cdf1ac14",
+        "sname": "trivy",
+        "name": "Trivy",
+        "description": "An open-source vulnerability and misconfiguration scanner for container images, filesystems, and repositories",
+        "category": "Security",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator",
+            "Consulting"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://trivy.dev"
+    },
+    {
+        "_id": "a814e994-6c5c-5091-aed5-83b964c8224f",
+        "sname": "cert-manager",
+        "name": "cert-manager",
+        "description": "A Kubernetes controller that automates issuance and renewal of TLS certificates",
+        "category": "System Tools",
+        "tiers": [
+            "DevOps",
+            "Administrator",
+            "Back End"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://cert-manager.io"
+    },
+    {
+        "_id": "7ec7b29d-56aa-5b0d-955f-e87f52ce6cf9",
+        "sname": "distroless",
+        "name": "Distroless Images",
+        "description": "Container base images containing only the application and its runtime dependencies, reducing attack surface and image size",
+        "category": "Security",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator",
+            "Consulting"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://github.com/GoogleContainerTools/distroless"
+    },
+    {
+        "_id": "3548ae49-c5da-5e4b-8b12-d6715ea2027e",
+        "sname": "rclone",
+        "name": "rclone",
+        "description": "A command-line program for synchronising files and directories across cloud storage providers",
+        "category": "System Tools",
+        "tiers": [
+            "DevOps",
+            "Administrator"
+        ],
+        "relevance": 6,
+        "expertise": 6,
+        "url": "https://rclone.org"
+    },
+    {
+        "_id": "8c536ca8-db8d-5ed5-99f7-4347f6d0dc3a",
+        "sname": "wal-g",
+        "name": "WAL-G",
+        "description": "An archival and restoration tool for PostgreSQL performing continuous write-ahead-log shipping and point-in-time recovery",
+        "category": "Data",
+        "tiers": [
+            "Data",
+            "DevOps",
+            "Administrator",
+            "Back End"
+        ],
+        "relevance": 6,
+        "expertise": 6,
+        "url": "https://github.com/wal-g/wal-g"
+    },
+    {
+        "_id": "ed8dae57-ff9f-5175-b2fc-72fc304cb6f9",
+        "sname": "uuidv7",
+        "name": "UUIDv7",
+        "description": "A time-ordered UUID version whose leading bits encode a timestamp, giving sortable identifiers with better index locality than UUIDv4",
+        "category": "Data",
+        "tiers": [
+            "Data",
+            "Back End",
+            "Software Engineer"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Universally_unique_identifier"
+    },
+    {
+        "_id": "ee598ac9-234d-5cb0-9aae-e59bc0585834",
+        "sname": "rate-limiting",
+        "name": "Rate Limiting",
+        "description": "Constraining how frequently a client may call a service, to protect capacity and blunt abuse",
+        "category": "Design Patterns",
+        "tiers": [
+            "Back End",
+            "Software Engineer",
+            "DevOps",
+            "Administrator"
+        ],
+        "relevance": 6,
+        "expertise": 6,
+        "url": "https://en.wikipedia.org/wiki/Rate_limiting"
+    },
+    {
+        "_id": "cb55ec4d-6c69-5359-968f-c7f396e5b815",
+        "sname": "multi-tenant-architecture",
+        "name": "Multi-Tenant Architecture",
+        "description": "Serving multiple isolated customers from one application instance while keeping their data and configuration separate",
+        "category": "Design Patterns",
+        "tiers": [
+            "Back End",
+            "Software Engineer",
+            "Consulting",
+            "Team Lead",
+            "Business"
+        ],
+        "relevance": 8,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Multitenancy"
+    },
+    {
+        "_id": "5cb076b1-5845-57b2-aa83-a536508a064b",
+        "sname": "branded-types",
+        "name": "Branded Types",
+        "description": "A TypeScript technique attaching a phantom tag to a primitive so structurally identical values cannot be used interchangeably",
+        "category": "Design Patterns",
+        "tiers": [
+            "Back End",
+            "Front End",
+            "Software Engineer"
+        ],
+        "relevance": 5,
+        "expertise": 5,
+        "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+    },
+    {
+        "_id": "5f4b923e-9dcc-5447-bfb9-cba480c3764d",
+        "sname": "blue-green-deployment",
+        "name": "Blue-Green Deployment",
+        "description": "Running two production environments and cutting traffic between them, so releases and rollbacks happen without downtime",
+        "category": "Methodologies",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator",
+            "Team Lead"
+        ],
+        "relevance": 8,
+        "expertise": 8,
+        "url": "https://en.wikipedia.org/wiki/Blue-green_deployment"
+    },
+    {
+        "_id": "7cbbf652-a286-5acc-86f0-336f15341c87",
+        "sname": "semantic-versioning",
+        "name": "Semantic Versioning",
+        "description": "A versioning scheme in which the major, minor, and patch numbers communicate the compatibility impact of a release",
+        "category": "Methodologies",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Team Lead",
+            "Consulting"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://semver.org"
+    },
+    {
+        "_id": "8dcf2b1c-eb3a-5a31-8242-56603f1aea79",
+        "sname": "conventional-commits",
+        "name": "Conventional Commits",
+        "description": "A commit message convention that encodes change type and scope, enabling automated changelogs and version bumps",
+        "category": "Methodologies",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Team Lead"
+        ],
+        "relevance": 6,
+        "expertise": 6,
+        "url": "https://www.conventionalcommits.org"
+    },
+    {
+        "_id": "a33b48ca-fb5c-5c89-8c37-dbe580882b7f",
+        "sname": "hipaa",
+        "name": "HIPAA",
+        "description": "United States legislation setting privacy and security requirements for protected health information",
+        "category": "Regulatory Compliance",
+        "tiers": [
+            "Business",
+            "Consulting",
+            "Team Lead",
+            "Administrator",
+            "Data"
+        ],
+        "relevance": 9,
+        "expertise": 8,
+        "url": "https://www.hhs.gov/hipaa"
+    },
+    {
+        "_id": "156ff3e4-fdd6-50e6-a156-d5add4c884c2",
+        "sname": "gdpr",
+        "name": "GDPR",
+        "description": "European Union regulation governing the collection, processing, and retention of personal data",
+        "category": "Regulatory Compliance",
+        "tiers": [
+            "Business",
+            "Consulting",
+            "Team Lead",
+            "Administrator",
+            "Data"
+        ],
+        "relevance": 9,
+        "expertise": 8,
+        "url": "https://gdpr.eu"
+    },
+    {
+        "_id": "c36928a5-fc4f-5efe-b82e-697e845e8ade",
+        "sname": "owasp",
+        "name": "OWASP",
+        "description": "The Open Worldwide Application Security Project and its guidance on the most critical web application security risks",
+        "category": "Security",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator",
+            "Consulting"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://owasp.org"
+    },
+    {
+        "_id": "80ad61e2-58be-59b0-b047-421b4507e0c4",
+        "sname": "penetration-testing-remediation",
+        "name": "Penetration Testing Remediation",
+        "description": "Triaging and closing the findings a security assessment produces, and verifying the fixes hold",
+        "category": "Security",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator",
+            "Consulting"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Penetration_test"
+    },
+    {
+        "_id": "327b4f91-2749-5224-b034-05f8d23f1987",
+        "sname": "aes-256-encryption",
+        "name": "AES-256 Encryption",
+        "description": "A symmetric block cipher with a 256-bit key, widely used to protect data at rest",
+        "category": "Security",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator",
+            "Consulting",
+            "Data"
+        ],
+        "relevance": 8,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard"
+    },
+    {
+        "_id": "b5a8bc74-0835-5608-8c0e-f1add9a8f9fa",
+        "sname": "hmac-sha256",
+        "name": "HMAC-SHA256",
+        "description": "A keyed hash construction used to authenticate a message and verify it has not been altered in transit",
+        "category": "Security",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator",
+            "Consulting"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/HMAC"
+    },
+    {
+        "_id": "15fa2303-33de-5ecc-b582-67097cbf01af",
+        "sname": "csprng",
+        "name": "CSPRNG",
+        "description": "A cryptographically secure pseudorandom number generator, suitable for producing keys, tokens, and salts",
+        "category": "Security",
+        "tiers": [
+            "DevOps",
+            "Back End",
+            "Software Engineer",
+            "Administrator",
+            "Consulting"
+        ],
+        "relevance": 6,
+        "expertise": 6,
+        "url": "https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator"
     }
-  ]
+]

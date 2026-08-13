@@ -1,0 +1,8 @@
+{
+    "about": "These describe the nature of each engagement — whether I owned the business, worked as an employee, or worked under contract. Every gig carries exactly one.",
+    "gigTypes": [
+        "owner",
+        "employee",
+        "contract"
+    ]
+}
