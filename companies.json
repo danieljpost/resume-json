@@ -238,5 +238,17 @@
         "type": "employer",
         "fullname": "FedEx",
         "url": "https://www.fedex.com"
+    },
+    {
+        "_id": "3e41b759-9af8-5401-826e-449e88fa9a91",
+        "name": "searchleaders",
+        "type": "recruiter",
+        "fullname": "Search Leaders"
+    },
+    {
+        "_id": "c413adfc-fa4e-5c03-b0dd-b8b1ca02c615",
+        "name": "brokerbin",
+        "type": "employer",
+        "fullname": "BrokerBin"
     }
 ]
