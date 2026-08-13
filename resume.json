@@ -30,7 +30,7 @@
     },
     {
       "_id": "8fca923f-1110-592c-8fd1-fe399ee65066",
-      "gigId": "b838ee3b-41fa-5be8-b28d-f3de1053c623",
+      "gigId": "vivial",
       "name": "Philipp Tkachev",
       "linkedIn": "https://www.linkedin.com/in/zoonman",
       "title": "Software Engineer",
@@ -42,7 +42,7 @@
     },
     {
       "_id": "1bb14431-0be9-56b9-b52f-0d84056d9375",
-      "gigId": "028c81be-60ac-5b9d-8076-10b7fc652dae",
+      "gigId": "danieljpost.pro",
       "name": "Kevin Kinley",
       "linkedIn": "https://www.linkedin.com/in/kevinkinley",
       "title": "Executive Director-Inter Atlanta FC | VP IT-Star Asia International",
@@ -54,7 +54,7 @@
     },
     {
       "_id": "4095adf9-d17f-51b0-b3e7-2020ae652382",
-      "gigId": "f5125144-36e1-5f91-98ae-0dc7465a0212",
+      "gigId": "razr",
       "name": "Michael Leo",
       "linkedIn": "https://www.linkedin.com/in/michaelaleo",
       "title": "Owner, Kettle River Consulting Inc",
@@ -66,7 +66,7 @@
     },
     {
       "_id": "0489c2c2-8ad1-5f26-b0c3-88a6fcc04f26",
-      "gigId": "f5125144-36e1-5f91-98ae-0dc7465a0212",
+      "gigId": "razr",
       "name": "Christopher Smithson",
       "linkedIn": "https://www.linkedin.com/in/christopher-s-62a2726",
       "title": "Software Innovation",
@@ -78,7 +78,7 @@
     },
     {
       "_id": "a66f3f3e-2da3-551d-ac81-c70144690599",
-      "gigId": "feb43610-fd18-5c9d-b1a2-af2d3d436c79",
+      "gigId": "target",
       "name": "Natasha Gaffer",
       "linkedIn": "https://www.linkedin.com/in/natashagaffer",
       "title": "Web App Developer",
@@ -90,7 +90,7 @@
     },
     {
       "_id": "0d27ae76-c0b2-5bac-a11c-c24978eb1513",
-      "gigId": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
+      "gigId": "ezXchanges",
       "name": "Joseph Piché",
       "linkedIn": "https://www.linkedin.com/in/josephpiche",
       "title": "Android and iOS Developer",
@@ -102,7 +102,7 @@
     },
     {
       "_id": "14443301-00ae-5d9c-9a43-939c8305c207",
-      "gigId": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
+      "gigId": "ezXchanges",
       "name": "Darin Lynch",
       "linkedIn": "https://www.linkedin.com/in/darinlynch",
       "title": "Irish Titan ",
@@ -114,7 +114,7 @@
     },
     {
       "_id": "173c3a2e-f6fe-5984-a4b4-3d303a616c64",
-      "gigId": "de9f6631-3c75-5f84-a243-f2fcd2e7c261",
+      "gigId": "usbank",
       "name": "Cevat Kerim Incedayi",
       "linkedIn": "https://www.linkedin.com/in/cevatkerim",
       "title": "Software Developer",
@@ -126,7 +126,7 @@
     },
     {
       "_id": "8435df6d-b6fd-51a7-b986-638ea2bc6d79",
-      "gigId": "32045bde-1e52-597e-875f-5f3eeefd6dc7",
+      "gigId": "visiblecustomer",
       "name": "Brian LaBounty",
       "linkedIn": "https://www.linkedin.com/in/brianlabounty",
       "title": "Principal (Lead) Web Application Developer at Stratasys",
@@ -138,7 +138,7 @@
     },
     {
       "_id": "cb1e88b7-cfd4-5775-92e5-e3c714fb254c",
-      "gigId": "32045bde-1e52-597e-875f-5f3eeefd6dc7",
+      "gigId": "visiblecustomer",
       "name": "TQ White II",
       "linkedIn": "https://www.linkedin.com/in/tqwhite",
       "title": "Writing Software to Help Teachers Help Students",
@@ -5193,13 +5193,15 @@
       "_id": "ff89656f-93f7-59e4-97d0-ccc5247ca523",
       "name": "mindora",
       "type": "client",
-      "fullname": "Mindora AI"
+      "fullname": "Mindora AI",
+      "url": "https://mindora.ai"
     },
     {
       "_id": "051c8b5f-8f90-50cb-a547-baa2e7fc5c2e",
       "name": "imaginationguild",
       "type": "contractor",
-      "fullname": "Imagination Guild"
+      "fullname": "Imagination Guild",
+      "url": "http://imaginationguild.com"
     },
     {
       "_id": "1d1c49ae-6883-55b9-aee6-e445b841c755",
@@ -5212,13 +5214,15 @@
       "_id": "3e41b759-9af8-5401-826e-449e88fa9a91",
       "name": "searchleaders",
       "type": "recruiter",
-      "fullname": "Search Leaders"
+      "fullname": "Search Leaders",
+      "url": "https://searchleaders.com"
     },
     {
       "_id": "c413adfc-fa4e-5c03-b0dd-b8b1ca02c615",
       "name": "brokerbin",
       "type": "employer",
-      "fullname": "BrokerBin"
+      "fullname": "BrokerBin",
+      "url": "https://brokerbin.com"
     }
   ]
 }
