@@ -2,8 +2,8 @@
   "$id": "https://danieljpost.pro/resume.json",
   "title": "Daniel J. Post's Resume, as a raw JSON file",
   "updated": "20260812",
-  "branch": "develop",
-  "tag": "2025.02",
+  "branch": "master",
+  "tag": "2025.02-master",
   "versions": {
     "canonical": "https://danieljpost.pro/resume.json",
     "beta": "https://danieljpost.pro/v1/resume.json",
