@@ -3,7 +3,7 @@
   "title": "Daniel J. Post's Resume, as a raw JSON file",
   "updated": "20260812",
   "branch": "master",
-  "tag": "2025.02-master",
+  "tag": "2026.08-master",
   "versions": {
     "canonical": "https://danieljpost.pro/resume.json",
     "beta": "https://danieljpost.pro/v1/resume.json",
@@ -11,6 +11,7 @@
     "master": "https://danieljpost.codes/resume.json",
     "production": "https://danieljpost.consulting/resume.json",
     "2025.02": "https://raw.githubusercontent.com/danieljpost/resume-json/refs/tags/2025.02/resume.json",
+    "2026.08": "https://raw.githubusercontent.com/danieljpost/resume-json/refs/tags/2026.08/resume.json",
     "developraw": "https://raw.githubusercontent.com/danieljpost/resume-json/develop/resume.json",
     "masterraw": "https://raw.githubusercontent.com/danieljpost/resume-json/master/resume.json"
   },
