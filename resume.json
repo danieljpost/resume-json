@@ -2027,6 +2027,237 @@
           "relevance": 10
         }
       ]
+    },
+    {
+      "_id": "8e91e4c7-5f2a-5ad2-ad29-1b1fa16edfb1",
+      "relevance": 10,
+      "title": "Lead DevOps & Full-Stack Engineer",
+      "tiers": [
+        "Administrator",
+        "Back End",
+        "Business",
+        "Consulting",
+        "Data",
+        "DevOps",
+        "Front End",
+        "Software Engineer",
+        "Team Lead",
+        "User Experience",
+        "User Interface"
+      ],
+      "gigType": "contract",
+      "location": "Remote",
+      "companyId": "ff89656f-93f7-59e4-97d0-ccc5247ca523",
+      "recruiterId": null,
+      "contractorId": "051c8b5f-8f90-50cb-a547-baa2e7fc5c2e",
+      "startDate": "2026-01-16",
+      "endDate": "2026-03-26",
+      "shortDesc": "Architected CI/CD pipelines, Kubernetes infrastructure, per-patient encryption, and a full Firebase-to-PostgreSQL migration for an AI-powered clinical avatar platform — then hardened it with penetration test remediation and distroless containers.",
+      "longDesc": "Joined a healthcare AI startup with no CI/CD, no production infrastructure, and a Firebase-based data layer. Assessed the architecture, identified the critical path, and executed across multiple workstreams simultaneously: designed and built an 11-workflow GitHub Actions CI/CD pipeline spanning 6 environments with blue-green production deployments and runtime environment injection; created the entire Kubernetes/EKS infrastructure from Helm charts through production hardening; led the complete Firebase-to-PostgreSQL migration (25+ tables, Drizzle ORM, repository abstraction layer); implemented per-patient column-level encryption with cryptographic audit log hash chains and WORM export; built GDPR/HIPAA compliance features including data exports, automated retention enforcement, and PHI audit logging across 32 API routes; optimized database performance with UUIDv7 primary keys, N+1 elimination, and GIN-indexed JSONB queries; introduced conventional commits with semantic versioning; remediated a full penetration test report replacing weak randomness with CSPRNG, hardening authentication on 7 PHI endpoints, implementing Postgres-backed rate limiting, and validating all inputs; built distroless production Docker images achieving 96% fewer container vulnerabilities; implemented compile-time branded UUID types across the entire codebase; and designed multi-subdomain production architecture serving 3 environments from a single image. Shipped 604 commits in 10 weeks while handling production incidents and emergency scaling operations.",
+      "blurbs": {
+        "Administrator": "Managed an 8-node AWS EKS cluster across 6 environments, handling capacity planning, emergency scaling (20GB to 100GB EBS, 4 to 8 nodes), Node.js 24 runtime upgrade, OOM risk reduction via resource right-sizing, per-patient encryption activation, PostgreSQL TLS in transit, database credential hardening with role separation, login healthcheck CronJob with Discord alerting, admin user management with approver role gates, and Kubernetes NetworkPolicies for pod traffic isolation.",
+        "Back End": "Led a complete Firebase-to-PostgreSQL migration with Drizzle ORM: designed a 25+ table multi-tenant schema, built a repository abstraction layer (115 files), implemented per-patient column-level encryption, cryptographic audit log hash chains, PHI audit logging across 32 routes, UUIDv7 primary keys, N+1 query elimination, GIN-indexed JSONB queries, server-side pagination, compile-time branded UUID types, CSPRNG access code generation, Postgres-backed rate limiting, authentication guards on 7 PHI endpoints, JSONB injection prevention, and per-request database routing for multi-subdomain production.",
+        "Business": "Implemented per-patient encryption and cryptographic audit log hash chains with WORM export to S3 Object Lock for tamper-evident compliance proof. Built GDPR data export, erasure verification, and automated retention enforcement for EU market operation. Remediated penetration test findings across OWASP categories. Achieved 96% container vulnerability reduction via distroless images. Designed multi-environment production architecture (app, compliance, investor) sharing a single image for cost efficiency.",
+        "Consulting": "Assessed an existing architecture with no CI/CD or production infrastructure, identified the critical path, and executed all workstreams in 10 weeks — shipping 604 commits across CI/CD, Kubernetes, database migration, per-patient encryption, compliance audit infrastructure, semantic versioning, penetration test remediation, distroless containers, and multi-environment production architecture while documenting systems for team independence post-engagement.",
+        "Data": "Designed a 25+ table PostgreSQL schema with multi-tenant isolation and per-patient column-level encryption. Migrated to UUIDv7 primary keys, eliminated N+1 queries with batched flow state lookups, replaced full-table scans with GIN-indexed JSONB queries, implemented compile-time branded UUID types for type-safe cross-table references, tuned connection pool for thousands of sessions per hour, validated UUID format before JSONB queries to prevent injection, and built backup infrastructure with pg_dump and WAL-G continuous archiving with per-request database routing for multi-subdomain production.",
+        "DevOps": "Built the entire CI/CD pipeline from zero: 11+ GitHub Actions workflows covering 6 environments, blue-green production deployments with database isolation, automated feature branch previews with TLS and database provisioning, runtime environment injection (build once, deploy anywhere), distroless production Docker images with 96% fewer vulnerabilities, Node.js 24 runtime upgrade across all pipelines, conventional commits with semantic versioning, Trivy security scanning, deployment audit trail with HMAC-SHA256 webhook verification, login healthcheck CronJob with Discord alerting, vendor-agnostic backup infrastructure, and multi-subdomain production routing from a single image.",
+        "Front End": "Built admin interfaces in Next.js 16 / React 19 including staging approval UI with SHA-based security verification, build approval history dashboard with paginated audit trail, admin user management with role gates, CHANGELOG editor UI, server-side paginated views, name suffix editing across all entity types, and compile-time branded UUID types (PatientId, ClinicianId, CoachId, ClinicId, FlowId) across client types, hooks, components, and auth session layer — all in TypeScript strict mode.",
+        "Software Engineer": "Shipped 604 commits in 10 weeks spanning the full stack: CI/CD pipeline architecture (11+ workflows), Kubernetes infrastructure, a 246-file Firebase-to-PostgreSQL migration, per-patient encryption with cryptographic audit chains, GDPR/HIPAA compliance features, UUIDv7 migration, N+1 query elimination, blue-green deployments, conventional commits with semantic versioning, penetration test remediation (CSPRNG, auth hardening, rate limiting, input validation), distroless container hardening (96% fewer CVEs), compile-time branded UUID type system, and multi-subdomain production architecture — all in TypeScript strict mode.",
+        "Team Lead": "Established the branching strategy, deployment workflow, and code quality standards the team follows: conventional commits with commitlint and Husky hooks, semantic versioning with automated CHANGELOG generation, automated feature previews, protected staging with approval gates and deployment audit trail, Node.js 24 runtime standard, distroless production images as the container security baseline, login healthcheck CronJob for proactive monitoring, and multi-environment production architecture serving 3 configurations from a single image.",
+        "User Experience": "Designed developer-facing workflows that reduced friction: feature branch previews on git push, web-based staging approval replacing CLI commands, build approval history dashboard, approver-editable CHANGELOG, feature freeze toggle, app version in admin sidebar, name suffix display and editing across all entity types, graceful degradation when Vault is not configured, login healthcheck with rich Discord notifications, and severity-coded Trivy scan results.",
+        "User Interface": "Built operational admin interfaces with clear visual hierarchy: staging approval with SHA verification, build approval history with paginated audit trail, admin user management with role assignment, CHANGELOG editor, server-side paginated tables, feature freeze card, name suffix display and editing across all entity types, patient registration with title and nameSuffix fields, and dynamic SVG badge endpoint."
+      },
+      "responsibilities": [
+        "Designed and built the complete CI/CD pipeline (11+ GitHub Actions workflows) from scratch across 6 deployment environments",
+        "Architected and maintained Kubernetes infrastructure on AWS EKS including Helm charts, ingress, TLS, NetworkPolicies, and CronJob-based healthchecks",
+        "Led the full Firebase-to-PostgreSQL database migration using Drizzle ORM with TypeScript-strict schema definitions",
+        "Implemented per-patient column-level encryption for all PII/PHI data with legal hold mechanism",
+        "Built cryptographic audit log infrastructure: hash chains, PHI logging across 32 routes, and WORM export to S3 Object Lock",
+        "Remediated penetration test findings: replaced weak randomness with CSPRNG, hardened authentication on PHI endpoints, implemented Postgres-backed rate limiting, and validated inputs against injection",
+        "Implemented blue-green deployment system with database isolation for zero-downtime production releases",
+        "Built automated feature branch preview environments with TLS, database provisioning, and seed data",
+        "Designed and implemented GDPR and HIPAA compliance features including data exports, erasure verification, audit logging, and automated retention enforcement",
+        "Optimized database performance: UUIDv7 primary keys, N+1 elimination, GIN-indexed JSONB queries, server-side pagination, connection pool tuning",
+        "Hardened container supply chain: distroless production images (96% fewer CVEs), Trivy scanning, npm audit automation, Node.js 24 runtime upgrade",
+        "Introduced conventional commits, semantic versioning, and automated CHANGELOG generation",
+        "Created vendor-agnostic backup and storage infrastructure using rclone, WAL-G, and Nginx CDN proxy",
+        "Designed multi-subdomain production architecture serving 3 environments from a single deployment image"
+      ],
+      "accomplishments": [
+        "Built an 11-workflow CI/CD pipeline from zero, enabling automated deployments across dev, testing, staging, production, feature preview, and app environments with runtime environment injection (build once, deploy anywhere)",
+        "Designed and implemented blue-green deployment system with database isolation, slot-based routing, and SHA-verified approval gates for zero-downtime production releases",
+        "Led complete Firebase-to-PostgreSQL migration: 25+ table schema, repository abstraction layer (115 files, 2,567 insertions), UUIDv7 primary keys, and CI-driven migrations across all environments",
+        "Implemented per-patient column-level encryption for all PII/PHI data with legal hold mechanism, protecting clinical records with unique AES-256 keys per patient",
+        "Remediated a full penetration test: replaced Math.random with crypto CSPRNG across all access codes and IDs, added authentication guards to 7 unauthenticated PHI endpoints, implemented Postgres-backed distributed rate limiting, validated UUID format before JSONB queries, and added file upload size/format validation",
+        "Built distroless production Docker image achieving 96% fewer container vulnerabilities — custom CJS entrypoint, healthcheck, and env generation scripts for distroless compatibility, plus Debian Trixie base resolving 4 CRITICAL + 47 HIGH CVEs",
+        "Optimized database performance: eliminated N+1 queries with batched lookups, replaced full-table scans with GIN-indexed JSONB queries, implemented server-side pagination, and tuned connection pool for thousands of concurrent sessions per hour",
+        "Implemented compile-time branded UUID types (PatientId, ClinicianId, CoachId, ClinicId, FlowId) across the entire codebase — zero-runtime-cost type safety preventing cross-entity ID mix-ups",
+        "Built multi-subdomain production architecture: per-request database and S3 routing serves 3 environments (app, compliance, investor) from a single running pod based on incoming hostname",
+        "Built cryptographic audit infrastructure: SHA-256 hash chains for tamper-evidence, PHI audit logging across 32 API routes, automated retention enforcement, and WORM export to S3 Object Lock",
+        "Implemented GDPR data export system with verification CI/CD gate and GDPR erasure e2e test with synthetic patients, enabling patient data portability compliance for EU market operation",
+        "Designed vendor-agnostic backup infrastructure (pg_dump + WAL-G continuous archiving) with rclone transport, supporting S3, GCS, Azure Blob, and MinIO without code changes",
+        "Introduced conventional commits with commitlint and Husky hooks, semantic version bumps, and persistent CHANGELOG.md with approver-editable UI for professional release management",
+        "Managed emergency production scaling: expanded 8 EBS volumes (20GB → 100GB) and scaled cluster from 4 to 8 t3.2xlarge nodes with no service interruption",
+        "Shipped 604 commits in 10 weeks while maintaining TypeScript strict-mode compliance and consistent ESLint/Prettier enforcement across all changes"
+      ],
+      "technologies": [
+        {
+          "skillName": "next.js",
+          "relevance": 10
+        },
+        {
+          "skillName": "react",
+          "relevance": 9
+        },
+        {
+          "skillName": "typescript",
+          "relevance": 10
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 9
+        },
+        {
+          "skillName": "postgres",
+          "relevance": 10
+        },
+        {
+          "skillName": "drizzle-orm",
+          "relevance": 9
+        },
+        {
+          "skillName": "kubernetes",
+          "relevance": 10
+        },
+        {
+          "skillName": "helm",
+          "relevance": 9
+        },
+        {
+          "skillName": "docker",
+          "relevance": 10
+        },
+        {
+          "skillName": "github-actions",
+          "relevance": 10
+        },
+        {
+          "skillName": "aws",
+          "relevance": 9
+        },
+        {
+          "skillName": "eks",
+          "relevance": 9
+        },
+        {
+          "skillName": "ci/cd",
+          "relevance": 10
+        },
+        {
+          "skillName": "nginx",
+          "relevance": 7
+        },
+        {
+          "skillName": "bash",
+          "relevance": 8
+        },
+        {
+          "skillName": "git",
+          "relevance": 9
+        },
+        {
+          "skillName": "node",
+          "relevance": 9
+        },
+        {
+          "skillName": "tailwind-css",
+          "relevance": 7
+        },
+        {
+          "skillName": "trivy",
+          "relevance": 7
+        },
+        {
+          "skillName": "cert-manager",
+          "relevance": 7
+        },
+        {
+          "skillName": "rclone",
+          "relevance": 6
+        },
+        {
+          "skillName": "wal-g",
+          "relevance": 6
+        },
+        {
+          "skillName": "discord-api",
+          "relevance": 5
+        },
+        {
+          "skillName": "gdpr",
+          "relevance": 9
+        },
+        {
+          "skillName": "hipaa",
+          "relevance": 9
+        },
+        {
+          "skillName": "blue-green-deployment",
+          "relevance": 8
+        },
+        {
+          "skillName": "aes-256-encryption",
+          "relevance": 8
+        },
+        {
+          "skillName": "hmac-sha256",
+          "relevance": 7
+        },
+        {
+          "skillName": "s3-object-lock",
+          "relevance": 6
+        },
+        {
+          "skillName": "semantic-versioning",
+          "relevance": 7
+        },
+        {
+          "skillName": "conventional-commits",
+          "relevance": 6
+        },
+        {
+          "skillName": "uuidv7",
+          "relevance": 7
+        },
+        {
+          "skillName": "distroless",
+          "relevance": 7
+        },
+        {
+          "skillName": "penetration-testing-remediation",
+          "relevance": 7
+        },
+        {
+          "skillName": "csprng",
+          "relevance": 6
+        },
+        {
+          "skillName": "rate-limiting",
+          "relevance": 6
+        },
+        {
+          "skillName": "owasp",
+          "relevance": 7
+        },
+        {
+          "skillName": "branded-types",
+          "relevance": 5
+        },
+        {
+          "skillName": "multi-tenant-architecture",
+          "relevance": 8
+        }
+      ]
     }
   ],
   "me": {
@@ -2090,6 +2321,8 @@
     "Deployment Tools",
     "Cloud Technologies",
     "Libraries",
+    "Security",
+    "Regulatory Compliance",
     "Methodologies",
     "Project Management",
     "Remote Working Tools",
@@ -3643,7 +3876,7 @@
       "sname": "oidc",
       "name": "OpenID Connect",
       "description": "An identity layer built on top of OAuth 2.0 that lets clients verify a user's identity and obtain basic profile information",
-      "category": "Data",
+      "category": "Security",
       "tiers": [
         "DevOps",
         "Back End",
@@ -3659,7 +3892,7 @@
       "sname": "jwt",
       "name": "JSON Web Tokens",
       "description": "A compact, URL-safe means of representing claims between two parties, commonly used to carry authentication and authorization state",
-      "category": "Data",
+      "category": "Security",
       "tiers": [
         "DevOps",
         "Back End",
@@ -3984,7 +4217,7 @@
       "sname": "supply chain security",
       "name": "Supply Chain Security",
       "description": "Controls over the provenance and integrity of third-party dependencies and build artifacts consumed by a project",
-      "category": "Methodologies",
+      "category": "Security",
       "tiers": [
         "DevOps",
         "Back End",
@@ -4134,7 +4367,7 @@
       "sname": "oauth",
       "name": "OAuth 2.0",
       "description": "An authorization framework letting an application obtain limited access to a user's account on another service without handling their credentials",
-      "category": "Data",
+      "category": "Security",
       "tiers": [
         "Back End",
         "Software Engineer",
@@ -4253,6 +4486,461 @@
       "relevance": 3,
       "expertise": 5,
       "url": "https://beanstalkapp.com"
+    },
+    {
+      "_id": "69e3e5a8-34da-5637-9378-87762603b16f",
+      "sname": "next.js",
+      "name": "Next.js",
+      "description": "A React framework providing server-side rendering, routing, and build tooling for production web applications",
+      "category": "Frameworks",
+      "tiers": [
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Back End"
+      ],
+      "relevance": 10,
+      "expertise": 8,
+      "url": "https://nextjs.org"
+    },
+    {
+      "_id": "3ccc1716-518c-54b6-9d28-7cb9b63a37dd",
+      "sname": "tailwind-css",
+      "name": "Tailwind CSS",
+      "description": "A utility-first CSS framework for composing designs directly in markup without writing custom stylesheets",
+      "category": "Libraries",
+      "tiers": [
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://tailwindcss.com"
+    },
+    {
+      "_id": "73823e54-f2b1-5660-a186-f018ae65533b",
+      "sname": "drizzle-orm",
+      "name": "Drizzle ORM",
+      "description": "A TypeScript ORM offering type-safe SQL query building and schema migrations",
+      "category": "Libraries",
+      "tiers": [
+        "Back End",
+        "Software Engineer",
+        "Data"
+      ],
+      "relevance": 9,
+      "expertise": 8,
+      "url": "https://orm.drizzle.team"
+    },
+    {
+      "_id": "898126f3-c52a-5147-9636-6149c1949ee0",
+      "sname": "discord-api",
+      "name": "Discord API",
+      "description": "The Discord developer platform used to build bots and deliver automated notifications into team channels",
+      "category": "Libraries",
+      "tiers": [
+        "Back End",
+        "Software Engineer",
+        "DevOps"
+      ],
+      "relevance": 5,
+      "expertise": 6,
+      "url": "https://discord.com/developers/docs"
+    },
+    {
+      "_id": "6f702bfd-bb6e-50a4-8d3e-b83bb91c374c",
+      "sname": "github-actions",
+      "name": "GitHub Actions",
+      "description": "GitHub's built-in automation platform for running build, test, and deployment workflows in response to repository events",
+      "category": "Deployment Tools",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Team Lead"
+      ],
+      "relevance": 10,
+      "expertise": 9,
+      "url": "https://docs.github.com/actions"
+    },
+    {
+      "_id": "67f6427b-d5ea-5481-a153-012d9f622347",
+      "sname": "helm",
+      "name": "Helm",
+      "description": "A package manager for Kubernetes that templates and versions application manifests as installable charts",
+      "category": "Deployment Tools",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator"
+      ],
+      "relevance": 9,
+      "expertise": 8,
+      "url": "https://helm.sh"
+    },
+    {
+      "_id": "c3c7a054-5cb3-56a6-9089-99e64179150c",
+      "sname": "aws",
+      "name": "Amazon Web Services",
+      "description": "Amazon's cloud platform providing compute, storage, networking, and managed services",
+      "category": "Cloud Technologies",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator",
+        "Business"
+      ],
+      "relevance": 9,
+      "expertise": 8,
+      "url": "https://aws.amazon.com"
+    },
+    {
+      "_id": "07d56b1d-77db-5c15-a22f-1bad5ecd2434",
+      "sname": "eks",
+      "name": "Amazon EKS",
+      "description": "AWS Elastic Kubernetes Service, a managed control plane for running Kubernetes clusters",
+      "category": "Cloud Technologies",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator"
+      ],
+      "relevance": 9,
+      "expertise": 8,
+      "url": "https://aws.amazon.com/eks"
+    },
+    {
+      "_id": "ddc53a2f-94e5-5970-b32a-214a38765f4e",
+      "sname": "s3-object-lock",
+      "name": "S3 Object Lock",
+      "description": "An S3 feature enforcing write-once-read-many retention so stored objects cannot be altered or deleted for a defined period",
+      "category": "Cloud Technologies",
+      "tiers": [
+        "DevOps",
+        "Administrator",
+        "Data"
+      ],
+      "relevance": 6,
+      "expertise": 6,
+      "url": "https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-lock.html"
+    },
+    {
+      "_id": "4c8f1f28-7f19-5481-85f1-0472cdf1ac14",
+      "sname": "trivy",
+      "name": "Trivy",
+      "description": "An open-source vulnerability and misconfiguration scanner for container images, filesystems, and repositories",
+      "category": "Security",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator",
+        "Consulting"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://trivy.dev"
+    },
+    {
+      "_id": "a814e994-6c5c-5091-aed5-83b964c8224f",
+      "sname": "cert-manager",
+      "name": "cert-manager",
+      "description": "A Kubernetes controller that automates issuance and renewal of TLS certificates",
+      "category": "System Tools",
+      "tiers": [
+        "DevOps",
+        "Administrator",
+        "Back End"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://cert-manager.io"
+    },
+    {
+      "_id": "7ec7b29d-56aa-5b0d-955f-e87f52ce6cf9",
+      "sname": "distroless",
+      "name": "Distroless Images",
+      "description": "Container base images containing only the application and its runtime dependencies, reducing attack surface and image size",
+      "category": "Security",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator",
+        "Consulting"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://github.com/GoogleContainerTools/distroless"
+    },
+    {
+      "_id": "3548ae49-c5da-5e4b-8b12-d6715ea2027e",
+      "sname": "rclone",
+      "name": "rclone",
+      "description": "A command-line program for synchronising files and directories across cloud storage providers",
+      "category": "System Tools",
+      "tiers": [
+        "DevOps",
+        "Administrator"
+      ],
+      "relevance": 6,
+      "expertise": 6,
+      "url": "https://rclone.org"
+    },
+    {
+      "_id": "8c536ca8-db8d-5ed5-99f7-4347f6d0dc3a",
+      "sname": "wal-g",
+      "name": "WAL-G",
+      "description": "An archival and restoration tool for PostgreSQL performing continuous write-ahead-log shipping and point-in-time recovery",
+      "category": "Data",
+      "tiers": [
+        "Data",
+        "DevOps",
+        "Administrator",
+        "Back End"
+      ],
+      "relevance": 6,
+      "expertise": 6,
+      "url": "https://github.com/wal-g/wal-g"
+    },
+    {
+      "_id": "ed8dae57-ff9f-5175-b2fc-72fc304cb6f9",
+      "sname": "uuidv7",
+      "name": "UUIDv7",
+      "description": "A time-ordered UUID version whose leading bits encode a timestamp, giving sortable identifiers with better index locality than UUIDv4",
+      "category": "Data",
+      "tiers": [
+        "Data",
+        "Back End",
+        "Software Engineer"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Universally_unique_identifier"
+    },
+    {
+      "_id": "ee598ac9-234d-5cb0-9aae-e59bc0585834",
+      "sname": "rate-limiting",
+      "name": "Rate Limiting",
+      "description": "Constraining how frequently a client may call a service, to protect capacity and blunt abuse",
+      "category": "Design Patterns",
+      "tiers": [
+        "Back End",
+        "Software Engineer",
+        "DevOps",
+        "Administrator"
+      ],
+      "relevance": 6,
+      "expertise": 6,
+      "url": "https://en.wikipedia.org/wiki/Rate_limiting"
+    },
+    {
+      "_id": "cb55ec4d-6c69-5359-968f-c7f396e5b815",
+      "sname": "multi-tenant-architecture",
+      "name": "Multi-Tenant Architecture",
+      "description": "Serving multiple isolated customers from one application instance while keeping their data and configuration separate",
+      "category": "Design Patterns",
+      "tiers": [
+        "Back End",
+        "Software Engineer",
+        "Consulting",
+        "Team Lead",
+        "Business"
+      ],
+      "relevance": 8,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Multitenancy"
+    },
+    {
+      "_id": "5cb076b1-5845-57b2-aa83-a536508a064b",
+      "sname": "branded-types",
+      "name": "Branded Types",
+      "description": "A TypeScript technique attaching a phantom tag to a primitive so structurally identical values cannot be used interchangeably",
+      "category": "Design Patterns",
+      "tiers": [
+        "Back End",
+        "Front End",
+        "Software Engineer"
+      ],
+      "relevance": 5,
+      "expertise": 5,
+      "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+    },
+    {
+      "_id": "5f4b923e-9dcc-5447-bfb9-cba480c3764d",
+      "sname": "blue-green-deployment",
+      "name": "Blue-Green Deployment",
+      "description": "Running two production environments and cutting traffic between them, so releases and rollbacks happen without downtime",
+      "category": "Methodologies",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator",
+        "Team Lead"
+      ],
+      "relevance": 8,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Blue-green_deployment"
+    },
+    {
+      "_id": "7cbbf652-a286-5acc-86f0-336f15341c87",
+      "sname": "semantic-versioning",
+      "name": "Semantic Versioning",
+      "description": "A versioning scheme in which the major, minor, and patch numbers communicate the compatibility impact of a release",
+      "category": "Methodologies",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Team Lead",
+        "Consulting"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://semver.org"
+    },
+    {
+      "_id": "8dcf2b1c-eb3a-5a31-8242-56603f1aea79",
+      "sname": "conventional-commits",
+      "name": "Conventional Commits",
+      "description": "A commit message convention that encodes change type and scope, enabling automated changelogs and version bumps",
+      "category": "Methodologies",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Team Lead"
+      ],
+      "relevance": 6,
+      "expertise": 6,
+      "url": "https://www.conventionalcommits.org"
+    },
+    {
+      "_id": "a33b48ca-fb5c-5c89-8c37-dbe580882b7f",
+      "sname": "hipaa",
+      "name": "HIPAA",
+      "description": "United States legislation setting privacy and security requirements for protected health information",
+      "category": "Regulatory Compliance",
+      "tiers": [
+        "Business",
+        "Consulting",
+        "Team Lead",
+        "Administrator",
+        "Data"
+      ],
+      "relevance": 9,
+      "expertise": 8,
+      "url": "https://www.hhs.gov/hipaa"
+    },
+    {
+      "_id": "156ff3e4-fdd6-50e6-a156-d5add4c884c2",
+      "sname": "gdpr",
+      "name": "GDPR",
+      "description": "European Union regulation governing the collection, processing, and retention of personal data",
+      "category": "Regulatory Compliance",
+      "tiers": [
+        "Business",
+        "Consulting",
+        "Team Lead",
+        "Administrator",
+        "Data"
+      ],
+      "relevance": 9,
+      "expertise": 8,
+      "url": "https://gdpr.eu"
+    },
+    {
+      "_id": "c36928a5-fc4f-5efe-b82e-697e845e8ade",
+      "sname": "owasp",
+      "name": "OWASP",
+      "description": "The Open Worldwide Application Security Project and its guidance on the most critical web application security risks",
+      "category": "Security",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator",
+        "Consulting"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://owasp.org"
+    },
+    {
+      "_id": "80ad61e2-58be-59b0-b047-421b4507e0c4",
+      "sname": "penetration-testing-remediation",
+      "name": "Penetration Testing Remediation",
+      "description": "Triaging and closing the findings a security assessment produces, and verifying the fixes hold",
+      "category": "Security",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator",
+        "Consulting"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Penetration_test"
+    },
+    {
+      "_id": "327b4f91-2749-5224-b034-05f8d23f1987",
+      "sname": "aes-256-encryption",
+      "name": "AES-256 Encryption",
+      "description": "A symmetric block cipher with a 256-bit key, widely used to protect data at rest",
+      "category": "Security",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator",
+        "Consulting",
+        "Data"
+      ],
+      "relevance": 8,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Advanced_Encryption_Standard"
+    },
+    {
+      "_id": "b5a8bc74-0835-5608-8c0e-f1add9a8f9fa",
+      "sname": "hmac-sha256",
+      "name": "HMAC-SHA256",
+      "description": "A keyed hash construction used to authenticate a message and verify it has not been altered in transit",
+      "category": "Security",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator",
+        "Consulting"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/HMAC"
+    },
+    {
+      "_id": "15fa2303-33de-5ecc-b582-67097cbf01af",
+      "sname": "csprng",
+      "name": "CSPRNG",
+      "description": "A cryptographically secure pseudorandom number generator, suitable for producing keys, tokens, and salts",
+      "category": "Security",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator",
+        "Consulting"
+      ],
+      "relevance": 6,
+      "expertise": 6,
+      "url": "https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator"
     }
   ],
   "companies": [
@@ -4476,6 +5164,18 @@
       "fullname": "ThreatLVL",
       "url": "https://threatlvl.com",
       "see": "https://schema.org/Organization"
+    },
+    {
+      "_id": "ff89656f-93f7-59e4-97d0-ccc5247ca523",
+      "name": "mindora",
+      "type": "client",
+      "fullname": "Mindora AI"
+    },
+    {
+      "_id": "051c8b5f-8f90-50cb-a547-baa2e7fc5c2e",
+      "name": "imaginationguild",
+      "type": "contractor",
+      "fullname": "Imagination Guild"
     }
   ]
 }
