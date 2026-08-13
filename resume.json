@@ -741,7 +741,7 @@
         },
         {
           "skillName": "php",
-          "relevance": 80
+          "relevance": 8
         }
       ]
     },
@@ -1293,23 +1293,23 @@
       "technologies": [
         {
           "skillName": "api",
-          "relevance": 20
+          "relevance": 10
         },
         {
           "skillName": "javascript",
-          "relevance": 20
+          "relevance": 10
         },
         {
           "skillName": "jquery",
-          "relevance": 20
+          "relevance": 10
         },
         {
           "skillName": "css",
-          "relevance": 20
+          "relevance": 10
         },
         {
           "skillName": "html",
-          "relevance": 20
+          "relevance": 10
         }
       ]
     },
@@ -1372,23 +1372,23 @@
         },
         {
           "skillName": "mysql",
-          "relevance": 30
+          "relevance": 10
         },
         {
           "skillName": "angularjs",
-          "relevance": 20
+          "relevance": 10
         },
         {
           "skillName": "api",
-          "relevance": 20
+          "relevance": 10
         },
         {
           "skillName": "css",
-          "relevance": 20
+          "relevance": 10
         },
         {
           "skillName": "javascript",
-          "relevance": 20
+          "relevance": 10
         }
       ]
     },
@@ -1608,7 +1608,7 @@
         },
         {
           "skillName": "zf2",
-          "relevance": 30
+          "relevance": 10
         }
       ]
     },
@@ -1663,7 +1663,7 @@
         },
         {
           "skillName": "mysql",
-          "relevance": 30
+          "relevance": 10
         }
       ]
     },
@@ -1838,7 +1838,7 @@
         },
         {
           "skillName": "mysql",
-          "relevance": 30
+          "relevance": 10
         }
       ]
     },
@@ -1906,7 +1906,7 @@
         },
         {
           "skillName": "mysql",
-          "relevance": 30
+          "relevance": 10
         }
       ]
     },
@@ -1971,7 +1971,7 @@
         },
         {
           "skillName": "cakephp",
-          "relevance": 30
+          "relevance": 10
         }
       ]
     },
@@ -2024,7 +2024,7 @@
         },
         {
           "skillName": "zf2",
-          "relevance": 30
+          "relevance": 10
         }
       ]
     }
