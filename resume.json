@@ -2081,6 +2081,7 @@
     "Operating Systems",
     "System Tools",
     "Data",
+    "AI",
     "Servers",
     "Programming Languages",
     "Design Patterns",
@@ -3595,7 +3596,7 @@
       "sname": "embeddings",
       "name": "Embeddings",
       "description": "Dense vector representations of text or other content that place semantically similar items near one another in a high-dimensional space",
-      "category": "Data",
+      "category": "AI",
       "tiers": [
         "Data",
         "Back End",
@@ -3610,7 +3611,7 @@
       "sname": "vector search",
       "name": "Vector Search",
       "description": "Retrieval of records by nearest-neighbour similarity over embedding vectors rather than by exact or keyword match",
-      "category": "Data",
+      "category": "AI",
       "tiers": [
         "Data",
         "Back End",
@@ -3671,7 +3672,7 @@
       "sname": "generative ai",
       "name": "Generative AI",
       "description": "Systems that produce new text, code, images, or other content from learned statistical models rather than retrieving stored results",
-      "category": "Methodologies",
+      "category": "AI",
       "tiers": [
         "Software Engineer",
         "Consulting",
@@ -3688,7 +3689,7 @@
       "sname": "large language models",
       "name": "Large Language Models",
       "description": "Neural models trained on very large text corpora that generate and transform natural language, and increasingly code",
-      "category": "Methodologies",
+      "category": "AI",
       "tiers": [
         "Software Engineer",
         "Consulting",
@@ -3705,7 +3706,7 @@
       "sname": "retrieval augmented generation",
       "name": "Retrieval Augmented Generation",
       "description": "An architecture that grounds a language model's output in documents fetched at query time, reducing reliance on parametric memory",
-      "category": "Methodologies",
+      "category": "AI",
       "tiers": [
         "Software Engineer",
         "Consulting",
@@ -3722,7 +3723,7 @@
       "sname": "prompt engineering",
       "name": "Prompt Engineering",
       "description": "The practice of structuring instructions and context so a language model produces reliable, repeatable output",
-      "category": "Methodologies",
+      "category": "AI",
       "tiers": [
         "Software Engineer",
         "Consulting",
@@ -3738,7 +3739,7 @@
       "sname": "model evaluation",
       "name": "Model Evaluation",
       "description": "Systematic measurement of model output quality against defined criteria, so that changes can be shown to improve rather than merely alter results",
-      "category": "Methodologies",
+      "category": "AI",
       "tiers": [
         "Software Engineer",
         "Consulting",
@@ -3754,7 +3755,7 @@
       "sname": "local model inference",
       "name": "Local Model Inference",
       "description": "Running language models on self-hosted hardware rather than a third-party API, for cost, latency, or data-custody reasons",
-      "category": "System Tools",
+      "category": "AI",
       "tiers": [
         "DevOps",
         "Back End",
@@ -3770,7 +3771,7 @@
       "sname": "ollama",
       "name": "Ollama",
       "description": "A tool for packaging, serving, and running large language models locally",
-      "category": "System Tools",
+      "category": "AI",
       "tiers": [
         "DevOps",
         "Back End",
@@ -3786,7 +3787,7 @@
       "sname": "ai governance",
       "name": "AI Governance",
       "description": "The policies and controls determining how AI systems may be used, what data they may touch, and who is accountable for their output",
-      "category": "Methodologies",
+      "category": "AI",
       "tiers": [
         "Business",
         "Consulting",
