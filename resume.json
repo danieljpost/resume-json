@@ -271,10 +271,6 @@
           "relevance": 6
         },
         {
-          "skillName": "react",
-          "relevance": 7
-        },
-        {
           "skillName": "html",
           "relevance": 10
         },
@@ -296,10 +292,6 @@
         },
         {
           "skillName": "gcloud",
-          "relevance": 2
-        },
-        {
-          "skillName": "node",
           "relevance": 2
         },
         {
@@ -380,7 +372,7 @@
           "relevance": 9
         },
         {
-          "skillName": "rest api",
+          "skillName": "rest",
           "relevance": 9
         },
         {
@@ -388,7 +380,7 @@
           "relevance": 7
         },
         {
-          "skillName": "postgresql",
+          "skillName": "postgres",
           "relevance": 7
         },
         {
@@ -1250,10 +1242,6 @@
         },
         {
           "skillName": "jquery",
-          "relevance": 8
-        },
-        {
-          "skillName": "javascript",
           "relevance": 8
         },
         {
@@ -3477,6 +3465,533 @@
       "relevance": 8,
       "expertise": 4,
       "url": "https://danieljpost.consulting"
+    },
+    {
+      "_id": "42c002f1-f27d-5297-ae6a-581adf6b0f20",
+      "sname": "rust",
+      "name": "Rust",
+      "description": "A systems programming language focused on safety, speed, and concurrency, with memory safety guaranteed at compile time without a garbage collector",
+      "category": "Programming Languages",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Consulting",
+        "Team Lead"
+      ],
+      "relevance": 10,
+      "expertise": 9,
+      "url": "https://www.rust-lang.org"
+    },
+    {
+      "_id": "dec5b8f1-3467-5cb3-9a8d-5c48c98f6b4e",
+      "sname": "python",
+      "name": "Python",
+      "description": "A high-level general-purpose programming language widely used for scripting, data processing, and automation",
+      "category": "Programming Languages",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Data"
+      ],
+      "relevance": 10,
+      "expertise": 7,
+      "url": "https://www.python.org"
+    },
+    {
+      "_id": "38c88cfa-ef3f-5323-9960-b9dc7c1f3334",
+      "sname": "webassembly",
+      "name": "WebAssembly",
+      "description": "A binary instruction format for a stack-based virtual machine, designed as a portable compilation target for programming languages",
+      "category": "Programming Languages",
+      "tiers": [
+        "Back End",
+        "Front End",
+        "Software Engineer"
+      ],
+      "relevance": 5,
+      "expertise": 4,
+      "url": "https://webassembly.org"
+    },
+    {
+      "_id": "928f9ec6-feee-5ed4-8db9-26f4c2f9265d",
+      "sname": "sql",
+      "name": "SQL",
+      "description": "The standard query language for relational databases, used to define, manipulate, and retrieve structured data",
+      "category": "Data",
+      "tiers": [
+        "Data",
+        "Back End",
+        "Software Engineer"
+      ],
+      "relevance": 7,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/SQL"
+    },
+    {
+      "_id": "a8567a2c-fe82-5e17-a182-eac027229a18",
+      "sname": "sqlite",
+      "name": "SQLite",
+      "description": "A small, fast, self-contained, high-reliability, full-featured SQL database engine embedded directly into the application",
+      "category": "Data",
+      "tiers": [
+        "Data",
+        "Back End",
+        "Software Engineer"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://www.sqlite.org"
+    },
+    {
+      "_id": "fe3c3bef-0633-5f00-b308-97b428051642",
+      "sname": "data modeling",
+      "name": "Data Modeling",
+      "description": "The practice of defining the structure, relationships, and constraints of data so that it accurately represents the domain it describes",
+      "category": "Data",
+      "tiers": [
+        "Data",
+        "Back End",
+        "Software Engineer",
+        "Consulting"
+      ],
+      "relevance": 8,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Data_model"
+    },
+    {
+      "_id": "038edfcc-de89-5936-831b-9d349ccd4209",
+      "sname": "etl",
+      "name": "ETL",
+      "description": "Extract, Transform, Load; the process of pulling data from source systems, reshaping it, and loading it into a destination store",
+      "category": "Data",
+      "tiers": [
+        "Data",
+        "Back End",
+        "Software Engineer"
+      ],
+      "relevance": 9,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Extract,_transform,_load"
+    },
+    {
+      "_id": "086b111e-aaed-530d-9813-123b4a3da193",
+      "sname": "full-text search",
+      "name": "Full-Text Search",
+      "description": "Techniques for indexing and querying natural-language text so documents can be retrieved by the words they contain rather than by exact key",
+      "category": "Data",
+      "tiers": [
+        "Data",
+        "Back End",
+        "Software Engineer"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Full-text_search"
+    },
+    {
+      "_id": "60759bb0-ed3c-5f28-8e0f-8a3e9d0618da",
+      "sname": "embeddings",
+      "name": "Embeddings",
+      "description": "Dense vector representations of text or other content that place semantically similar items near one another in a high-dimensional space",
+      "category": "Data",
+      "tiers": [
+        "Data",
+        "Back End",
+        "Software Engineer"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Word_embedding"
+    },
+    {
+      "_id": "d62dd781-ea90-56a2-adf4-06da2cd1165d",
+      "sname": "vector search",
+      "name": "Vector Search",
+      "description": "Retrieval of records by nearest-neighbour similarity over embedding vectors rather than by exact or keyword match",
+      "category": "Data",
+      "tiers": [
+        "Data",
+        "Back End",
+        "Software Engineer"
+      ],
+      "relevance": 6,
+      "expertise": 6,
+      "url": "https://en.wikipedia.org/wiki/Nearest_neighbor_search"
+    },
+    {
+      "_id": "1218f710-66bb-5afd-9f24-43d27dc21296",
+      "sname": "websocket",
+      "name": "WebSocket",
+      "description": "A protocol providing full-duplex communication over a single long-lived TCP connection, used for real-time client/server messaging",
+      "category": "Data",
+      "tiers": [
+        "Back End",
+        "Front End",
+        "Software Engineer"
+      ],
+      "relevance": 8,
+      "expertise": 8,
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API"
+    },
+    {
+      "_id": "06167f1c-d66e-590b-bb81-3aba73c21e62",
+      "sname": "oidc",
+      "name": "OpenID Connect",
+      "description": "An identity layer built on top of OAuth 2.0 that lets clients verify a user's identity and obtain basic profile information",
+      "category": "Data",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://openid.net/developers/how-connect-works"
+    },
+    {
+      "_id": "36e819dd-a3e3-55c1-93f7-2634308ebcb5",
+      "sname": "jwt",
+      "name": "JSON Web Tokens",
+      "description": "A compact, URL-safe means of representing claims between two parties, commonly used to carry authentication and authorization state",
+      "category": "Data",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://jwt.io/introduction"
+    },
+    {
+      "_id": "f323108e-f296-5cd8-a09b-3950e1265baf",
+      "sname": "generative ai",
+      "name": "Generative AI",
+      "description": "Systems that produce new text, code, images, or other content from learned statistical models rather than retrieving stored results",
+      "category": "Methodologies",
+      "tiers": [
+        "Software Engineer",
+        "Consulting",
+        "Team Lead",
+        "Back End",
+        "Business"
+      ],
+      "relevance": 9,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence"
+    },
+    {
+      "_id": "f899dfc4-d50a-5505-a3c3-404a7922e6bb",
+      "sname": "large language models",
+      "name": "Large Language Models",
+      "description": "Neural models trained on very large text corpora that generate and transform natural language, and increasingly code",
+      "category": "Methodologies",
+      "tiers": [
+        "Software Engineer",
+        "Consulting",
+        "Team Lead",
+        "Back End",
+        "Business"
+      ],
+      "relevance": 9,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Large_language_model"
+    },
+    {
+      "_id": "db52e19f-0e43-57c3-8b62-3a9411642dd6",
+      "sname": "retrieval augmented generation",
+      "name": "Retrieval Augmented Generation",
+      "description": "An architecture that grounds a language model's output in documents fetched at query time, reducing reliance on parametric memory",
+      "category": "Methodologies",
+      "tiers": [
+        "Software Engineer",
+        "Consulting",
+        "Team Lead",
+        "Back End",
+        "Data"
+      ],
+      "relevance": 9,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+    },
+    {
+      "_id": "7fc6671c-a545-5377-91a1-f5dccb820778",
+      "sname": "prompt engineering",
+      "name": "Prompt Engineering",
+      "description": "The practice of structuring instructions and context so a language model produces reliable, repeatable output",
+      "category": "Methodologies",
+      "tiers": [
+        "Software Engineer",
+        "Consulting",
+        "Team Lead",
+        "Business"
+      ],
+      "relevance": 8,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Prompt_engineering"
+    },
+    {
+      "_id": "6010c95c-2d00-5940-98e3-a2cc729803a6",
+      "sname": "model evaluation",
+      "name": "Model Evaluation",
+      "description": "Systematic measurement of model output quality against defined criteria, so that changes can be shown to improve rather than merely alter results",
+      "category": "Methodologies",
+      "tiers": [
+        "Software Engineer",
+        "Consulting",
+        "Team Lead",
+        "Data"
+      ],
+      "relevance": 9,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Statistical_model_validation"
+    },
+    {
+      "_id": "44d22d40-d868-5cde-ad32-8419c7f8dd19",
+      "sname": "local model inference",
+      "name": "Local Model Inference",
+      "description": "Running language models on self-hosted hardware rather than a third-party API, for cost, latency, or data-custody reasons",
+      "category": "System Tools",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator"
+      ],
+      "relevance": 8,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Inference_engine"
+    },
+    {
+      "_id": "070c7ff5-d649-5fb3-a002-6d4649b75bf7",
+      "sname": "ollama",
+      "name": "Ollama",
+      "description": "A tool for packaging, serving, and running large language models locally",
+      "category": "System Tools",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://ollama.com"
+    },
+    {
+      "_id": "4625ce10-b6f2-56ed-9fb2-660a8f9c0a25",
+      "sname": "ai governance",
+      "name": "AI Governance",
+      "description": "The policies and controls determining how AI systems may be used, what data they may touch, and who is accountable for their output",
+      "category": "Methodologies",
+      "tiers": [
+        "Business",
+        "Consulting",
+        "Team Lead",
+        "Administrator"
+      ],
+      "relevance": 8,
+      "expertise": 6,
+      "url": "https://en.wikipedia.org/wiki/Artificial_intelligence_governance"
+    },
+    {
+      "_id": "ece3c027-4390-55fb-8114-4f540dc4057c",
+      "sname": "systems design",
+      "name": "Systems Design",
+      "description": "Defining the architecture, components, interfaces, and data flows of a system to satisfy its functional and operational requirements",
+      "category": "Methodologies",
+      "tiers": [
+        "Software Engineer",
+        "Consulting",
+        "Team Lead",
+        "Back End",
+        "Business"
+      ],
+      "relevance": 10,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Systems_design"
+    },
+    {
+      "_id": "9feb98cc-79f7-57f2-a1da-474f4e2df83c",
+      "sname": "software design patterns",
+      "name": "Software Design Patterns",
+      "description": "General, reusable solutions to commonly occurring problems in software design",
+      "category": "Design Patterns",
+      "tiers": [
+        "Software Engineer",
+        "Consulting",
+        "Team Lead",
+        "Back End",
+        "Front End"
+      ],
+      "relevance": 9,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Software_design_pattern"
+    },
+    {
+      "_id": "b3b9acc7-ccd8-5601-9ea4-311a189bf398",
+      "sname": "technical design documentation",
+      "name": "Technical Design Documentation",
+      "description": "Written specifications that record architectural decisions and their rationale so that other engineers can implement and maintain the system",
+      "category": "Methodologies",
+      "tiers": [
+        "Software Engineer",
+        "Consulting",
+        "Team Lead",
+        "Business"
+      ],
+      "relevance": 9,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Software_design_description"
+    },
+    {
+      "_id": "4d681780-a13e-5e16-9275-65271afa9808",
+      "sname": "root cause analysis",
+      "name": "Root Cause Analysis",
+      "description": "A structured approach to identifying the underlying cause of a fault rather than its symptoms, so the fix prevents recurrence",
+      "category": "Methodologies",
+      "tiers": [
+        "Software Engineer",
+        "Consulting",
+        "Team Lead",
+        "Administrator",
+        "DevOps"
+      ],
+      "relevance": 8,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/Root_cause_analysis"
+    },
+    {
+      "_id": "3cdf4a06-2c4f-5ef3-aee3-2207dd7b4b82",
+      "sname": "microservices",
+      "name": "Microservices",
+      "description": "An architectural style structuring an application as a collection of independently deployable services communicating over a network",
+      "category": "Design Patterns",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Consulting",
+        "Team Lead"
+      ],
+      "relevance": 8,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Microservices"
+    },
+    {
+      "_id": "42c4cad6-eccb-5043-b0e9-89379348e6da",
+      "sname": "actix-web",
+      "name": "actix-web",
+      "description": "A powerful, pragmatic, and extremely fast web framework for Rust",
+      "category": "Frameworks",
+      "tiers": [
+        "Back End",
+        "Software Engineer",
+        "DevOps"
+      ],
+      "relevance": 8,
+      "expertise": 8,
+      "url": "https://actix.rs"
+    },
+    {
+      "_id": "67464378-006c-507c-9b9f-1f541a1307b2",
+      "sname": "kubernetes",
+      "name": "Kubernetes",
+      "description": "An open-source system for automating deployment, scaling, and management of containerized applications",
+      "category": "Cloud Technologies",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator"
+      ],
+      "relevance": 7,
+      "expertise": 5,
+      "url": "https://kubernetes.io"
+    },
+    {
+      "_id": "05c4d448-05bc-5e58-9a85-8ac696e45b5e",
+      "sname": "argocd",
+      "name": "Argo CD",
+      "description": "A declarative, GitOps continuous delivery tool for Kubernetes",
+      "category": "Deployment Tools",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator"
+      ],
+      "relevance": 6,
+      "expertise": 5,
+      "url": "https://argo-cd.readthedocs.io"
+    },
+    {
+      "_id": "7fadc273-8465-5052-b7e1-1397108d9d04",
+      "sname": "gitops",
+      "name": "GitOps",
+      "description": "An operational model in which the desired state of infrastructure is declared in version control and reconciled automatically",
+      "category": "Methodologies",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator"
+      ],
+      "relevance": 6,
+      "expertise": 6,
+      "url": "https://en.wikipedia.org/wiki/DevOps"
+    },
+    {
+      "_id": "cf9a5ea5-c80b-5835-9838-764688a07478",
+      "sname": "ci/cd",
+      "name": "CI/CD",
+      "description": "Continuous Integration and Continuous Delivery; automated building, testing, and release of software on every change",
+      "category": "Methodologies",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Team Lead"
+      ],
+      "relevance": 7,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/CI/CD"
+    },
+    {
+      "_id": "2bbb47dd-01b5-562e-9a01-714f4ff9280c",
+      "sname": "load testing",
+      "name": "Load Testing",
+      "description": "Measuring how a system behaves under expected and peak demand, to find limits before users do",
+      "category": "Performance Tools",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator"
+      ],
+      "relevance": 7,
+      "expertise": 6,
+      "url": "https://en.wikipedia.org/wiki/Load_testing"
+    },
+    {
+      "_id": "bf9343f7-fe29-51df-a656-5a6e737d6f62",
+      "sname": "supply chain security",
+      "name": "Supply Chain Security",
+      "description": "Controls over the provenance and integrity of third-party dependencies and build artifacts consumed by a project",
+      "category": "Methodologies",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer",
+        "Administrator",
+        "Consulting"
+      ],
+      "relevance": 7,
+      "expertise": 6,
+      "url": "https://en.wikipedia.org/wiki/Supply_chain_attack"
     }
   ],
   "companies": [
