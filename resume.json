@@ -3995,6 +3995,264 @@
       "relevance": 7,
       "expertise": 6,
       "url": "https://en.wikipedia.org/wiki/Supply_chain_attack"
+    },
+    {
+      "_id": "1ea359d1-ff56-5225-a45d-4d55f13cd456",
+      "sname": "cakephp",
+      "name": "CakePHP",
+      "description": "A rapid development framework for PHP providing an extensible architecture for building, maintaining, and deploying applications",
+      "category": "Frameworks",
+      "tiers": [
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "Business",
+        "Consulting"
+      ],
+      "relevance": 10,
+      "expertise": 7,
+      "url": "https://cakephp.org"
+    },
+    {
+      "_id": "4b3fc89b-f399-5c3a-879b-504449d0dc20",
+      "sname": "drupal",
+      "name": "Drupal",
+      "description": "An open-source content management framework written in PHP, used for everything from personal blogs to enterprise sites",
+      "category": "Frameworks",
+      "tiers": [
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "Business",
+        "Consulting"
+      ],
+      "relevance": 8,
+      "expertise": 5,
+      "url": "https://www.drupal.org"
+    },
+    {
+      "_id": "ffd626fa-4a19-5dce-b824-ca241fdb04c8",
+      "sname": "wordpress",
+      "name": "WordPress",
+      "description": "An open-source content management system written in PHP, powering a large share of the public web",
+      "category": "Frameworks",
+      "tiers": [
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "Business",
+        "Consulting"
+      ],
+      "relevance": 10,
+      "expertise": 6,
+      "url": "https://wordpress.org"
+    },
+    {
+      "_id": "60085182-5837-5493-a8e1-f34859a92c72",
+      "sname": "twig",
+      "name": "Twig",
+      "description": "A flexible, fast, and secure template engine for PHP, and the default templating layer for Symfony",
+      "category": "Libraries",
+      "tiers": [
+        "Back End",
+        "Front End",
+        "Software Engineer",
+        "Business",
+        "Consulting"
+      ],
+      "relevance": 8,
+      "expertise": 6,
+      "url": "https://twig.symfony.com"
+    },
+    {
+      "_id": "959e394a-71b2-5b0c-962f-d7331969a199",
+      "sname": "angularjs",
+      "name": "AngularJS",
+      "description": "The original 1.x AngularJS framework for building dynamic single-page web applications; superseded by Angular",
+      "category": "Libraries",
+      "tiers": [
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
+      "relevance": 10,
+      "expertise": 7,
+      "url": "https://angularjs.org"
+    },
+    {
+      "_id": "26fbaccc-08bd-55da-89af-5b532e916b2a",
+      "sname": "bootstrap",
+      "name": "Bootstrap",
+      "description": "A front-end toolkit of prebuilt CSS and JavaScript components for building responsive, mobile-first sites",
+      "category": "Libraries",
+      "tiers": [
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface"
+      ],
+      "relevance": 9,
+      "expertise": 6,
+      "url": "https://getbootstrap.com"
+    },
+    {
+      "_id": "3551bbe7-b301-5069-8fbb-68a96f36780c",
+      "sname": "gulp",
+      "name": "gulp.js",
+      "description": "A JavaScript-based toolkit for automating repetitive build tasks such as compilation, minification, and asset pipelines",
+      "category": "System Tools",
+      "tiers": [
+        "DevOps",
+        "Front End",
+        "Back End",
+        "Software Engineer"
+      ],
+      "relevance": 5,
+      "expertise": 4,
+      "url": "https://gulpjs.com"
+    },
+    {
+      "_id": "cf9f8ce5-0d3b-5daa-bcd6-9f19ef5c4085",
+      "sname": "api",
+      "name": "API Development",
+      "description": "Designing and building application programming interfaces so that systems can exchange data over well-defined contracts",
+      "category": "Data",
+      "tiers": [
+        "Back End",
+        "Software Engineer",
+        "DevOps",
+        "Consulting",
+        "Team Lead"
+      ],
+      "relevance": 10,
+      "expertise": 8,
+      "url": "https://en.wikipedia.org/wiki/API"
+    },
+    {
+      "_id": "1b3bd60d-06f3-5e16-9250-54fbe0ce8be9",
+      "sname": "oauth",
+      "name": "OAuth 2.0",
+      "description": "An authorization framework letting an application obtain limited access to a user's account on another service without handling their credentials",
+      "category": "Data",
+      "tiers": [
+        "Back End",
+        "Software Engineer",
+        "DevOps",
+        "Administrator"
+      ],
+      "relevance": 4,
+      "expertise": 6,
+      "url": "https://oauth.net/2/"
+    },
+    {
+      "_id": "d312406e-90fc-5af1-ad8e-38d35e1d2529",
+      "sname": "i18n",
+      "name": "Internationalization",
+      "description": "Designing software so it can be adapted to different languages, regions, and locales without engineering changes to the codebase",
+      "category": "Methodologies",
+      "tiers": [
+        "Front End",
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Back End",
+        "Consulting"
+      ],
+      "relevance": 8,
+      "expertise": 6,
+      "url": "https://www.w3.org/International/questions/qa-i18n"
+    },
+    {
+      "_id": "7a2310a0-898b-591a-90ab-1d990412b488",
+      "sname": "wireframes",
+      "name": "Wireframing",
+      "description": "Producing low-fidelity structural layouts that establish content hierarchy and behaviour before visual design begins",
+      "category": "Methodologies",
+      "tiers": [
+        "Front End",
+        "User Experience",
+        "User Interface",
+        "Consulting"
+      ],
+      "relevance": 10,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/Website_wireframe"
+    },
+    {
+      "_id": "cfdd3af5-f29c-5720-bd9e-06f6ed64034b",
+      "sname": "griddesign",
+      "name": "Grid Design",
+      "description": "Laying out interfaces on a modular grid so that spacing, alignment, and proportion stay consistent across breakpoints",
+      "category": "Methodologies",
+      "tiers": [
+        "Front End",
+        "User Experience",
+        "User Interface"
+      ],
+      "relevance": 8,
+      "expertise": 6,
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout"
+    },
+    {
+      "_id": "edd6cc4d-fe56-5d27-847a-34cd22b9c0d7",
+      "sname": "ui",
+      "name": "User Interface Design",
+      "description": "Designing the controls, layout, and visual language through which a user operates a system",
+      "category": "Methodologies",
+      "tiers": [
+        "Front End",
+        "User Experience",
+        "User Interface",
+        "Consulting"
+      ],
+      "relevance": 8,
+      "expertise": 7,
+      "url": "https://en.wikipedia.org/wiki/User_interface_design"
+    },
+    {
+      "_id": "3df049a4-1b8b-5eec-af2f-2d088796bb27",
+      "sname": "basecamp",
+      "name": "Basecamp",
+      "description": "A web-based project management and team collaboration tool organizing work into projects, message boards, and to-do lists",
+      "category": "Project Management",
+      "tiers": [
+        "Business",
+        "Consulting",
+        "Team Lead"
+      ],
+      "relevance": 3,
+      "expertise": 4,
+      "url": "https://basecamp.com"
+    },
+    {
+      "_id": "a54dfe37-41fc-57ff-80b1-124471de2002",
+      "sname": "freshbooks",
+      "name": "FreshBooks",
+      "description": "A cloud accounting and invoicing service used by small businesses to track time, bill clients, and manage expenses",
+      "category": "Project Management",
+      "tiers": [
+        "Business",
+        "Consulting"
+      ],
+      "relevance": 2,
+      "expertise": 4,
+      "url": "https://www.freshbooks.com"
+    },
+    {
+      "_id": "7d7e7b10-7b51-5004-9636-dd12cb53b1df",
+      "sname": "beanstalk",
+      "name": "Beanstalk",
+      "description": "A hosted version control and deployment service providing repository hosting with built-in deployment to servers",
+      "category": "Deployment Tools",
+      "tiers": [
+        "DevOps",
+        "Back End",
+        "Software Engineer"
+      ],
+      "relevance": 3,
+      "expertise": 5,
+      "url": "https://beanstalkapp.com"
     }
   ],
   "companies": [
