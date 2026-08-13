@@ -2091,6 +2091,7 @@
     "Cloud Technologies",
     "Libraries",
     "Methodologies",
+    "Project Management",
     "Remote Working Tools",
     "Frameworks"
   ],
@@ -2228,7 +2229,7 @@
       "sname": "dockercompose",
       "name": "Docker-compose",
       "description": "a container tool",
-      "category": 1,
+      "category": "System Tools",
       "tiers": [
         "Administrator",
         "DevOps",
@@ -2703,7 +2704,8 @@
       ],
       "relevance": 6,
       "expertise": 7,
-      "url": "https://www.atlassian.com/software/jira"
+      "url": "https://www.atlassian.com/software/jira",
+      "category": "Project Management"
     },
     {
       "_id": "a7ef3580-44f4-5089-a81d-43de9c4d821e",
