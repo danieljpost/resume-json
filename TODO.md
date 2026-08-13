@@ -8,7 +8,8 @@
 1) [ ] locate who recruited me for each of the last like 15 years worth of gigs, link them in LinkedIn
 1) [ ] write a script or 7 to reduce the canonicals .json file into standard formats like https://jsonresume.org/schema, based on query e.g. jobtype=devops & verbosity=2. Probably just fucking brute-force the generation as a CI/CD step
 1) [ ] publish schemas at https://eatthebillionaires.pro/schema/resume.schema.json et al.
-1) [X] use like https://schema.org/Person — `me` carries @context=https://schema.org, @type=Person, see=https://schema.org/Person. Note only 2 of 33 companies carry see=https://schema.org/Organization, so the Organization side is barely started (jsonresume is covered above)
+1) [X] use like https://schema.org/Person — `me` carries @context=https://schema.org, @type=Person, see=https://schema.org/Person. Note only 2 of 33 companies carry see=https://schema.org/Organization, so the Organization side is barely started
+1) [ ] use https://jsonresume.org/schema
 1) [ ] push those things into mongodb for maintenance
 1) [ ] write an API using express or Rust or whatever to serve those files as if they weren't just static data
 1) [ ] find a good tool to serve those out also as an API with like GraphQL
