@@ -224,13 +224,15 @@
         "_id": "ff89656f-93f7-59e4-97d0-ccc5247ca523",
         "name": "mindora",
         "type": "client",
-        "fullname": "Mindora AI"
+        "fullname": "Mindora AI",
+        "url": "https://mindora.ai"
     },
     {
         "_id": "051c8b5f-8f90-50cb-a547-baa2e7fc5c2e",
         "name": "imaginationguild",
         "type": "contractor",
-        "fullname": "Imagination Guild"
+        "fullname": "Imagination Guild",
+        "url": "http://imaginationguild.com"
     },
     {
         "_id": "1d1c49ae-6883-55b9-aee6-e445b841c755",
@@ -243,12 +245,14 @@
         "_id": "3e41b759-9af8-5401-826e-449e88fa9a91",
         "name": "searchleaders",
         "type": "recruiter",
-        "fullname": "Search Leaders"
+        "fullname": "Search Leaders",
+        "url": "https://searchleaders.com"
     },
     {
         "_id": "c413adfc-fa4e-5c03-b0dd-b8b1ca02c615",
         "name": "brokerbin",
         "type": "employer",
-        "fullname": "BrokerBin"
+        "fullname": "BrokerBin",
+        "url": "https://brokerbin.com"
     }
 ]
