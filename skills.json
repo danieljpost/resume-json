@@ -2611,5 +2611,22 @@
         "relevance": 6,
         "expertise": 6,
         "url": "https://en.wikipedia.org/wiki/Cryptographically_secure_pseudorandom_number_generator"
+    },
+    {
+        "_id": "ccf05f09-abc5-5ccf-95eb-5011b84f0b3f",
+        "sname": "platform-engineering",
+        "name": "Platform Engineering",
+        "description": "Building and operating the internal platform — self-service environments, deployment tooling, and paved-road workflows — so product teams ship without owning the underlying infrastructure",
+        "category": "Methodologies",
+        "tiers": [
+            "DevOps",
+            "Administrator",
+            "Back End",
+            "Software Engineer",
+            "Team Lead"
+        ],
+        "relevance": 7,
+        "expertise": 7,
+        "url": "https://en.wikipedia.org/wiki/Platform_engineering"
     }
 ]
