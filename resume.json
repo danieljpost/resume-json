@@ -646,9 +646,9 @@
         "Add Google Wallet",
         "Improved i18n performance"
       ],
-      "blurbs": [
-        "I worked with Lacek to add Google Wallet functionality,  improve internationalization (i18n)"
-      ],
+      "blurbs": {
+        "Back End": "Added Google Wallet payment support to a client's rewards-program microsite built on PHP and Yii2, and improved the performance of the site's internationalization layer."
+      },
       "technologies": [
         {
           "skillName": "i18n",
