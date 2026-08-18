@@ -824,7 +824,6 @@
         "relevance": 9,
         "title": "Software Architect",
         "tiers": [
-            "Administrator",
             "Back End",
             "Business",
             "Consulting",
@@ -832,9 +831,22 @@
             "DevOps",
             "Front End",
             "Software Engineer",
+            "Team Lead",
             "User Interface",
             "User Experience"
         ],
+        "blurbs": {
+            "Software Engineer": "Sole developer of a Zend Framework 2 application whose data layer was Jira rather than a database. Designed a query builder and repository abstraction over JQL so the rest of the system, and everyone who later maintained it, worked against ordinary domain objects instead of Jira queries. Delivered roughly 80 percent of a written specification in four and a half months and documented structures and conventions in code as the work progressed, which is why development continued uninterrupted after the contract ended.",
+            "Back End": "Built the PHP and Zend Framework 2 layer that made a brand-new Jira-backed CMS workable for Target.com. With no relational store of its own, the application communicated entirely with Jira over its REST API, making the backend an integration and domain-modeling problem rather than a persistence one: a query builder translated domain requests into JQL, and a repository layer kept that translation in a single place.",
+            "Data": "Modeled Target.com content and workflow as Jira issues, retrieved through JQL by a query builder with a repository layer isolating those queries from the rest of the application. The system held no database of its own. Jira was the system of record, and every read and write travelled through its REST API.",
+            "Front End": "Built the browser-facing editing experience in JavaScript and jQuery: form-driven authoring, WYSIWYG editing, and content previews, used daily by the content team and later by several hundred people across multiple Target departments.",
+            "User Interface": "Designed and implemented the interface that made a Jira backend invisible. Content authors worked with forms, a WYSIWYG editor, and previews, never with issue keys or query syntax.",
+            "User Experience": "The governing design goal was that the exotic backend never surface. Content staff had no reason to know their work was stored as Jira issues, and none of them needed to learn Jira Query Language to do their jobs. That abstraction is what allowed the tool to be adopted across multiple departments by people who were not engineers.",
+            "Team Lead": "Trained the incoming contractor across the final month of the engagement; he completed the remaining scope without interruption once the contract closed. Separately taught Target's content team git and the PHP templating system, so non-engineers could write and wire their own partials and components rather than queuing every change behind a developer.",
+            "Consulting": "Engaged as a contractor against a product owner's written specification, working solo inside an existing content team. Transferred knowledge continuously rather than through a formal handoff, and left a documented codebase a successor could pick up. There was no acceptance gate and none proved necessary.",
+            "Business": "Slingshot displaced a legacy content management tool that Target estimated had been costing millions of dollars in time and labor. Seven weeks after the contract closed, a Target developer on the project described the tool as incredibly successful and scaling well as the project grew at an enterprise level.",
+            "DevOps": "Helped configure and deploy the shared development server and maintained the codebase in a shared GitHub repository, establishing the working setup that both the content team and the successor contractor developed against."
+        },
         "gigType": "contract",
         "location": "Minneapolis",
         "companyId": "b4f68a26-7556-55f2-bbbb-7e629a430e1b",
@@ -842,24 +854,30 @@
         "contractorId": null,
         "startDate": "2013-12-01",
         "endDate": "2014-04-15",
-        "shortDesc": "Build Slingshot tool to accelerate web content management",
-        "longDesc": "Build Project Slingshot, an internal content management tool utilized across multiple departments\nTrain tool users to develop and extend Slingshot system's code\nSaved millions of dollars in time and labor vs legacy content management tool",
+        "shortDesc": "Build the Zend Framework 2 interface behind Slingshot, a Jira-backed CMS for Target.com",
+        "longDesc": "Sole developer of Project Slingshot's Zend Framework 2 interface layer, the component that made a brand-new Jira-backed content management system workable for Target.com\nAbstract JQL behind a query builder and repository layer so neither content authors nor later maintainers ever wrote a Jira query\nDeliver roughly 80 percent of the product owner's specification and train the successor contractor who completed it",
         "responsibilities": [
-            "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than four hundred people across multiple departments"
+            "Build the Zend Framework 2 interface layer for Project Slingshot, a content management system for Target.com backed by Jira rather than a relational database",
+            "Implement the specification authored by the product owner, working as the project's sole developer",
+            "Abstract the Jira backend so content staff could operate the system without writing JQL",
+            "Build the browser-facing editing experience in JavaScript and jQuery: forms, WYSIWYG editing, and content previews",
+            "Help configure and deploy the shared development server, and maintain the codebase in a shared GitHub repository",
+            "Train Target's content team and an incoming contractor to develop and extend the system"
         ],
         "accomplishments": [
-            "Code and deploy proof-of-concept of Project Slingshot, an internal content management tool utilized by more than four hundred people across multiple departments",
-            "Train tool users to develop and extend Slingshot system's code",
-            "Saved millions of dollars in time and labor vs legacy content management tool"
+            "Delivered the Zend Framework 2 interface layer that made Target.com's new Jira-backed content management system technically viable, working solo across a four-and-a-half-month contract",
+            "Designed a query builder and repository layer that fully abstracted JQL, so no content author or later maintainer ever needed to learn Jira Query Language to operate or extend the system",
+            "Built the editing experience used daily by the content team: form-driven authoring, WYSIWYG editing, and live previews in JavaScript and jQuery",
+            "Completed roughly 80 percent of the product owner's written specification before the contract ended",
+            "Trained the successor contractor over the final month of the engagement; he continued development without interruption after the contract closed",
+            "Taught Target's content team git and the PHP templating system, enabling non-engineers to write and wire their own partials and components",
+            "Documented structures and conventions in code as the work progressed, so the team inheriting the project received a readable codebase rather than a formal handoff",
+            "System went on to serve more than four hundred people across multiple departments, displacing a legacy content management tool that Target estimated had been costing millions in time and labor"
         ],
         "technologies": [
             {
                 "skillName": "php",
                 "relevance": 9
-            },
-            {
-                "skillName": "mysql",
-                "relevance": 2
             },
             {
                 "skillName": "zf2",
@@ -876,6 +894,10 @@
             {
                 "skillName": "jira",
                 "relevance": 9
+            },
+            {
+                "skillName": "jql",
+                "relevance": 8
             },
             {
                 "skillName": "training",
