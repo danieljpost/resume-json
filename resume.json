@@ -2987,21 +2987,21 @@
       "url": "https://www.atlassian.com/software/jira",
       "category": "Project Management"
     },
-      {
-        "_id": "002810b9-b52d-5773-b2e8-db621af6c4de",
-        "sname": "jql",
-        "name": "JQL (Jira Query Language)",
-        "description": "Jira Query Language, used to query and filter Jira issues programmatically",
-        "tiers": [
-          "Back End",
-          "Software Engineer",
-          "Data"
-        ],
-        "relevance": 3,
-        "expertise": 7,
-        "url": "https://www.atlassian.com/software/jira/guides/jql/overview",
-        "category": "Data"
-      },
+    {
+      "_id": "002810b9-b52d-5773-b2e8-db621af6c4de",
+      "sname": "jql",
+      "name": "JQL (Jira Query Language)",
+      "description": "Jira Query Language, used to query and filter Jira issues programmatically",
+      "tiers": [
+        "Back End",
+        "Software Engineer",
+        "Data"
+      ],
+      "relevance": 3,
+      "expertise": 7,
+      "url": "https://www.atlassian.com/software/jira/guides/jql/overview",
+      "category": "Data"
+    },
     {
       "_id": "a7ef3580-44f4-5089-a81d-43de9c4d821e",
       "sname": "zoom",
