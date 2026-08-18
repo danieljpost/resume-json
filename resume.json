@@ -4998,7 +4998,6 @@
     },
     {
       "_id": "4e9f69c1-548e-52ba-bd34-f0879191c888",
-      "credit": true,
       "name": "irishtitan",
       "type": "contractor",
       "fullname": "Irish Titan",
@@ -5014,7 +5013,6 @@
     {
       "_id": "7752d602-3976-5fa1-8a45-7b2e9473adf8",
       "name": "btg",
-      "credit": true,
       "type": "contractor",
       "fullname": "Build Technology Group",
       "url": "https://buildtechnologygroup.com"
@@ -5022,7 +5020,6 @@
     {
       "_id": "d1d982c2-0f4d-5242-9157-4a40144bc980",
       "name": "rht",
-      "credit": false,
       "type": "contractor",
       "fullname": "Robert Half Technology",
       "url": "https://www.roberthalf.com/employers/technology"
@@ -5030,7 +5027,6 @@
     {
       "_id": "5a9d0998-fbd9-56d5-99fe-81dc601c6ed5",
       "name": "horizontal",
-      "credit": false,
       "type": "contractor",
       "fullname": "Horizontal",
       "url": "https://www.horizontaldigital.com"
@@ -5076,7 +5072,6 @@
     {
       "_id": "bff69483-f42c-5711-b5a5-4f8b43225eae",
       "name": "lacek",
-      "credit": true,
       "type": "client",
       "fullname": "The Lacek Group",
       "url": "https://lacek.com"
