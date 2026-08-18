@@ -917,8 +917,8 @@
         "contractorId": null,
         "startDate": "2014-06-01",
         "endDate": "2014-07-01",
-        "shortDesc": "Build Slingshot tool to accelerate web content management",
-        "longDesc": "Build Project Slingshot, an internal content management tool utilized across multiple departments\nTrain tool users to develop and extend Slingshot system's code\nSaved millions of dollars in time and labor vs legacy content management tool",
+        "shortDesc": "Migrate content database from Drupal to new CakePHP application",
+        "longDesc": "Automate and test database export from Drupal platform to new CakePHP application",
         "responsibilities": [
             "Automate and test database export from Drupal platform to new CakePHP application"
         ],
