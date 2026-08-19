@@ -758,13 +758,16 @@
       "relevance": 8,
       "title": "Software Developer",
       "tiers": [
-        "DevOps",
         "Administrator",
+        "DevOps",
+        "Back End",
         "Front End",
-        "Software Engineer",
-        "User Interface",
         "Data",
-        "Back End"
+        "Software Engineer",
+        "User Experience",
+        "User Interface",
+        "Consulting",
+        "Team Lead"
       ],
       "gigType": "employee",
       "location": "Greater Twin Cities Area",
@@ -773,25 +776,100 @@
       "contractorId": null,
       "startDate": "2016-10-26",
       "endDate": "2018-08-24",
-      "shortDesc": "Maintain and update flagship marketing platform",
-      "longDesc": "Maintain and update flagship marketing platform\nAdd connectivity to third-party APIs, e.g. LinkedIn and Google My Business\nDesign, test, and implement improvements robustness in all levels of a complex, multi-tier, multi-platform user application\nAnalyze performance issues and recommend and implement improvements\nPerform Root Cause Analysis to eliminate memory leaks in customer messaging service",
+      "shortDesc": "Integrated a dozen third-party marketing APIs into a multi-tenant SMB marketing platform, across a shared PHP library, a versioned REST API and two Drupal sites.",
+      "longDesc": "Vivial's flagship product was a multi-tenant marketing platform for small businesses, spread across five repositories: a shared PSR-4 PHP library, backend services, a versioned REST API, and two Drupal 7 sites. Over 19 months Daniel delivered 112 tickets in 834 commits there, concentrated on the integration surface — Google My Business, LinkedIn, Facebook and Instagram Ads, Twitter, Yelp, Yext and MailChimp — including the GMB vertical end to end and a migration of every LinkedIn client onto OAuth 2.0. He co-owned the shared library those integrations lived in and coordinated its version across dependent applications, built the customer-facing newsletter and ad-preview subsystems on the Drupal side, and root-caused a production memory leak in the newsletter service. The work ran the full stack of a legacy PHP estate: provider abstractions and error handling underneath, dashboard and campaign flows on top, shipped behind feature gates and integrated across five repositories at once.",
       "responsibilities": [
-        "Manage SQL and NoSQL databases and caching tools (e.g., MySQL, PostgreSQL, MongoDB, Redis) to address various website requirements, balancing flexibility with performance.",
-        "Design, test, and add robustness in all levels of a complex, multi-tier, multi-platform user application",
-        "Analyze performance issues and recommend and implement improvements including caching, normalization, stored procedures",
-        "Maintain and update flagship marketing platform",
-        "Perform Root Cause Analysis to eliminate memory leaks in monthly newsletter"
+        "Maintain and extend the flagship multi-tenant marketing platform across five repositories",
+        "Add and maintain connectivity to third-party marketing APIs, e.g. Google My Business, LinkedIn, Facebook Ads and Yelp",
+        "Design, test, and add robustness at all levels of a complex, multi-tier, multi-platform user application",
+        "Manage SQL and NoSQL databases and caching tools (e.g., MySQL, MongoDB, Redis, Memcached) to address varying website requirements, balancing flexibility with performance",
+        "Analyze performance issues and recommend and implement improvements including caching, normalization, and query optimization",
+        "Perform Root Cause Analysis to eliminate memory leaks in the monthly newsletter service",
+        "Maintain a shared internal PHP library and coordinate its version across dependent applications",
+        "Review teammates' changes and integrate feature branches across the repository estate"
       ],
       "accomplishments": [
-        "Add connectivity to third-party APIs, e.g. LinkedIn and Google My Business",
-        "Programmed and developed monthly newsletter",
-        "Connect Google My Business API to flagship product, Dashboard",
-        "Eliminate memory leaks in customer messaging service"
+        "Delivered 112 tracked tickets over 19 continuous months, in 834 authored commits across five repositories — a shared PHP library, backend services, a versioned REST API, and two Drupal 7 sites",
+        "Built the Google My Business integration end to end across four repositories — account linking, review ingestion, PlaceID-based review requests, scheduled review responses, and Local Post publishing",
+        "Delivered LinkedIn Business Profile support across four repositories in 127 commits — the largest single feature of the engagement — including business-page posting and comment replies",
+        "Migrated all LinkedIn API clients to OAuth 2.0 (open authorization) and upgraded every Google API consumer to a current client library across three repositories",
+        "Co-owned marketmesuite/base, a PSR-4 PHP library consumed as a Composer dependency by two downstream applications, and changed the team's release process for it",
+        "Built a social-network provider abstraction spanning Facebook, LinkedIn, Twitter, Yelp and Google My Business, with dedicated error-handling and response-parsing hierarchies",
+        "Root-caused a memory leak in the monthly newsletter service via a dedicated research spike, and resolved recurring production failures in the Monthly Performance Email process",
+        "Built the Monthly Newsletter email system in 60 commits — HTML and CSS engineered for cross-client rendering — plus the Monthly Customer Newsletter",
+        "Built a Google organic-rankings service and its REST endpoint, surfaced through both the API and the customer dashboard",
+        "Built the Facebook and Instagram ad-preview subsystem — preview modals, a desktop/mobile toggle and a channel toggle — shipped behind feature gates that were retired at go-live",
+        "Removed roughly 7,800 lines of superseded code across three repositories in a one-week consolidation pass",
+        "Optimized SQL queries and reconciled data-integrity discrepancies between the newsletter, email and social-media reporting surfaces"
       ],
       "technologies": [
         {
+          "skillName": "php",
+          "relevance": 10
+        },
+        {
+          "skillName": "drupal",
+          "relevance": 8
+        },
+        {
+          "skillName": "mysql",
+          "relevance": 8
+        },
+        {
+          "skillName": "javascript",
+          "relevance": 8
+        },
+        {
+          "skillName": "html",
+          "relevance": 8
+        },
+        {
+          "skillName": "css",
+          "relevance": 8
+        },
+        {
+          "skillName": "rest",
+          "relevance": 8
+        },
+        {
+          "skillName": "api",
+          "relevance": 7
+        },
+        {
           "skillName": "oauth",
-          "relevance": 4
+          "relevance": 7
+        },
+        {
+          "skillName": "mongo",
+          "relevance": 7
+        },
+        {
+          "skillName": "git",
+          "relevance": 7
+        },
+        {
+          "skillName": "composer",
+          "relevance": 6
+        },
+        {
+          "skillName": "phpunit",
+          "relevance": 6
+        },
+        {
+          "skillName": "jquery",
+          "relevance": 6
+        },
+        {
+          "skillName": "jira",
+          "relevance": 6
+        },
+        {
+          "skillName": "memcache",
+          "relevance": 5
+        },
+        {
+          "skillName": "redis",
+          "relevance": 5
         },
         {
           "skillName": "codeship",
@@ -806,58 +884,30 @@
           "relevance": 9
         },
         {
-          "skillName": "memcache",
-          "relevance": 5
+          "skillName": "docker",
+          "relevance": 4
         },
         {
-          "skillName": "redis",
-          "relevance": 5
-        },
-        {
-          "skillName": "php",
-          "relevance": 10
-        },
-        {
-          "skillName": "html",
-          "relevance": 8
-        },
-        {
-          "skillName": "css",
-          "relevance": 8
-        },
-        {
-          "skillName": "javascript",
-          "relevance": 8
-        },
-        {
-          "skillName": "mysql",
-          "relevance": 8
-        },
-        {
-          "skillName": "drupal",
-          "relevance": 8
+          "skillName": "vagrant",
+          "relevance": 4
         },
         {
           "skillName": "node",
           "relevance": 4
-        },
-        {
-          "skillName": "mongo",
-          "relevance": 7
-        },
-        {
-          "skillName": "rest",
-          "relevance": 8
-        },
-        {
-          "skillName": "api",
-          "relevance": 7
-        },
-        {
-          "skillName": "react",
-          "relevance": 5
         }
-      ]
+      ],
+      "blurbs": {
+        "Back End": "Server-side PHP against a dozen third-party marketing APIs. Co-owned marketmesuite/base, a PSR-4 library consumed as a Composer dependency by two downstream applications, and built the social-network provider abstraction it exposed — Facebook, LinkedIn, Twitter, Yelp and Google My Business behind one interface, with dedicated error-handler and parser hierarchies. Delivered the Google My Business and LinkedIn Business Profile integrations end to end across four repositories, and worked throughout a versioned REST API of roughly 35 resource groups.",
+        "Software Engineer": "834 authored commits and 112 delivered tickets across five repositories over 19 continuous months. Worked inside a PHPUnit suite of 100 test classes and 454 test methods spanning unit and functional coverage. Comfortable deleting: a one-week consolidation pass removed roughly 7,800 lines across three repositories. Kept mechanical diffs separate from reviewable change, and reversed his own work — with the reasoning in the commit message — when a reviewer showed it would break a downstream consumer.",
+        "Front End": "Drupal 7 theming and client-side work in the customer-facing marketing dashboard, 194 commits over 18 months. Built the Monthly Newsletter email system — HTML and CSS engineered for cross-client rendering — and the ad-preview UI subsystem: closable modals, a desktop/mobile toggle and a Facebook/Instagram channel toggle. Maintained SCSS and CSS across a large theme estate, including cross-browser support down to IE11.",
+        "User Interface": "Made Google My Business a first-class surface throughout the dashboard — the accounts dropdown, the Social Media & Email section, the status composer and the Social Inbox. Built Preview Ad entry points into both the Update Campaign and Review & Submit flows, and promotion affordances across three campaign flows. Surfaced operational state where users needed it: unanswered-message counts, loading states, and validation messaging that no longer overlapped its own field.",
+        "User Experience": "Owned complete journeys rather than isolated screens — linking a Google My Business account, ingesting its reviews, scheduling a response and publishing a Local Post were delivered together across library, API and dashboard. Shipped risky flows dark behind feature gates, enabled them per cohort, then explicitly retired the gate at go-live. Removed dead ends by disabling actions the selected channel could not accept, rather than failing after submission.",
+        "Data": "Optimized SQL queries in the marketing dashboard and resolved data-integrity discrepancies between reporting surfaces — audience figures that disagreed between the email and social-media tables, newsletter deal-claims that did not match the dashboard, and incorrect 30-day growth mathematics in the monthly newsletter. Worked across MySQL and MongoDB-backed services, with 52 commits of reporting and analytics work.",
+        "DevOps": "Maintained containerized and virtualized development environments — Vagrant provisioning alongside a Docker Amazon-Linux/Apache/PHP image — and configuration across dev, QA, staging and production. Coordinated Composer dependencies over a four-repository estate, and changed how the team released the shared library to its consumers, trading a tag per micro-change for a development-branch flow.",
+        "Administrator": "Rotated and migrated third-party API credentials across the estate, including a new LinkedIn developer account whose App ID and secret had to be replaced in three repositories simultaneously. Administered multi-environment configuration for a multi-tier platform and maintained per-client configuration in a multi-tenant marketing product, including a separately branded property on its own front end.",
+        "Consulting": "Ran a formal research spike into a production memory leak in the monthly-newsletter service, where the deliverable was findings rather than features, and diagnosed recurring failures in the Monthly Performance Email process. Made and documented build-safety judgments across repository boundaries, including reversing his own change when a colleague demonstrated it would break a downstream build.",
+        "Team Lead": "Authored 512 merge commits alongside 834 of his own — sustained branch integration across five repositories. Participated visibly in review in both directions, acting on feedback and crediting colleagues by name when they caught problems. Proposed and implemented a change to the team's dependency-release process, and coordinated single features whose library, backend, API and dashboard changes had to land together."
+      }
     },
     {
       "_id": "gbl",
@@ -5020,6 +5070,22 @@
       "relevance": 7,
       "expertise": 7,
       "url": "https://en.wikipedia.org/wiki/Platform_engineering"
+    },
+    {
+      "_id": "bee92f85-6c11-510c-8468-fcce3f6aa7b0",
+      "sname": "phpunit",
+      "name": "PHPUnit",
+      "description": "the standard unit-testing framework for PHP, providing test case classes, assertions, mocking and code-coverage reporting",
+      "category": "Development Tools",
+      "tiers": [
+        "Back End",
+        "Software Engineer",
+        "Consulting",
+        "Team Lead"
+      ],
+      "relevance": 6,
+      "expertise": 7,
+      "url": "https://phpunit.de/"
     }
   ],
   "companies": [
