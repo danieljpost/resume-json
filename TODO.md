@@ -75,18 +75,32 @@ Goal state promotes #2 to equality: `set(blurbs) == set(tiers)`.
 
 #### Where this stands (2026-08-18)
 
-3 of 28 gigs meet the spec.
+4 of 28 gigs meet the spec (2026-08-18: validator reports 6 errors, 107 warnings).
 
 1) [ ] blurbs are the big gap: 21 gigs have no `blurbs` key at all
-1) [ ] 4 gigs carry exactly 1 blurb against 5–9 declared tiers: danieljpost.pro (1/9),
-   btg (1/6), acf4ddf5… (1/5), lacek (1/5). danieljpost.pro and btg hold the *identical*
+1) [ ] 3 gigs carry exactly 1 blurb against 5–9 declared tiers: danieljpost.pro (1/9),
+   btg (1/6), acf4ddf5… (1/5). danieljpost.pro and btg hold the *identical*
    "Software Engineering is an Art…" boilerplate — philosophy, not a gig blurb — and
-   acf4ddf5…'s is the empty string. lacek's is real but needs the other 4 tiers written
+   acf4ddf5…'s is the empty string. lacek was the fourth; fixed 2026-08-18 in 672d06c,
+   and it now clears the validator outright
 1) [ ] 14 gigs have exactly 1 responsibility, most paired with 1–2 accomplishments —
    the thin-record pattern target had
 1) [ ] starkey has 0 responsibilities; fedexPkgHandler and fedexPkgHandler2 have 0
    accomplishments and 0 technologies. These are broken records, not thin ones
-1) [ ] write a validator that checks the three invariants above, flags
-   responsibility/accomplishment duplication, and reports gigs under the volume
-   targets. Wire it into the same CI/CD step as the format check
-       for f in *.json; do jq . "$f" | diff -q - "$f" >/dev/null || echo "unformatted: $f"; done
+1) [X] write a validator — `./validate.py` as of 2026-08-18 in 31c671d. Single-file
+   Python 3, no deps. Errors are provably wrong (broken refs, unknown enum values,
+   format drift, split files disagreeing with resume.json, skill _ids that do not
+   reproduce); warnings are gaps against this spec. Exits 1 on errors only, so CI can
+   gate on correctness while the content backlog is open; `--strict` fails on warnings
+   too. It also subsumes the format check, so CI needs one command, not two
+1) [ ] wire `./validate.py` into the CI/CD step alongside the generation work above
+1) [ ] Jake Jones's recommendation carries `gigId: "brokerbin"` and no such gig exists.
+   The company does (BrokerBin, employer) and the recommendation is dated 2008-02-26,
+   so a gig record looks to be missing outright rather than misnamed. Write it
+1) [ ] uuids.md rule 2 is wrong as written: it says `company._id = uuid5(NS, url)`, but
+   irishtitan is deliberately two records — contractor and recruiter — sharing one url,
+   and two ids cannot come from one input. None of the 35 company ids reproduce from
+   url, name, fullname, or hostname under my namespace or ns:DNS/ns:URL; they are valid
+   v5 with unrecorded inputs. Either pick a new key that is actually unique per record
+   and regenerate, or amend uuids.md to admit companies are not reproducible. Skills are
+   clean — all 151 reproduce exactly
