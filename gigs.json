@@ -473,7 +473,11 @@
       "Improved i18n performance"
     ],
     "blurbs": {
-      "Back End": "Added Google Wallet payment support to a client's rewards-program microsite built on PHP and Yii2, and improved the performance of the site's internationalization layer."
+      "Back End": "Added Google Wallet payment support to a client's rewards-program microsite built on PHP and Yii2, and improved the performance of the site's internationalization layer.",
+      "Consulting": "Brought in on a one-month contract to add one specific capability — Google Wallet — to a client-facing rewards microsite: pick up an unfamiliar Yii2 codebase, deliver against it, and hand it back working.",
+      "Data": "Integrated a payment path against the Microsoft SQL Server store behind the rewards program, and improved the performance of the site's internationalization layer.",
+      "Front End": "Wired the Google Wallet purchase flow into an existing rewards-program microsite in HTML, CSS, and JavaScript, working within the Yii2 template layer already in place.",
+      "Software Engineer": "Delivered a scoped one-month contract adding Google Wallet payment support to a running PHP and Yii2 microsite, working inside the client's established codebase and conventions rather than around them."
     },
     "technologies": [
       {
