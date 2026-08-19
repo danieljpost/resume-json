@@ -18,4 +18,75 @@
 1) [ ] write up a list of things I intend to learn and start learning them!
 1) [ ] create a quick bash script to concatenate all .json files into $timestamp.resume.json then open that file in code for formatting and testing.
 1) [ ] Recommendations should be instance of https://schema.org/Recommendation
-1) [ ] flesh out Target role — retitled to Software Architect 2026-08-12, but the record is still thin: 1 responsibility (which duplicates accomplishments[0] verbatim), 3 accomplishments, and `blurbs: null` despite 10 declared tiers. Project Slingshot was an internal CMS adopted across multiple departments and saved millions vs the legacy tool — the architecture and adoption story deserve writing up
+1) [X] flesh out Target role — done 2026-08-18 in 5452eca: 6 responsibilities, 8 accomplishments, 11 technologies, and a blurb for all 10 declared tiers. Project Slingshot was a Jira-backed CMS for Target.com; the ZF2/PHP interface layer abstracted JQL behind a query builder and repository layer so content staff never wrote a Jira query. See the gig-record spec below for the shape the rest of the gigs should follow
+
+### What every gig record should contain
+
+Derived 2026-08-18 from the records that already work — `8e91e4c7…` (Lead DevOps &
+Full-Stack), `267c4d1c…` (ThreatLVL), and `target`. Everything else in gigs.json is
+below this line.
+
+**`responsibilities` — the mandate.** What I was engaged to own, stated as scope. No
+metrics, no outcomes. Answers "what was the job."
+
+> Led the full Firebase-to-PostgreSQL database migration using Drizzle ORM with
+> TypeScript-strict schema definitions
+
+**`accomplishments` — the evidence.** The same work carrying magnitude, result, or
+consequence. Answers "what came of it."
+
+> Led a complete Firebase-to-PostgreSQL migration: 25-table schema, 115-file repository
+> abstraction layer, UUIDv7 primary keys — …
+
+The discriminator is **numbers and outcomes**. No number and no outcome means it is a
+responsibility, not an accomplishment. If a responsibility and an accomplishment read
+the same, one of them has not been written yet — that was exactly the defect in `target`
+before 2026-08-18, where the lone responsibility duplicated accomplishments[0] verbatim.
+
+**`technologies` — the skill index.** `{skillName, relevance}` where relevance is 1–10
+*for that gig*, not career-wide. In practice the scale runs 2–10 with 10 as the mode:
+10 = the gig was built in it, 8–9 = daily, 5–7 = substantial, 2–4 = touched lightly.
+`skillName` must resolve to an `sname` in skills.json.
+
+**`blurbs` — the same gig retold per role.** A `{tier: prose}` object, one entry per
+declared tier, each retelling the engagement from that role's angle so a reader who
+selected "DevOps" gets the DevOps story. Denser than an accomplishment; the good ones
+run 300–600 characters. The only narrative field.
+
+#### Volume, scaled to the engagement
+
+| Engagement | resp | acc | tech | blurbs |
+|---|---|---|---|---|
+| Major (6+ months, or career-defining) | 8–12 | 10–15 | 25–40 | one per tier |
+| Standard (2–6 months) | 4–6 | 5–8 | 10–20 | one per tier |
+| Short (≤1 month) | 1–3 | 2–4 | 5–10 | one per tier |
+
+`blurbs` does not scale — its count is fixed by `tiers`, because a tier with no blurb
+renders empty for anyone who selected that role.
+
+#### Invariants
+
+1. Every `technologies[].skillName` resolves in skills.json. **Clean as of 2026-08-18.**
+2. `set(blurbs) ⊆ set(tiers)`. **Clean as of 2026-08-18.**
+3. Every gig declares at least one tier. **Violated** by ezXchanges, starkey,
+   fedexPkgHandler, fedexPkgHandler2.
+
+Goal state promotes #2 to equality: `set(blurbs) == set(tiers)`.
+
+#### Where this stands (2026-08-18)
+
+3 of 28 gigs meet the spec.
+
+1) [ ] blurbs are the big gap: 21 gigs have no `blurbs` key at all
+1) [ ] 4 gigs carry exactly 1 blurb against 5–9 declared tiers: danieljpost.pro (1/9),
+   btg (1/6), acf4ddf5… (1/5), lacek (1/5). danieljpost.pro and btg hold the *identical*
+   "Software Engineering is an Art…" boilerplate — philosophy, not a gig blurb — and
+   acf4ddf5…'s is the empty string. lacek's is real but needs the other 4 tiers written
+1) [ ] 14 gigs have exactly 1 responsibility, most paired with 1–2 accomplishments —
+   the thin-record pattern target had
+1) [ ] starkey has 0 responsibilities; fedexPkgHandler and fedexPkgHandler2 have 0
+   accomplishments and 0 technologies. These are broken records, not thin ones
+1) [ ] write a validator that checks the three invariants above, flags
+   responsibility/accomplishment duplication, and reports gigs under the volume
+   targets. Wire it into the same CI/CD step as the format check
+       for f in *.json; do jq . "$f" | diff -q - "$f" >/dev/null || echo "unformatted: $f"; done
